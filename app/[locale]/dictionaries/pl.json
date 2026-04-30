@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "title": "Drillr - trening piłkarski pod twoją pozycję",
+    "description": "Aplikacja, która zna twoją pozycję. Jeden plan dopasowany do twojego poziomu, twojego tygodnia i celów, na których naprawdę ci zależy."
+  },
+  "nav": {
+    "home": "Główna",
+    "press": "Prasa",
+    "manageSubscription": "Subskrypcja"
+  },
+  "common": {
+    "downloadAppStore": "Pobierz w App Store",
+    "downloadGooglePlay": "Pobierz w Google Play"
+  },
+  "hero": {
+    "badge": "Pokochało nas 12 400+ piłkarzy · ocena 4.9",
+    "titleLine1": "Przestań tylko grać.",
+    "titleLine2": "Zacznij dominować.",
+    "subtitle": "Drillr to aplikacja piłkarska, która naprawdę zna twoją pozycję. Dostajesz plan dopasowany do twojej roli, poziomu i czasu, jakim dysponujesz."
+  },
+  "usedBy": {
+    "title": "Z Drillr trenuje ponad 12 400 graczy",
+    "subtitle": "Od juniorów po pół-zawodowców, w ponad 30 krajach, każdego dnia.",
+    "stats": [
+      { "value": "12 400+", "label": "Aktywnych graczy" },
+      { "value": "30+", "label": "Krajów" },
+      { "value": "4.9★", "label": "Średnia ocena" },
+      { "value": "1,2 mln+", "label": "Ukończonych ćwiczeń" }
+    ]
+  },
+  "story": {
+    "eyebrow": "Jak to działa",
+    "title": "Trzy kroki. Tyle.",
+    "steps": [
+      {
+        "eyebrow": "Krok 01",
+        "title": "Wybierz pozycję",
+        "body": "Napastnik, skrzydłowy, bramkarz, cokolwiek grasz. Budujemy plan wokół tego, czego naprawdę wymaga twoja rola."
+      },
+      {
+        "eyebrow": "Krok 02",
+        "title": "Trenuj codziennie",
+        "body": "Krótkie, uczciwe sesje. 15 minut dziennie wystarczy, żeby zmienić to, jak grasz, a Drillr pilnuje liczników za ciebie."
+      },
+      {
+        "eyebrow": "Krok 03",
+        "title": "Patrz, jak rośniesz",
+        "body": "Serie dni, statystyki, małe kamienie milowe. Gdy zaczniesz łączyć dzień po dniu, trudno się zatrzymać."
+      }
+    ]
+  },
+  "marquee": {
+    "eyebrow": "Każda rola, każda umiejętność",
+    "title": "Kimkolwiek jesteś na boisku, mamy cię ogarniętego.",
+    "positions": [
+      { "label": "Bramkarz", "glyph": "GK" },
+      { "label": "Środkowy obrońca", "glyph": "CB" },
+      { "label": "Boczny obrońca", "glyph": "FB" },
+      { "label": "Defensywny pomocnik", "glyph": "CDM" },
+      { "label": "Środkowy pomocnik", "glyph": "CM" },
+      { "label": "Ofensywny pomocnik", "glyph": "CAM" },
+      { "label": "Skrzydłowy", "glyph": "W" },
+      { "label": "Napastnik", "glyph": "ST" }
+    ],
+    "skills": [
+      { "label": "Praca nad szybkością", "glyph": "01" },
+      { "label": "Pierwsze podanie", "glyph": "02" },
+      { "label": "Wykończenie akcji", "glyph": "03" },
+      { "label": "Obrona 1 na 1", "glyph": "04" },
+      { "label": "Pressing", "glyph": "05" },
+      { "label": "Stałe fragmenty", "glyph": "06" },
+      { "label": "Długie podania", "glyph": "07" },
+      { "label": "Podania wsteczne", "glyph": "08" }
+    ]
+  },
+  "features": {
+    "title": "Co znajdziesz w Drillr",
+    "items": [
+      {
+        "title": "Ćwiczenia pod twoją pozycję",
+        "body": "Bramkarz, obrońca, pomocnik, napastnik. Każde ćwiczenie dobrane pod to, czego naprawdę wymaga twoja rola."
+      },
+      {
+        "title": "Kalendarz, który pasuje do tygodnia",
+        "body": "Twoje dni treningowe, dostęp do siłowni i poziom doświadczenia trafiają do planu. To plan gnie się pod ciebie, nie na odwrót."
+      },
+      {
+        "title": "Wideo do każdego ćwiczenia",
+        "body": "Jasne instrukcje, serie, powtórzenia i krótki film do każdego ruchu. Nigdy nie zgadujesz, jak to powinno wyglądać."
+      },
+      {
+        "title": "Rozciąganie pod twój mecz",
+        "body": "Mobilność celowana w mięśnie, których naprawdę używasz na boisku, a nie ogólny cooldown."
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Dlaczego Drillr?",
+    "subtitle": "Aplikacja treningowa, która rozumie, jak grasz.",
+    "items": [
+      {
+        "title": "Pod twoją pozycję",
+        "body": "Żadnych ogólnych treningów. Każda sesja pasuje do tego, gdzie grasz i czego wymaga od ciebie rola."
+      },
+      {
+        "title": "Pasuje do twojego tygodnia",
+        "body": "Trenuj 3, 5 lub 6 dni w tygodniu. Opuścisz dzień - plan się przesuwa, bez wyrzutów."
+      },
+      {
+        "title": "Postęp, który widać",
+        "body": "Serie dni, ocena dominacji, raporty miesięczne. Twój rozwój jak na dłoni, co tydzień."
+      }
+    ]
+  },
+  "spotlight": {
+    "badge": "Twoja pozycja, twoja ocena",
+    "title": "Patrz, jak rośnie.",
+    "body": "Twoja ocena dominacji rośnie z każdym tygodniem, w którym ostrzysz umiejętności, które wygrywają mecze na twojej pozycji."
+  },
+  "testimonials": {
+    "title": "Co mówią gracze",
+    "items": [
+      {
+        "name": "Alex M.",
+        "role": "Pomocnik U17",
+        "quote": "Szczerze nie spodziewałem się wiele, ale po miesiącu trener powiedział, że ustawiam się znacznie lepiej. Kondycja też jest kosmiczna."
+      },
+      {
+        "name": "Sara K.",
+        "role": "Obrońca U16",
+        "quote": "Koleżanka pokazała mi appkę i teraz jestem na niej codziennie. Drille naprawdę pasują do mojej pozycji."
+      },
+      {
+        "name": "Daniel R.",
+        "role": "Pół-zawodowy napastnik",
+        "quote": "Najbardziej kupiło mnie to, że wszystko jest pod konkretną pozycję. Każde ćwiczenie czuję jak swoje."
+      },
+      {
+        "name": "Jakub W.",
+        "role": "Bramkarz U19",
+        "quote": "Trening pod bramkarza w aplikacjach to rzadkość. Drillr to ogarnął. Refleks i praca nóg w górę."
+      },
+      {
+        "name": "Maja L.",
+        "role": "Pomocnik z akademii",
+        "quote": "Uwielbiam kalendarz - dopasowuje się, kiedy opuszczę dzień, zamiast robić wyrzuty."
+      },
+      {
+        "name": "Tomasz B.",
+        "role": "Obrońca w lidze niedzielnej",
+        "quote": "30 minut dziennie, 4 razy w tygodniu i czuję się jak inny zawodnik w niedziele."
+      }
+    ]
+  },
+  "ratings": {
+    "title": "Pokochali nas gracze w 30+ krajach",
+    "subtitle": "Średnia ocen 4.9",
+    "appStore": "4.9",
+    "googlePlay": "4.8"
+  },
+  "positionPicker": {
+    "badge": "Wybierz swoje miejsce",
+    "title": "Na jakiej pozycji grasz?",
+    "subtitle": "Kliknij pozycję i zobacz, co Drillr z nią robi.",
+    "focusBreakdown": "Rozkład treningu",
+    "sampleDrills": "Przykładowe ćwiczenia",
+    "viewPlan": "Zobacz pełny plan",
+    "categoryLabels": {
+      "strength": "Siła",
+      "cardio": "Kondycja",
+      "agility": "Zwinność",
+      "flexibility": "Mobilność"
+    }
+  },
+  "drillVideo": {
+    "badge": "Zobacz w akcji",
+    "title": "Prawdziwe ćwiczenia. Prawdziwe pokazy.",
+    "body": "Do każdego ćwiczenia dołączamy krótki, czytelny film. Wiesz dokładnie, co robić, jak to zrobić i jak to powinno się czuć.",
+    "caption": "Drabinka koordynacyjna · Praca nóg"
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "items": [
+      {
+        "q": "Czy potrzebuję sprzętu?",
+        "a": "Nie. Drillr dopasowuje się do tego, co masz. Powiedz nam podczas onboardingu, czy masz dostęp do siłowni, a zbudujemy plan wokół tego - sztanga, hantle, maszyny albo sam ciężar ciała."
+      },
+      {
+        "q": "Ile czasu dziennie?",
+        "a": "Większość sesji trwa 25-45 minut. Możesz trenować 3, 5 albo 6 dni w tygodniu, zależnie od celu, który wybierzesz w onboardingu."
+      },
+      {
+        "q": "Czy jest darmowa wersja?",
+        "a": "Tak. Możesz przejść onboarding i zobaczyć fragment swojego planu za darmo. Pełny plan tygodniowy i reszta ćwiczeń są w subskrypcji."
+      },
+      {
+        "q": "Czy Drillr jest bezpieczny dla osób poniżej 13 lat?",
+        "a": "Drillr jest dla graczy w wieku 13+. Młodsi powinni trenować pod okiem trenera lub rodzica."
+      },
+      {
+        "q": "Co jeśli gram na kilku pozycjach?",
+        "a": "Wybierz tę, na której grasz najczęściej. Pozycję możesz zmienić w ustawieniach w dowolnym momencie, a plan przebuduje się pod nową rolę."
+      },
+      {
+        "q": "Czy mogę używać Drillr razem z planem trenera?",
+        "a": "Tak, wielu graczy tak robi. Drillr ma stać obok treningu klubowego, nie zamiast niego. Zmniejsz objętość tygodniową, gdy zaczniesz czuć się wypalony."
+      },
+      {
+        "q": "Jak anulować subskrypcję?",
+        "a": "Anuluj w dowolnym momencie z ustawień subskrypcji urządzenia, albo przez naszą stronę zarządzania subskrypcją, jeśli kupiłeś przez stronę."
+      }
+    ]
+  },
+  "coachesCta": {
+    "eyebrow": "Dla trenerów i akademii",
+    "title": "Trenujesz drużynę lub prowadzisz akademię?",
+    "body": "Pracujemy nad planami zespołowymi, panelami grupowymi i współpracą z akademiami. Napisz do nas, a się odezwiemy.",
+    "cta": "Skontaktuj się"
+  },
+  "positions": {
+    "indexTitle": "Trening pod pozycję",
+    "indexSubtitle": "Każdy plan Drillr jest zbudowany wokół tego, czego naprawdę wymaga twoja pozycja.",
+    "downloadCta": "Pobierz Drillr dla pozycji: ",
+    "weekTitle": "Typowy tydzień",
+    "drillsTitle": "Jak wyglądają twoje sesje",
+    "strengthsTitle": "Twoja przewaga",
+    "weaknessTitle": "Co naprawimy",
+    "goalkeeper": {
+      "name": "Bramkarz",
+      "tagline": "Refleks. Ustawienie. Komenda.",
+      "description": "Refleks i ustawienie to to, co robi z kogoś dobrego bramkarza. Drillr ostrzy oba - pracą nad reakcją, ruchem bocznym i stabilnością tułowia. Rzeczy, których większość aplikacji po prostu nie dotyka.",
+      "strengths": "Drillr buduje eksplozywną mobilność boczną, szybkość reakcji i stabilność, które oddzielają dobrych bramkarzy od świetnych.",
+      "weaknesses": "Większość bramkarzy po cichu pomija pracę boczną i siłę dolnej części ciała. My ci nie pozwolimy.",
+      "drills": [
+        { "name": "Reakcja z piłką", "spec": "3 × 60 s" },
+        { "name": "Marsz boczny z gumą", "spec": "4 × 12" },
+        { "name": "Przysiady na jednej nodze", "spec": "3 × 8 na stronę" },
+        { "name": "Plank z wyciągnięciem", "spec": "3 × 45 s" }
+      ],
+      "week": [
+        { "day": "Pn", "session": "Siła dolnej części ciała" },
+        { "day": "Wt", "session": "Reakcje i praca nóg" },
+        { "day": "Śr", "session": "Tułów i stabilność" },
+        { "day": "Czw", "session": "Regeneracja i stretching" },
+        { "day": "Pt", "session": "Plyometria i eksplozywność" }
+      ]
+    },
+    "defender": {
+      "name": "Obrońca",
+      "tagline": "Wygraj każdy pojedynek.",
+      "description": "Gra w powietrzu, czyste odbiory, szybki powrót w obronę - wszystko zaczyna się na siłowni. Drillr buduje siłę i kondycję, które wygrywają 1v1 i wybijają piłki z pola karnego.",
+      "strengths": "Gra w powietrzu i moc w odbiorze zaczynają się na siłowni. Drillr trenuje oba, plus zwinność, którą większość obrońców po cichu pomija.",
+      "weaknesses": "Obrońcy często pomijają zwinność - szybkie nogi też ratują bramki. My pilnujemy, żebyś był ostry.",
+      "drills": [
+        { "name": "Przysiad ze sztangą", "spec": "4 × 6" },
+        { "name": "Skoki na skrzynię", "spec": "4 × 5" },
+        { "name": "Mountain climbers", "spec": "4 × 30 s" },
+        { "name": "Skręty rosyjskie", "spec": "3 × 20" }
+      ],
+      "week": [
+        { "day": "Pn", "session": "Ciężka siła" },
+        { "day": "Wt", "session": "Plyometria" },
+        { "day": "Śr", "session": "Interwały kondycyjne" },
+        { "day": "Czw", "session": "Zwinność i praca nóg" },
+        { "day": "Pt", "session": "Tułów i mobilność" }
+      ]
+    },
+    "midfielder": {
+      "name": "Pomocnik",
+      "tagline": "Prowadź grę przez 90 minut.",
+      "description": "Box-to-box wymaga całego pakietu. Drillr buduje silnik, zwinność i mobilność, których potrzebujesz, żeby ogarniać środek pola od pierwszego do ostatniego gwizdka.",
+      "strengths": "Box-to-box wymaga całego pakietu. Drillr przygotowuje cię na całe 90 minut.",
+      "weaknesses": "Pomocnicy, którzy pomijają mobilność, częściej łapią urazy w końcówkach meczów. Drillr na to nie pozwoli.",
+      "drills": [
+        { "name": "Sprinty interwałowe", "spec": "8 × 200 m" },
+        { "name": "Wykroki w marszu", "spec": "3 × 12 na stronę" },
+        { "name": "Burpees", "spec": "4 × 10" },
+        { "name": "Plank", "spec": "3 × 60 s" }
+      ],
+      "week": [
+        { "day": "Pn", "session": "Baza wytrzymałościowa" },
+        { "day": "Wt", "session": "Siła" },
+        { "day": "Śr", "session": "Sprinty interwałowe" },
+        { "day": "Czw", "session": "Zwinność i zwroty" },
+        { "day": "Pt", "session": "Mobilność i regeneracja" }
+      ]
+    },
+    "forward": {
+      "name": "Napastnik",
+      "tagline": "Wyprzedź. Wyskocz. Strzel.",
+      "description": "Eksplozywne przyspieszenie i ostre zmiany kierunku to twoja przewaga. Drillr trenuje szybkość, moc i zwinność, które wprowadzają cię za obrońcę, plus siłę, żeby go utrzymać, kiedy już tam dotrzesz.",
+      "strengths": "Eksplozywne przyspieszenie i ostre zmiany kierunku to twoja przewaga. Drillr trenuje to każdego tygodnia.",
+      "weaknesses": "Napastnicy, którzy pomijają siłę, przegrywają pojedynki przy linii. Pilnujemy, żebyś nie przegrał.",
+      "drills": [
+        { "name": "Depth jumps", "spec": "4 × 5" },
+        { "name": "Przysiady ze skokiem", "spec": "4 × 8" },
+        { "name": "Drabinka koordynacyjna", "spec": "5 serii" },
+        { "name": "Wspięcia na palce", "spec": "3 × 15" }
+      ],
+      "week": [
+        { "day": "Pn", "session": "Eksplozywne nogi" },
+        { "day": "Wt", "session": "Mechanika sprintu" },
+        { "day": "Śr", "session": "Zwinność i wykończenia" },
+        { "day": "Czw", "session": "Moc górnej części ciała" },
+        { "day": "Pt", "session": "Plyometria i mobilność" }
+      ]
+    }
+  },
+  "footer": {
+    "download": "Pobierz Drillr",
+    "legal": "Informacje prawne",
+    "company": "Firma",
+    "training": "Trening",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "press": "Prasa",
+    "manageSubscription": "Subskrypcja",
+    "copyright": "© 2026 Drillr. Wszelkie prawa zastrzeżone."
+  },
+  "press": {
+    "title": "Prasa",
+    "subtitle": "Skontaktuj się z naszym zespołem w sprawach mediów, wywiadów i informacji prasowych.",
+    "email": "Adres e-mail",
+    "subject": "Temat",
+    "subjectPlaceholder": "Temat zapytania prasowego",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Opisz swoje zapytanie prasowe - termin publikacji, redakcję i konkretne pytania, na które chciał(a)byś otrzymać odpowiedź.",
+    "submit": "Wyślij zapytanie",
+    "fallback": "Lub napisz bezpośrednio na"
+  },
+  "manageSubscription": {
+    "title": "Zarządzaj subskrypcją",
+    "body": "Jeśli kupiłeś subskrypcję w App Store lub Google Play, zarządzaj nią z poziomu ustawień urządzenia. Dla subskrypcji webowych podaj swój e-mail poniżej.",
+    "emailLabel": "E-mail",
+    "submit": "Wyślij",
+    "appleHelp": "Zarządzaj w Apple",
+    "googleHelp": "Zarządzaj w Google"
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: 22 kwietnia 2026",
+    "intro": "Niniejsza Polityka prywatności opisuje, w jaki sposób Drillr zbiera, wykorzystuje, przetwarza, udostępnia i chroni twoje dane podczas korzystania z aplikacji mobilnej Drillr, strony internetowej i powiązanych usług. Korzystając z usługi, wyrażasz zgodę na zbieranie i wykorzystywanie informacji zgodnie z niniejszą Polityką.",
+    "sections": [
+      {
+        "heading": "1. Zbierane informacje",
+        "body": "Zbieramy informacje, które podajesz bezpośrednio (dane konta, preferencje treningowe, pozycję, poziom doświadczenia, cele), informacje zbierane automatycznie (dane urządzenia, użycie aplikacji, ukończone ćwiczenia) oraz informacje od podmiotów trzecich (Google, Apple, RevenueCat dla subskrypcji)."
+      },
+      {
+        "heading": "2. Jak wykorzystujemy twoje dane",
+        "body": "Używamy informacji do dostarczania i personalizacji planu treningowego, kalibracji ćwiczeń do twojego poziomu, wysyłania powiadomień, na które wyraziłeś zgodę, obsługi subskrypcji, ulepszania usługi i odpowiadania na zapytania."
+      },
+      {
+        "heading": "3. Udostępnianie danych",
+        "body": "Nie sprzedajemy twoich danych osobowych. Udostępniamy dane wyłącznie dostawcom usług niezbędnym do działania serwisu (uwierzytelnianie, analityka, płatności, powiadomienia push)."
+      },
+      {
+        "heading": "4. Prywatność dzieci",
+        "body": "Usługa nie jest przeznaczona dla użytkowników poniżej 13 roku życia. Użytkownicy w wieku 13-17 lat mogą korzystać z usługi pod nadzorem rodzicielskim i za zgodą tam, gdzie wymaga tego prawo."
+      },
+      {
+        "heading": "5. Twoje prawa",
+        "body": "Możesz w dowolnym momencie zażądać dostępu, korekty lub usunięcia swoich danych, pisząc na nasz adres. Możesz również dostosować preferencje powiadomień i zarządzać kontem z poziomu aplikacji."
+      },
+      {
+        "heading": "6. Przechowywanie danych",
+        "body": "Przechowujemy twoje dane tak długo, jak konto pozostaje aktywne. Po usunięciu, kopie zapasowe mogą pozostać przez ograniczony czas, zanim zostaną trwale usunięte."
+      },
+      {
+        "heading": "7. Bezpieczeństwo",
+        "body": "Stosujemy zabezpieczenia administracyjne, techniczne i fizyczne w celu ochrony twoich danych. Żaden system online nie jest jednak w pełni bezpieczny."
+      },
+      {
+        "heading": "8. Zmiany polityki",
+        "body": "Możemy aktualizować tę Politykę co jakiś czas. Aktualizacje wchodzą w życie w momencie publikacji. O istotnych zmianach możemy powiadomić cię e-mailem lub w aplikacji."
+      },
+      {
+        "heading": "9. Kontakt",
+        "body": "W sprawie pytań lub zgłoszeń dotyczących Polityki prywatności napisz na drillrapps@gmail.com."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Regulamin",
+    "lastUpdated": "Ostatnia aktualizacja: 22 kwietnia 2026",
+    "intro": "Przed rozpoczęciem korzystania z Drillr prosimy o zapoznanie się z niniejszym Regulaminem.",
+    "sections": [
+      {
+        "heading": "1. Akceptacja Regulaminu",
+        "body": "Dostęp do usługi i korzystanie z niej są uzależnione od akceptacji niniejszego Regulaminu. Korzystając z usługi, zgadzasz się przestrzegać tych warunków."
+      },
+      {
+        "heading": "2. Wymagania wiekowe",
+        "body": "Aby korzystać z usługi, musisz mieć ukończone 13 lat. Osoby w wieku 13-17 lat mogą korzystać z usługi wyłącznie za zgodą i pod nadzorem rodzica lub opiekuna prawnego."
+      },
+      {
+        "heading": "3. Zdrowie i bezpieczeństwo",
+        "body": "Drillr jest narzędziem treningowo-edukacyjnym, a nie substytutem profesjonalnego trenera, porady medycznej ani fizjoterapii. Skonsultuj się ze specjalistą przed rozpoczęciem treningów. Trenuj w granicach swoich możliwości i przerwij ćwiczenia, gdy poczujesz ból lub dyskomfort."
+      },
+      {
+        "heading": "4. Subskrypcje i płatności",
+        "body": "Niektóre funkcje wymagają płatnej subskrypcji. Subskrypcje rozliczane są przez App Store, Google Play lub naszego dostawcę płatności webowych. Możesz nimi zarządzać i je anulować z poziomu ustawień urządzenia lub na stronie zarządzania subskrypcją."
+      },
+      {
+        "heading": "5. Zachowanie użytkownika",
+        "body": "Zobowiązujesz się nie nadużywać usługi, nie próbować uzyskać nieautoryzowanego dostępu, nie zakłócać korzystania innym użytkownikom ani nie używać usługi w celach niezgodnych z prawem."
+      },
+      {
+        "heading": "6. Własność intelektualna",
+        "body": "Cała zawartość usługi - drille, wideo, teksty, marka, design - należy do Drillr lub jego licencjodawców i jest chroniona prawem własności intelektualnej. Nie wolno reprodukować, dystrybuować ani tworzyć dzieł pochodnych bez zgody."
+      },
+      {
+        "heading": "7. Ograniczenie odpowiedzialności",
+        "body": "W maksymalnym zakresie dopuszczonym przez prawo łączna odpowiedzialność Drillr nie przekroczy większej z dwóch wartości: kwoty zapłaconej w ciągu ostatnich 12 miesięcy lub stu dolarów (100 USD)."
+      },
+      {
+        "heading": "8. Zmiany Regulaminu",
+        "body": "Możemy aktualizować Regulamin w dowolnym momencie. O istotnych zmianach poinformujemy w odpowiedni sposób. Dalsze korzystanie po aktualizacji oznacza akceptację zmian."
+      },
+      {
+        "heading": "9. Kontakt",
+        "body": "W sprawie pytań dotyczących Regulaminu napisz na drillrapps@gmail.com."
+      }
+    ]
+  }
+}

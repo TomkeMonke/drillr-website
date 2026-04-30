@@ -1,0 +1,516 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --surface: #14141a;
+  --surface-elevated: #1c1c24;
+  --border: #2a2a35;
+  --foreground: #eaeaef;
+  --muted: #8a8a95;
+  --primary: #5b9fd6;
+  --primary-light: #7ab8e8;
+  --primary-dark: #3a7bb8;
+  --accent: #e8a44a;
+  --success: #3a9a6a;
+  --pitch: #1b3a1f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-border: var(--border);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-pitch: var(--pitch);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(1200px 800px at 80% -10%, rgba(91, 159, 214, 0.08), transparent 60%),
+    radial-gradient(1000px 700px at -10% 20%, rgba(91, 159, 214, 0.05), transparent 60%),
+    var(--background);
+  min-height: 100dvh;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+}
+
+::selection {
+  background: rgba(91, 159, 214, 0.3);
+  color: #fff;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* ----- Hero entrance animation (runs on first paint) ----- */
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes hero-scale {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translate3d(0, 16px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+.animate-hero-rise {
+  animation: hero-rise 750ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.animate-hero-scale {
+  animation: hero-scale 900ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* ----- Shimmer sweep across "Start dominating" ----- */
+@keyframes shimmer-sweep {
+  0% { background-position: 200% 50%; }
+  100% { background-position: -200% 50%; }
+}
+
+.text-shimmer {
+  background-image: linear-gradient(
+    100deg,
+    var(--primary-dark) 0%,
+    var(--primary) 30%,
+    var(--primary-light) 50%,
+    var(--primary) 70%,
+    var(--primary-dark) 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer-sweep 7s linear infinite;
+}
+
+/* ----- Smooth FAQ accordion using grid-template-rows trick ----- */
+.faq-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 400ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+details[open] > .faq-content {
+  grid-template-rows: 1fr;
+}
+
+.faq-content > .faq-content-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* ----- Phone frame floating idle animation (very subtle) ----- */
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float-gentle 6.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ----- Shine sweep across buttons on hover (premium "Stripe/Linear" feel) ----- */
+@keyframes btn-shine {
+  0% { transform: translateX(-130%) skewX(-20deg); opacity: 0; }
+  15% { opacity: 1; }
+  100% { transform: translateX(260%) skewX(-20deg); opacity: 0; }
+}
+
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.btn-shine > * {
+  position: relative;
+  z-index: 1;
+}
+.btn-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.18) 50%,
+    transparent 100%
+  );
+  transform: translateX(-130%) skewX(-20deg);
+  pointer-events: none;
+  z-index: 0;
+}
+@media (hover: hover) and (pointer: fine) {
+  .btn-shine:hover::after {
+    animation: btn-shine 1000ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  }
+}
+
+/* ----- Primary CTA breathing glow (ambient, always-on but subtle) ----- */
+@keyframes glow-breathe {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(91, 159, 214, 0); }
+  50% { box-shadow: 0 0 28px 2px rgba(91, 159, 214, 0.18); }
+}
+
+.glow-breathe {
+  animation: glow-breathe 3.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ----- Animated underline for nav / footer links ----- */
+.link-underline {
+  position: relative;
+  display: inline-block;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 320ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@media (hover: hover) and (pointer: fine) {
+  .link-underline:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+/* ----- Card hover lift + glow ----- */
+.card-lift {
+  transition:
+    transform 400ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 400ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    border-color 400ms ease,
+    background-color 250ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .card-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 30px 60px -28px rgba(91, 159, 214, 0.35);
+    border-color: rgba(91, 159, 214, 0.28);
+  }
+}
+
+/* ----- Logo rotate + scale on hover ----- */
+.logo-hover {
+  transition:
+    transform 520ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    filter 520ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .logo-hover:hover {
+    transform: rotate(22deg) scale(1.08);
+    filter: drop-shadow(0 4px 18px rgba(91, 159, 214, 0.55));
+  }
+}
+
+/* ----- Shimmer across a filled progress bar (position picker focus bars) ----- */
+@keyframes bar-shimmer-sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+.bar-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.bar-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 100%
+  );
+  animation: bar-shimmer-sweep 2.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  pointer-events: none;
+}
+
+/* ----- Conic-gradient ring that appears around testimonial avatars on hover ----- */
+@keyframes ring-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.avatar-ring {
+  position: relative;
+  isolation: isolate;
+}
+.avatar-ring::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  background: conic-gradient(
+    from 0deg,
+    var(--primary) 0%,
+    var(--accent) 30%,
+    var(--primary-light) 60%,
+    var(--primary) 100%
+  );
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 300ms ease;
+  animation: ring-spin 4s linear infinite;
+  animation-play-state: paused;
+}
+@media (hover: hover) and (pointer: fine) {
+  .avatar-ring:hover::before,
+  .group:hover .avatar-ring::before {
+    opacity: 1;
+    animation-play-state: running;
+  }
+}
+
+/* ----- Scroll progress bar premium glow tint ----- */
+@supports (animation-timeline: scroll()) {
+  .scroll-progress-bar {
+    box-shadow: 0 0 14px rgba(91, 159, 214, 0.55);
+  }
+}
+
+/* ----- Scroll-linked Reveal (per-item fade/translate, continuous) ----- */
+/* Each Reveal element's opacity and offset are driven by its own scroll position.
+   As the user scrolls, every piece of content animates continuously in sync,
+   no "fire-once-then-static" behavior. */
+@supports (animation-timeline: view()) {
+  @keyframes reveal-up {
+    0% { opacity: 0; transform: translate3d(0, var(--reveal-distance, 24px), 0); }
+    100% { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes reveal-down {
+    0% { opacity: 0; transform: translate3d(0, calc(var(--reveal-distance, 24px) * -1), 0); }
+    100% { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes reveal-left {
+    0% { opacity: 0; transform: translate3d(var(--reveal-distance, 24px), 0, 0); }
+    100% { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes reveal-right {
+    0% { opacity: 0; transform: translate3d(calc(var(--reveal-distance, 24px) * -1), 0, 0); }
+    100% { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes reveal-none {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .reveal-scroll {
+    opacity: 0;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    will-change: transform, opacity;
+  }
+  .reveal-scroll-up { animation-name: reveal-up; }
+  .reveal-scroll-down { animation-name: reveal-down; }
+  .reveal-scroll-left { animation-name: reveal-left; }
+  .reveal-scroll-right { animation-name: reveal-right; }
+  .reveal-scroll-none { animation-name: reveal-none; }
+}
+
+/* Non-supporting browsers (Firefox, old Safari): show content statically. */
+@supports not (animation-timeline: view()) {
+  .reveal-scroll {
+    opacity: 1;
+  }
+}
+
+/* ----- Scroll-driven section transitions (Chromium / Safari 26+) ----- */
+/* Each section emerges "from a cloud" as it approaches the viewport center and
+   softly recedes back into it on the way out, so the whole page reads as one
+   continuous scene with the focal point always centered. */
+@supports (animation-timeline: view()) {
+  @keyframes scene-focus {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 40px, 0) scale(0.98);
+      filter: blur(8px);
+    }
+    22% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0) scale(1);
+      filter: blur(0);
+    }
+    78% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0) scale(1);
+      filter: blur(0);
+    }
+    100% {
+      opacity: 0.45;
+      transform: translate3d(0, -24px, 0) scale(0.985);
+      filter: blur(5px);
+    }
+  }
+
+  .scroll-scene {
+    animation: scene-focus linear both;
+    animation-timeline: view();
+    animation-range: cover 0% cover 100%;
+    will-change: transform, opacity, filter;
+  }
+
+  /* Hero variant: skip the entrance half so the first paint is already sharp,
+     and only apply the gentle exit blur as the user scrolls past it. */
+  @keyframes scene-focus-exit {
+    0% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0) scale(1);
+      filter: blur(0);
+    }
+    100% {
+      opacity: 0.45;
+      transform: translate3d(0, -24px, 0) scale(0.985);
+      filter: blur(5px);
+    }
+  }
+
+  .scroll-scene-soft {
+    animation: scene-focus-exit linear both;
+    animation-timeline: view();
+    animation-range: cover 70% exit 100%;
+    will-change: transform, opacity, filter;
+  }
+
+  /* Mobile: smaller translations and much lighter blur to keep scrolling at 60fps
+     on touch devices (iOS/Android GPUs pay a real cost for large filter: blur). */
+  @media (max-width: 640px) {
+    @keyframes scene-focus-mobile {
+      0% {
+        opacity: 0;
+        transform: translate3d(0, 24px, 0) scale(0.99);
+        filter: blur(3px);
+      }
+      22% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+        filter: blur(0);
+      }
+      78% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+        filter: blur(0);
+      }
+      100% {
+        opacity: 0.6;
+        transform: translate3d(0, -14px, 0) scale(0.995);
+        filter: blur(2px);
+      }
+    }
+    @keyframes scene-focus-exit-mobile {
+      0% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+        filter: blur(0);
+      }
+      100% {
+        opacity: 0.6;
+        transform: translate3d(0, -14px, 0) scale(0.995);
+        filter: blur(2px);
+      }
+    }
+    .scroll-scene { animation-name: scene-focus-mobile; }
+    .scroll-scene-soft { animation-name: scene-focus-exit-mobile; }
+  }
+}
+
+/* ----- Top scroll progress bar (Chromium scroll-timeline) ----- */
+@supports (animation-timeline: scroll()) {
+  @keyframes scroll-progress {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+
+  .scroll-progress-bar {
+    transform-origin: left center;
+    animation: scroll-progress linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+/* ----- Background gradient drift on scroll (subtle parallax depth) ----- */
+@supports (animation-timeline: scroll()) {
+  @keyframes bg-drift {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(0, -120px, 0); }
+  }
+
+  .bg-drift {
+    animation: bg-drift linear both;
+    animation-timeline: scroll(root);
+    will-change: transform;
+  }
+}
+
+/* ----- Reduced motion: disable all animations ----- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .text-shimmer {
+    animation: none !important;
+    background-image: linear-gradient(
+      90deg,
+      var(--primary-light),
+      var(--primary),
+      var(--primary-dark)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .scroll-scene,
+  .scroll-scene-soft,
+  .scroll-progress-bar,
+  .bg-drift {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+}

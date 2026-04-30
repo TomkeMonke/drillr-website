@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "title": "Drillr - football training for your position",
+    "description": "A training app that knows your position. One plan, built around your level, your week, and the goals you actually care about."
+  },
+  "nav": {
+    "home": "Home",
+    "press": "Press",
+    "manageSubscription": "Manage Subscription"
+  },
+  "common": {
+    "downloadAppStore": "Download on the App Store",
+    "downloadGooglePlay": "Get it on Google Play"
+  },
+  "hero": {
+    "badge": "Loved by 12,400+ players · 4.9 rating",
+    "titleLine1": "Stop playing.",
+    "titleLine2": "Start dominating.",
+    "subtitle": "Drillr is the football training app that actually knows your position. You get a plan shaped to your role, your level, and the time you've got."
+  },
+  "usedBy": {
+    "title": "12,400+ players train with us",
+    "subtitle": "From U13s to semi-pro, in 30+ countries, every single day.",
+    "stats": [
+      { "value": "12,400+", "label": "Active players" },
+      { "value": "30+", "label": "Countries" },
+      { "value": "4.9★", "label": "Average rating" },
+      { "value": "1.2M+", "label": "Drills completed" }
+    ]
+  },
+  "story": {
+    "eyebrow": "How it works",
+    "title": "Three steps. That's it.",
+    "steps": [
+      {
+        "eyebrow": "Step 01",
+        "title": "Pick your position",
+        "body": "Striker, winger, keeper, whatever you play, we shape the plan around what your role actually asks of you."
+      },
+      {
+        "eyebrow": "Step 02",
+        "title": "Train every day",
+        "body": "Short, honest sessions. 15 minutes a day is enough to change how you play, and Drillr keeps count for you."
+      },
+      {
+        "eyebrow": "Step 03",
+        "title": "Watch yourself grow",
+        "body": "Streaks, stats, little milestones. Once you start stringing days together, it gets hard to stop."
+      }
+    ]
+  },
+  "marquee": {
+    "eyebrow": "Every role, every skill",
+    "title": "Whoever you are on the pitch, we've got you.",
+    "positions": [
+      { "label": "Goalkeeper", "glyph": "GK" },
+      { "label": "Centre-Back", "glyph": "CB" },
+      { "label": "Full-Back", "glyph": "FB" },
+      { "label": "Defensive Mid", "glyph": "CDM" },
+      { "label": "Central Mid", "glyph": "CM" },
+      { "label": "Attacking Mid", "glyph": "CAM" },
+      { "label": "Winger", "glyph": "W" },
+      { "label": "Striker", "glyph": "ST" }
+    ],
+    "skills": [
+      { "label": "Pace work", "glyph": "01" },
+      { "label": "First touch", "glyph": "02" },
+      { "label": "Finishing", "glyph": "03" },
+      { "label": "1v1 defending", "glyph": "04" },
+      { "label": "Press triggers", "glyph": "05" },
+      { "label": "Set pieces", "glyph": "06" },
+      { "label": "Long balls", "glyph": "07" },
+      { "label": "Cutbacks", "glyph": "08" }
+    ]
+  },
+  "features": {
+    "title": "What's inside Drillr",
+    "items": [
+      {
+        "title": "Drills chosen for your spot",
+        "body": "Goalkeeper, defender, midfielder, forward. Every drill is picked for what your position actually demands."
+      },
+      {
+        "title": "A calendar that fits your week",
+        "body": "Your training days, gym access, and experience level all go into the plan. It bends around your life, not the other way round."
+      },
+      {
+        "title": "Video demos for everything",
+        "body": "Clear instructions, sets, reps, and a short video for every move. You'll never guess what something should look like."
+      },
+      {
+        "title": "Stretching that matches your game",
+        "body": "Mobility work aimed at the muscles you actually use on the pitch, not a generic cooldown."
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Drillr?",
+    "subtitle": "A training app that gets how you play.",
+    "items": [
+      {
+        "title": "Tailored to your position",
+        "body": "No generic workouts. Every session fits where you play and what your role asks of you."
+      },
+      {
+        "title": "Fits around real life",
+        "body": "Train 3, 5, or 6 days a week. Miss a day and the plan shifts, no guilt trips."
+      },
+      {
+        "title": "Progress you can see",
+        "body": "Streaks, a dominance rating, monthly reports. Your growth, in plain view, every week."
+      }
+    ]
+  },
+  "spotlight": {
+    "badge": "Your position, your rating",
+    "title": "Watch it climb.",
+    "body": "Your dominance rating moves up each week as you sharpen the skills that win matches at your position."
+  },
+  "testimonials": {
+    "title": "What players are saying",
+    "items": [
+      {
+        "name": "Alex M.",
+        "role": "U17 Midfielder",
+        "quote": "Honestly didn't expect much, but after a month my coach said I was positioning way better. Stamina is crazy now too."
+      },
+      {
+        "name": "Sara K.",
+        "role": "U16 Defender",
+        "quote": "My friend showed me the app and now I'm on it every day. Drills actually make sense for my position."
+      },
+      {
+        "name": "Daniel R.",
+        "role": "Semi-pro Forward",
+        "quote": "The position-specific stuff is what hooked me. Every drill feels like it's for my game."
+      },
+      {
+        "name": "Jakub W.",
+        "role": "U19 Goalkeeper",
+        "quote": "Goalkeeper-specific work is rare in apps. Drillr nails it. My reactions and footwork are both up."
+      },
+      {
+        "name": "Maya L.",
+        "role": "Academy Midfielder",
+        "quote": "I love the calendar - it adapts when I miss a day instead of guilt-tripping me."
+      },
+      {
+        "name": "Tomasz B.",
+        "role": "Sunday League Defender",
+        "quote": "30 minutes a day, 4 days a week, and I feel like a different player on Sundays."
+      }
+    ]
+  },
+  "ratings": {
+    "title": "Loved by players in 30+ countries",
+    "subtitle": "4.9 average rating",
+    "appStore": "4.9",
+    "googlePlay": "4.8"
+  },
+  "positionPicker": {
+    "badge": "Pick your spot",
+    "title": "What position do you play?",
+    "subtitle": "Tap a position to see what Drillr does for it.",
+    "focusBreakdown": "Focus breakdown",
+    "sampleDrills": "Sample drills",
+    "viewPlan": "See full plan",
+    "categoryLabels": {
+      "strength": "Strength",
+      "cardio": "Cardio",
+      "agility": "Agility",
+      "flexibility": "Flexibility"
+    }
+  },
+  "drillVideo": {
+    "badge": "See it in motion",
+    "title": "Real drills. Real demos.",
+    "body": "Every exercise comes with a short, clear video. You'll know exactly what to do, how to do it, and what it should feel like.",
+    "caption": "Agility ladder · Footwork drill"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Do I need any equipment?",
+        "a": "No. Drillr adapts to what you have. Tell us during onboarding whether you've got gym access, and we'll build your plan around it - barbell, dumbbells, machines, or just bodyweight."
+      },
+      {
+        "q": "How much time per day?",
+        "a": "Most sessions run 25-45 minutes. You can train 3, 5, or 6 days a week depending on the goal you pick during onboarding."
+      },
+      {
+        "q": "Is there a free version?",
+        "a": "Yes. You can go through onboarding and try a sample of your plan for free. The full weekly plan and the rest of the drills are behind a subscription."
+      },
+      {
+        "q": "Is Drillr safe for under-13s?",
+        "a": "Drillr is built for ages 13 and up. Younger players should train under the eye of a coach or parent."
+      },
+      {
+        "q": "What if I play multiple positions?",
+        "a": "Pick the one you play most often. You can switch positions any time in settings and your plan will rebuild around the new one."
+      },
+      {
+        "q": "Can I use Drillr alongside my coach's program?",
+        "a": "Yes, loads of players do. Drillr is meant to sit next to team training, not replace it. Dial down your weekly volume if you start feeling cooked."
+      },
+      {
+        "q": "How do I cancel my subscription?",
+        "a": "Cancel any time from your device's subscription settings, or through our Manage Subscription page if you signed up on the web."
+      }
+    ]
+  },
+  "coachesCta": {
+    "eyebrow": "For coaches & academies",
+    "title": "Coaching a team or running an academy?",
+    "body": "We're working on team plans, group dashboards, and academy partnerships. Drop us a line and we'll be in touch.",
+    "cta": "Get in touch"
+  },
+  "positions": {
+    "indexTitle": "Train by position",
+    "indexSubtitle": "Every Drillr plan is shaped around what your position actually demands.",
+    "downloadCta": "Download Drillr for ",
+    "weekTitle": "A typical week",
+    "drillsTitle": "What your sessions look like",
+    "strengthsTitle": "Your edge",
+    "weaknessTitle": "What we'll fix",
+    "goalkeeper": {
+      "name": "Goalkeeper",
+      "tagline": "Reactions. Positioning. Command.",
+      "description": "Reflexes and positioning are what make great keepers. Drillr sharpens both with reaction work, lateral movement, and core stability - the stuff most apps skip.",
+      "strengths": "Drillr builds the explosive lateral mobility, reaction speed, and core stability that separate good keepers from great ones.",
+      "weaknesses": "Most keepers quietly skip lateral mobility and lower-body power. We won't let you.",
+      "drills": [
+        { "name": "Reaction ball drills", "spec": "3 × 60s" },
+        { "name": "Lateral band walks", "spec": "4 × 12" },
+        { "name": "Single-leg squats", "spec": "3 × 8 each side" },
+        { "name": "Plank with reach", "spec": "3 × 45s" }
+      ],
+      "week": [
+        { "day": "Mon", "session": "Lower-body strength" },
+        { "day": "Tue", "session": "Reactions & footwork" },
+        { "day": "Wed", "session": "Core & stability" },
+        { "day": "Thu", "session": "Recovery & stretching" },
+        { "day": "Fri", "session": "Plyometrics & explosiveness" }
+      ]
+    },
+    "defender": {
+      "name": "Defender",
+      "tagline": "Win every duel.",
+      "description": "Aerial wins, clean tackles, quick recovery runs - it all starts in the gym. Drillr builds the strength and stamina that carry 1v1s and clear lines.",
+      "strengths": "Aerial wins and tackling power start in the gym. Drillr trains both, plus the agility most defenders quietly skip.",
+      "weaknesses": "Defenders often skip agility - quick feet save goals too. We keep yours sharp.",
+      "drills": [
+        { "name": "Barbell squat", "spec": "4 × 6" },
+        { "name": "Box jumps", "spec": "4 × 5" },
+        { "name": "Mountain climbers", "spec": "4 × 30s" },
+        { "name": "Russian twists", "spec": "3 × 20" }
+      ],
+      "week": [
+        { "day": "Mon", "session": "Heavy strength" },
+        { "day": "Tue", "session": "Plyometrics" },
+        { "day": "Wed", "session": "Cardio intervals" },
+        { "day": "Thu", "session": "Agility & footwork" },
+        { "day": "Fri", "session": "Core & mobility" }
+      ]
+    },
+    "midfielder": {
+      "name": "Midfielder",
+      "tagline": "Run the game for 90 minutes.",
+      "description": "Box-to-box asks for the full toolkit. Drillr builds the engine, the agility, and the mobility you need to run the middle from the first whistle to the last.",
+      "strengths": "Box-to-box asks for the full toolkit. Drillr gets you ready for the whole 90.",
+      "weaknesses": "Central midfielders who skip mobility pick up more late-game injuries. Drillr won't let that slide.",
+      "drills": [
+        { "name": "Interval sprints", "spec": "8 × 200m" },
+        { "name": "Walking lunges", "spec": "3 × 12 each" },
+        { "name": "Burpees", "spec": "4 × 10" },
+        { "name": "Plank holds", "spec": "3 × 60s" }
+      ],
+      "week": [
+        { "day": "Mon", "session": "Endurance base" },
+        { "day": "Tue", "session": "Strength" },
+        { "day": "Wed", "session": "Sprint intervals" },
+        { "day": "Thu", "session": "Agility & turns" },
+        { "day": "Fri", "session": "Mobility & recovery" }
+      ]
+    },
+    "forward": {
+      "name": "Forward",
+      "tagline": "Outpace. Outjump. Outscore.",
+      "description": "Explosive acceleration and sharp changes of direction are your edge. Drillr trains the pace, the power, and the agility that get you in behind, plus the strength to hold defenders off when you do.",
+      "strengths": "Explosive acceleration and sharp changes of direction are your edge. Drillr trains them every single week.",
+      "weaknesses": "Forwards who skip strength lose the touchline duels. We make sure you don't.",
+      "drills": [
+        { "name": "Depth jumps", "spec": "4 × 5" },
+        { "name": "Jump squats", "spec": "4 × 8" },
+        { "name": "Agility ladder drills", "spec": "5 sets" },
+        { "name": "Calf raises", "spec": "3 × 15" }
+      ],
+      "week": [
+        { "day": "Mon", "session": "Explosive lower body" },
+        { "day": "Tue", "session": "Sprint mechanics" },
+        { "day": "Wed", "session": "Agility & finishing" },
+        { "day": "Thu", "session": "Upper-body power" },
+        { "day": "Fri", "session": "Plyometrics & mobility" }
+      ]
+    }
+  },
+  "footer": {
+    "download": "Download Drillr",
+    "legal": "Legal",
+    "company": "Company",
+    "training": "Training",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "press": "Press",
+    "manageSubscription": "Manage Subscription",
+    "copyright": "© 2026 Drillr. All rights reserved."
+  },
+  "press": {
+    "title": "Press",
+    "subtitle": "Get in touch with our team for media inquiries, interviews, and press releases.",
+    "email": "Email Address",
+    "subject": "Subject",
+    "subjectPlaceholder": "Media inquiry subject",
+    "message": "Message",
+    "messagePlaceholder": "Please provide details about your media inquiry, including deadline, outlet information, and any specific questions you'd like answered.",
+    "submit": "Send Press Inquiry",
+    "fallback": "Or email us directly at"
+  },
+  "manageSubscription": {
+    "title": "Manage Subscription",
+    "body": "If you purchased your subscription on the App Store or Google Play, manage it from your device settings. For web subscriptions, enter your email below.",
+    "emailLabel": "Email",
+    "submit": "Send",
+    "appleHelp": "Manage on Apple",
+    "googleHelp": "Manage on Google"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: April 22, 2026",
+    "intro": "This Privacy Policy describes how Drillr collects, uses, processes, shares, and protects your information when you use the Drillr mobile application, website, and related services. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.",
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "body": "We collect information you provide directly (account details, training preferences, position, experience level, training goals), information collected automatically (device data, app usage, exercise completion), and information from third parties (Google, Apple, RevenueCat for subscriptions)."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "body": "We use the information to deliver and personalize your training plan, calibrate exercises to your level, send notifications you opted into, process subscriptions, improve the Service, and respond to your support requests."
+      },
+      {
+        "heading": "3. Data Sharing",
+        "body": "We do not sell your personal information. We share data only with service providers strictly necessary to operate the Service (authentication, analytics, payments, push notifications)."
+      },
+      {
+        "heading": "4. Children's Privacy",
+        "body": "The Service is not intended for users under 13. Users between 13 and 17 may use the Service with parental supervision and consent where required by law."
+      },
+      {
+        "heading": "5. Your Rights",
+        "body": "You may request access, correction, or deletion of your personal data at any time by emailing us. You may also adjust notification preferences and manage your account from within the app."
+      },
+      {
+        "heading": "6. Data Retention",
+        "body": "We retain your data for as long as your account is active. After deletion, residual backups may persist for a limited period before being permanently removed."
+      },
+      {
+        "heading": "7. Security",
+        "body": "We use administrative, technical, and physical safeguards to protect your data. However, no online system is entirely secure."
+      },
+      {
+        "heading": "8. Changes to This Policy",
+        "body": "We may update this Privacy Policy from time to time. Updates become effective when posted. We may notify you by email or in-app for material changes."
+      },
+      {
+        "heading": "9. Contact",
+        "body": "If you have questions or requests regarding this Privacy Policy, contact us at drillrapps@gmail.com."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last Updated: April 22, 2026",
+    "intro": "Please read these Terms of Use carefully before accessing or using Drillr.",
+    "sections": [
+      {
+        "heading": "1. Agreement to Terms",
+        "body": "Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. By accessing or using the Service, you agree to be bound by these Terms."
+      },
+      {
+        "heading": "2. Eligibility",
+        "body": "You must be at least 13 years old to use the Service. If you are between 13 and 17, you may only use the Service with the consent and supervision of a parent or legal guardian."
+      },
+      {
+        "heading": "3. Health and Safety Disclaimer",
+        "body": "Drillr is a training and education tool, not a substitute for professional coaching, medical advice, or physical therapy. Consult a qualified professional before starting any training program. Train within your limits and stop immediately if you feel pain or discomfort."
+      },
+      {
+        "heading": "4. Subscriptions and Payments",
+        "body": "Some features of Drillr require a paid subscription. Subscriptions are billed through the App Store, Google Play, or our web payment provider. You can manage and cancel subscriptions from your device settings or the Manage Subscription page."
+      },
+      {
+        "heading": "5. User Conduct",
+        "body": "You agree not to misuse the Service, attempt to gain unauthorized access, disrupt other users, or use the Service for any unlawful purpose."
+      },
+      {
+        "heading": "6. Intellectual Property",
+        "body": "All content within the Service - including drills, videos, copy, branding, and design - is owned by Drillr or its licensors and protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without permission."
+      },
+      {
+        "heading": "7. Limitation of Liability",
+        "body": "To the maximum extent permitted by law, Drillr's total liability shall not exceed the greater of the amount you paid in the preceding 12 months or one hundred dollars (USD $100)."
+      },
+      {
+        "heading": "8. Changes to These Terms",
+        "body": "We may update these Terms at any time. Material changes will be announced through reasonable notice. Continued use after updates constitutes acceptance."
+      },
+      {
+        "heading": "9. Contact",
+        "body": "If you have questions about these Terms, contact us at drillrapps@gmail.com."
+      }
+    ]
+  }
+}
