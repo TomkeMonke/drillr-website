@@ -37,6 +37,8 @@ export function Footer({ locale, dict }: Props) {
           <DownloadBadges
             appStoreLabel={dict.common.downloadAppStore}
             googlePlayLabel={dict.common.downloadGooglePlay}
+            appStoreKicker={dict.common.appStoreKicker}
+            googlePlayKicker={dict.common.googlePlayKicker}
             size="sm"
           />
         </div>
@@ -81,6 +83,11 @@ export function Footer({ locale, dict }: Props) {
             <li>
               <Link href={`${base}/press`} className="link-underline hover:text-white transition-colors">
                 {dict.footer.press}
+              </Link>
+            </li>
+            <li>
+              <Link href={`${base}/feedback`} className="link-underline hover:text-white transition-colors">
+                {dict.footer.feedback}
               </Link>
             </li>
             <li>

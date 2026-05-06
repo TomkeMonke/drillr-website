@@ -6,11 +6,15 @@
   "nav": {
     "home": "Home",
     "press": "Press",
-    "manageSubscription": "Manage Subscription"
+    "manageSubscription": "Manage Subscription",
+    "feedback": "Feedback"
   },
   "common": {
     "downloadAppStore": "Download on the App Store",
-    "downloadGooglePlay": "Get it on Google Play"
+    "downloadGooglePlay": "Get it on Google Play",
+    "appStoreKicker": "Download on the",
+    "googlePlayKicker": "GET IT ON",
+    "screenshotAlt": "Drillr app screen"
   },
   "hero": {
     "badge": "Loved by 400+ players · 5.0 rating",
@@ -49,30 +53,6 @@
       }
     ]
   },
-  "marquee": {
-    "eyebrow": "Every role, every skill",
-    "title": "Whoever you are on the pitch, we've got you.",
-    "positions": [
-      { "label": "Goalkeeper", "glyph": "GK" },
-      { "label": "Centre-Back", "glyph": "CB" },
-      { "label": "Full-Back", "glyph": "FB" },
-      { "label": "Defensive Mid", "glyph": "CDM" },
-      { "label": "Central Mid", "glyph": "CM" },
-      { "label": "Attacking Mid", "glyph": "CAM" },
-      { "label": "Winger", "glyph": "W" },
-      { "label": "Striker", "glyph": "ST" }
-    ],
-    "skills": [
-      { "label": "Pace work", "glyph": "01" },
-      { "label": "First touch", "glyph": "02" },
-      { "label": "Finishing", "glyph": "03" },
-      { "label": "1v1 defending", "glyph": "04" },
-      { "label": "Press triggers", "glyph": "05" },
-      { "label": "Set pieces", "glyph": "06" },
-      { "label": "Long balls", "glyph": "07" },
-      { "label": "Cutbacks", "glyph": "08" }
-    ]
-  },
   "features": {
     "title": "What's inside Drillr",
     "items": [
@@ -93,29 +73,6 @@
         "body": "Mobility work aimed at the muscles you actually use on the pitch, not a generic cooldown."
       }
     ]
-  },
-  "whyChoose": {
-    "title": "Why Drillr?",
-    "subtitle": "A training app that gets how you play.",
-    "items": [
-      {
-        "title": "Tailored to your position",
-        "body": "No generic workouts. Every session fits where you play and what your role asks of you."
-      },
-      {
-        "title": "Fits around real life",
-        "body": "Train 3, 5, or 6 days a week. Miss a day and the plan shifts, no guilt trips."
-      },
-      {
-        "title": "Progress you can see",
-        "body": "Streaks, a dominance rating, monthly reports. Your growth, in plain view, every week."
-      }
-    ]
-  },
-  "spotlight": {
-    "badge": "Your position, your rating",
-    "title": "Watch it climb.",
-    "body": "Your dominance rating moves up each week as you sharpen the skills that win matches at your position."
   },
   "testimonials": {
     "title": "What players are saying",
@@ -152,12 +109,6 @@
       }
     ]
   },
-  "ratings": {
-    "title": "Loved by players in 50+ countries",
-    "subtitle": "5.0 average rating",
-    "appStore": "5.0",
-    "googlePlay": "5.0"
-  },
   "positionPicker": {
     "badge": "Pick your spot",
     "title": "What position do you play?",
@@ -172,14 +123,9 @@
       "flexibility": "Flexibility"
     }
   },
-  "drillVideo": {
-    "badge": "See it in motion",
-    "title": "Real drills. Real demos.",
-    "body": "Every exercise comes with a short, clear video. You'll know exactly what to do, how to do it, and what it should feel like.",
-    "caption": "Agility ladder · Footwork drill"
-  },
   "faq": {
     "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know about Drillr",
     "items": [
       {
         "q": "Do I need any equipment?",
@@ -196,6 +142,10 @@
       {
         "q": "Is Drillr safe for under-13s?",
         "a": "Drillr is built for ages 13 and up. Younger players should train under the eye of a coach or parent."
+      },
+      {
+        "q": "I'm just starting out - is this too advanced?",
+        "a": "Drillr meets you where you are. You set your level during onboarding, and the plan scales volume and difficulty around it. A first-time trainer gets a different week than someone already playing club football five days a week."
       },
       {
         "q": "What if I play multiple positions?",
@@ -315,18 +265,18 @@
     "terms": "Terms of Use",
     "press": "Press",
     "manageSubscription": "Manage Subscription",
+    "feedback": "Feedback",
     "copyright": "© 2026 Drillr. All rights reserved."
+  },
+  "feedback": {
+    "title": "Send Feedback",
+    "subtitle": "Spotted a bug, have an idea, or want to request a feature? Tell us. We read every message.",
+    "loading": "Loading feedback form…"
   },
   "press": {
     "title": "Press",
-    "subtitle": "Get in touch with our team for media inquiries, interviews, and press releases.",
-    "email": "Email Address",
-    "subject": "Subject",
-    "subjectPlaceholder": "Media inquiry subject",
-    "message": "Message",
-    "messagePlaceholder": "Please provide details about your media inquiry, including deadline, outlet information, and any specific questions you'd like answered.",
-    "submit": "Send Press Inquiry",
-    "fallback": "Or email us directly at"
+    "subtitle": "For media inquiries, interview requests, and press releases, reach us directly by email.",
+    "contactLabel": "Press inquiries"
   },
   "manageSubscription": {
     "title": "Manage Subscription",
@@ -336,88 +286,201 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: April 22, 2026",
-    "intro": "This Privacy Policy describes how Drillr collects, uses, processes, shares, and protects your information when you use the Drillr mobile application, website, and related services. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.",
+    "lastUpdated": "Effective 2026-04-29",
+    "tocLabel": "Table of Contents",
+    "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service. This service is provided \"AS IS\".",
     "sections": [
       {
-        "heading": "1. Information We Collect",
-        "body": "We collect information you provide directly (account details, training preferences, position, experience level, training goals), information collected automatically (device data, app usage, exercise completion), and information from third parties (Google, Apple, RevenueCat for subscriptions)."
+        "heading": "What information does the Application obtain and how is it used?",
+        "paragraphs": [
+          "The Application acquires the information you supply when you download and register the Application. Registration with the Service Provider is not mandatory. However, bear in mind that you might not be able to utilize some of the features offered by the Application unless you register with them.",
+          "The Service Provider may also use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions."
+        ]
       },
       {
-        "heading": "2. How We Use Your Information",
-        "body": "We use the information to deliver and personalize your training plan, calibrate exercises to your level, send notifications you opted into, process subscriptions, improve the Service, and respond to your support requests."
+        "heading": "What information does the Application collect automatically?",
+        "paragraphs": [
+          "In addition, the Application may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device's unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.",
+          "We use Firebase Analytics to understand how users interact with the Application, including screens visited, features used, and actions taken.",
+          "When you purchase a subscription, the Application also receives your transaction ID, subscription status, purchase date, renewal date, and the product you purchased. Payment itself (credit card, Apple Pay, Google Pay) is handled entirely by Apple or Google - the Service Provider never sees or stores your payment card details."
+        ]
       },
       {
-        "heading": "3. Data Sharing",
-        "body": "We do not sell your personal information. We share data only with service providers strictly necessary to operate the Service (authentication, analytics, payments, push notifications)."
+        "heading": "Does the Application collect precise real time location information of the device?",
+        "paragraphs": [
+          "This Application does not gather precise information about the location of your mobile device."
+        ]
       },
       {
-        "heading": "4. Children's Privacy",
-        "body": "The Service is not intended for users under 13. Users between 13 and 17 may use the Service with parental supervision and consent where required by law."
+        "heading": "Does the Application use Artificial Intelligence (AI) technologies?",
+        "paragraphs": [
+          "The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features."
+        ]
       },
       {
-        "heading": "5. Your Rights",
-        "body": "You may request access, correction, or deletion of your personal data at any time by emailing us. You may also adjust notification preferences and manage your account from within the app."
+        "heading": "Do third parties see and/or have access to information obtained by the Application?",
+        "paragraphs": [
+          "The Service Provider transmits pseudonymous identifiers (such as a user ID and device identifier) to the external services listed below to authenticate your account, sync your subscription status, collect diagnostic data, and improve the Application. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.",
+          "Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:"
+        ],
+        "bullets": [
+          "https://policies.google.com/privacy",
+          "https://firebase.google.com/policies/analytics",
+          "https://firebase.google.com/support/privacy",
+          "https://expo.dev/privacy",
+          "https://www.revenuecat.com/privacy - subscription management and billing analytics",
+          "https://www.apple.com/legal/privacy/ - for iOS purchases",
+          "https://policies.google.com/privacy - for Android purchases"
+        ]
       },
       {
-        "heading": "6. Data Retention",
-        "body": "We retain your data for as long as your account is active. After deletion, residual backups may persist for a limited period before being permanently removed."
+        "heading": "When may the Service Provider disclose your information?",
+        "paragraphs": [
+          "The Service Provider may disclose User Provided and Automatically Collected Information:"
+        ],
+        "bullets": [
+          "as required by law, such as to comply with a subpoena, or similar legal process;",
+          "when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;",
+          "with their trusted services providers who work on their behalf, do not have an independent use of the information disclosed to them, and have agreed to adhere to the rules set forth in this privacy statement."
+        ]
       },
       {
-        "heading": "7. Security",
-        "body": "We use administrative, technical, and physical safeguards to protect your data. However, no online system is entirely secure."
+        "heading": "What are my opt-out rights?",
+        "paragraphs": [
+          "You can halt all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network. Uninstalling the Application does not automatically cancel a paid subscription - you must cancel through your Apple ID or Google Play account settings."
+        ]
       },
       {
-        "heading": "8. Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. Updates become effective when posted. We may notify you by email or in-app for material changes."
+        "heading": "What is the data retention policy and how can you manage your information?",
+        "paragraphs": [
+          "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please contact them at drillrapps@gmail.com and they will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly."
+        ]
       },
       {
-        "heading": "9. Contact",
-        "body": "If you have questions or requests regarding this Privacy Policy, contact us at drillrapps@gmail.com."
+        "heading": "How does the Application address children's privacy?",
+        "paragraphs": [
+          "The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.",
+          "Users who indicate they are under 13 during onboarding are placed in a Restricted Mode. In Restricted Mode, the Application does not collect personal details such as gender, height, weight, or date of birth. Only an email address is retained for account authentication purposes. No personal data from Restricted Mode users is shared with third parties or used for profiling or marketing.",
+          "If you are a parent or guardian and you are aware that your child has provided us with personal information beyond what is described above, please contact the Service Provider (drillrapps@gmail.com) so that they will be able to take the necessary actions."
+        ]
+      },
+      {
+        "heading": "How is your information kept secure?",
+        "paragraphs": [
+          "The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information they process and maintain. For example, access to this information is limited to authorized employees and contractors who need to know it in order to operate, develop, or improve the Application. Please be aware that, although the Service Provider endeavors to provide reasonable security for information they process and maintain, no security system can prevent all potential security breaches."
+        ]
+      },
+      {
+        "heading": "How will you be informed of changes to this Privacy Policy?",
+        "paragraphs": [
+          "This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+        ]
+      },
+      {
+        "heading": "How do you give your consent?",
+        "paragraphs": [
+          "By using the Application, you are giving your consent to the Service Provider processing your information as set forth in this Privacy Policy now and as amended in the future. \"Processing\" means using cookies on a computer/handheld device or using or touching information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information."
+        ]
+      },
+      {
+        "heading": "How can you contact us?",
+        "paragraphs": [
+          "If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at drillrapps@gmail.com."
+        ]
       }
-    ]
+    ],
+    "crossLink": { "label": "Drillr Terms of Service", "href": "/terms" }
   },
   "terms": {
-    "title": "Terms of Use",
-    "lastUpdated": "Last Updated: April 22, 2026",
-    "intro": "Please read these Terms of Use carefully before accessing or using Drillr.",
+    "title": "Terms of Service",
+    "lastUpdated": "Effective 2026-04-29",
+    "tocLabel": "Table of Contents",
+    "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service.",
     "sections": [
       {
-        "heading": "1. Agreement to Terms",
-        "body": "Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. By accessing or using the Service, you agree to be bound by these Terms."
+        "heading": "Acceptance of Terms",
+        "paragraphs": [
+          "Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application."
+        ]
       },
       {
-        "heading": "2. Eligibility",
-        "body": "You must be at least 13 years old to use the Service. If you are between 13 and 17, you may only use the Service with the consent and supervision of a parent or legal guardian."
+        "heading": "Intellectual Property",
+        "paragraphs": [
+          "Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider."
+        ]
       },
       {
-        "heading": "3. Health and Safety Disclaimer",
-        "body": "Drillr is a training and education tool, not a substitute for professional coaching, medical advice, or physical therapy. Consult a qualified professional before starting any training program. Train within your limits and stop immediately if you feel pain or discomfort."
+        "heading": "Service Changes",
+        "paragraphs": [
+          "The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you."
+        ]
       },
       {
-        "heading": "4. Subscriptions and Payments",
-        "body": "Some features of Drillr require a paid subscription. Subscriptions are billed through the App Store, Google Play, or our web payment provider. You can manage and cancel subscriptions from your device settings or the Manage Subscription page."
+        "heading": "Age Requirements",
+        "paragraphs": [
+          "Users under the age of 13 may use the Service in Restricted Mode, which limits the collection of personal data. In Restricted Mode, personal details such as gender, height, weight, and date of birth are not collected. If you are between 13 and 17 years old, you may only use the Service with the consent and supervision of a parent or legal guardian, who agrees to be fully responsible for all activities conducted using the Service."
+        ]
       },
       {
-        "heading": "5. User Conduct",
-        "body": "You agree not to misuse the Service, attempt to gain unauthorized access, disrupt other users, or use the Service for any unlawful purpose."
+        "heading": "Device Security",
+        "paragraphs": [
+          "The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advises against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all."
+        ]
       },
       {
-        "heading": "6. Intellectual Property",
-        "body": "All content within the Service - including drills, videos, copy, branding, and design - is owned by Drillr or its licensors and protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without permission."
+        "heading": "Third-Party Services",
+        "paragraphs": [
+          "Please note that the Application utilizes third-party services that have their own Terms of Service. Below are the links to the Terms of Service of the third-party service providers used by the Application:"
+        ],
+        "bullets": [
+          "https://policies.google.com/terms",
+          "https://firebase.google.com/terms/analytics",
+          "https://firebase.google.com/terms/crashlytics",
+          "https://expo.dev/terms",
+          "https://www.revenuecat.com/terms - subscription management",
+          "https://www.apple.com/legal/internet-services/itunes/ - iOS purchases",
+          "https://play.google.com/about/play-terms/ - Android purchases"
+        ]
       },
       {
-        "heading": "7. Limitation of Liability",
-        "body": "To the maximum extent permitted by law, Drillr's total liability shall not exceed the greater of the amount you paid in the preceding 12 months or one hundred dollars (USD $100)."
+        "heading": "Subscriptions and Paid Plans",
+        "paragraphs": [
+          "The Application offers auto-renewing subscriptions (\"Drillr Pro\") that grant access to premium features. The following terms apply to all paid subscriptions:"
+        ],
+        "bullets": [
+          "The available plans, pricing, and duration are shown within the Application prior to purchase.",
+          "Payment is charged to your Apple ID or Google Play account upon confirmation of purchase.",
+          "Subscriptions automatically renew at the end of each billing period unless canceled at least 24 hours before the end of the current period.",
+          "Your account is charged for renewal within 24 hours prior to the end of the current period at the subscription price in effect at the time of renewal.",
+          "You can manage or cancel your subscription at any time through your Apple ID or Google Play account settings. Uninstalling the Application does not cancel a subscription.",
+          "No refunds are issued for partial subscription periods. Refund requests are handled directly by Apple or Google according to their respective policies.",
+          "Any unused portion of a free trial is forfeited when you purchase a subscription.",
+          "If the Service Provider changes the price of a subscription, you will be notified in advance and given the opportunity to cancel before the new price takes effect."
+        ]
       },
       {
-        "heading": "8. Changes to These Terms",
-        "body": "We may update these Terms at any time. Material changes will be announced through reasonable notice. Continued use after updates constitutes acceptance."
+        "heading": "General Terms",
+        "paragraphs": [
+          "Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.",
+          "If you are using the Application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the Application, or other third-party charges. By using the Application, you accept responsibility for any such charges, including roaming data charges if you use the Application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the Application, the Service Provider assumes that you have obtained permission from the bill payer.",
+          "Similarly, the Service Provider cannot always assume responsibility for your usage of the Application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.",
+          "While the Service Provider strives to ensure that the Application is updated and accurate at all times, they do rely on third parties to provide information so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the Application.",
+          "The Service Provider may wish to update the Application at some point. The Application is currently available as per the requirements for the operating system, and any additional systems they decide to extend availability to may change. You will need to download the updates if you want to continue using the Application. The Service Provider does not guarantee that they will always update the Application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the Application when offered to you. The Service Provider may also wish to cease providing the Application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the Application, and (if necessary) delete it from your device."
+        ]
       },
       {
-        "heading": "9. Contact",
-        "body": "If you have questions about these Terms, contact us at drillrapps@gmail.com."
+        "heading": "Changes to These Terms of Service",
+        "paragraphs": [
+          "The Service Provider may periodically update their Terms of Service. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms of Service on this page."
+        ]
+      },
+      {
+        "heading": "Contact Us",
+        "paragraphs": [
+          "If you have any questions or suggestions about the Terms of Service, please do not hesitate to contact the Service Provider at drillrapps@gmail.com."
+        ]
       }
-    ]
+    ],
+    "crossLink": { "label": "Drillr Privacy Policy", "href": "/privacy" }
   }
 }

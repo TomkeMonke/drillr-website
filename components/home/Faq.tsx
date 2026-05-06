@@ -10,9 +10,12 @@ export function Faq({ dict }: Props) {
     <section className="py-24 lg:py-32">
       <div className="mx-auto max-w-3xl px-5 lg:px-8">
         <Reveal>
-          <h2 className="text-center text-3xl sm:text-4xl font-bold tracking-tight mb-12">
+          <h2 className="text-center text-3xl sm:text-4xl font-bold tracking-tight">
             {dict.faq.title}
           </h2>
+          <p className="text-center text-white/60 mt-3 mb-12">
+            {dict.faq.subtitle}
+          </p>
         </Reveal>
         <div className="space-y-3">
           {dict.faq.items.map((item, i) => (

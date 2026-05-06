@@ -6,11 +6,15 @@
   "nav": {
     "home": "Główna",
     "press": "Prasa",
-    "manageSubscription": "Subskrypcja"
+    "manageSubscription": "Subskrypcja",
+    "feedback": "Wyślij opinię"
   },
   "common": {
     "downloadAppStore": "Pobierz w App Store",
-    "downloadGooglePlay": "Pobierz w Google Play"
+    "downloadGooglePlay": "Pobierz w Google Play",
+    "appStoreKicker": "Pobierz w",
+    "googlePlayKicker": "POBIERZ W",
+    "screenshotAlt": "Ekran aplikacji Drillr"
   },
   "hero": {
     "badge": "Pokochało nas 400+ piłkarzy · ocena 5.0",
@@ -49,30 +53,6 @@
       }
     ]
   },
-  "marquee": {
-    "eyebrow": "Każda rola, każda umiejętność",
-    "title": "Kimkolwiek jesteś na boisku, mamy cię ogarniętego.",
-    "positions": [
-      { "label": "Bramkarz", "glyph": "GK" },
-      { "label": "Środkowy obrońca", "glyph": "CB" },
-      { "label": "Boczny obrońca", "glyph": "FB" },
-      { "label": "Defensywny pomocnik", "glyph": "CDM" },
-      { "label": "Środkowy pomocnik", "glyph": "CM" },
-      { "label": "Ofensywny pomocnik", "glyph": "CAM" },
-      { "label": "Skrzydłowy", "glyph": "W" },
-      { "label": "Napastnik", "glyph": "ST" }
-    ],
-    "skills": [
-      { "label": "Praca nad szybkością", "glyph": "01" },
-      { "label": "Pierwsze podanie", "glyph": "02" },
-      { "label": "Wykończenie akcji", "glyph": "03" },
-      { "label": "Obrona 1 na 1", "glyph": "04" },
-      { "label": "Pressing", "glyph": "05" },
-      { "label": "Stałe fragmenty", "glyph": "06" },
-      { "label": "Długie podania", "glyph": "07" },
-      { "label": "Podania wsteczne", "glyph": "08" }
-    ]
-  },
   "features": {
     "title": "Co znajdziesz w Drillr",
     "items": [
@@ -93,29 +73,6 @@
         "body": "Mobilność celowana w mięśnie, których naprawdę używasz na boisku, a nie ogólny cooldown."
       }
     ]
-  },
-  "whyChoose": {
-    "title": "Dlaczego Drillr?",
-    "subtitle": "Aplikacja treningowa, która rozumie, jak grasz.",
-    "items": [
-      {
-        "title": "Pod twoją pozycję",
-        "body": "Żadnych ogólnych treningów. Każda sesja pasuje do tego, gdzie grasz i czego wymaga od ciebie rola."
-      },
-      {
-        "title": "Pasuje do twojego tygodnia",
-        "body": "Trenuj 3, 5 lub 6 dni w tygodniu. Opuścisz dzień - plan się przesuwa, bez wyrzutów."
-      },
-      {
-        "title": "Postęp, który widać",
-        "body": "Serie dni, ocena dominacji, raporty miesięczne. Twój rozwój jak na dłoni, co tydzień."
-      }
-    ]
-  },
-  "spotlight": {
-    "badge": "Twoja pozycja, twoja ocena",
-    "title": "Patrz, jak rośnie.",
-    "body": "Twoja ocena dominacji rośnie z każdym tygodniem, w którym ostrzysz umiejętności, które wygrywają mecze na twojej pozycji."
   },
   "testimonials": {
     "title": "Co mówią gracze",
@@ -152,12 +109,6 @@
       }
     ]
   },
-  "ratings": {
-    "title": "Pokochali nas gracze w 50+ krajach",
-    "subtitle": "Średnia ocen 5.0",
-    "appStore": "5.0",
-    "googlePlay": "5.0"
-  },
   "positionPicker": {
     "badge": "Wybierz swoje miejsce",
     "title": "Na jakiej pozycji grasz?",
@@ -172,14 +123,9 @@
       "flexibility": "Mobilność"
     }
   },
-  "drillVideo": {
-    "badge": "Zobacz w akcji",
-    "title": "Prawdziwe ćwiczenia. Prawdziwe pokazy.",
-    "body": "Do każdego ćwiczenia dołączamy krótki, czytelny film. Wiesz dokładnie, co robić, jak to zrobić i jak to powinno się czuć.",
-    "caption": "Drabinka koordynacyjna · Praca nóg"
-  },
   "faq": {
     "title": "Najczęstsze pytania",
+    "subtitle": "Wszystko, co musisz wiedzieć o Drillr",
     "items": [
       {
         "q": "Czy potrzebuję sprzętu?",
@@ -196,6 +142,10 @@
       {
         "q": "Czy Drillr jest bezpieczny dla osób poniżej 13 lat?",
         "a": "Drillr jest dla graczy w wieku 13+. Młodsi powinni trenować pod okiem trenera lub rodzica."
+      },
+      {
+        "q": "Dopiero zaczynam - czy to nie za trudne?",
+        "a": "Drillr dopasowuje się do twojego poziomu. Wybierasz go w onboardingu, a plan skaluje objętość i trudność pod ciebie. Ktoś, kto dopiero zaczyna, dostanie inny tydzień niż gracz, który już trenuje pięć dni w tygodniu w klubie."
       },
       {
         "q": "Co jeśli gram na kilku pozycjach?",
@@ -315,18 +265,18 @@
     "terms": "Regulamin",
     "press": "Prasa",
     "manageSubscription": "Subskrypcja",
+    "feedback": "Wyślij opinię",
     "copyright": "© 2026 Drillr. Wszelkie prawa zastrzeżone."
+  },
+  "feedback": {
+    "title": "Wyślij opinię",
+    "subtitle": "Znalazłeś błąd, masz pomysł albo chcesz zgłosić funkcję? Daj znać. Czytamy każdą wiadomość.",
+    "loading": "Ładowanie formularza…"
   },
   "press": {
     "title": "Prasa",
-    "subtitle": "Skontaktuj się z naszym zespołem w sprawach mediów, wywiadów i informacji prasowych.",
-    "email": "Adres e-mail",
-    "subject": "Temat",
-    "subjectPlaceholder": "Temat zapytania prasowego",
-    "message": "Wiadomość",
-    "messagePlaceholder": "Opisz swoje zapytanie prasowe - termin publikacji, redakcję i konkretne pytania, na które chciał(a)byś otrzymać odpowiedź.",
-    "submit": "Wyślij zapytanie",
-    "fallback": "Lub napisz bezpośrednio na"
+    "subtitle": "W sprawach mediów, wywiadów i informacji prasowych skontaktuj się z nami bezpośrednio mailowo.",
+    "contactLabel": "Zapytania prasowe"
   },
   "manageSubscription": {
     "title": "Zarządzaj subskrypcją",
@@ -336,88 +286,201 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Ostatnia aktualizacja: 22 kwietnia 2026",
-    "intro": "Niniejsza Polityka prywatności opisuje, w jaki sposób Drillr zbiera, wykorzystuje, przetwarza, udostępnia i chroni twoje dane podczas korzystania z aplikacji mobilnej Drillr, strony internetowej i powiązanych usług. Korzystając z usługi, wyrażasz zgodę na zbieranie i wykorzystywanie informacji zgodnie z niniejszą Polityką.",
+    "lastUpdated": "Obowiązuje od 2026-04-29",
+    "tocLabel": "Spis treści",
+    "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium. Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
       {
-        "heading": "1. Zbierane informacje",
-        "body": "Zbieramy informacje, które podajesz bezpośrednio (dane konta, preferencje treningowe, pozycję, poziom doświadczenia, cele), informacje zbierane automatycznie (dane urządzenia, użycie aplikacji, ukończone ćwiczenia) oraz informacje od podmiotów trzecich (Google, Apple, RevenueCat dla subskrypcji)."
+        "heading": "Jakie informacje gromadzi Aplikacja i w jaki sposób są wykorzystywane?",
+        "paragraphs": [
+          "Aplikacja zbiera informacje, które podajesz przy pobieraniu i rejestracji. Rejestracja u Usługodawcy nie jest obowiązkowa. Pamiętaj jednak, że bez rejestracji możesz nie być w stanie skorzystać z części funkcji Aplikacji.",
+          "Usługodawca może również wykorzystywać podane przez ciebie dane do okresowego kontaktu z tobą w celu przekazania ważnych informacji, wymaganych powiadomień oraz materiałów marketingowych."
+        ]
       },
       {
-        "heading": "2. Jak wykorzystujemy twoje dane",
-        "body": "Używamy informacji do dostarczania i personalizacji planu treningowego, kalibracji ćwiczeń do twojego poziomu, wysyłania powiadomień, na które wyraziłeś zgodę, obsługi subskrypcji, ulepszania usługi i odpowiadania na zapytania."
+        "heading": "Jakie informacje Aplikacja zbiera automatycznie?",
+        "paragraphs": [
+          "Aplikacja może automatycznie zbierać określone informacje, w tym między innymi: rodzaj urządzenia mobilnego, unikalny identyfikator urządzenia, adres IP, system operacyjny, rodzaj używanych mobilnych przeglądarek internetowych oraz informacje o sposobie korzystania z Aplikacji.",
+          "Korzystamy z Firebase Analytics, aby zrozumieć, jak użytkownicy korzystają z Aplikacji - jakie ekrany odwiedzają, jakich funkcji używają i jakie czynności wykonują.",
+          "Przy zakupie subskrypcji Aplikacja otrzymuje również identyfikator transakcji, status subskrypcji, datę zakupu, datę odnowienia oraz nazwę zakupionego produktu. Sama płatność (karta kredytowa, Apple Pay, Google Pay) obsługiwana jest wyłącznie przez Apple lub Google - Usługodawca nie widzi ani nie przechowuje danych twojej karty płatniczej."
+        ]
       },
       {
-        "heading": "3. Udostępnianie danych",
-        "body": "Nie sprzedajemy twoich danych osobowych. Udostępniamy dane wyłącznie dostawcom usług niezbędnym do działania serwisu (uwierzytelnianie, analityka, płatności, powiadomienia push)."
+        "heading": "Czy Aplikacja zbiera dokładne dane o lokalizacji urządzenia w czasie rzeczywistym?",
+        "paragraphs": [
+          "Aplikacja nie gromadzi dokładnych informacji o lokalizacji twojego urządzenia mobilnego."
+        ]
       },
       {
-        "heading": "4. Prywatność dzieci",
-        "body": "Usługa nie jest przeznaczona dla użytkowników poniżej 13 roku życia. Użytkownicy w wieku 13-17 lat mogą korzystać z usługi pod nadzorem rodzicielskim i za zgodą tam, gdzie wymaga tego prawo."
+        "heading": "Czy Aplikacja korzysta z technologii sztucznej inteligencji (AI)?",
+        "paragraphs": [
+          "Aplikacja nie wykorzystuje technologii sztucznej inteligencji (AI) do przetwarzania danych ani świadczenia funkcji."
+        ]
       },
       {
-        "heading": "5. Twoje prawa",
-        "body": "Możesz w dowolnym momencie zażądać dostępu, korekty lub usunięcia swoich danych, pisząc na nasz adres. Możesz również dostosować preferencje powiadomień i zarządzać kontem z poziomu aplikacji."
+        "heading": "Czy podmioty trzecie widzą lub mają dostęp do informacji uzyskanych przez Aplikację?",
+        "paragraphs": [
+          "Usługodawca przekazuje pseudonimowe identyfikatory (takie jak identyfikator użytkownika i urządzenia) do zewnętrznych usług wymienionych poniżej, w celu uwierzytelnienia konta, synchronizacji statusu subskrypcji, gromadzenia danych diagnostycznych i ulepszania Aplikacji. Usługodawca może udostępniać twoje dane podmiotom trzecim w sposób opisany w niniejszej Polityce.",
+          "Pamiętaj, że Aplikacja korzysta z usług podmiotów trzecich, które posiadają własne polityki prywatności. Poniżej znajdują się linki do polityk prywatności podmiotów trzecich, z których korzysta Aplikacja:"
+        ],
+        "bullets": [
+          "https://policies.google.com/privacy",
+          "https://firebase.google.com/policies/analytics",
+          "https://firebase.google.com/support/privacy",
+          "https://expo.dev/privacy",
+          "https://www.revenuecat.com/privacy - zarządzanie subskrypcjami i analityka rozliczeń",
+          "https://www.apple.com/legal/privacy/ - dla zakupów w iOS",
+          "https://policies.google.com/privacy - dla zakupów w Androidzie"
+        ]
       },
       {
-        "heading": "6. Przechowywanie danych",
-        "body": "Przechowujemy twoje dane tak długo, jak konto pozostaje aktywne. Po usunięciu, kopie zapasowe mogą pozostać przez ograniczony czas, zanim zostaną trwale usunięte."
+        "heading": "Kiedy Usługodawca może ujawnić twoje dane?",
+        "paragraphs": [
+          "Usługodawca może ujawnić Dane Podane przez Użytkownika oraz Dane Zbierane Automatycznie:"
+        ],
+        "bullets": [
+          "gdy wymaga tego prawo, np. w celu zastosowania się do wezwania sądowego lub innej procedury prawnej;",
+          "gdy w dobrej wierze uzna, że ujawnienie jest niezbędne do ochrony swoich praw, ochrony twojego bezpieczeństwa lub bezpieczeństwa innych osób, zwalczania oszustw lub odpowiedzi na żądanie organu publicznego;",
+          "zaufanym dostawcom usług, którzy działają w jego imieniu, nie wykorzystują udostępnionych im informacji niezależnie i zobowiązali się do przestrzegania zasad zawartych w niniejszej Polityce."
+        ]
       },
       {
-        "heading": "7. Bezpieczeństwo",
-        "body": "Stosujemy zabezpieczenia administracyjne, techniczne i fizyczne w celu ochrony twoich danych. Żaden system online nie jest jednak w pełni bezpieczny."
+        "heading": "Jakie mam prawo do rezygnacji?",
+        "paragraphs": [
+          "Możesz w każdej chwili przerwać gromadzenie informacji przez Aplikację, odinstalowując ją. Skorzystaj ze standardowych metod odinstalowania dostępnych w urządzeniu mobilnym lub w sklepie z aplikacjami. Odinstalowanie Aplikacji nie powoduje automatycznego anulowania płatnej subskrypcji - musisz anulować ją w ustawieniach swojego konta Apple ID lub Google Play."
+        ]
       },
       {
-        "heading": "8. Zmiany polityki",
-        "body": "Możemy aktualizować tę Politykę co jakiś czas. Aktualizacje wchodzą w życie w momencie publikacji. O istotnych zmianach możemy powiadomić cię e-mailem lub w aplikacji."
+        "heading": "Jaka jest polityka przechowywania danych i jak mogę zarządzać swoimi informacjami?",
+        "paragraphs": [
+          "Usługodawca będzie przechowywać Dane Podane przez Użytkownika tak długo, jak korzystasz z Aplikacji, oraz przez rozsądny czas po zakończeniu korzystania. Dane Zbierane Automatycznie będą przechowywane przez okres do 24 miesięcy, a następnie mogą być przechowywane w formie zagregowanej. Jeśli chcesz, aby Usługodawca usunął Dane Podane przez Użytkownika, skontaktuj się z nim pod adresem drillrapps@gmail.com - odpowie w rozsądnym terminie. Pamiętaj, że część lub całość Danych Podanych przez Użytkownika może być wymagana do prawidłowego działania Aplikacji."
+        ]
       },
       {
-        "heading": "9. Kontakt",
-        "body": "W sprawie pytań lub zgłoszeń dotyczących Polityki prywatności napisz na drillrapps@gmail.com."
+        "heading": "W jaki sposób Aplikacja chroni prywatność dzieci?",
+        "paragraphs": [
+          "Usługodawca nie wykorzystuje Aplikacji do świadomego zbierania danych od dzieci poniżej 13 roku życia ani do kierowania do nich treści marketingowych.",
+          "Użytkownicy, którzy podczas onboardingu zaznaczą wiek poniżej 13 lat, są przenoszeni do Trybu Ograniczonego. W Trybie Ograniczonym Aplikacja nie zbiera danych osobowych takich jak płeć, wzrost, waga czy data urodzenia. Przechowywany jest wyłącznie adres e-mail w celu uwierzytelnienia konta. Żadne dane osobowe użytkowników w Trybie Ograniczonym nie są udostępniane podmiotom trzecim ani wykorzystywane do profilowania lub marketingu.",
+          "Jeśli jesteś rodzicem lub opiekunem i wiesz, że twoje dziecko przekazało nam dane osobowe wykraczające poza powyższe, skontaktuj się z Usługodawcą (drillrapps@gmail.com), aby mógł podjąć odpowiednie działania."
+        ]
+      },
+      {
+        "heading": "W jaki sposób chronione są twoje informacje?",
+        "paragraphs": [
+          "Usługodawca dba o poufność twoich danych. Stosuje zabezpieczenia fizyczne, elektroniczne i proceduralne w celu ochrony przetwarzanych przez siebie informacji. Na przykład dostęp do tych informacji jest ograniczony do uprawnionych pracowników i współpracowników, którzy potrzebują ich do obsługi, rozwoju lub ulepszania Aplikacji. Pamiętaj, że choć Usługodawca dokłada starań, by zapewnić rozsądny poziom bezpieczeństwa, żaden system informatyczny nie jest w pełni odporny na potencjalne naruszenia."
+        ]
+      },
+      {
+        "heading": "W jaki sposób będziesz informowany o zmianach niniejszej Polityki prywatności?",
+        "paragraphs": [
+          "Niniejsza Polityka prywatności może być aktualizowana z dowolnego powodu. Usługodawca poinformuje cię o wszelkich zmianach poprzez aktualizację niniejszej strony. Zalecamy regularne sprawdzanie tej Polityki, ponieważ dalsze korzystanie z Aplikacji oznacza akceptację wszystkich zmian."
+        ]
+      },
+      {
+        "heading": "W jaki sposób wyrażasz zgodę?",
+        "paragraphs": [
+          "Korzystając z Aplikacji, wyrażasz zgodę na przetwarzanie przez Usługodawcę twoich informacji w sposób określony w niniejszej Polityce prywatności w jej obecnym brzmieniu oraz po wszelkich zmianach. \"Przetwarzanie\" oznacza używanie plików cookie na komputerze lub urządzeniu przenośnym oraz wykorzystywanie informacji w jakikolwiek sposób, w tym między innymi: zbieranie, przechowywanie, usuwanie, używanie, łączenie i ujawnianie informacji."
+        ]
+      },
+      {
+        "heading": "Jak się z nami skontaktować?",
+        "paragraphs": [
+          "Jeśli masz pytania dotyczące prywatności podczas korzystania z Aplikacji lub pytania dotyczące naszych praktyk, skontaktuj się z Usługodawcą drogą e-mailową pod adresem drillrapps@gmail.com."
+        ]
       }
-    ]
+    ],
+    "crossLink": { "label": "Regulamin Drillr", "href": "/terms" }
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Ostatnia aktualizacja: 22 kwietnia 2026",
-    "intro": "Przed rozpoczęciem korzystania z Drillr prosimy o zapoznanie się z niniejszym Regulaminem.",
+    "lastUpdated": "Obowiązuje od 2026-04-29",
+    "tocLabel": "Spis treści",
+    "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium.",
     "sections": [
       {
-        "heading": "1. Akceptacja Regulaminu",
-        "body": "Dostęp do usługi i korzystanie z niej są uzależnione od akceptacji niniejszego Regulaminu. Korzystając z usługi, zgadzasz się przestrzegać tych warunków."
+        "heading": "Akceptacja regulaminu",
+        "paragraphs": [
+          "Pobierając lub korzystając z Aplikacji, automatycznie akceptujesz poniższe warunki. Zalecamy dokładne przeczytanie i zrozumienie regulaminu przed rozpoczęciem korzystania z Aplikacji."
+        ]
       },
       {
-        "heading": "2. Wymagania wiekowe",
-        "body": "Aby korzystać z usługi, musisz mieć ukończone 13 lat. Osoby w wieku 13-17 lat mogą korzystać z usługi wyłącznie za zgodą i pod nadzorem rodzica lub opiekuna prawnego."
+        "heading": "Własność intelektualna",
+        "paragraphs": [
+          "Nieautoryzowane kopiowanie, modyfikacja Aplikacji, jej części lub naszych znaków towarowych jest surowo zabronione. Wszelkie próby wyodrębnienia kodu źródłowego Aplikacji, tłumaczenia jej na inne języki czy tworzenia wersji pochodnych są niedozwolone. Wszystkie znaki towarowe, prawa autorskie, prawa do baz danych i inne prawa własności intelektualnej związane z Aplikacją pozostają własnością Usługodawcy."
+        ]
       },
       {
-        "heading": "3. Zdrowie i bezpieczeństwo",
-        "body": "Drillr jest narzędziem treningowo-edukacyjnym, a nie substytutem profesjonalnego trenera, porady medycznej ani fizjoterapii. Skonsultuj się ze specjalistą przed rozpoczęciem treningów. Trenuj w granicach swoich możliwości i przerwij ćwiczenia, gdy poczujesz ból lub dyskomfort."
+        "heading": "Zmiany usługi",
+        "paragraphs": [
+          "Usługodawca dba o to, by Aplikacja była jak najbardziej użyteczna i efektywna. W związku z tym zastrzega sobie prawo do modyfikacji Aplikacji lub pobierania opłat za swoje usługi w dowolnym momencie i z dowolnego powodu. Usługodawca zapewnia, że wszelkie opłaty za Aplikację lub jej usługi będą wyraźnie zakomunikowane."
+        ]
       },
       {
-        "heading": "4. Subskrypcje i płatności",
-        "body": "Niektóre funkcje wymagają płatnej subskrypcji. Subskrypcje rozliczane są przez App Store, Google Play lub naszego dostawcę płatności webowych. Możesz nimi zarządzać i je anulować z poziomu ustawień urządzenia lub na stronie zarządzania subskrypcją."
+        "heading": "Wymagania wiekowe",
+        "paragraphs": [
+          "Użytkownicy poniżej 13 roku życia mogą korzystać z Usługi w Trybie Ograniczonym, który ogranicza zbieranie danych osobowych. W Trybie Ograniczonym dane osobowe takie jak płeć, wzrost, waga i data urodzenia nie są zbierane. Jeśli masz między 13 a 17 lat, możesz korzystać z Usługi wyłącznie za zgodą i pod nadzorem rodzica lub opiekuna prawnego, który zgadza się przyjąć pełną odpowiedzialność za wszelkie czynności wykonywane w Usłudze."
+        ]
       },
       {
-        "heading": "5. Zachowanie użytkownika",
-        "body": "Zobowiązujesz się nie nadużywać usługi, nie próbować uzyskać nieautoryzowanego dostępu, nie zakłócać korzystania innym użytkownikom ani nie używać usługi w celach niezgodnych z prawem."
+        "heading": "Bezpieczeństwo urządzenia",
+        "paragraphs": [
+          "Aplikacja przechowuje i przetwarza dane osobowe, które zostały przekazane Usługodawcy w celu świadczenia Usługi. Twoim obowiązkiem jest dbanie o bezpieczeństwo telefonu i dostępu do Aplikacji. Usługodawca zdecydowanie odradza jailbreakowanie lub rootowanie telefonu, czyli usuwanie ograniczeń oprogramowania nałożonych przez oficjalny system operacyjny urządzenia. Takie działania mogą narazić twój telefon na złośliwe oprogramowanie, wirusy, programy szkodliwe, naruszyć zabezpieczenia urządzenia i spowodować, że Aplikacja nie będzie działać poprawnie lub wcale."
+        ]
       },
       {
-        "heading": "6. Własność intelektualna",
-        "body": "Cała zawartość usługi - drille, wideo, teksty, marka, design - należy do Drillr lub jego licencjodawców i jest chroniona prawem własności intelektualnej. Nie wolno reprodukować, dystrybuować ani tworzyć dzieł pochodnych bez zgody."
+        "heading": "Usługi podmiotów trzecich",
+        "paragraphs": [
+          "Pamiętaj, że Aplikacja korzysta z usług podmiotów trzecich, które mają własne regulaminy. Poniżej znajdują się linki do regulaminów podmiotów trzecich, z których korzysta Aplikacja:"
+        ],
+        "bullets": [
+          "https://policies.google.com/terms",
+          "https://firebase.google.com/terms/analytics",
+          "https://firebase.google.com/terms/crashlytics",
+          "https://expo.dev/terms",
+          "https://www.revenuecat.com/terms - zarządzanie subskrypcjami",
+          "https://www.apple.com/legal/internet-services/itunes/ - zakupy w iOS",
+          "https://play.google.com/about/play-terms/ - zakupy w Androidzie"
+        ]
       },
       {
-        "heading": "7. Ograniczenie odpowiedzialności",
-        "body": "W maksymalnym zakresie dopuszczonym przez prawo łączna odpowiedzialność Drillr nie przekroczy większej z dwóch wartości: kwoty zapłaconej w ciągu ostatnich 12 miesięcy lub stu dolarów (100 USD)."
+        "heading": "Subskrypcje i plany płatne",
+        "paragraphs": [
+          "Aplikacja oferuje automatycznie odnawiające się subskrypcje (\"Drillr Pro\"), które dają dostęp do funkcji premium. Poniższe warunki dotyczą wszystkich płatnych subskrypcji:"
+        ],
+        "bullets": [
+          "Dostępne plany, ceny i okresy są wyświetlane w Aplikacji przed zakupem.",
+          "Płatność jest pobierana z twojego konta Apple ID lub Google Play w momencie potwierdzenia zakupu.",
+          "Subskrypcje odnawiają się automatycznie pod koniec każdego okresu rozliczeniowego, chyba że zostaną anulowane co najmniej 24 godziny przed końcem bieżącego okresu.",
+          "Twoje konto jest obciążane za odnowienie w ciągu 24 godzin przed końcem bieżącego okresu, według ceny subskrypcji obowiązującej w momencie odnowienia.",
+          "Możesz zarządzać subskrypcją lub anulować ją w dowolnym momencie w ustawieniach konta Apple ID lub Google Play. Odinstalowanie Aplikacji nie anuluje subskrypcji.",
+          "Częściowe okresy subskrypcji nie podlegają zwrotowi. Wnioski o zwrot środków obsługiwane są bezpośrednio przez Apple lub Google zgodnie z ich politykami.",
+          "Niewykorzystana część bezpłatnego okresu próbnego przepada w momencie zakupu subskrypcji.",
+          "Jeśli Usługodawca zmieni cenę subskrypcji, zostaniesz powiadomiony z wyprzedzeniem i będziesz miał możliwość anulowania przed wejściem nowej ceny w życie."
+        ]
       },
       {
-        "heading": "8. Zmiany Regulaminu",
-        "body": "Możemy aktualizować Regulamin w dowolnym momencie. O istotnych zmianach poinformujemy w odpowiedni sposób. Dalsze korzystanie po aktualizacji oznacza akceptację zmian."
+        "heading": "Postanowienia ogólne",
+        "paragraphs": [
+          "Pamiętaj, że Usługodawca nie ponosi odpowiedzialności za niektóre aspekty. Część funkcji Aplikacji wymaga aktywnego połączenia internetowego, które może być Wi-Fi lub udostępnione przez operatora sieci komórkowej. Usługodawca nie ponosi odpowiedzialności, jeśli Aplikacja nie działa w pełni z powodu braku dostępu do Wi-Fi lub wyczerpania pakietu danych.",
+          "Korzystając z Aplikacji poza zasięgiem Wi-Fi, pamiętaj, że obowiązują warunki umowy z twoim operatorem sieci komórkowej. W związku z tym możesz zostać obciążony opłatami przez operatora za transfer danych podczas korzystania z Aplikacji lub innymi opłatami podmiotów trzecich. Korzystając z Aplikacji, akceptujesz odpowiedzialność za wszelkie takie opłaty, w tym opłaty za roaming danych, jeśli używasz Aplikacji poza obszarem domowym (tj. regionem lub krajem) bez wyłączenia roamingu danych. Jeśli nie jesteś osobą opłacającą rachunki za urządzenie, na którym korzystasz z Aplikacji, Usługodawca zakłada, że uzyskałeś zgodę osoby płacącej.",
+          "Podobnie Usługodawca nie zawsze może ponosić odpowiedzialność za sposób korzystania z Aplikacji. Na przykład twoim obowiązkiem jest zapewnienie naładowania urządzenia. Jeśli urządzenie się rozładuje i nie będziesz mógł korzystać z Usługi, Usługodawca nie ponosi za to odpowiedzialności.",
+          "Choć Usługodawca dokłada starań, by Aplikacja była zawsze aktualna i poprawna, polega na podmiotach trzecich w zakresie udostępniania niezbędnych informacji. Usługodawca nie ponosi odpowiedzialności za jakiekolwiek straty, bezpośrednie lub pośrednie, wynikające z polegania wyłącznie na tej funkcjonalności Aplikacji.",
+          "Usługodawca może w pewnym momencie chcieć zaktualizować Aplikację. Aplikacja jest obecnie dostępna zgodnie z wymaganiami systemu operacyjnego, a zakres dodatkowych systemów, na które Usługodawca zdecyduje się rozszerzyć dostępność, może ulec zmianie. Będziesz musiał pobrać aktualizacje, jeśli chcesz nadal korzystać z Aplikacji. Usługodawca nie gwarantuje, że zawsze zaktualizuje Aplikację tak, by była dla ciebie odpowiednia lub kompatybilna z konkretną wersją systemu operacyjnego zainstalowaną na twoim urządzeniu. Zobowiązujesz się jednak zawsze akceptować aktualizacje Aplikacji, gdy zostaną ci zaproponowane. Usługodawca może również zaprzestać świadczenia Aplikacji i zakończyć korzystanie z niej w dowolnym momencie, bez wcześniejszego powiadomienia. O ile nie zostanie zaznaczone inaczej, w przypadku zakończenia: (a) prawa i licencje udzielone w niniejszym regulaminie wygasną; (b) musisz zaprzestać korzystania z Aplikacji i (jeśli to konieczne) usunąć ją z urządzenia."
+        ]
       },
       {
-        "heading": "9. Kontakt",
-        "body": "W sprawie pytań dotyczących Regulaminu napisz na drillrapps@gmail.com."
+        "heading": "Zmiany regulaminu",
+        "paragraphs": [
+          "Usługodawca może okresowo aktualizować regulamin. Zalecamy regularne sprawdzanie tej strony pod kątem zmian. Usługodawca poinformuje cię o wszelkich zmianach, publikując nowy regulamin na tej stronie."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Jeśli masz pytania lub sugestie dotyczące regulaminu, skontaktuj się z Usługodawcą pod adresem drillrapps@gmail.com."
+        ]
       }
-    ]
+    ],
+    "crossLink": { "label": "Polityka prywatności Drillr", "href": "/privacy" }
   }
 }

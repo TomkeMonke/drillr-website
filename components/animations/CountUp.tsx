@@ -50,9 +50,7 @@ function format(n: number, decimals: number, separator: Parsed["separator"]): st
 export function CountUp({ value, duration = 1600, className }: Props) {
   const parsed = parse(value);
   const ref = useRef<HTMLSpanElement>(null);
-  const [display, setDisplay] = useState(() =>
-    format(0, parsed.decimals, parsed.separator),
-  );
+  const [progress, setProgress] = useState(0);
   const started = useRef(false);
 
   useEffect(() => {
@@ -63,9 +61,9 @@ export function CountUp({ value, duration = 1600, className }: Props) {
       window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
     if (prefersReduced) {
-      setDisplay(format(parsed.number, parsed.decimals, parsed.separator));
       started.current = true;
-      return;
+      const id = requestAnimationFrame(() => setProgress(1));
+      return () => cancelAnimationFrame(id);
     }
 
     const node = ref.current;
@@ -75,10 +73,10 @@ export function CountUp({ value, duration = 1600, className }: Props) {
           started.current = true;
           const start = performance.now();
           const tick = (t: number) => {
-            const progress = Math.min((t - start) / duration, 1);
-            const eased = 1 - Math.pow(1 - progress, 3);
-            setDisplay(format(parsed.number * eased, parsed.decimals, parsed.separator));
-            if (progress < 1) requestAnimationFrame(tick);
+            const p = Math.min((t - start) / duration, 1);
+            const eased = 1 - Math.pow(1 - p, 3);
+            setProgress(eased);
+            if (p < 1) requestAnimationFrame(tick);
           };
           requestAnimationFrame(tick);
           obs.disconnect();
@@ -88,7 +86,9 @@ export function CountUp({ value, duration = 1600, className }: Props) {
     );
     obs.observe(node);
     return () => obs.disconnect();
-  }, [parsed.number, parsed.decimals, parsed.separator, duration]);
+  }, [duration]);
+
+  const display = format(parsed.number * progress, parsed.decimals, parsed.separator);
 
   return (
     <span ref={ref} className={className}>

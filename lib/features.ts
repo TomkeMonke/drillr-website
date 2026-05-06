@@ -4,11 +4,9 @@
  * corresponding component file and its import in the page that uses it.
  */
 export const FEATURES = {
-  /** Interactive position picker on the home page (between Hero and Features). */
+  /** Interactive position picker on the home page (after Features). */
   positionPicker: true,
-  /** Looping drill video section after Features. */
-  drillVideo: true,
-  /** FAQ accordion before Ratings. */
+  /** FAQ accordion before the footer. */
   faq: true,
   /** "For coaches/academies" CTA strip above the footer. */
   coachesCta: false,

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
 import { DownloadBadges } from "../DownloadBadges";
 import { PhoneFrame } from "../PhoneFrame";
@@ -49,6 +50,8 @@ export function Hero({ dict }: Props) {
             <DownloadBadges
               appStoreLabel={dict.common.downloadAppStore}
               googlePlayLabel={dict.common.downloadGooglePlay}
+              appStoreKicker={dict.common.appStoreKicker}
+              googlePlayKicker={dict.common.googlePlayKicker}
               size="lg"
             />
           </div>
@@ -59,7 +62,18 @@ export function Hero({ dict }: Props) {
           style={{ animationDelay: "280ms" }}
         >
           <TiltFrame max={6}>
-            <PhoneFrame variant="primary" />
+            <PhoneFrame variant="primary">
+              <div className="absolute inset-0 bg-[#111113]">
+                <Image
+                  src="/screenshots/position-v2.png"
+                  alt={dict.common.screenshotAlt}
+                  fill
+                  priority
+                  sizes="(min-width: 768px) 320px, (min-width: 640px) 300px, 280px"
+                  className="object-contain"
+                />
+              </div>
+            </PhoneFrame>
           </TiltFrame>
         </div>
       </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
 
@@ -9,22 +10,10 @@ interface Props {
 
 const ACCENTS = ["#5B9FD6", "#E8A44A", "#8BD17C"];
 
-const ICONS = [
-  <svg key="0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-10 w-10">
-    <rect x="3" y="5" width="18" height="14" rx="2" />
-    <path d="M3 12h18M12 5v14" />
-    <circle cx="12" cy="12" r="2.5" />
-  </svg>,
-  <svg key="1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-10 w-10">
-    <circle cx="12" cy="12" r="9" />
-    <path d="M12 7v5l3 2" />
-  </svg>,
-  <svg key="2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-10 w-10">
-    <path d="M4 20h16" />
-    <rect x="6" y="12" width="3" height="8" rx="1" />
-    <rect x="11" y="7" width="3" height="13" rx="1" />
-    <rect x="16" y="3" width="3" height="17" rx="1" />
-  </svg>,
+const SCREENSHOTS = [
+  "/screenshots/story-01-position-pick.png",
+  "/screenshots/story-02-train.png",
+  "/screenshots/story-03-progress.png",
 ];
 
 export function StickyStory({ dict }: Props) {
@@ -88,46 +77,23 @@ export function StickyStory({ dict }: Props) {
                 }}
               />
               <div className="relative mx-auto w-[260px] sm:w-[300px] aspect-[9/19] rounded-[2.75rem] bg-gradient-to-b from-[#1a1a1f] to-[#0a0a0a] border border-white/10 shadow-2xl shadow-black/50 p-2.5">
-                <div className="relative w-full h-full rounded-[2.25rem] overflow-hidden bg-[#0a0a0a]">
-                  <div className="absolute left-1/2 -translate-x-1/2 top-2 z-10 h-6 w-24 rounded-full bg-black border border-white/5" />
-                  {steps.map((step, i) => {
-                    const accent = ACCENTS[i] ?? ACCENTS[0];
-                    return (
-                      <div
-                        key={i}
-                        className="absolute inset-0 flex flex-col items-center justify-center gap-5 px-6 text-center transition-opacity duration-500"
-                        style={{
-                          opacity: i === active ? 1 : 0,
-                          background: `radial-gradient(120% 80% at 50% 0%, ${accent}22, transparent 60%), #0a0a0a`,
-                        }}
-                      >
-                        <div
-                          className="h-16 w-16 rounded-2xl flex items-center justify-center"
-                          style={{ background: accent, color: "#0a0a0a" }}
-                        >
-                          {ICONS[i] ?? ICONS[0]}
-                        </div>
-                        <div className="text-[10px] uppercase tracking-[0.25em] text-white/40">
-                          {step.eyebrow}
-                        </div>
-                        <div className="text-base font-semibold text-white/90 max-w-[200px] leading-snug">
-                          {step.title}
-                        </div>
-                        <div className="mt-2 flex gap-1.5">
-                          {steps.map((_, j) => (
-                            <span
-                              key={j}
-                              className="h-1 rounded-full transition-all duration-500"
-                              style={{
-                                width: j === active ? 22 : 8,
-                                background: j === active ? accent : "rgba(255,255,255,0.2)",
-                              }}
-                            />
-                          ))}
-                        </div>
-                      </div>
-                    );
-                  })}
+                <div className="relative w-full h-full rounded-[2.25rem] overflow-hidden bg-[#111113]">
+                  <div className="absolute left-1/2 -translate-x-1/2 top-2 z-20 h-6 w-24 rounded-full bg-black border border-white/5" />
+                  {steps.map((step, i) => (
+                    <div
+                      key={i}
+                      className="absolute inset-0 transition-opacity duration-500"
+                      style={{ opacity: i === active ? 1 : 0 }}
+                    >
+                      <Image
+                        src={SCREENSHOTS[i] ?? SCREENSHOTS[0]}
+                        alt={step.title}
+                        fill
+                        sizes="(min-width: 640px) 300px, 260px"
+                        className="object-contain"
+                      />
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

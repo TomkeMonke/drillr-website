@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
 import { PhoneFrame } from "../PhoneFrame";
 import { Reveal } from "../animations/Reveal";
@@ -20,7 +21,17 @@ export function Features({ dict }: Props) {
           <Reveal direction="right" distance={40}>
             <div className="flex justify-center lg:justify-start">
               <TiltFrame max={7}>
-                <PhoneFrame variant="primary" />
+                <PhoneFrame variant="primary">
+                  <div className="absolute inset-0 bg-[#111113]">
+                    <Image
+                      src="/screenshots/day-detail-v2.png"
+                      alt={dict.common.screenshotAlt}
+                      fill
+                      sizes="(min-width: 768px) 320px, (min-width: 640px) 300px, 280px"
+                      className="object-contain"
+                    />
+                  </div>
+                </PhoneFrame>
               </TiltFrame>
             </div>
           </Reveal>

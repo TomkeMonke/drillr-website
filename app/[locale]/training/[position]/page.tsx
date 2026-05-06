@@ -90,6 +90,8 @@ export default async function PositionPage({
             <DownloadBadges
               appStoreLabel={dict.common.downloadAppStore}
               googlePlayLabel={dict.common.downloadGooglePlay}
+              appStoreKicker={dict.common.appStoreKicker}
+              googlePlayKicker={dict.common.googlePlayKicker}
               size="md"
             />
           </div>
@@ -213,6 +215,8 @@ export default async function PositionPage({
               <DownloadBadges
                 appStoreLabel={dict.common.downloadAppStore}
                 googlePlayLabel={dict.common.downloadGooglePlay}
+                appStoreKicker={dict.common.appStoreKicker}
+                googlePlayKicker={dict.common.googlePlayKicker}
                 size="lg"
               />
             </div>

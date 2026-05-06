@@ -15,6 +15,7 @@ export function Header({ locale, dict }: Props) {
   const nav = [
     { href: base, label: dict.nav.home },
     { href: `${base}/press`, label: dict.nav.press },
+    { href: `${base}/feedback`, label: dict.nav.feedback },
     { href: `${base}/manage-subscription`, label: dict.nav.manageSubscription },
   ];
 
@@ -51,6 +52,8 @@ export function Header({ locale, dict }: Props) {
             <DownloadBadges
               appStoreLabel={dict.common.downloadAppStore}
               googlePlayLabel={dict.common.downloadGooglePlay}
+              appStoreKicker={dict.common.appStoreKicker}
+              googlePlayKicker={dict.common.googlePlayKicker}
               size="sm"
             />
           </div>
