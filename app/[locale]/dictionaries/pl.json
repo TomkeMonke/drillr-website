@@ -13,19 +13,19 @@
     "downloadGooglePlay": "Pobierz w Google Play"
   },
   "hero": {
-    "badge": "Pokochało nas 12 400+ piłkarzy · ocena 4.9",
+    "badge": "Pokochało nas 400+ piłkarzy · ocena 5.0",
     "titleLine1": "Przestań tylko grać.",
     "titleLine2": "Zacznij dominować.",
     "subtitle": "Drillr to aplikacja piłkarska, która naprawdę zna twoją pozycję. Dostajesz plan dopasowany do twojej roli, poziomu i czasu, jakim dysponujesz."
   },
   "usedBy": {
-    "title": "Z Drillr trenuje ponad 12 400 graczy",
-    "subtitle": "Od juniorów po pół-zawodowców, w ponad 30 krajach, każdego dnia.",
+    "title": "Z Drillr trenuje ponad 400 graczy",
+    "subtitle": "Od juniorów po pół-zawodowców, w ponad 50 krajach, każdego dnia.",
     "stats": [
-      { "value": "12 400+", "label": "Aktywnych graczy" },
-      { "value": "30+", "label": "Krajów" },
-      { "value": "4.9★", "label": "Średnia ocena" },
-      { "value": "1,2 mln+", "label": "Ukończonych ćwiczeń" }
+      { "value": "400+", "label": "Aktywnych graczy" },
+      { "value": "50+", "label": "Krajów" },
+      { "value": "5.0★", "label": "Średnia ocena" },
+      { "value": "2 tys.+", "label": "Ukończonych ćwiczeń" }
     ]
   },
   "story": {
@@ -153,10 +153,10 @@
     ]
   },
   "ratings": {
-    "title": "Pokochali nas gracze w 30+ krajach",
-    "subtitle": "Średnia ocen 4.9",
-    "appStore": "4.9",
-    "googlePlay": "4.8"
+    "title": "Pokochali nas gracze w 50+ krajach",
+    "subtitle": "Średnia ocen 5.0",
+    "appStore": "5.0",
+    "googlePlay": "5.0"
   },
   "positionPicker": {
     "badge": "Wybierz swoje miejsce",
@@ -330,9 +330,7 @@
   },
   "manageSubscription": {
     "title": "Zarządzaj subskrypcją",
-    "body": "Jeśli kupiłeś subskrypcję w App Store lub Google Play, zarządzaj nią z poziomu ustawień urządzenia. Dla subskrypcji webowych podaj swój e-mail poniżej.",
-    "emailLabel": "E-mail",
-    "submit": "Wyślij",
+    "body": "Subskrypcje są rozliczane przez App Store lub Google Play. Zarządzaj nimi lub anuluj w dowolnym momencie z poziomu urządzenia, klikając link swojego sklepu.",
     "appleHelp": "Zarządzaj w Apple",
     "googleHelp": "Zarządzaj w Google"
   },

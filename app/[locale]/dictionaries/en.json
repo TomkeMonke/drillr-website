@@ -13,19 +13,19 @@
     "downloadGooglePlay": "Get it on Google Play"
   },
   "hero": {
-    "badge": "Loved by 12,400+ players · 4.9 rating",
+    "badge": "Loved by 400+ players · 5.0 rating",
     "titleLine1": "Stop playing.",
     "titleLine2": "Start dominating.",
     "subtitle": "Drillr is the football training app that actually knows your position. You get a plan shaped to your role, your level, and the time you've got."
   },
   "usedBy": {
-    "title": "12,400+ players train with us",
-    "subtitle": "From U13s to semi-pro, in 30+ countries, every single day.",
+    "title": "400+ players train with us",
+    "subtitle": "From U13s to semi-pro, in 50+ countries, every single day.",
     "stats": [
-      { "value": "12,400+", "label": "Active players" },
-      { "value": "30+", "label": "Countries" },
-      { "value": "4.9★", "label": "Average rating" },
-      { "value": "1.2M+", "label": "Drills completed" }
+      { "value": "400+", "label": "Active players" },
+      { "value": "50+", "label": "Countries" },
+      { "value": "5.0★", "label": "Average rating" },
+      { "value": "2K+", "label": "Drills completed" }
     ]
   },
   "story": {
@@ -153,10 +153,10 @@
     ]
   },
   "ratings": {
-    "title": "Loved by players in 30+ countries",
-    "subtitle": "4.9 average rating",
-    "appStore": "4.9",
-    "googlePlay": "4.8"
+    "title": "Loved by players in 50+ countries",
+    "subtitle": "5.0 average rating",
+    "appStore": "5.0",
+    "googlePlay": "5.0"
   },
   "positionPicker": {
     "badge": "Pick your spot",
@@ -330,9 +330,7 @@
   },
   "manageSubscription": {
     "title": "Manage Subscription",
-    "body": "If you purchased your subscription on the App Store or Google Play, manage it from your device settings. For web subscriptions, enter your email below.",
-    "emailLabel": "Email",
-    "submit": "Send",
+    "body": "Subscriptions are billed through the App Store or Google Play. Manage or cancel anytime from your device using the link for your store.",
     "appleHelp": "Manage on Apple",
     "googleHelp": "Manage on Google"
   },

@@ -11,9 +11,11 @@ export const FEATURES = {
   /** FAQ accordion before Ratings. */
   faq: true,
   /** "For coaches/academies" CTA strip above the footer. */
-  coachesCta: true,
+  coachesCta: false,
   /** /training/[position] landing pages (also gates the Training column in footer). */
   positionPages: true,
+  /** Player testimonials grid. Off until we have real reviews to quote. */
+  testimonials: false,
 } as const;
 
 export type FeatureKey = keyof typeof FEATURES;

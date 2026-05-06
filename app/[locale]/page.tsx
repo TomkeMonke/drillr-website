@@ -55,9 +55,11 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <ScrollScene>
         <PositionMarquee dict={dict} />
       </ScrollScene>
-      <ScrollScene>
-        <Testimonials dict={dict} />
-      </ScrollScene>
+      {FEATURES.testimonials && (
+        <ScrollScene>
+          <Testimonials dict={dict} />
+        </ScrollScene>
+      )}
       {FEATURES.faq && (
         <ScrollScene>
           <Faq dict={dict} />
