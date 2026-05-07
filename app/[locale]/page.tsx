@@ -20,16 +20,16 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   return (
     <>
       <ScrollScene soft>
-        <Hero dict={dict} />
+        <Hero dict={dict} locale={locale} />
       </ScrollScene>
       <ScrollScene>
         <UsedBy dict={dict} />
       </ScrollScene>
       <ScrollScene>
-        <StickyStory dict={dict} />
+        <StickyStory dict={dict} locale={locale} />
       </ScrollScene>
       <ScrollScene>
-        <Features dict={dict} />
+        <Features dict={dict} locale={locale} />
       </ScrollScene>
       {FEATURES.positionPicker && (
         <ScrollScene>

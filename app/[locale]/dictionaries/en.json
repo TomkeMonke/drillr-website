@@ -5,6 +5,7 @@
   },
   "nav": {
     "home": "Home",
+    "faq": "FAQ",
     "press": "Press",
     "manageSubscription": "Manage Subscription",
     "feedback": "Feedback"
@@ -178,6 +179,7 @@
     "weaknessTitle": "What we'll fix",
     "goalkeeper": {
       "name": "Goalkeeper",
+      "codes": "GK",
       "tagline": "Reactions. Positioning. Command.",
       "description": "Reflexes and positioning are what make great keepers. Drillr sharpens both with reaction work, lateral movement, and core stability - the stuff most apps skip.",
       "strengths": "Drillr builds the explosive lateral mobility, reaction speed, and core stability that separate good keepers from great ones.",
@@ -198,6 +200,7 @@
     },
     "defender": {
       "name": "Defender",
+      "codes": "CB · LB · RB",
       "tagline": "Win every duel.",
       "description": "Aerial wins, clean tackles, quick recovery runs - it all starts in the gym. Drillr builds the strength and stamina that carry 1v1s and clear lines.",
       "strengths": "Aerial wins and tackling power start in the gym. Drillr trains both, plus the agility most defenders quietly skip.",
@@ -218,6 +221,7 @@
     },
     "midfielder": {
       "name": "Midfielder",
+      "codes": "CDM · CM · CAM · LM · RM",
       "tagline": "Run the game for 90 minutes.",
       "description": "Box-to-box asks for the full toolkit. Drillr builds the engine, the agility, and the mobility you need to run the middle from the first whistle to the last.",
       "strengths": "Box-to-box asks for the full toolkit. Drillr gets you ready for the whole 90.",
@@ -238,6 +242,7 @@
     },
     "forward": {
       "name": "Forward",
+      "codes": "ST · CF · LW · RW",
       "tagline": "Outpace. Outjump. Outscore.",
       "description": "Explosive acceleration and sharp changes of direction are your edge. Drillr trains the pace, the power, and the agility that get you in behind, plus the strength to hold defenders off when you do.",
       "strengths": "Explosive acceleration and sharp changes of direction are your edge. Drillr trains them every single week.",
@@ -264,6 +269,7 @@
     "training": "Training",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
+    "faq": "FAQ",
     "press": "Press",
     "manageSubscription": "Manage Subscription",
     "feedback": "Feedback",

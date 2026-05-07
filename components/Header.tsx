@@ -15,6 +15,7 @@ export function Header({ locale, dict }: Props) {
   const base = `/${locale}`;
   const nav = [
     { href: base, label: dict.nav.home },
+    { href: `${base}#faq`, label: dict.nav.faq },
     { href: `${base}/press`, label: dict.nav.press },
     { href: `${base}/feedback`, label: dict.nav.feedback },
     { href: `${base}/manage-subscription`, label: dict.nav.manageSubscription },

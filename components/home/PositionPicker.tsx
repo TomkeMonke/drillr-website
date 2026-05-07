@@ -65,7 +65,10 @@ export function PositionPicker({ dict, locale }: Props) {
                   {dict.positions[slug].name.charAt(0)}
                 </div>
                 <div className="font-semibold text-white">{dict.positions[slug].name}</div>
-                <div className="text-xs text-white/50 mt-0.5">{dict.positions[slug].tagline}</div>
+                <div className="text-[11px] font-medium tracking-[0.08em] text-white/45 mt-0.5">
+                  {dict.positions[slug].codes}
+                </div>
+                <div className="text-xs text-white/50 mt-1">{dict.positions[slug].tagline}</div>
               </button>
             );
           })}

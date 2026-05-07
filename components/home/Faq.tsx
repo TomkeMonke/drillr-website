@@ -7,7 +7,7 @@ interface Props {
 
 export function Faq({ dict }: Props) {
   return (
-    <section className="py-24 lg:py-32">
+    <section id="faq" className="py-24 lg:py-32 scroll-mt-24">
       <div className="mx-auto max-w-3xl px-5 lg:px-8">
         <Reveal>
           <h2 className="text-center text-3xl sm:text-4xl font-bold tracking-tight">

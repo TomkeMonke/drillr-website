@@ -11,10 +11,10 @@ interface Props {
   className?: string;
 }
 
-const sizeMap: Record<Size, { h: string; pad: string; small: string; big: string; gap: string }> = {
-  sm: { h: "h-10", pad: "px-3", small: "text-[8px]", big: "text-[12px]", gap: "gap-1.5" },
-  md: { h: "h-12", pad: "px-4", small: "text-[9px]", big: "text-[14px]", gap: "gap-2" },
-  lg: { h: "h-14", pad: "px-5", small: "text-[10px]", big: "text-[16px]", gap: "gap-2.5" },
+const sizeMap: Record<Size, { h: string; pad: string; small: string; big: string; gap: string; icon: string }> = {
+  sm: { h: "h-10", pad: "px-3", small: "text-[8px]", big: "text-[12px]", gap: "gap-1.5", icon: "h-5 w-5" },
+  md: { h: "h-12", pad: "px-4", small: "text-[9px]", big: "text-[14px]", gap: "gap-2", icon: "h-6 w-6" },
+  lg: { h: "h-14", pad: "px-5", small: "text-[10px]", big: "text-[16px]", gap: "gap-2.5", icon: "h-6 w-6" },
 };
 
 function AppleIcon({ className }: { className?: string }) {
@@ -55,7 +55,7 @@ export function DownloadBadges({
           aria-label={appStoreLabel}
           className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(91,159,214,0.55)]`}
         >
-          <AppleIcon className="h-6 w-6 text-white" />
+          <AppleIcon className={`${s.icon} text-white`} />
           <div className="flex flex-col leading-tight text-white">
             <span className={`${s.small} opacity-80`}>{appStoreKicker}</span>
             <span className={`${s.big} font-semibold tracking-tight`}>App Store</span>
@@ -70,7 +70,7 @@ export function DownloadBadges({
           aria-label={googlePlayLabel}
           className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(91,159,214,0.55)]`}
         >
-          <GooglePlayIcon className="h-6 w-6" />
+          <GooglePlayIcon className={s.icon} />
           <div className="flex flex-col leading-tight text-white">
             <span className={`${s.small} opacity-80`}>{googlePlayKicker}</span>
             <span className={`${s.big} font-semibold tracking-tight`}>Google Play</span>

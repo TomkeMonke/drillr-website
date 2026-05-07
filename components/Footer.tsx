@@ -81,6 +81,11 @@ export function Footer({ locale, dict }: Props) {
           <h4 className="text-sm font-semibold mb-4">{dict.footer.company}</h4>
           <ul className="space-y-3 text-sm text-muted">
             <li>
+              <Link href={`${base}#faq`} className="link-underline hover:text-white transition-colors">
+                {dict.footer.faq}
+              </Link>
+            </li>
+            <li>
               <Link href={`${base}/press`} className="link-underline hover:text-white transition-colors">
                 {dict.footer.press}
               </Link>

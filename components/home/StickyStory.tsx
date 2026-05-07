@@ -3,20 +3,30 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
+import type { Locale } from "@/lib/locales";
 
 interface Props {
   dict: Dictionary;
+  locale: Locale;
 }
 
 const ACCENTS = ["#5B9FD6", "#E8A44A", "#8BD17C"];
 
-const SCREENSHOTS = [
-  "/screenshots/story-01-position-pick.png",
-  "/screenshots/story-02-train.png",
-  "/screenshots/story-03-progress.png",
-];
+const SCREENSHOTS_BY_LOCALE: Record<Locale, string[]> = {
+  en: [
+    "/screenshots/story-01-position-pick.png",
+    "/screenshots/story-02-train.png",
+    "/screenshots/story-03-progress.png",
+  ],
+  pl: [
+    "/screenshots/story-01-position-pick-pl.png",
+    "/screenshots/story-02-train-pl.png",
+    "/screenshots/story-03-progress-pl.png",
+  ],
+};
 
-export function StickyStory({ dict }: Props) {
+export function StickyStory({ dict, locale }: Props) {
+  const SCREENSHOTS = SCREENSHOTS_BY_LOCALE[locale];
   const steps = dict.story.steps;
   const [active, setActive] = useState(0);
   const refs = useRef<(HTMLDivElement | null)[]>([]);

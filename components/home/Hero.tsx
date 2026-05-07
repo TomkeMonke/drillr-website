@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
+import type { Locale } from "@/lib/locales";
 import { DownloadBadges } from "../DownloadBadges";
 import { PhoneFrame } from "../PhoneFrame";
 import { TiltFrame } from "../animations/TiltFrame";
@@ -7,9 +8,11 @@ import { HeroAurora } from "./HeroAurora";
 
 interface Props {
   dict: Dictionary;
+  locale: Locale;
 }
 
-export function Hero({ dict }: Props) {
+export function Hero({ dict, locale }: Props) {
+  const positionScreenshot = locale === "pl" ? "/screenshots/position-v2-pl.png" : "/screenshots/position-v2.png";
   return (
     <section className="relative overflow-hidden">
       <HeroAurora />
@@ -69,7 +72,7 @@ export function Hero({ dict }: Props) {
             <PhoneFrame variant="primary">
               <div className="absolute inset-0 bg-[#111113]">
                 <Image
-                  src="/screenshots/position-v2.png"
+                  src={positionScreenshot}
                   alt={dict.common.screenshotAlt}
                   fill
                   priority

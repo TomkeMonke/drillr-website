@@ -5,6 +5,7 @@
   },
   "nav": {
     "home": "Główna",
+    "faq": "FAQ",
     "press": "Prasa",
     "manageSubscription": "Subskrypcja",
     "feedback": "Wyślij opinię"
@@ -40,7 +41,7 @@
       {
         "eyebrow": "Krok 01",
         "title": "Wybierz pozycję",
-        "body": "Napastnik, skrzydłowy, bramkarz, cokolwiek grasz. Budujemy plan wokół tego, czego naprawdę wymaga twoja rola."
+        "body": "Napastnik, skrzydłowy, bramkarz, niezależnie od pozycji. Budujemy plan wokół tego, czego naprawdę wymaga twoja pozycja."
       },
       {
         "eyebrow": "Krok 02",
@@ -50,7 +51,7 @@
       {
         "eyebrow": "Krok 03",
         "title": "Patrz, jak rośniesz",
-        "body": "Serie dni, statystyki, małe kamienie milowe. Gdy zaczniesz łączyć dzień po dniu, trudno się zatrzymać."
+        "body": "Serie dni, statystyki, małe kamienie milowe. Gdy raz wpadniesz w rytm, trudno przestać."
       }
     ]
   },
@@ -59,7 +60,7 @@
     "items": [
       {
         "title": "Ćwiczenia pod twoją pozycję",
-        "body": "Bramkarz, obrońca, pomocnik, napastnik. Każde ćwiczenie dobrane pod to, czego naprawdę wymaga twoja rola."
+        "body": "Bramkarz, obrońca, pomocnik, napastnik. Każde ćwiczenie dobrane pod to, czego naprawdę wymaga twoja pozycja."
       },
       {
         "title": "Kalendarz, który pasuje do tygodnia",
@@ -178,6 +179,7 @@
     "weaknessTitle": "Co naprawimy",
     "goalkeeper": {
       "name": "Bramkarz",
+      "codes": "GK",
       "tagline": "Refleks. Ustawienie. Komenda.",
       "description": "Refleks i ustawienie to to, co robi z kogoś dobrego bramkarza. Drillr ostrzy oba - pracą nad reakcją, ruchem bocznym i stabilnością tułowia. Rzeczy, których większość aplikacji po prostu nie dotyka.",
       "strengths": "Drillr buduje eksplozywną mobilność boczną, szybkość reakcji i stabilność, które oddzielają dobrych bramkarzy od świetnych.",
@@ -198,6 +200,7 @@
     },
     "defender": {
       "name": "Obrońca",
+      "codes": "CB · LB · RB",
       "tagline": "Wygraj każdy pojedynek.",
       "description": "Gra w powietrzu, czyste odbiory, szybki powrót w obronę - wszystko zaczyna się na siłowni. Drillr buduje siłę i kondycję, które wygrywają 1v1 i wybijają piłki z pola karnego.",
       "strengths": "Gra w powietrzu i moc w odbiorze zaczynają się na siłowni. Drillr trenuje oba, plus zwinność, którą większość obrońców po cichu pomija.",
@@ -218,9 +221,10 @@
     },
     "midfielder": {
       "name": "Pomocnik",
+      "codes": "CDM · CM · CAM · LM · RM",
       "tagline": "Prowadź grę przez 90 minut.",
-      "description": "Box-to-box wymaga całego pakietu. Drillr buduje silnik, zwinność i mobilność, których potrzebujesz, żeby ogarniać środek pola od pierwszego do ostatniego gwizdka.",
-      "strengths": "Box-to-box wymaga całego pakietu. Drillr przygotowuje cię na całe 90 minut.",
+      "description": "Środek pola wymaga wszystkiego naraz. Drillr buduje wytrzymałość, zwinność i mobilność, dzięki którym kontrolujesz grę od pierwszego do ostatniego gwizdka.",
+      "strengths": "Środek pola wymaga wszystkiego naraz. Drillr przygotowuje cię na całe 90 minut.",
       "weaknesses": "Pomocnicy, którzy pomijają mobilność, częściej łapią urazy w końcówkach meczów. Drillr na to nie pozwoli.",
       "drills": [
         { "name": "Sprinty interwałowe", "spec": "8 × 200 m" },
@@ -238,6 +242,7 @@
     },
     "forward": {
       "name": "Napastnik",
+      "codes": "ST · CF · LW · RW",
       "tagline": "Wyprzedź. Wyskocz. Strzel.",
       "description": "Eksplozywne przyspieszenie i ostre zmiany kierunku to twoja przewaga. Drillr trenuje szybkość, moc i zwinność, które wprowadzają cię za obrońcę, plus siłę, żeby go utrzymać, kiedy już tam dotrzesz.",
       "strengths": "Eksplozywne przyspieszenie i ostre zmiany kierunku to twoja przewaga. Drillr trenuje to każdego tygodnia.",
@@ -264,6 +269,7 @@
     "training": "Trening",
     "privacy": "Polityka prywatności",
     "terms": "Regulamin",
+    "faq": "FAQ",
     "press": "Prasa",
     "manageSubscription": "Subskrypcja",
     "feedback": "Wyślij opinię",

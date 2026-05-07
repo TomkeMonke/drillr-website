@@ -1,14 +1,17 @@
 import Image from "next/image";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
+import type { Locale } from "@/lib/locales";
 import { PhoneFrame } from "../PhoneFrame";
 import { Reveal } from "../animations/Reveal";
 import { TiltFrame } from "../animations/TiltFrame";
 
 interface Props {
   dict: Dictionary;
+  locale: Locale;
 }
 
-export function Features({ dict }: Props) {
+export function Features({ dict, locale }: Props) {
+  const dayDetailScreenshot = locale === "pl" ? "/screenshots/day-detail-v2-pl.png" : "/screenshots/day-detail-v2.png";
   return (
     <section className="py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
@@ -19,12 +22,12 @@ export function Features({ dict }: Props) {
         </Reveal>
         <div className="grid lg:grid-cols-[1fr_1.2fr] gap-16 items-center">
           <Reveal direction="right" distance={40}>
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center">
               <TiltFrame max={7}>
                 <PhoneFrame variant="primary">
                   <div className="absolute inset-0 bg-[#111113]">
                     <Image
-                      src="/screenshots/day-detail-v2.png"
+                      src={dayDetailScreenshot}
                       alt={dict.common.screenshotAlt}
                       fill
                       sizes="(min-width: 768px) 320px, (min-width: 640px) 300px, 280px"
