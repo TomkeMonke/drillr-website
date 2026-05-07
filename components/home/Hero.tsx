@@ -47,6 +47,10 @@ export function Hero({ dict }: Props) {
             className="animate-hero-rise mt-9"
             style={{ animationDelay: "620ms" }}
           >
+            <p className="flex items-center gap-2.5 mb-4 text-xl font-semibold uppercase tracking-[0.15em] text-white">
+              <span>{dict.hero.downloadCta}</span>
+              <span aria-hidden className="text-primary text-3xl leading-none">↓</span>
+            </p>
             <DownloadBadges
               appStoreLabel={dict.common.downloadAppStore}
               googlePlayLabel={dict.common.downloadGooglePlay}

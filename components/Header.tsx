@@ -4,6 +4,7 @@ import type { Locale } from "@/lib/locales";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
 import { DownloadBadges } from "./DownloadBadges";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { MobileNav } from "./MobileNav";
 
 interface Props {
   locale: Locale;
@@ -21,7 +22,7 @@ export function Header({ locale, dict }: Props) {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-white/5">
-      <div className="mx-auto max-w-7xl px-5 lg:px-8 h-14 sm:h-16 lg:h-[72px] xl:h-20 2xl:h-24 flex items-center justify-between gap-6">
+      <div className="relative mx-auto max-w-7xl px-5 lg:px-8 h-14 sm:h-16 lg:h-[72px] xl:h-20 2xl:h-24 flex items-center justify-between gap-6">
         <Link href={base} className="flex items-center shrink-0" aria-label="Drillr">
           <Image
             src="/logo-full.png"
@@ -57,6 +58,7 @@ export function Header({ locale, dict }: Props) {
               size="sm"
             />
           </div>
+          <MobileNav nav={nav} />
         </div>
       </div>
     </header>

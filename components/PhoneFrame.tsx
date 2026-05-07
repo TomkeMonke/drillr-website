@@ -18,10 +18,8 @@ export function PhoneFrame({ children, className = "", variant = "primary" }: Pr
         style={{ background: `radial-gradient(closest-side, ${glowColor}, transparent)` }}
       />
       {/* Frame */}
-      <div className="relative mx-auto w-[280px] sm:w-[300px] md:w-[320px] aspect-[9/19] rounded-[2.75rem] bg-gradient-to-b from-[#1a1a1f] to-[#0a0a0a] border border-white/10 shadow-2xl shadow-black/50 p-2.5">
+      <div className="relative mx-auto w-[280px] sm:w-[300px] md:w-[320px] aspect-[9/19] rounded-[2.75rem] bg-gradient-to-b from-[#1a1a1f] to-[#0a0a0a] border border-white/25 shadow-2xl shadow-black/50 p-2.5">
         <div className="relative w-full h-full rounded-[2.25rem] overflow-hidden bg-[#0a0a0a]">
-          {/* Notch */}
-          <div className="absolute left-1/2 -translate-x-1/2 top-2 z-10 h-6 w-24 rounded-full bg-black border border-white/5" />
           {/* Screen content */}
           <div className="absolute inset-0">{children ?? <PhonePlaceholder variant={variant} />}</div>
         </div>

@@ -20,8 +20,8 @@ export function UsedBy({ dict }: Props) {
         </Reveal>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/5 rounded-2xl overflow-hidden border border-white/5">
           {dict.usedBy.stats.map((stat, i) => (
-            <Reveal key={stat.label} delay={i * 90}>
-              <div className="bg-background p-8 text-center">
+            <Reveal key={stat.label} delay={i * 90} className="h-full">
+              <div className="bg-background p-8 text-center h-full">
                 <div className="text-3xl sm:text-4xl font-bold tracking-tight text-primary">
                   <CountUp value={stat.value} />
                 </div>
