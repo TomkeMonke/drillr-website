@@ -120,6 +120,15 @@ body {
 }
 
 /* ----- Smooth FAQ accordion using grid-template-rows trick ----- */
+/* Suppress iOS Safari's default ▶ disclosure marker on <summary>; list-none alone
+   doesn't cover ::-webkit-details-marker. */
+summary::-webkit-details-marker {
+  display: none;
+}
+summary {
+  list-style: none;
+}
+
 .faq-content {
   display: grid;
   grid-template-rows: 0fr;
