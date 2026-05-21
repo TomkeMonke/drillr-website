@@ -18,20 +18,20 @@
     "screenshotAlt": "Drillr app screen"
   },
   "hero": {
-    "badge": "Loved by 400+ players · 5.0 rating",
+    "badge": "Loved by 800+ players · 5.0 rating",
     "titleLine1": "Stop playing.",
     "titleLine2": "Start dominating.",
     "subtitle": "Drillr is the football training app that actually knows your position. You get a plan shaped to your role, your level, and the time you've got.",
     "downloadCta": "Download"
   },
   "usedBy": {
-    "title": "400+ players train with us",
-    "subtitle": "From U13s to semi-pro, in 50+ countries, every single day.",
+    "title": "800+ players train with us",
+    "subtitle": "From U14s to semi-pro, in 50+ countries, every single day.",
     "stats": [
-      { "value": "400+", "label": "Active players" },
+      { "value": "800+", "label": "Active players" },
       { "value": "50+", "label": "Countries" },
       { "value": "5.0★", "label": "Average rating" },
-      { "value": "2K+", "label": "Drills completed" }
+      { "value": "4K+", "label": "Drills completed" }
     ]
   },
   "story": {
@@ -293,7 +293,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Effective 2026-04-29",
+    "lastUpdated": "Effective 2026-05-21",
     "tocLabel": "Table of Contents",
     "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service. This service is provided \"AS IS\".",
     "sections": [
@@ -366,9 +366,10 @@
       {
         "heading": "How does the Application address children's privacy?",
         "paragraphs": [
-          "The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.",
-          "Users who indicate they are under 13 during onboarding are placed in a Restricted Mode. In Restricted Mode, the Application does not collect personal details such as gender, height, weight, or date of birth. Only an email address is retained for account authentication purposes. No personal data from Restricted Mode users is shared with third parties or used for profiling or marketing.",
-          "If you are a parent or guardian and you are aware that your child has provided us with personal information beyond what is described above, please contact the Service Provider (drillrapps@gmail.com) so that they will be able to take the necessary actions."
+          "The Application is intended for users aged 13 and older. The Service Provider does not knowingly solicit data from or market to children under the age of 13.",
+          "Users who indicate during onboarding that they are under the age of 13 cannot create an account. The Application displays a message that Drillr is for ages 13 and up, and no profile is created on the Service Provider's systems.",
+          "A small number of accounts created before this age gate took effect remain on the Service in a legacy Restricted Mode. In Restricted Mode, the Application does not collect personal details such as gender, height, weight, or date of birth. Only an email address is retained for account authentication purposes. No personal data from Restricted Mode users is shared with third parties or used for profiling or marketing.",
+          "If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (drillrapps@gmail.com) so that they will be able to take the necessary actions, including account deletion."
         ]
       },
       {
@@ -400,7 +401,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Effective 2026-04-29",
+    "lastUpdated": "Effective 2026-05-21",
     "tocLabel": "Table of Contents",
     "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service.",
     "sections": [
@@ -425,7 +426,7 @@
       {
         "heading": "Age Requirements",
         "paragraphs": [
-          "Users under the age of 13 may use the Service in Restricted Mode, which limits the collection of personal data. In Restricted Mode, personal details such as gender, height, weight, and date of birth are not collected. If you are between 13 and 17 years old, you may only use the Service with the consent and supervision of a parent or legal guardian, who agrees to be fully responsible for all activities conducted using the Service."
+          "The Service is intended for users aged 13 and older. Users who indicate during onboarding that they are under the age of 13 cannot create an account. A small number of accounts created before this age requirement took effect remain on the Service in a legacy Restricted Mode, which limits the collection of personal data. If you are between 13 and 17 years old, you may only use the Service with the consent and supervision of a parent or legal guardian, who agrees to be fully responsible for all activities conducted using the Service."
         ]
       },
       {

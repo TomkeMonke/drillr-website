@@ -18,20 +18,20 @@
     "screenshotAlt": "Ekran aplikacji Drillr"
   },
   "hero": {
-    "badge": "Pokochało nas 400+ piłkarzy · ocena 5.0",
+    "badge": "Pokochało nas 800+ piłkarzy · ocena 5.0",
     "titleLine1": "Przestań tylko grać.",
     "titleLine2": "Zacznij dominować.",
     "subtitle": "Drillr to aplikacja piłkarska, która naprawdę zna twoją pozycję. Dostajesz plan dopasowany do twojej roli, poziomu i czasu, jakim dysponujesz.",
     "downloadCta": "Pobierz"
   },
   "usedBy": {
-    "title": "Z Drillr trenuje ponad 400 graczy",
+    "title": "Z Drillr trenuje ponad 800 graczy",
     "subtitle": "Od juniorów po pół-zawodowców, w ponad 50 krajach, każdego dnia.",
     "stats": [
-      { "value": "400+", "label": "Aktywnych graczy" },
+      { "value": "800+", "label": "Aktywnych graczy" },
       { "value": "50+", "label": "Krajów" },
       { "value": "5.0★", "label": "Średnia ocena" },
-      { "value": "2 tys.+", "label": "Ukończonych ćwiczeń" }
+      { "value": "4 tys.+", "label": "Ukończonych ćwiczeń" }
     ]
   },
   "story": {
@@ -293,7 +293,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Obowiązuje od 2026-04-29",
+    "lastUpdated": "Obowiązuje od 2026-05-21",
     "tocLabel": "Spis treści",
     "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium. Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
@@ -366,9 +366,10 @@
       {
         "heading": "W jaki sposób Aplikacja chroni prywatność dzieci?",
         "paragraphs": [
-          "Usługodawca nie wykorzystuje Aplikacji do świadomego zbierania danych od dzieci poniżej 13 roku życia ani do kierowania do nich treści marketingowych.",
-          "Użytkownicy, którzy podczas onboardingu zaznaczą wiek poniżej 13 lat, są przenoszeni do Trybu Ograniczonego. W Trybie Ograniczonym Aplikacja nie zbiera danych osobowych takich jak płeć, wzrost, waga czy data urodzenia. Przechowywany jest wyłącznie adres e-mail w celu uwierzytelnienia konta. Żadne dane osobowe użytkowników w Trybie Ograniczonym nie są udostępniane podmiotom trzecim ani wykorzystywane do profilowania lub marketingu.",
-          "Jeśli jesteś rodzicem lub opiekunem i wiesz, że twoje dziecko przekazało nam dane osobowe wykraczające poza powyższe, skontaktuj się z Usługodawcą (drillrapps@gmail.com), aby mógł podjąć odpowiednie działania."
+          "Aplikacja jest przeznaczona dla użytkowników w wieku 13 lat i starszych. Usługodawca nie zbiera świadomie danych od dzieci poniżej 13. roku życia ani nie kieruje do nich treści marketingowych.",
+          "Użytkownicy, którzy podczas onboardingu zaznaczą wiek poniżej 13 lat, nie mogą założyć konta. Aplikacja wyświetla komunikat, że Drillr jest przeznaczony dla osób w wieku 13 lat i starszych, i nie tworzy żadnego profilu w systemach Usługodawcy.",
+          "Niewielka liczba kont założonych przed wprowadzeniem tej blokady wiekowej pozostaje w Usłudze w starszym Trybie Ograniczonym. W Trybie Ograniczonym Aplikacja nie zbiera danych osobowych takich jak płeć, wzrost, waga czy data urodzenia. Przechowywany jest wyłącznie adres e-mail w celu uwierzytelnienia konta. Żadne dane osobowe użytkowników w Trybie Ograniczonym nie są udostępniane podmiotom trzecim ani wykorzystywane do profilowania lub marketingu.",
+          "Jeśli jesteś rodzicem lub opiekunem i wiesz, że twoje dziecko przekazało nam dane osobowe, skontaktuj się z Usługodawcą (drillrapps@gmail.com), aby mógł podjąć odpowiednie działania, w tym usunięcie konta."
         ]
       },
       {
@@ -400,7 +401,7 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-04-29",
+    "lastUpdated": "Obowiązuje od 2026-05-21",
     "tocLabel": "Spis treści",
     "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium.",
     "sections": [
@@ -425,7 +426,7 @@
       {
         "heading": "Wymagania wiekowe",
         "paragraphs": [
-          "Użytkownicy poniżej 13 roku życia mogą korzystać z Usługi w Trybie Ograniczonym, który ogranicza zbieranie danych osobowych. W Trybie Ograniczonym dane osobowe takie jak płeć, wzrost, waga i data urodzenia nie są zbierane. Jeśli masz między 13 a 17 lat, możesz korzystać z Usługi wyłącznie za zgodą i pod nadzorem rodzica lub opiekuna prawnego, który zgadza się przyjąć pełną odpowiedzialność za wszelkie czynności wykonywane w Usłudze."
+          "Usługa jest przeznaczona dla użytkowników w wieku 13 lat i starszych. Użytkownicy, którzy podczas onboardingu zaznaczą wiek poniżej 13 lat, nie mogą założyć konta. Niewielka liczba kont założonych przed wprowadzeniem tego wymogu wiekowego pozostaje w Usłudze w starszym Trybie Ograniczonym, który ogranicza zbieranie danych osobowych. Jeśli masz między 13 a 17 lat, możesz korzystać z Usługi wyłącznie za zgodą i pod nadzorem rodzica lub opiekuna prawnego, który zgadza się przyjąć pełną odpowiedzialność za wszelkie czynności wykonywane w Usłudze."
         ]
       },
       {
