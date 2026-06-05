@@ -301,14 +301,24 @@
         "heading": "What information does the Application obtain and how is it used?",
         "paragraphs": [
           "The Application acquires the information you supply when you download and register the Application. Registration with the Service Provider is not mandatory. However, bear in mind that you might not be able to utilize some of the features offered by the Application unless you register with them.",
-          "The Service Provider may also use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions."
+          "The Service Provider may also use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions. The Application also sends local reminders and notifications from your device, such as training-day and match reminders, which you can turn off at any time in your device settings.",
+          "The Service Provider uses this information to create and adapt your personalized training and nutrition plans, operate your account, and improve the Application. Some of this information - in particular body metrics and injury status - is treated as special-category (health-related) data under data-protection law. The Service Provider processes it only on the basis of your explicit consent, which you give by choosing to enter this optional information so that the Application can personalize your plans. You can withdraw your consent at any time by removing the data in Settings or deleting your account, without affecting the rest of the Application. When you create an account and use the Application, the Service Provider may collect the following categories of personal data:"
+        ],
+        "bullets": [
+          "Account data: your email address, the display name and optional username you choose, and, for email sign-in, a password that is stored only in hashed form by the authentication provider.",
+          "Sign-in data: if you sign in with Apple or Google, the name and email address (including an Apple private-relay email, if you use one) that the provider shares with the Application.",
+          "Profile and body data you enter: your age or date of birth, gender, height, weight and weight history, nationality, and playing position.",
+          "Training and lifestyle preferences: your goals, focus areas, experience level, available equipment and gym access, training days and session length, team status, and dietary preferences.",
+          "Health-related information you choose to provide, such as your current injury status and how nervous or confident you feel before matches. This is optional and the Application works without it.",
+          "Activity and performance data generated as you use the Application, such as completed sessions and drills, effort and feedback ratings, and match self-evaluations.",
+          "Subscription and purchase data, as described in the next section."
         ]
       },
       {
         "heading": "What information does the Application collect automatically?",
         "paragraphs": [
           "In addition, the Application may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device's unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.",
-          "We use Firebase Analytics to understand how users interact with the Application, including screens visited, features used, and actions taken.",
+          "We use Firebase Analytics to understand how users interact with the Application, including screens visited, features used, and actions taken. This analytics collection is enabled by default and forms part of the service you accept when you create an account, sign in, or otherwise use the Application. The Service Provider relies on its legitimate interest in securing, maintaining, and improving the Application as the legal basis for this processing. You can object at any time by contacting drillrapps@gmail.com, you can stop all collection by uninstalling the Application, and you can limit advertising and analytics identifiers through your device's privacy settings.",
           "When you purchase a subscription, the Application also receives your transaction ID, subscription status, purchase date, renewal date, and the product you purchased. Payment itself (credit card, Apple Pay, Google Pay) is handled entirely by Apple or Google - the Service Provider never sees or stores your payment card details."
         ]
       },
@@ -333,9 +343,17 @@
         ]
       },
       {
+        "heading": "Does the Application use automated decision-making or profiling?",
+        "paragraphs": [
+          "The Application uses the information you provide - such as your goals, experience level, body metrics, and injury status - to automatically generate and adapt your personalized training and nutrition plans. This includes selecting drills, adjusting the difficulty of workouts, and calculating calorie and macronutrient targets. This amounts to profiling, but it is the core purpose of the Application that you sign up for, and it does not produce legal or similarly significant effects for you.",
+          "The Application does not make solely automated decisions that produce legal effects concerning you. You remain in control: you can change the inputs at any time in Settings, and you can contact the Service Provider at drillrapps@gmail.com with any questions about how your plan is generated."
+        ]
+      },
+      {
         "heading": "Do third parties see and/or have access to information obtained by the Application?",
         "paragraphs": [
           "The Service Provider transmits pseudonymous identifiers (such as a user ID and device identifier) to the external services listed below to authenticate your account, sync your subscription status, collect diagnostic data, and improve the Application. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.",
+          "Your account and profile data are stored using Google Firebase (Firebase Authentication and Cloud Firestore), and sign-in with Apple or Google is handled by the respective provider. These providers act as the Service Provider's processors and may store data on servers located outside your country, including in the United States, under appropriate safeguards such as the European Commission's Standard Contractual Clauses.",
           "Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:"
         ],
         "bullets": [
@@ -362,19 +380,39 @@
       {
         "heading": "What are my opt-out rights?",
         "paragraphs": [
-          "You can halt all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network. Uninstalling the Application does not automatically cancel a paid subscription - you must cancel through your Apple ID or Google Play account settings."
+          "You can halt all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network. Uninstalling the Application does not automatically cancel a paid subscription - you must cancel through your Apple ID or Google Play account settings.",
+          "You can also permanently delete your account and all associated data directly in the Application at any time, under Settings > Delete Account."
         ]
       },
       {
         "heading": "What is the data retention policy and how can you manage your information?",
         "paragraphs": [
-          "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please contact them at drillrapps@gmail.com and they will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly."
+          "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please contact them at drillrapps@gmail.com and they will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.",
+          "You can also delete your account and all associated data yourself at any time within the Application, under Settings > Delete Account, which immediately removes your profile along with your training, weight, effort, and match data from the Service Provider's systems."
+        ]
+      },
+      {
+        "heading": "Your data protection rights",
+        "paragraphs": [
+          "The data controller responsible for your personal data is Tomasz Święcki, an independent developer based in Poland, who can be contacted at drillrapps@gmail.com. Given the nature and scale of the processing, the Service Provider is not required to appoint a Data Protection Officer and has not done so; you can send any privacy questions to the same address.",
+          "The Service Provider processes your personal data on the following legal bases: to perform the agreement to provide the Application to you; your consent - including your explicit consent for special-category health-related data such as body metrics and injuries, and your consent for marketing messages; and the Service Provider's legitimate interest in operating, securing, and improving the Application.",
+          "If you are located in the European Economic Area, the United Kingdom, or a region with comparable laws, you have the rights listed below regarding your personal data. To exercise any of them, contact the Service Provider at drillrapps@gmail.com; you can also edit your profile in the Application or permanently delete your account and data under Settings > Delete Account."
+        ],
+        "bullets": [
+          "the right to access the personal data held about you;",
+          "the right to have inaccurate or incomplete data corrected;",
+          "the right to have your data erased (the \"right to be forgotten\");",
+          "the right to restrict or object to certain processing;",
+          "the right to data portability, that is, to receive your data in a structured, commonly used format;",
+          "the right to withdraw consent at any time, where processing is based on consent;",
+          "the right to lodge a complaint with a supervisory authority - in Poland, the President of the Personal Data Protection Office (Prezes Urzędu Ochrony Danych Osobowych)."
         ]
       },
       {
         "heading": "How does the Application address children's privacy?",
         "paragraphs": [
           "The Application is intended for users aged 13 and older. The Service Provider does not knowingly solicit data from or market to children under the age of 13.",
+          "In some countries the minimum age for consenting to the processing of personal data is higher than 13 - for example, 16 in Poland and parts of the European Union. The Application is available to users aged 13 and older everywhere. If you are at least 13 but below the digital-consent age in your country, you may use the Application and provide your personal data only with the involvement and consent of a parent or legal guardian, who accepts this Policy on your behalf.",
           "Users who indicate during onboarding that they are under the age of 13 cannot create an account. The Application displays a message that Drillr is for ages 13 and up, and no profile is created on the Service Provider's systems.",
           "A small number of accounts created before this age gate took effect remain on the Service in a legacy Restricted Mode. In Restricted Mode, the Application does not collect personal details such as gender, height, weight, or date of birth. Only an email address is retained for account authentication purposes. No personal data from Restricted Mode users is shared with third parties or used for profiling or marketing.",
           "If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (drillrapps@gmail.com) so that they will be able to take the necessary actions, including account deletion."
@@ -395,7 +433,7 @@
       {
         "heading": "How do you give your consent?",
         "paragraphs": [
-          "By using the Application, you are giving your consent to the Service Provider processing your information as set forth in this Privacy Policy now and as amended in the future. \"Processing\" means using cookies on a computer/handheld device or using or touching information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information."
+          "By creating an account, signing in, or otherwise using the Application, you acknowledge this Privacy Policy and agree to the Service Provider processing your information as set forth here now and as amended in the future, including the analytics used to operate, secure, and improve the Application. \"Processing\" means using or handling information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information."
         ]
       },
       {
@@ -416,7 +454,7 @@
       {
         "heading": "Acceptance of Terms",
         "paragraphs": [
-          "Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application."
+          "By downloading, creating an account, signing in to, or otherwise using the Application, you agree to these Terms of Service and to the Drillr Privacy Policy, which is incorporated into these terms by reference - including the analytics and data processing described in that Policy. It is strongly advised that you thoroughly read and understand both documents prior to using the Application. If you do not agree, do not use the Application."
         ]
       },
       {
@@ -435,6 +473,21 @@
         "heading": "Age Requirements",
         "paragraphs": [
           "The Service is intended for users aged 13 and older. Users who indicate during onboarding that they are under the age of 13 cannot create an account. A small number of accounts created before this age requirement took effect remain on the Service in a legacy Restricted Mode, which limits the collection of personal data. If you are between 13 and 17 years old, you may only use the Service with the consent and supervision of a parent or legal guardian, who agrees to be fully responsible for all activities conducted using the Service."
+        ]
+      },
+      {
+        "heading": "Health, Fitness, and Assumption of Risk",
+        "paragraphs": [
+          "The Application provides general fitness, training, and conditioning programs, drills, and related content for informational and educational purposes only. It is not medical advice, physiotherapy, or professional coaching, and it is not a substitute for consultation with a qualified physician or other healthcare professional.",
+          "Physical exercise carries inherent risks, including the risk of serious injury. You should consult a physician before beginning any exercise program, particularly if you are pregnant, have an existing injury or medical condition, or have been inactive. By using the Application, you confirm that you are medically able to take part in physical activity, and you voluntarily assume all risks associated with exercising and with following any plan, drill, or recommendation provided by the Application. You are solely responsible for exercising within your own limits and for stopping if you feel pain, dizziness, or discomfort.",
+          "To the fullest extent permitted by law, the Service Provider is not liable for any injury, loss, or damage arising out of your use of, or reliance on, the training content, plans, or recommendations provided by the Application."
+        ]
+      },
+      {
+        "heading": "Nutrition and Meal Plans",
+        "paragraphs": [
+          "The Application may generate suggested calorie targets, macronutrient targets, and meal plans based on the information you provide. This content is automated, general in nature, and provided for informational purposes only. It is not dietary, nutritional, or medical advice and is not a substitute for guidance from a qualified dietitian or physician.",
+          "Nutritional values and dietary labels (such as vegetarian, vegan, gluten-free, or allergen-related information) are estimates and may be inaccurate or incomplete. If you have a food allergy, intolerance, or medical condition, do not rely on the Application - always check ingredients and labels yourself and consult a qualified professional. The Service Provider is not liable for any adverse reaction, loss, or damage arising from meal suggestions or nutritional information in the Application."
         ]
       },
       {
@@ -482,6 +535,12 @@
         ]
       },
       {
+        "heading": "Account and Termination",
+        "paragraphs": [
+          "You may stop using the Service at any time. You can permanently delete your account and associated data from within the Application, under Settings > Delete Account, or by contacting the Service Provider at drillrapps@gmail.com. Deleting your account does not by itself cancel a subscription purchased through Apple or Google; you must cancel that separately as described above."
+        ]
+      },
+      {
         "heading": "General Terms",
         "paragraphs": [
           "Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.",
@@ -489,6 +548,19 @@
           "Similarly, the Service Provider cannot always assume responsibility for your usage of the Application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.",
           "While the Service Provider strives to ensure that the Application is updated and accurate at all times, they do rely on third parties to provide information so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the Application.",
           "The Service Provider may wish to update the Application at some point. The Application is currently available as per the requirements for the operating system, and any additional systems they decide to extend availability to may change. You will need to download the updates if you want to continue using the Application. The Service Provider does not guarantee that they will always update the Application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the Application when offered to you. The Service Provider may also wish to cease providing the Application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the Application, and (if necessary) delete it from your device."
+        ]
+      },
+      {
+        "heading": "Disclaimer of Warranties and Limitation of Liability",
+        "paragraphs": [
+          "The Application and the Service are provided \"AS IS\" and \"AS AVAILABLE\", without warranties of any kind, whether express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. The Service Provider does not warrant that the Application will be uninterrupted, error-free, or that any particular result or goal will be achieved.",
+          "To the fullest extent permitted by applicable law, the Service Provider shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profits, or goodwill, arising out of or in connection with your use of the Application. Nothing in these terms excludes or limits liability that cannot be excluded or limited under applicable law, including your mandatory rights as a consumer."
+        ]
+      },
+      {
+        "heading": "Governing Law and Disputes",
+        "paragraphs": [
+          "These terms are governed by the laws of Poland, without regard to its conflict-of-law rules. If you are a consumer resident in the European Union, you also benefit from the mandatory protections of the consumer-protection laws of your country of residence, and nothing in these terms affects those rights. The European Commission also provides an online dispute resolution platform at https://ec.europa.eu/consumers/odr for eligible disputes."
         ]
       },
       {
