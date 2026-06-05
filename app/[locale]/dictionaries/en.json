@@ -293,7 +293,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Effective 2026-05-21",
+    "lastUpdated": "Effective 2026-06-05",
     "tocLabel": "Table of Contents",
     "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service. This service is provided \"AS IS\".",
     "sections": [
@@ -321,7 +321,15 @@
       {
         "heading": "Does the Application use Artificial Intelligence (AI) technologies?",
         "paragraphs": [
-          "The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features."
+          "The Application includes an optional form-analysis feature that uses on-device motion and body-pose detection built into your phone (such as Apple's Vision framework on iOS) to give you feedback on your exercise technique. All of this analysis runs entirely on your device. No video, image, or body-pose data is sent to the Service Provider or any third party for this feature, and it is not used to identify you. See the section on camera use below for details."
+        ]
+      },
+      {
+        "heading": "Does the Application use your camera, and what happens to recordings?",
+        "paragraphs": [
+          "The Application includes an optional form-check feature that uses your device's camera. The camera is accessed only when you choose to start a form check for a supported exercise, and only to record a short clip of you performing that exercise. You can decline or revoke the camera permission at any time in your device settings; the rest of the Application continues to work without it.",
+          "The recorded clip is analyzed entirely on your device. The Service Provider does not receive, upload, or store your clip on any server, the clip is not saved to your photo library automatically, and it is not shared with any third party. The Application does not record audio as part of this feature.",
+          "If you choose to share a clip using the share option, the Application creates a version with a Drillr watermark and the on-screen form feedback drawn into it, and hands it to your device's standard share sheet. From the moment you select a destination (for example a messaging app, social network, or contact), the clip is governed by that service's or recipient's own terms and privacy policy, not by this Policy, and the Service Provider has no control over how they handle it. Please only share clips of yourself, and do not share clips showing other people without their consent."
         ]
       },
       {
@@ -401,7 +409,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Effective 2026-05-21",
+    "lastUpdated": "Effective 2026-06-05",
     "tocLabel": "Table of Contents",
     "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service.",
     "sections": [
@@ -433,6 +441,13 @@
         "heading": "Device Security",
         "paragraphs": [
           "The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advises against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all."
+        ]
+      },
+      {
+        "heading": "Form Analysis and Recorded Clips",
+        "paragraphs": [
+          "The Application includes an optional form-check feature that records a short clip and gives you automated feedback on your exercise technique. This feedback is generated automatically, is for general informational and training purposes only, and is not medical, physiotherapy, or professional coaching advice. It may be incomplete or inaccurate, and it is not a substitute for guidance from a qualified professional. You are responsible for exercising safely and for deciding whether any movement is appropriate for you. The Service Provider is not liable for any injury, loss, or damage arising from your reliance on this feature.",
+          "If you choose to share a recorded clip, you are solely responsible for the content you share and for ensuring you have the right to share it. You must not record or share clips depicting other people without their consent, and you must not use the feature to create or distribute unlawful, infringing, or harmful content. Once you share a clip outside the Application, it is handled by the service or recipient you send it to and is no longer under the Service Provider's control."
         ]
       },
       {

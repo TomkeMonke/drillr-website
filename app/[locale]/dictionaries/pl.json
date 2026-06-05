@@ -293,7 +293,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Obowiązuje od 2026-05-21",
+    "lastUpdated": "Obowiązuje od 2026-06-05",
     "tocLabel": "Spis treści",
     "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium. Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
@@ -321,7 +321,15 @@
       {
         "heading": "Czy Aplikacja korzysta z technologii sztucznej inteligencji (AI)?",
         "paragraphs": [
-          "Aplikacja nie wykorzystuje technologii sztucznej inteligencji (AI) do przetwarzania danych ani świadczenia funkcji."
+          "Aplikacja zawiera opcjonalną funkcję analizy techniki, która korzysta z wbudowanego w twój telefon wykrywania ruchu i postawy ciała (takiego jak framework Vision firmy Apple w systemie iOS), aby przekazać ci informacje zwrotne na temat techniki wykonywania ćwiczeń. Cała ta analiza odbywa się w całości na twoim urządzeniu. W ramach tej funkcji żadne dane wideo, obrazu ani postawy ciała nie są przesyłane do Usługodawcy ani żadnego podmiotu trzeciego i nie są wykorzystywane do twojej identyfikacji. Szczegóły znajdziesz w sekcji dotyczącej korzystania z kamery poniżej."
+        ]
+      },
+      {
+        "heading": "Czy Aplikacja korzysta z kamery i co dzieje się z nagraniami?",
+        "paragraphs": [
+          "Aplikacja zawiera opcjonalną funkcję sprawdzania techniki, która korzysta z kamery twojego urządzenia. Kamera jest uruchamiana wyłącznie wtedy, gdy sam rozpoczniesz sprawdzanie techniki dla obsługiwanego ćwiczenia, i tylko po to, by nagrać krótki klip przedstawiający wykonywanie tego ćwiczenia. W każdej chwili możesz odmówić lub cofnąć zgodę na dostęp do kamery w ustawieniach urządzenia; pozostała część Aplikacji nadal działa bez niej.",
+          "Nagrany klip jest analizowany w całości na twoim urządzeniu. Usługodawca nie otrzymuje, nie przesyła ani nie przechowuje twojego klipu na żadnym serwerze, klip nie jest automatycznie zapisywany w twojej bibliotece zdjęć i nie jest udostępniany żadnemu podmiotowi trzeciemu. W ramach tej funkcji Aplikacja nie nagrywa dźwięku.",
+          "Jeśli zdecydujesz się udostępnić klip za pomocą opcji udostępniania, Aplikacja tworzy wersję ze znakiem wodnym Drillr i naniesionymi informacjami zwrotnymi o technice, a następnie przekazuje ją do standardowego arkusza udostępniania twojego urządzenia. Od momentu wybrania miejsca docelowego (na przykład komunikatora, sieci społecznościowej lub kontaktu) klip podlega regulaminowi i polityce prywatności danej usługi lub odbiorcy, a nie niniejszej Polityce, i Usługodawca nie ma kontroli nad sposobem ich postępowania z nim. Udostępniaj wyłącznie klipy z własnym udziałem i nie udostępniaj klipów przedstawiających inne osoby bez ich zgody."
         ]
       },
       {
@@ -401,7 +409,7 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-05-21",
+    "lastUpdated": "Obowiązuje od 2026-06-05",
     "tocLabel": "Spis treści",
     "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium.",
     "sections": [
@@ -433,6 +441,13 @@
         "heading": "Bezpieczeństwo urządzenia",
         "paragraphs": [
           "Aplikacja przechowuje i przetwarza dane osobowe, które zostały przekazane Usługodawcy w celu świadczenia Usługi. Twoim obowiązkiem jest dbanie o bezpieczeństwo telefonu i dostępu do Aplikacji. Usługodawca zdecydowanie odradza jailbreakowanie lub rootowanie telefonu, czyli usuwanie ograniczeń oprogramowania nałożonych przez oficjalny system operacyjny urządzenia. Takie działania mogą narazić twój telefon na złośliwe oprogramowanie, wirusy, programy szkodliwe, naruszyć zabezpieczenia urządzenia i spowodować, że Aplikacja nie będzie działać poprawnie lub wcale."
+        ]
+      },
+      {
+        "heading": "Analiza techniki i nagrane klipy",
+        "paragraphs": [
+          "Aplikacja zawiera opcjonalną funkcję sprawdzania techniki, która nagrywa krótki klip i przekazuje automatyczne informacje zwrotne na temat techniki wykonywania ćwiczeń. Informacje te są generowane automatycznie, mają charakter wyłącznie ogólny i informacyjno-treningowy i nie stanowią porady medycznej, fizjoterapeutycznej ani profesjonalnego coachingu. Mogą być niepełne lub niedokładne i nie zastępują wskazówek wykwalifikowanego specjalisty. To ty odpowiadasz za bezpieczne wykonywanie ćwiczeń oraz za ocenę, czy dany ruch jest dla ciebie odpowiedni. Usługodawca nie ponosi odpowiedzialności za jakiekolwiek obrażenia, straty ani szkody wynikające z polegania na tej funkcji.",
+          "Jeśli zdecydujesz się udostępnić nagrany klip, ponosisz wyłączną odpowiedzialność za udostępniane treści oraz za zapewnienie, że masz prawo je udostępnić. Nie wolno ci nagrywać ani udostępniać klipów przedstawiających inne osoby bez ich zgody, ani wykorzystywać tej funkcji do tworzenia lub rozpowszechniania treści niezgodnych z prawem, naruszających prawa lub szkodliwych. Po udostępnieniu klipu poza Aplikacją jest on obsługiwany przez usługę lub odbiorcę, do którego go wysyłasz, i nie podlega już kontroli Usługodawcy."
         ]
       },
       {
