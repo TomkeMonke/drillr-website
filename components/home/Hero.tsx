@@ -23,7 +23,12 @@ export function Hero({ dict, locale }: Props) {
             className="animate-hero-rise inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3.5 py-1.5 text-xs text-white/80 mb-6"
             style={{ animationDelay: "80ms" }}
           >
-            <span className="text-accent">★★★★★</span>
+            <span aria-hidden className="relative inline-block leading-none">
+              <span className="text-white/20">★★★★★</span>
+              <span className="absolute inset-0 overflow-hidden text-accent" style={{ width: "94%" }}>
+                ★★★★★
+              </span>
+            </span>
             <span>{dict.hero.badge}</span>
           </div>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.02]">
