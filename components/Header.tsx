@@ -18,6 +18,7 @@ export function Header({ locale, dict }: Props) {
     { href: `${base}#faq`, label: dict.nav.faq },
     { href: `${base}/press`, label: dict.nav.press },
     { href: `${base}/feedback`, label: dict.nav.feedback },
+    { href: `${base}/support`, label: dict.nav.support },
     { href: `${base}/manage-subscription`, label: dict.nav.manageSubscription },
   ];
 

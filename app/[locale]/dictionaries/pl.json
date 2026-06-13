@@ -8,7 +8,8 @@
     "faq": "FAQ",
     "press": "Prasa",
     "manageSubscription": "Subskrypcja",
-    "feedback": "Wyślij opinię"
+    "feedback": "Wyślij opinię",
+    "support": "Pomoc"
   },
   "common": {
     "downloadAppStore": "Pobierz w App Store",
@@ -273,6 +274,7 @@
     "press": "Prasa",
     "manageSubscription": "Subskrypcja",
     "feedback": "Wyślij opinię",
+    "support": "Pomoc",
     "copyright": "© 2026 Drillr. Wszelkie prawa zastrzeżone."
   },
   "feedback": {
@@ -290,6 +292,35 @@
     "body": "Subskrypcje są rozliczane przez App Store lub Google Play. Zarządzaj nimi lub anuluj w dowolnym momencie z poziomu urządzenia, klikając link swojego sklepu.",
     "appleHelp": "Zarządzaj w Apple",
     "googleHelp": "Zarządzaj w Google"
+  },
+  "support": {
+    "title": "Pomoc i wsparcie",
+    "subtitle": "Pytania, błędy, płatności albo pomoc z kontem - jesteśmy tu dla ciebie. Napisz do nas, a wszystko ogarniemy.",
+    "emailLabel": "Wsparcie mailowe",
+    "responseTime": "Zwykle odpowiadamy w ciągu 1-2 dni roboczych.",
+    "feedbackTitle": "Wyślij opinię",
+    "feedbackBody": "Zgłoś błąd lub zaproponuj funkcję.",
+    "subscriptionTitle": "Zarządzaj subskrypcją",
+    "subscriptionBody": "Zmień, anuluj lub uzyskaj pomoc z płatnościami.",
+    "faqTitle": "Częste pytania",
+    "faq": [
+      {
+        "q": "Jak anulować subskrypcję?",
+        "a": "Subskrypcje rozlicza App Store lub Google Play, więc anulujesz je w ustawieniach sklepu na swoim urządzeniu. Bezpośrednie linki dla każdego sklepu znajdziesz na stronie zarządzania subskrypcją."
+      },
+      {
+        "q": "Czy mogę dostać zwrot pieniędzy?",
+        "a": "Zwroty obsługują Apple i Google, a nie my. Poproś o zwrot przez App Store lub Google Play, a w razie potrzeby napisz do nas."
+      },
+      {
+        "q": "Jak usunąć konto lub moje dane?",
+        "a": "Napisz do nas z adresu powiązanego z kontem, a usuniemy twoje dane. Co przechowujemy, sprawdzisz też w naszej polityce prywatności."
+      },
+      {
+        "q": "Znalazłem błąd. Co robić?",
+        "a": "Prześlij szczegóły przez formularz opinii lub mailowo - zrzuty ekranu i model urządzenia pomogą nam szybciej go naprawić."
+      }
+    ]
   },
   "privacy": {
     "title": "Polityka prywatności",

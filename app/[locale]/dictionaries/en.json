@@ -8,7 +8,8 @@
     "faq": "FAQ",
     "press": "Press",
     "manageSubscription": "Manage Subscription",
-    "feedback": "Feedback"
+    "feedback": "Feedback",
+    "support": "Support"
   },
   "common": {
     "downloadAppStore": "Download on the App Store",
@@ -273,6 +274,7 @@
     "press": "Press",
     "manageSubscription": "Manage Subscription",
     "feedback": "Feedback",
+    "support": "Support",
     "copyright": "© 2026 Drillr. All rights reserved."
   },
   "feedback": {
@@ -290,6 +292,35 @@
     "body": "Subscriptions are billed through the App Store or Google Play. Manage or cancel anytime from your device using the link for your store.",
     "appleHelp": "Manage on Apple",
     "googleHelp": "Manage on Google"
+  },
+  "support": {
+    "title": "Help and Support",
+    "subtitle": "Questions, bugs, billing, or account help - we're here. Reach us directly and we'll sort it out.",
+    "emailLabel": "Email support",
+    "responseTime": "We usually reply within 1-2 business days.",
+    "feedbackTitle": "Send feedback",
+    "feedbackBody": "Report a bug or request a feature.",
+    "subscriptionTitle": "Manage subscription",
+    "subscriptionBody": "Update, cancel, or get billing help.",
+    "faqTitle": "Common questions",
+    "faq": [
+      {
+        "q": "How do I cancel my subscription?",
+        "a": "Subscriptions are billed by the App Store or Google Play, so you cancel from your device's store settings. The manage subscription page has direct links for each store."
+      },
+      {
+        "q": "Can I get a refund?",
+        "a": "Refunds are handled by Apple and Google, not by us. Request one through the App Store or Google Play, and email us if you need a hand."
+      },
+      {
+        "q": "How do I delete my account or data?",
+        "a": "Email us from the address tied to your account and we'll remove your data. You can also review what we store in our privacy policy."
+      },
+      {
+        "q": "I found a bug. What should I do?",
+        "a": "Send us the details through the feedback form or by email - screenshots and your device model help us fix it faster."
+      }
+    ]
   },
   "privacy": {
     "title": "Privacy Policy",

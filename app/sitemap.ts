@@ -5,7 +5,7 @@ import { FEATURES } from "@/lib/features";
 
 const BASE_URL = "https://getdrillr.app";
 
-const STATIC_PATHS = ["", "/press", "/manage-subscription", "/feedback", "/privacy", "/terms"] as const;
+const STATIC_PATHS = ["", "/press", "/manage-subscription", "/feedback", "/support", "/privacy", "/terms"] as const;
 
 function localizedEntry(
   path: string,

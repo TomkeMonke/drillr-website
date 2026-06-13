@@ -96,6 +96,11 @@ export function Footer({ locale, dict }: Props) {
               </Link>
             </li>
             <li>
+              <Link href={`${base}/support`} className="link-underline hover:text-white transition-colors">
+                {dict.footer.support}
+              </Link>
+            </li>
+            <li>
               <Link href={`${base}/manage-subscription`} className="link-underline hover:text-white transition-colors">
                 {dict.footer.manageSubscription}
               </Link>
