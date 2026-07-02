@@ -4,9 +4,10 @@ import { CountUp } from "../animations/CountUp";
 
 interface Props {
   dict: Dictionary;
+  rating: number;
 }
 
-export function UsedBy({ dict }: Props) {
+export function UsedBy({ dict, rating }: Props) {
   return (
     <section className="py-24 lg:py-32 border-y border-white/5 bg-white/[0.015]">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
@@ -23,7 +24,7 @@ export function UsedBy({ dict }: Props) {
             <Reveal key={stat.label} delay={i * 90} className="h-full">
               <div className="bg-background p-8 text-center h-full">
                 <div className="text-3xl sm:text-4xl font-bold tracking-tight text-primary">
-                  <CountUp value={stat.value} />
+                  <CountUp value={stat.value.replace("{rating}", rating.toFixed(1))} />
                 </div>
                 <div className="mt-2 text-sm text-white/60">{stat.label}</div>
               </div>

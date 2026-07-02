@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/locales";
 import { FEATURES } from "@/lib/features";
+import { getAppStoreRating } from "@/lib/appStoreRating";
 import { getDictionary } from "./dictionaries";
 import { Hero } from "@/components/home/Hero";
 import { UsedBy } from "@/components/home/UsedBy";
@@ -16,14 +17,15 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
+  const rating = await getAppStoreRating();
 
   return (
     <>
       <ScrollScene soft>
-        <Hero dict={dict} locale={locale} />
+        <Hero dict={dict} locale={locale} rating={rating} />
       </ScrollScene>
       <ScrollScene>
-        <UsedBy dict={dict} />
+        <UsedBy dict={dict} rating={rating} />
       </ScrollScene>
       <ScrollScene>
         <StickyStory dict={dict} locale={locale} />

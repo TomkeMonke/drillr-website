@@ -19,7 +19,7 @@
     "screenshotAlt": "Ekran aplikacji Drillr"
   },
   "hero": {
-    "badge": "Pokochało nas 1600+ piłkarzy · ocena 4.7",
+    "badge": "Pokochało nas 1600+ piłkarzy · ocena {rating}",
     "titleLine1": "Przestań tylko grać.",
     "titleLine2": "Zacznij dominować.",
     "subtitle": "Drillr to aplikacja piłkarska, która naprawdę zna twoją pozycję. Dostajesz plan dopasowany do twojej roli, poziomu i czasu, jakim dysponujesz.",
@@ -31,7 +31,7 @@
     "stats": [
       { "value": "1600+", "label": "Aktywnych graczy" },
       { "value": "80+", "label": "Krajów" },
-      { "value": "4.7★", "label": "Średnia ocena" },
+      { "value": "{rating}★", "label": "Średnia ocena" },
       { "value": "8 tys.+", "label": "Ukończonych ćwiczeń" }
     ]
   },

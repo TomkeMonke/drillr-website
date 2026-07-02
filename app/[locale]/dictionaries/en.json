@@ -19,7 +19,7 @@
     "screenshotAlt": "Drillr app screen"
   },
   "hero": {
-    "badge": "Loved by 1600+ players · 4.7 rating",
+    "badge": "Loved by 1600+ players · {rating} rating",
     "titleLine1": "Stop playing.",
     "titleLine2": "Start dominating.",
     "subtitle": "Drillr is the football training app that actually knows your position. You get a plan shaped to your role, your level, and the time you've got.",
@@ -31,7 +31,7 @@
     "stats": [
       { "value": "1600+", "label": "Active players" },
       { "value": "80+", "label": "Countries" },
-      { "value": "4.7★", "label": "Average rating" },
+      { "value": "{rating}★", "label": "Average rating" },
       { "value": "8K+", "label": "Drills completed" }
     ]
   },

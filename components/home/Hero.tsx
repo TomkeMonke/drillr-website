@@ -9,9 +9,10 @@ import { HeroAurora } from "./HeroAurora";
 interface Props {
   dict: Dictionary;
   locale: Locale;
+  rating: number;
 }
 
-export function Hero({ dict, locale }: Props) {
+export function Hero({ dict, locale, rating }: Props) {
   const positionScreenshot = locale === "pl" ? "/screenshots/position-v2-pl.png" : "/screenshots/position-v2.png";
   return (
     <section className="relative overflow-hidden">
@@ -25,11 +26,14 @@ export function Hero({ dict, locale }: Props) {
           >
             <span aria-hidden className="relative inline-block leading-none">
               <span className="text-white/20">★★★★★</span>
-              <span className="absolute inset-0 overflow-hidden text-accent" style={{ width: "94%" }}>
+              <span
+                className="absolute inset-0 overflow-hidden text-accent"
+                style={{ width: `${(rating / 5) * 100}%` }}
+              >
                 ★★★★★
               </span>
             </span>
-            <span>{dict.hero.badge}</span>
+            <span>{dict.hero.badge.replace("{rating}", rating.toFixed(1))}</span>
           </div>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.02]">
             <span
