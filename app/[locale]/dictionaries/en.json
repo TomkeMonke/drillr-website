@@ -324,7 +324,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Effective 2026-06-05",
+    "lastUpdated": "Effective 2026-07-03",
     "tocLabel": "Table of Contents",
     "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service. This service is provided \"AS IS\".",
     "sections": [
@@ -392,6 +392,8 @@
           "https://firebase.google.com/policies/analytics",
           "https://firebase.google.com/support/privacy",
           "https://expo.dev/privacy",
+          "https://posthog.com/privacy - product analytics, hosted in the European Union",
+          "https://sentry.io/privacy/ - crash and error reporting",
           "https://www.revenuecat.com/privacy - subscription management and billing analytics",
           "https://www.apple.com/legal/privacy/ - for iOS purchases",
           "https://policies.google.com/privacy - for Android purchases"
@@ -478,7 +480,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Effective 2026-06-06",
+    "lastUpdated": "Effective 2026-07-03",
     "tocLabel": "Table of Contents",
     "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service.",
     "sections": [
@@ -545,6 +547,8 @@
           "https://firebase.google.com/terms/analytics",
           "https://firebase.google.com/terms/crashlytics",
           "https://expo.dev/terms",
+          "https://posthog.com/terms - product analytics",
+          "https://sentry.io/terms/ - crash and error reporting",
           "https://www.revenuecat.com/terms - subscription management",
           "https://www.apple.com/legal/internet-services/itunes/ - iOS purchases",
           "https://play.google.com/about/play-terms/ - Android purchases"
