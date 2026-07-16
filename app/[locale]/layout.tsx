@@ -31,22 +31,16 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = await getDictionary(locale);
-  const path = `/${locale}`;
   return {
     metadataBase: new URL("https://getdrillr.app"),
-    title: dict.meta.title,
+    // Template suffixes subpage titles; canonical/hreflang are set per page
+    // (a canonical inherited from the layout would point every subpage home).
+    title: { default: dict.meta.title, template: "%s - Drillr" },
     description: dict.meta.description,
     icons: { icon: "/favicon.png" },
-    alternates: {
-      canonical: path,
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [l, `/${l}`]),
-      ),
-    },
     openGraph: {
       type: "website",
       siteName: "Drillr",
-      url: path,
       title: dict.meta.title,
       description: dict.meta.description,
       locale: locale === "pl" ? "pl_PL" : "en_US",

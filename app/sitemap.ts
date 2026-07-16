@@ -14,7 +14,6 @@ function localizedEntry(
 ): MetadataRoute.Sitemap[number] {
   return {
     url: `${BASE_URL}/${DEFAULT_LOCALE}${path}`,
-    lastModified: new Date(),
     changeFrequency,
     priority,
     alternates: {

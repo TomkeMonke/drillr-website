@@ -34,13 +34,7 @@ export function Footer({ locale, dict }: Props) {
             />
           </Link>
           <p className="text-sm text-muted mb-5">{dict.footer.download}</p>
-          <DownloadBadges
-            appStoreLabel={dict.common.downloadAppStore}
-            googlePlayLabel={dict.common.downloadGooglePlay}
-            appStoreKicker={dict.common.appStoreKicker}
-            googlePlayKicker={dict.common.googlePlayKicker}
-            size="sm"
-          />
+          <DownloadBadges labels={dict.common} size="sm" />
         </div>
 
         {showTraining && (

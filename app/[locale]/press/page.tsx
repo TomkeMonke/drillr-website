@@ -1,10 +1,21 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/locales";
+import { pageMetadata } from "@/lib/metadata";
 import { getDictionary } from "../dictionaries";
 import { PageHeader } from "@/components/PageHeader";
 import { ScrollScene } from "@/components/animations/ScrollScene";
 
 const PRESS_EMAIL = "drillrapps@gmail.com";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/press">): Promise<Metadata> {
+  const { locale } = await params;
+  if (!isLocale(locale)) return {};
+  const dict = await getDictionary(locale);
+  return pageMetadata(locale, "/press", dict.press.title, dict.press.subtitle);
+}
 
 export default async function PressPage({ params }: PageProps<"/[locale]/press">) {
   const { locale } = await params;

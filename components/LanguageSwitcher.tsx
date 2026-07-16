@@ -8,10 +8,12 @@ interface Props {
   current: Locale;
 }
 
+const LOCALE_PREFIX_RE = new RegExp(`^/(${LOCALES.join("|")})(?=/|$)`);
+
 export function LanguageSwitcher({ current }: Props) {
   const pathname = usePathname() ?? "/";
   // strip the leading /<locale> segment
-  const stripped = pathname.replace(/^\/(en|pl)(?=\/|$)/, "") || "";
+  const stripped = pathname.replace(LOCALE_PREFIX_RE, "") || "";
 
   return (
     <div className="inline-flex rounded-full border border-white/10 bg-white/5 p-0.5 text-xs font-medium">

@@ -5,12 +5,11 @@
 export const POSITION_SLUGS = ["goalkeeper", "defender", "midfielder", "forward"] as const;
 export type PositionSlug = (typeof POSITION_SLUGS)[number];
 
-export interface PositionFocus {
-  strength: number;
-  cardio: number;
-  agility: number;
-  flexibility: number;
-}
+/** Render order for focus-breakdown bars (PositionPicker + position pages). */
+export const FOCUS_CATEGORIES = ["strength", "cardio", "agility", "flexibility"] as const;
+export type FocusCategory = (typeof FOCUS_CATEGORIES)[number];
+
+export type PositionFocus = Record<FocusCategory, number>;
 
 export interface PositionData {
   slug: PositionSlug;

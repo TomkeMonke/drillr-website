@@ -63,13 +63,7 @@ export function Hero({ dict, locale, rating }: Props) {
               <span>{dict.hero.downloadCta}</span>
               <span aria-hidden className="text-primary text-3xl leading-none">↓</span>
             </p>
-            <DownloadBadges
-              appStoreLabel={dict.common.downloadAppStore}
-              googlePlayLabel={dict.common.downloadGooglePlay}
-              appStoreKicker={dict.common.appStoreKicker}
-              googlePlayKicker={dict.common.googlePlayKicker}
-              size="lg"
-            />
+            <DownloadBadges labels={dict.common} size="lg" />
           </div>
         </div>
 

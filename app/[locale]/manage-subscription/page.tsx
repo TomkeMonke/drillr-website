@@ -1,8 +1,24 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/locales";
+import { pageMetadata } from "@/lib/metadata";
 import { getDictionary } from "../dictionaries";
 import { PageHeader } from "@/components/PageHeader";
 import { ScrollScene } from "@/components/animations/ScrollScene";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/manage-subscription">): Promise<Metadata> {
+  const { locale } = await params;
+  if (!isLocale(locale)) return {};
+  const dict = await getDictionary(locale);
+  return pageMetadata(
+    locale,
+    "/manage-subscription",
+    dict.manageSubscription.title,
+    dict.manageSubscription.body,
+  );
+}
 
 export default async function ManageSubscriptionPage({
   params,

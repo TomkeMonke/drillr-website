@@ -1,11 +1,22 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { isLocale } from "@/lib/locales";
+import { pageMetadata } from "@/lib/metadata";
 import { getDictionary } from "../dictionaries";
 import { PageHeader } from "@/components/PageHeader";
 import { ScrollScene } from "@/components/animations/ScrollScene";
 
 const SUPPORT_EMAIL = "drillrapps@gmail.com";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/support">): Promise<Metadata> {
+  const { locale } = await params;
+  if (!isLocale(locale)) return {};
+  const dict = await getDictionary(locale);
+  return pageMetadata(locale, "/support", dict.support.title, dict.support.subtitle);
+}
 
 export default async function SupportPage({ params }: PageProps<"/[locale]/support">) {
   const { locale } = await params;

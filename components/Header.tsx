@@ -52,13 +52,7 @@ export function Header({ locale, dict }: Props) {
         <div className="flex items-center gap-3">
           <LanguageSwitcher current={locale} />
           <div className="hidden lg:block">
-            <DownloadBadges
-              appStoreLabel={dict.common.downloadAppStore}
-              googlePlayLabel={dict.common.downloadGooglePlay}
-              appStoreKicker={dict.common.appStoreKicker}
-              googlePlayKicker={dict.common.googlePlayKicker}
-              size="sm"
-            />
+            <DownloadBadges labels={dict.common} size="sm" />
           </div>
           <MobileNav nav={nav} />
         </div>

@@ -1,6 +1,8 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Script from "next/script";
 import { isLocale } from "@/lib/locales";
+import { pageMetadata } from "@/lib/metadata";
 import { getDictionary } from "../dictionaries";
 import { PageHeader } from "@/components/PageHeader";
 
@@ -8,6 +10,15 @@ const TALLY_FORM_ID = {
   en: "BzQeRR",
   pl: "2EJR8L",
 } as const;
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/feedback">): Promise<Metadata> {
+  const { locale } = await params;
+  if (!isLocale(locale)) return {};
+  const dict = await getDictionary(locale);
+  return pageMetadata(locale, "/feedback", dict.feedback.title, dict.feedback.subtitle);
+}
 
 function tallySrc(formId: string) {
   return `https://tally.so/embed/${formId}?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1`;
@@ -31,9 +42,6 @@ export default async function FeedbackPage({ params }: PageProps<"/[locale]/feed
           loading="lazy"
           width="100%"
           height="1100"
-          frameBorder={0}
-          marginHeight={0}
-          marginWidth={0}
           title={t.title}
           className="block w-full"
         />

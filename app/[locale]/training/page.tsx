@@ -1,11 +1,27 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/locales";
+import { pageMetadata } from "@/lib/metadata";
 import { FEATURES } from "@/lib/features";
 import { POSITION_SLUGS, POSITIONS } from "@/lib/positions";
 import { getDictionary } from "../dictionaries";
 import { PageHeader } from "@/components/PageHeader";
 import { ScrollScene } from "@/components/animations/ScrollScene";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/training">): Promise<Metadata> {
+  const { locale } = await params;
+  if (!isLocale(locale)) return {};
+  const dict = await getDictionary(locale);
+  return pageMetadata(
+    locale,
+    "/training",
+    dict.positions.indexTitle,
+    dict.positions.indexSubtitle,
+  );
+}
 
 export default async function TrainingIndex({ params }: PageProps<"/[locale]/training">) {
   if (!FEATURES.positionPages) notFound();

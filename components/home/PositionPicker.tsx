@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
 import type { Locale } from "@/lib/locales";
-import { POSITION_SLUGS, POSITIONS, type PositionSlug } from "@/lib/positions";
+import { FOCUS_CATEGORIES, POSITION_SLUGS, POSITIONS, type PositionSlug } from "@/lib/positions";
 
 interface Props {
   dict: Dictionary;
@@ -16,12 +16,6 @@ export function PositionPicker({ dict, locale }: Props) {
   const pos = dict.positions[active];
   const data = POSITIONS[active];
   const t = dict.positionPicker;
-  const categories: Array<keyof typeof t.categoryLabels> = [
-    "strength",
-    "cardio",
-    "agility",
-    "flexibility",
-  ];
 
   return (
     <section className="py-24 lg:py-32">
@@ -85,7 +79,7 @@ export function PositionPicker({ dict, locale }: Props) {
               {t.focusBreakdown}
             </h3>
             <div className="space-y-4">
-              {categories.map((cat) => {
+              {FOCUS_CATEGORIES.map((cat) => {
                 const pct = data.focus[cat];
                 return (
                   <div key={cat}>

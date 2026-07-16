@@ -2,11 +2,16 @@ import { MagneticButton } from "./animations/MagneticButton";
 
 type Size = "sm" | "md" | "lg";
 
-interface Props {
-  appStoreLabel: string;
-  googlePlayLabel: string;
+/** Structural subset of Dictionary["common"] - pass `dict.common` directly. */
+interface Labels {
+  downloadAppStore: string;
+  downloadGooglePlay: string;
   appStoreKicker: string;
   googlePlayKicker: string;
+}
+
+interface Props {
+  labels: Labels;
   size?: Size;
   className?: string;
 }
@@ -36,14 +41,7 @@ function GooglePlayIcon({ className }: { className?: string }) {
   );
 }
 
-export function DownloadBadges({
-  appStoreLabel,
-  googlePlayLabel,
-  appStoreKicker,
-  googlePlayKicker,
-  size = "md",
-  className = "",
-}: Props) {
+export function DownloadBadges({ labels, size = "md", className = "" }: Props) {
   const s = sizeMap[size];
   return (
     <div className={`flex flex-wrap items-center gap-3 ${className}`}>
@@ -52,12 +50,12 @@ export function DownloadBadges({
           href="https://apps.apple.com/us/app/drillr-dominate-your-position/id6761615321"
           target="_blank"
           rel="noopener"
-          aria-label={appStoreLabel}
+          aria-label={labels.downloadAppStore}
           className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(91,159,214,0.55)]`}
         >
           <AppleIcon className={`${s.icon} text-white`} />
           <div className="flex flex-col leading-tight text-white">
-            <span className={`${s.small} opacity-80`}>{appStoreKicker}</span>
+            <span className={`${s.small} opacity-80`}>{labels.appStoreKicker}</span>
             <span className={`${s.big} font-semibold tracking-tight`}>App Store</span>
           </div>
         </a>
@@ -67,12 +65,12 @@ export function DownloadBadges({
           href="https://play.google.com/store/apps/details?id=com.anonymous.FootballApp"
           target="_blank"
           rel="noopener"
-          aria-label={googlePlayLabel}
+          aria-label={labels.downloadGooglePlay}
           className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(91,159,214,0.55)]`}
         >
           <GooglePlayIcon className={s.icon} />
           <div className="flex flex-col leading-tight text-white">
-            <span className={`${s.small} opacity-80`}>{googlePlayKicker}</span>
+            <span className={`${s.small} opacity-80`}>{labels.googlePlayKicker}</span>
             <span className={`${s.big} font-semibold tracking-tight`}>Google Play</span>
           </div>
         </a>

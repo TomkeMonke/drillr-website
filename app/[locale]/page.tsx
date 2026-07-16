@@ -1,5 +1,7 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/locales";
+import { localizedAlternates } from "@/lib/metadata";
 import { FEATURES } from "@/lib/features";
 import { getAppStoreRating } from "@/lib/appStoreRating";
 import { getDictionary } from "./dictionaries";
@@ -12,6 +14,14 @@ import { Testimonials } from "@/components/home/Testimonials";
 import { Faq } from "@/components/home/Faq";
 import { CoachesCta } from "@/components/home/CoachesCta";
 import { ScrollScene } from "@/components/animations/ScrollScene";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]">): Promise<Metadata> {
+  const { locale } = await params;
+  if (!isLocale(locale)) return {};
+  return { alternates: localizedAlternates(locale) };
+}
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;

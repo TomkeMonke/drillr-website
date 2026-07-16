@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LOCALES, isLocale } from "@/lib/locales";
+import { pageMetadata } from "@/lib/metadata";
 import { FEATURES } from "@/lib/features";
-import { POSITION_SLUGS, POSITIONS, isPositionSlug } from "@/lib/positions";
+import { FOCUS_CATEGORIES, POSITION_SLUGS, POSITIONS, isPositionSlug } from "@/lib/positions";
 import { getDictionary } from "../../dictionaries";
 import { DownloadBadges } from "@/components/DownloadBadges";
 import { Reveal } from "@/components/animations/Reveal";
@@ -22,10 +23,7 @@ export async function generateMetadata({
   if (!isLocale(locale) || !isPositionSlug(position)) return {};
   const dict = await getDictionary(locale);
   const pos = dict.positions[position];
-  return {
-    title: `${pos.name} - Drillr`,
-    description: pos.description,
-  };
+  return pageMetadata(locale, `/training/${position}`, pos.name, pos.description);
 }
 
 export default async function PositionPage({
@@ -39,13 +37,6 @@ export default async function PositionPage({
   const pos = dict.positions[position];
   const data = POSITIONS[position];
   const t = dict.positionPicker;
-
-  const categories: Array<keyof typeof t.categoryLabels> = [
-    "strength",
-    "cardio",
-    "agility",
-    "flexibility",
-  ];
 
   return (
     <>
@@ -87,13 +78,7 @@ export default async function PositionPage({
             className="animate-hero-rise mt-9 flex justify-center"
             style={{ animationDelay: "560ms" }}
           >
-            <DownloadBadges
-              appStoreLabel={dict.common.downloadAppStore}
-              googlePlayLabel={dict.common.downloadGooglePlay}
-              appStoreKicker={dict.common.appStoreKicker}
-              googlePlayKicker={dict.common.googlePlayKicker}
-              size="md"
-            />
+            <DownloadBadges labels={dict.common} size="md" />
           </div>
         </div>
       </section>
@@ -131,7 +116,7 @@ export default async function PositionPage({
             </h2>
           </Reveal>
           <div className="max-w-2xl space-y-4">
-            {categories.map((cat, i) => {
+            {FOCUS_CATEGORIES.map((cat, i) => {
               const pct = data.focus[cat];
               return (
                 <Reveal key={cat} delay={i * 80}>
@@ -212,13 +197,7 @@ export default async function PositionPage({
               <span style={{ color: data.accent }}>{pos.name}</span>
             </h2>
             <div className="mt-8 flex justify-center">
-              <DownloadBadges
-                appStoreLabel={dict.common.downloadAppStore}
-                googlePlayLabel={dict.common.downloadGooglePlay}
-                appStoreKicker={dict.common.appStoreKicker}
-                googlePlayKicker={dict.common.googlePlayKicker}
-                size="lg"
-              />
+              <DownloadBadges labels={dict.common} size="lg" />
             </div>
             <div className="mt-10">
               <Link
