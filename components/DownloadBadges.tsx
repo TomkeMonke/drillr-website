@@ -51,7 +51,7 @@ export function DownloadBadges({ labels, size = "md", className = "" }: Props) {
           target="_blank"
           rel="noopener"
           aria-label={labels.downloadAppStore}
-          className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(91,159,214,0.55)]`}
+          className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(var(--primary-rgb),0.55)]`}
         >
           <AppleIcon className={`${s.icon} text-white`} />
           <div className="flex flex-col leading-tight text-white">
@@ -66,7 +66,7 @@ export function DownloadBadges({ labels, size = "md", className = "" }: Props) {
           target="_blank"
           rel="noopener"
           aria-label={labels.downloadGooglePlay}
-          className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(91,159,214,0.55)]`}
+          className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(var(--primary-rgb),0.55)]`}
         >
           <GooglePlayIcon className={s.icon} />
           <div className="flex flex-col leading-tight text-white">

@@ -7,8 +7,8 @@ interface Props {
 export function PhoneFrame({ children, className = "", variant = "primary" }: Props) {
   const glowColor =
     variant === "accent"
-      ? "rgba(232, 164, 74, 0.35)"
-      : "rgba(91, 159, 214, 0.35)";
+      ? "rgba(var(--accent-rgb), 0.35)"
+      : "rgba(var(--primary-rgb), 0.35)";
 
   return (
     <div className={`relative animate-float ${className}`}>
@@ -29,11 +29,15 @@ export function PhoneFrame({ children, className = "", variant = "primary" }: Pr
 }
 
 function PhonePlaceholder({ variant }: { variant: "primary" | "accent" }) {
-  const accent = variant === "accent" ? "#E8A44A" : "#5B9FD6";
+  const accent = variant === "accent" ? "var(--accent)" : "var(--primary)";
+  const accentGlow =
+    variant === "accent"
+      ? "rgba(var(--accent-rgb), 0.13)"
+      : "rgba(var(--primary-rgb), 0.13)";
   return (
     <div className="w-full h-full flex flex-col items-center justify-center gap-4 p-6 text-center"
          style={{
-           background: `radial-gradient(120% 80% at 50% 0%, ${accent}22, transparent 60%), #0a0a0a`,
+           background: `radial-gradient(120% 80% at 50% 0%, ${accentGlow}, transparent 60%), #0a0a0a`,
          }}>
       <div className="h-14 w-14 rounded-2xl flex items-center justify-center text-2xl font-bold"
            style={{ background: accent, color: "#0a0a0a" }}>

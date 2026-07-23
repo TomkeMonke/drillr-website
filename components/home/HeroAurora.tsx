@@ -22,7 +22,7 @@ export function HeroAurora() {
         .hero-aurora-1 {
           top: -15%; left: 5%;
           width: 55%; height: 55%;
-          background: radial-gradient(closest-side, #5B9FD6, transparent);
+          background: radial-gradient(closest-side, var(--primary), transparent);
           animation: hero-aurora-a 16s ease-in-out infinite;
         }
         .hero-aurora-2 {

@@ -17,7 +17,7 @@ export function CoachesCta({ dict }: Props) {
           <div className="relative overflow-hidden rounded-3xl border border-white/10 p-10 lg:p-14 bg-gradient-to-br from-[#10121a] via-[#0f1118] to-[#0a0a0e]">
             <div
               className="absolute -top-20 -right-20 h-64 w-64 rounded-full blur-3xl opacity-40 pointer-events-none"
-              style={{ background: "radial-gradient(closest-side, rgba(91,159,214,0.4), transparent)" }}
+              style={{ background: "radial-gradient(closest-side, rgba(var(--primary-rgb),0.4), transparent)" }}
               aria-hidden="true"
             />
             <div className="relative grid lg:grid-cols-[1.3fr_1fr] gap-8 items-center">

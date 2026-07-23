@@ -2,6 +2,7 @@ import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { isLocale } from "@/lib/locales";
+import { BRAND } from "@/lib/brand";
 
 export const alt = "Drillr - football training that knows your position";
 export const size = { width: 1200, height: 630 };
@@ -42,7 +43,7 @@ export default async function Image({
           flexDirection: "column",
           justifyContent: "space-between",
           background:
-            "radial-gradient(1200px 800px at 80% -10%, rgba(91,159,214,0.22), transparent 60%), radial-gradient(1000px 700px at -10% 20%, rgba(91,159,214,0.14), transparent 60%), #0a0a0a",
+            `radial-gradient(1200px 800px at 80% -10%, rgba(${BRAND.primaryRgb},0.22), transparent 60%), radial-gradient(1000px 700px at -10% 20%, rgba(${BRAND.primaryRgb},0.14), transparent 60%), #0a0a0a`,
           color: "#eaeaef",
           padding: "72px 88px",
           fontFamily: "system-ui, sans-serif",
@@ -84,7 +85,7 @@ export default async function Image({
               style={{
                 height: 4,
                 width: 64,
-                background: "#5b9fd6",
+                background: BRAND.primary,
                 borderRadius: 999,
               }}
             />
