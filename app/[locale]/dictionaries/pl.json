@@ -324,7 +324,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Obowiązuje od 2026-07-03",
+    "lastUpdated": "Obowiązuje od 2026-07-27",
     "tocLabel": "Spis treści",
     "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium. Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
@@ -349,7 +349,7 @@
         "heading": "Jakie informacje Aplikacja zbiera automatycznie?",
         "paragraphs": [
           "Aplikacja może automatycznie zbierać określone informacje, w tym między innymi: rodzaj urządzenia mobilnego, unikalny identyfikator urządzenia, adres IP, system operacyjny, rodzaj używanych mobilnych przeglądarek internetowych oraz informacje o sposobie korzystania z Aplikacji.",
-          "Korzystamy z Firebase Analytics, aby zrozumieć, jak użytkownicy korzystają z Aplikacji - jakie ekrany odwiedzają, jakich funkcji używają i jakie czynności wykonują. Ta analityka jest włączona domyślnie i stanowi część usługi, którą akceptujesz, zakładając konto, logując się lub w inny sposób korzystając z Aplikacji. Podstawą prawną tego przetwarzania jest prawnie uzasadniony interes Usługodawcy polegający na zabezpieczaniu, utrzymywaniu i ulepszaniu Aplikacji. Możesz w dowolnym momencie wnieść sprzeciw, kontaktując się pod adresem drillrapps@gmail.com, możesz zatrzymać całe zbieranie danych, odinstalowując Aplikację, a także ograniczyć identyfikatory reklamowe i analityczne w ustawieniach prywatności swojego urządzenia.",
+          "Korzystamy z PostHog, aby zrozumieć, jak użytkownicy korzystają z Aplikacji - jakie ekrany odwiedzają, jakich funkcji używają i jakie czynności wykonują. Ta analityka jest włączona domyślnie i stanowi część usługi, którą akceptujesz, zakładając konto, logując się lub w inny sposób korzystając z Aplikacji. Podstawą prawną tego przetwarzania jest prawnie uzasadniony interes Usługodawcy polegający na zabezpieczaniu, utrzymywaniu i ulepszaniu Aplikacji. Możesz w dowolnym momencie wnieść sprzeciw, kontaktując się pod adresem drillrapps@gmail.com, możesz zatrzymać całe zbieranie danych, odinstalowując Aplikację, a także ograniczyć identyfikatory reklamowe i analityczne w ustawieniach prywatności swojego urządzenia.",
           "Przy zakupie subskrypcji Aplikacja otrzymuje również identyfikator transakcji, status subskrypcji, datę zakupu, datę odnowienia oraz nazwę zakupionego produktu. Sama płatność (karta kredytowa, Apple Pay, Google Pay) obsługiwana jest wyłącznie przez Apple lub Google - Usługodawca nie widzi ani nie przechowuje danych twojej karty płatniczej."
         ]
       },
@@ -480,7 +480,7 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-07-03",
+    "lastUpdated": "Obowiązuje od 2026-07-27",
     "tocLabel": "Spis treści",
     "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium.",
     "sections": [
