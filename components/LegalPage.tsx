@@ -24,8 +24,10 @@ export function LegalPage({ locale, t }: Props) {
         <RichText text={t.intro} />
       </p>
 
-      <nav aria-label="Table of contents" className="mb-16 rounded-2xl border border-white/5 bg-surface/40 px-6 py-6">
-        <h2 className="text-xs uppercase tracking-widest text-white/40 mb-4">{t.tocLabel}</h2>
+      <nav aria-labelledby="legal-toc" className="mb-16 rounded-2xl border border-white/5 bg-surface/40 px-6 py-6">
+        <h2 id="legal-toc" className="text-xs uppercase tracking-widest text-white/40 mb-4">
+          {t.tocLabel}
+        </h2>
         <ol className="space-y-2">
           {t.sections.map((s, i) => (
             <li key={s.heading}>

@@ -9,7 +9,9 @@
     "press": "Press",
     "manageSubscription": "Manage Subscription",
     "feedback": "Feedback",
-    "support": "Support"
+    "support": "Support",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "common": {
     "downloadAppStore": "Download on the App Store",

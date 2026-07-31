@@ -36,6 +36,7 @@ export function PositionPicker({ dict, locale }: Props) {
               <button
                 key={slug}
                 type="button"
+                aria-pressed={isActive}
                 onClick={() => setActive(slug)}
                 className={`rounded-2xl border p-5 text-left transition-all duration-300 hover:-translate-y-0.5 ${
                   isActive

@@ -9,7 +9,9 @@
     "press": "Prasa",
     "manageSubscription": "Subskrypcja",
     "feedback": "Wyślij opinię",
-    "support": "Pomoc"
+    "support": "Pomoc",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu"
   },
   "common": {
     "downloadAppStore": "Pobierz w App Store",

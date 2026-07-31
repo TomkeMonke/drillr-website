@@ -54,7 +54,7 @@ export function Header({ locale, dict }: Props) {
           <div className="hidden lg:block">
             <DownloadBadges labels={dict.common} size="sm" />
           </div>
-          <MobileNav nav={nav} />
+          <MobileNav nav={nav} labels={dict.nav} />
         </div>
       </div>
     </header>

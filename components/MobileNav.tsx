@@ -11,9 +11,10 @@ interface NavItem {
 
 interface Props {
   nav: NavItem[];
+  labels: { openMenu: string; closeMenu: string };
 }
 
-export function MobileNav({ nav }: Props) {
+export function MobileNav({ nav, labels }: Props) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -30,7 +31,7 @@ export function MobileNav({ nav }: Props) {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        aria-label={open ? "Close menu" : "Open menu"}
+        aria-label={open ? labels.closeMenu : labels.openMenu}
         aria-expanded={open}
         aria-controls="mobile-nav-panel"
         className="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-full border border-white/15 bg-white/5 text-white/80 hover:text-white transition-colors"
