@@ -68,6 +68,11 @@ export function Footer({ locale, dict }: Props) {
                 {dict.footer.terms}
               </Link>
             </li>
+            <li>
+              <Link href={`${base}/delete-account`} className="link-underline hover:text-white transition-colors">
+                {dict.footer.deleteAccount}
+              </Link>
+            </li>
           </ul>
         </div>
 

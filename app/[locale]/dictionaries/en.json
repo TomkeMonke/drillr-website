@@ -21,17 +21,17 @@
     "screenshotAlt": "Drillr app screen"
   },
   "hero": {
-    "badge": "Loved by 1600+ players · {rating} rating",
+    "badge": "Loved by 2200+ players · {rating} rating",
     "titleLine1": "Stop playing.",
     "titleLine2": "Start dominating.",
     "subtitle": "Drillr is the football training app that actually knows your position. You get a plan shaped to your role, your level, and the time you've got.",
     "downloadCta": "Download"
   },
   "usedBy": {
-    "title": "1600+ players train with us",
+    "title": "2200+ players train with us",
     "subtitle": "From U14s to semi-pro, in 50+ countries, every single day.",
     "stats": [
-      { "value": "1600+", "label": "Active players" },
+      { "value": "2200+", "label": "Active players" },
       { "value": "80+", "label": "Countries" },
       { "value": "{rating}★", "label": "Average rating" },
       { "value": "8K+", "label": "Drills completed" }
@@ -272,6 +272,7 @@
     "training": "Training",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
+    "deleteAccount": "Delete Account",
     "faq": "FAQ",
     "press": "Press",
     "manageSubscription": "Manage Subscription",
@@ -323,6 +324,69 @@
         "a": "Send us the details through the feedback form or by email - screenshots and your device model help us fix it faster."
       }
     ]
+  },
+  "deleteAccount": {
+    "title": "Delete your account",
+    "lastUpdated": "Effective 2026-07-31",
+    "tocLabel": "Table of Contents",
+    "intro": "This page explains how to delete your Drillr account and what happens to your data when you do. Drillr is developed by Tomasz Święcki. You can delete your account yourself from inside the app in a few seconds, or ask us to do it for you by email.",
+    "sections": [
+      {
+        "heading": "Delete your account from inside the app",
+        "paragraphs": [
+          "This is the fastest way and it takes effect immediately. You do not need to contact us."
+        ],
+        "bullets": [
+          "Open Drillr and go to the Settings tab",
+          "Scroll to the Account section",
+          "Tap Delete Account, the last row in that section",
+          "Confirm when asked - this cannot be undone"
+        ]
+      },
+      {
+        "heading": "Delete your account by email",
+        "paragraphs": [
+          "If you cannot sign in, or you would rather we did it for you, email drillrapps@gmail.com from the address your account is registered to, with the subject \"Account Deletion Request\". We need the message to come from the registered address so we can confirm the account is yours.",
+          "We action these within 30 days, and normally within a few working days. We will confirm by email once it is done."
+        ]
+      },
+      {
+        "heading": "What is deleted",
+        "paragraphs": [
+          "Deleting your account permanently removes the following. None of it can be recovered afterwards, by you or by us."
+        ],
+        "bullets": [
+          "Your profile - name, email address, position, height, weight, birthday and gender",
+          "Your full training history - every completed exercise, session and date",
+          "Your recorded weights and weight history",
+          "Your effort and readiness entries, and your match evaluations",
+          "Your username, which is released so it can be used again",
+          "Your sign-in credentials, so the account can no longer be logged into",
+          "All Drillr data stored locally on your device"
+        ]
+      },
+      {
+        "heading": "What is kept, and for how long",
+        "paragraphs": [
+          "A small amount of information survives account deletion, for the reasons given below. None of it can be used to sign in, and none of it identifies you inside the app.",
+          "If you want the analytics records erased as well, say so in your email and we will remove them. Ask us directly rather than assuming deletion covers it."
+        ],
+        "bullets": [
+          "Purchase and subscription records held by Apple, Google and our billing provider RevenueCat. These are transaction records we are required to retain for tax and accounting purposes, and we cannot delete them on your behalf",
+          "Pseudonymous product analytics - which screens were opened and which features were used, tied to a random identifier rather than to your name or email",
+          "Crash and error reports, which contain diagnostic information about the app rather than information about you",
+          "A record that you asked not to be contacted again, if you have ever told us that. We keep only what is needed to honour that request"
+        ]
+      },
+      {
+        "heading": "Deleting your account does not cancel your subscription",
+        "paragraphs": [
+          "Subscriptions are billed by Apple and Google, not by us, so deleting your Drillr account does not stop the billing. Cancel through your Apple ID or Google Play account settings before you delete, or you will continue to be charged.",
+          "Our Manage Subscription page has direct links for both stores. If you have already deleted your account and are still being billed, email drillrapps@gmail.com and we will help you sort it out."
+        ]
+      }
+    ],
+    "crossLink": { "href": "/privacy", "label": "Read the full Privacy Policy" }
   },
   "privacy": {
     "title": "Privacy Policy",

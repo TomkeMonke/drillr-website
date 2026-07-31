@@ -5,7 +5,7 @@ import { RichText } from "./RichText";
 
 interface Props {
   locale: Locale;
-  t: Dictionary["privacy"] | Dictionary["terms"];
+  t: Dictionary["privacy"] | Dictionary["terms"] | Dictionary["deleteAccount"];
 }
 
 function slugFor(i: number) {

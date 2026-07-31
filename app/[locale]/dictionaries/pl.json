@@ -21,17 +21,17 @@
     "screenshotAlt": "Ekran aplikacji Drillr"
   },
   "hero": {
-    "badge": "Pokochało nas 1600+ piłkarzy · ocena {rating}",
+    "badge": "Pokochało nas 2200+ piłkarzy · ocena {rating}",
     "titleLine1": "Przestań tylko grać.",
     "titleLine2": "Zacznij dominować.",
     "subtitle": "Drillr to aplikacja piłkarska, która naprawdę zna twoją pozycję. Dostajesz plan dopasowany do twojej roli, poziomu i czasu, jakim dysponujesz.",
     "downloadCta": "Pobierz"
   },
   "usedBy": {
-    "title": "Z Drillr trenuje ponad 1600 graczy",
+    "title": "Z Drillr trenuje ponad 2200 graczy",
     "subtitle": "Od juniorów po pół-zawodowców, w ponad 50 krajach, każdego dnia.",
     "stats": [
-      { "value": "1600+", "label": "Aktywnych graczy" },
+      { "value": "2200+", "label": "Aktywnych graczy" },
       { "value": "80+", "label": "Krajów" },
       { "value": "{rating}★", "label": "Średnia ocena" },
       { "value": "8 tys.+", "label": "Ukończonych ćwiczeń" }
@@ -272,6 +272,7 @@
     "training": "Trening",
     "privacy": "Polityka prywatności",
     "terms": "Regulamin",
+    "deleteAccount": "Usuń konto",
     "faq": "FAQ",
     "press": "Prasa",
     "manageSubscription": "Subskrypcja",
@@ -323,6 +324,69 @@
         "a": "Prześlij szczegóły przez formularz opinii lub mailowo - zrzuty ekranu i model urządzenia pomogą nam szybciej go naprawić."
       }
     ]
+  },
+  "deleteAccount": {
+    "title": "Usuń swoje konto",
+    "lastUpdated": "Obowiązuje od 2026-07-31",
+    "tocLabel": "Spis treści",
+    "intro": "Ta strona wyjaśnia, jak usunąć konto w Drillr i co dzieje się wtedy z twoimi danymi. Twórcą Drillr jest Tomasz Święcki. Konto możesz usunąć samodzielnie w aplikacji w kilka sekund albo poprosić nas o to mailowo.",
+    "sections": [
+      {
+        "heading": "Usuń konto w aplikacji",
+        "paragraphs": [
+          "To najszybszy sposób i działa natychmiast. Nie musisz się z nami kontaktować."
+        ],
+        "bullets": [
+          "Otwórz Drillr i przejdź do zakładki Ustawienia",
+          "Przewiń do sekcji Konto",
+          "Dotknij Usuń konto - to ostatnia pozycja w tej sekcji",
+          "Potwierdź - tej operacji nie da się cofnąć"
+        ]
+      },
+      {
+        "heading": "Usuń konto mailowo",
+        "paragraphs": [
+          "Jeśli nie możesz się zalogować albo wolisz, żebyśmy zrobili to za ciebie, napisz na drillrapps@gmail.com z adresu, na który zarejestrowane jest konto, w temacie wpisując \"Account Deletion Request\". Wiadomość musi przyjść z zarejestrowanego adresu, żebyśmy mogli potwierdzić, że konto należy do ciebie.",
+          "Realizujemy takie zgłoszenia w ciągu 30 dni, zwykle w kilka dni roboczych. Po wykonaniu potwierdzimy to mailowo."
+        ]
+      },
+      {
+        "heading": "Co zostaje usunięte",
+        "paragraphs": [
+          "Usunięcie konta trwale kasuje poniższe dane. Nic z tego nie da się później odzyskać - ani tobie, ani nam."
+        ],
+        "bullets": [
+          "Twój profil - imię, adres e-mail, pozycja, wzrost, waga, data urodzenia i płeć",
+          "Pełna historia treningów - każde ukończone ćwiczenie, sesja i data",
+          "Zapisane wagi i historia wagi",
+          "Wpisy o wysiłku i gotowości oraz oceny meczów",
+          "Twoja nazwa użytkownika, która wraca do puli i może zostać użyta ponownie",
+          "Dane logowania, dzięki czemu nie da się już zalogować na to konto",
+          "Wszystkie dane Drillr zapisane lokalnie na twoim urządzeniu"
+        ]
+      },
+      {
+        "heading": "Co zostaje zachowane i na jak długo",
+        "paragraphs": [
+          "Niewielka część informacji pozostaje po usunięciu konta, z powodów opisanych poniżej. Żadna z nich nie pozwala się zalogować ani nie identyfikuje cię w aplikacji.",
+          "Jeśli chcesz, żeby dane analityczne również zostały skasowane, napisz o tym w mailu, a je usuniemy. Poproś nas wprost - samo usunięcie konta tego nie obejmuje."
+        ],
+        "bullets": [
+          "Zapisy zakupów i subskrypcji przechowywane przez Apple, Google i naszego operatora płatności RevenueCat. To dokumenty transakcyjne, które musimy przechowywać na potrzeby podatkowe i księgowe, i nie możemy ich usunąć w twoim imieniu",
+          "Pseudonimowe dane produktowe - które ekrany były otwierane i z których funkcji korzystano, powiązane z losowym identyfikatorem, a nie z twoim imieniem czy adresem e-mail",
+          "Raporty awarii i błędów, które zawierają informacje diagnostyczne o aplikacji, a nie o tobie",
+          "Informacja o tym, że prosiłeś o niekontaktowanie się z tobą, jeśli kiedykolwiek nam to zgłosiłeś. Zachowujemy tylko tyle, ile trzeba, żeby uszanować tę prośbę"
+        ]
+      },
+      {
+        "heading": "Usunięcie konta nie anuluje subskrypcji",
+        "paragraphs": [
+          "Subskrypcje rozliczają Apple i Google, a nie my, więc usunięcie konta Drillr nie zatrzymuje płatności. Anuluj subskrypcję w ustawieniach swojego Apple ID lub konta Google Play zanim usuniesz konto, bo inaczej opłaty będą naliczane dalej.",
+          "Na stronie Zarządzaj subskrypcją znajdziesz bezpośrednie linki do obu sklepów. Jeśli konto jest już usunięte, a opłaty nadal są pobierane, napisz na drillrapps@gmail.com i pomożemy to uporządkować."
+        ]
+      }
+    ],
+    "crossLink": { "href": "/privacy", "label": "Przeczytaj pełną Politykę prywatności" }
   },
   "privacy": {
     "title": "Polityka prywatności",
