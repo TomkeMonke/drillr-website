@@ -314,7 +314,7 @@
       },
       {
         "q": "Jak usunąć konto lub moje dane?",
-        "a": "Napisz do nas z adresu powiązanego z kontem, a usuniemy twoje dane. Co przechowujemy, sprawdzisz też w naszej polityce prywatności."
+        "a": "Wejdź w aplikacji w Ustawienia > Usuń konto - to od razu usuwa twój profil i wszystkie dane treningowe. Jeśli nie możesz zalogować się na konto, napisz do nas z powiązanego z nim adresu, a zrobimy to za ciebie. Co przechowujemy, sprawdzisz w naszej polityce prywatności."
       },
       {
         "q": "Znalazłem błąd. Co robić?",
@@ -324,9 +324,9 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Obowiązuje od 2026-07-27",
+    "lastUpdated": "Obowiązuje od 2026-07-31",
     "tocLabel": "Spis treści",
-    "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium. Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
+    "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\"). Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
       {
         "heading": "Jakie informacje gromadzi Aplikacja i w jaki sposób są wykorzystywane?",
@@ -351,6 +351,15 @@
           "Aplikacja może automatycznie zbierać określone informacje, w tym między innymi: rodzaj urządzenia mobilnego, unikalny identyfikator urządzenia, adres IP, system operacyjny, rodzaj używanych mobilnych przeglądarek internetowych oraz informacje o sposobie korzystania z Aplikacji.",
           "Korzystamy z PostHog, aby zrozumieć, jak użytkownicy korzystają z Aplikacji - jakie ekrany odwiedzają, jakich funkcji używają i jakie czynności wykonują. Ta analityka jest włączona domyślnie i stanowi część usługi, którą akceptujesz, zakładając konto, logując się lub w inny sposób korzystając z Aplikacji. Podstawą prawną tego przetwarzania jest prawnie uzasadniony interes Usługodawcy polegający na zabezpieczaniu, utrzymywaniu i ulepszaniu Aplikacji. Możesz w dowolnym momencie wnieść sprzeciw, kontaktując się pod adresem drillrapps@gmail.com, możesz zatrzymać całe zbieranie danych, odinstalowując Aplikację, a także ograniczyć identyfikatory reklamowe i analityczne w ustawieniach prywatności swojego urządzenia.",
           "Przy zakupie subskrypcji Aplikacja otrzymuje również identyfikator transakcji, status subskrypcji, datę zakupu, datę odnowienia oraz nazwę zakupionego produktu. Sama płatność (karta kredytowa, Apple Pay, Google Pay) obsługiwana jest wyłącznie przez Apple lub Google - Usługodawca nie widzi ani nie przechowuje danych twojej karty płatniczej."
+        ]
+      },
+      {
+        "heading": "Jakie informacje zbiera Witryna?",
+        "paragraphs": [
+          "Niniejsza Polityka obejmuje również witrynę Drillr pod adresem getdrillr.app. Witryna ma charakter informacyjny i pomocowy: każdą stronę możesz przeczytać bez zakładania konta, a Witryna nie zapisuje żadnych plików cookie reklamowych, profilujących ani śledzących cię między witrynami.",
+          "Witryna jest hostowana przez Vercel, który prowadzi standardowe logi serwera - obejmujące adres IP, adres żądanej strony i rodzaj przeglądarki - w celach bezpieczeństwa, przeciwdziałania nadużyciom i niezawodności. Usługodawca korzysta również z Vercel Web Analytics, aby sprawdzić, ile osób odwiedza poszczególne strony i skąd trafiają na Witrynę. Vercel Web Analytics działa bez plików cookie: nie zapisuje niczego na twoim urządzeniu i nie tworzy trwałego profilu, a Usługodawca widzi wyłącznie dane zbiorcze, takie jak liczba odsłon, źródło wejścia, kraj i rodzaj urządzenia. Podstawą prawną w obu przypadkach jest prawnie uzasadniony interes Usługodawcy polegający na prowadzeniu, zabezpieczaniu i ulepszaniu Witryny.",
+          "Formularz opinii pod adresem getdrillr.app/feedback udostępnia Tally i jest on osadzony z serwerów tej firmy. Odnośnik \"Wyślij opinię\" w Aplikacji otwiera ten sam formularz. To, co przez niego wysyłasz - wybrana kategoria, wpisany przez ciebie opis, opcjonalny zrzut ekranu lub nagranie oraz adres e-mail, jeśli zdecydujesz się go podać, aby Usługodawca mógł odpowiedzieć - trafia do Tally i jest przekazywane Usługodawcy oraz wykorzystywane wyłącznie po to, aby ci odpowiedzieć i zająć się twoim zgłoszeniem. Tally przechowuje odpowiedzi z formularza na serwerach w Unii Europejskiej. Prosimy nie załączać zrzutów ekranu ani nagrań przedstawiających inne osoby. Osadzony formularz może zapisywać pliki cookie niezbędne do jego działania; nie zapisuje plików cookie reklamowych ani śledzących. Jeśli wolisz w ogóle nie korzystać z formularza, napisz na adres drillrapps@gmail.com.",
+          "Czcionki serwowane są z własnej domeny Witryny, więc samo przeglądanie strony nie wysyła zapytania do zewnętrznej sieci czcionek ani reklamowej. Przyciski App Store i Google Play prowadzą do serwisów Apple i Google, które podlegają ich własnym politykom prywatności, a nie niniejszej Polityce."
         ]
       },
       {
@@ -395,6 +404,8 @@
           "https://posthog.com/privacy - analityka produktowa, dane przechowywane w Unii Europejskiej",
           "https://sentry.io/privacy/ - raportowanie awarii i błędów",
           "https://www.revenuecat.com/privacy - zarządzanie subskrypcjami i analityka rozliczeń",
+          "https://vercel.com/legal/privacy-policy - hosting i analityka Witryny działająca bez plików cookie",
+          "https://tally.so/help/privacy-policy - formularz opinii w Witrynie",
           "https://www.apple.com/legal/privacy/ - dla zakupów w iOS",
           "https://policies.google.com/privacy - dla zakupów w Androidzie"
         ]
@@ -421,7 +432,8 @@
         "heading": "Jaka jest polityka przechowywania danych i jak mogę zarządzać swoimi informacjami?",
         "paragraphs": [
           "Usługodawca będzie przechowywać Dane Podane przez Użytkownika tak długo, jak korzystasz z Aplikacji, oraz przez rozsądny czas po zakończeniu korzystania. Dane Zbierane Automatycznie będą przechowywane przez okres do 24 miesięcy, a następnie mogą być przechowywane w formie zagregowanej. Jeśli chcesz, aby Usługodawca usunął Dane Podane przez Użytkownika, skontaktuj się z nim pod adresem drillrapps@gmail.com - odpowie w rozsądnym terminie. Pamiętaj, że część lub całość Danych Podanych przez Użytkownika może być wymagana do prawidłowego działania Aplikacji.",
-          "Możesz również samodzielnie usunąć swoje konto i wszystkie powiązane dane w dowolnym momencie w Aplikacji, w sekcji Ustawienia > Usuń konto, co natychmiast usuwa twój profil oraz dane treningowe, wagowe, dane o wysiłku i meczach z systemów Usługodawcy."
+          "Możesz również samodzielnie usunąć swoje konto i wszystkie powiązane dane w dowolnym momencie w Aplikacji, w sekcji Ustawienia > Usuń konto, co natychmiast usuwa twój profil oraz dane treningowe, wagowe, dane o wysiłku i meczach z systemów Usługodawcy.",
+          "Opinie przesłane przez opisany wyżej formularz przechowywane są tylko przez czas potrzebny na ich rozpatrzenie. Po udzieleniu odpowiedzi lub rozwiązaniu zgłoszenia Usługodawca usuwa odpowiedź z Tally, wraz z załączonym zrzutem ekranu lub nagraniem oraz podanym adresem e-mail."
         ]
       },
       {
@@ -439,6 +451,23 @@
           "prawo do przenoszenia danych, czyli do otrzymania swoich danych w ustrukturyzowanym, powszechnie używanym formacie;",
           "prawo do wycofania zgody w dowolnym momencie, jeżeli przetwarzanie odbywa się na podstawie zgody;",
           "prawo do wniesienia skargi do organu nadzorczego - w Polsce jest nim Prezes Urzędu Ochrony Danych Osobowych."
+        ]
+      },
+      {
+        "heading": "Twoje prawa, jeśli mieszkasz w Stanach Zjednoczonych",
+        "paragraphs": [
+          "Jeśli mieszkasz w Kalifornii lub w innym stanie USA, w którym obowiązuje kompleksowa ustawa o ochronie prywatności - takim jak Kolorado, Connecticut, Montana, Oregon, Teksas czy Wirginia - przysługują ci dodatkowe prawa wymienione poniżej. Kategorie danych osobowych zbieranych przez Usługodawcę, cele ich wykorzystania oraz okresy przechowywania opisano we wcześniejszych punktach niniejszej Polityki.",
+          "Usługodawca nie sprzedaje twoich danych osobowych ani nie udostępnia ich na potrzeby reklamy behawioralnej łączącej różne serwisy i nie robił tego w ciągu ostatnich dwunastu miesięcy. W Aplikacji ani w Witrynie nie ma żadnej sieci reklamowej, brokera danych ani technologii targetowania reklam. Usługodawca nie sprzedaje ani nie udostępnia świadomie danych osobowych osób poniżej 16. roku życia.",
+          "Aplikacja zbiera informacje, które prawo kalifornijskie traktuje jako wrażliwe dane osobowe - dane związane ze zdrowiem, takie jak parametry ciała i status kontuzji. Usługodawca wykorzystuje je wyłącznie do tworzenia i dostosowywania planów treningowych oraz żywieniowych, na które się zapisujesz, a nie do wnioskowania o twoich cechach, więc prawo do ograniczenia wykorzystania wrażliwych danych osobowych nie ogranicza żadnego faktycznie prowadzonego przetwarzania.",
+          "Aby skorzystać z któregokolwiek z poniższych praw, napisz na adres drillrapps@gmail.com z adresu powiązanego z twoim kontem albo w dowolnym momencie samodzielnie usuń konto i jego dane w Aplikacji, w sekcji Ustawienia > Usuń konto. Możesz działać przez upoważnionego przedstawiciela - Usługodawca może wtedy poprosić o potwierdzenie jego umocowania oraz o potwierdzenie bezpośrednio od ciebie. Usługodawca odpowie w terminie przewidzianym przez prawo twojego stanu, a jeśli wniosek zostanie odrzucony, możesz się odwołać, odpowiadając na ten sam adres. Z zastrzeżeniem prawa twojego stanu przysługuje ci prawo do:"
+        ],
+        "bullets": [
+          "uzyskania informacji o tym, jakie dane osobowe są o tobie zbierane, oraz otrzymania ich kopii;",
+          "sprostowania nieprawidłowych danych osobowych;",
+          "usunięcia twoich danych osobowych;",
+          "otrzymania danych w formacie nadającym się do przenoszenia i odczytu maszynowego;",
+          "sprzeciwu wobec sprzedaży lub udostępniania danych osobowych, reklamy targetowanej oraz profilowania wywołującego skutki prawne lub podobnie istotne - Usługodawca nie prowadzi żadnej z tych czynności;",
+          "niebycia dyskryminowanym za skorzystanie z tych praw. Usługodawca nie oferuje zachęt finansowych w zamian za dane osobowe, a Aplikacja działa tak samo niezależnie od tego, czy z nich skorzystasz."
         ]
       },
       {
@@ -480,20 +509,21 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-07-27",
+    "lastUpdated": "Obowiązuje od 2026-07-31",
     "tocLabel": "Spis treści",
-    "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium.",
+    "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\").",
     "sections": [
       {
         "heading": "Akceptacja regulaminu",
         "paragraphs": [
-          "Pobierając Aplikację, zakładając konto, logując się do niej lub w inny sposób z niej korzystając, akceptujesz niniejszy Regulamin oraz Politykę prywatności Drillr, która zostaje włączona do niniejszego regulaminu przez odniesienie - w tym analitykę i przetwarzanie danych opisane w tej Polityce. Zalecamy dokładne przeczytanie i zrozumienie obu dokumentów przed rozpoczęciem korzystania z Aplikacji. Jeśli się nie zgadzasz, nie korzystaj z Aplikacji."
+          "Pobierając Aplikację, zakładając konto, logując się do niej lub w inny sposób z niej korzystając, akceptujesz niniejszy Regulamin oraz Politykę prywatności Drillr, która zostaje włączona do niniejszego regulaminu przez odniesienie - w tym analitykę i przetwarzanie danych opisane w tej Polityce. Zalecamy dokładne przeczytanie i zrozumienie obu dokumentów przed rozpoczęciem korzystania z Aplikacji. Jeśli się nie zgadzasz, nie korzystaj z Aplikacji.",
+          "Niniejszy Regulamin reguluje również korzystanie z Witryny w zakresie, w jakim ma do niej zastosowanie. Witryna ma charakter informacyjny i pomocowy: do jej przeglądania nie jest potrzebne konto, publikowane w niej treści mają charakter wyłącznie ogólnoinformacyjny i mogą się w każdej chwili zmienić, a poniższe punkty dotyczące treści treningowych, żywieniowych oraz analizy techniki stosuje się tak samo do tych samych treści prezentowanych w Witrynie."
         ]
       },
       {
         "heading": "Własność intelektualna",
         "paragraphs": [
-          "Nieautoryzowane kopiowanie, modyfikacja Aplikacji, jej części lub naszych znaków towarowych jest surowo zabronione. Wszelkie próby wyodrębnienia kodu źródłowego Aplikacji, tłumaczenia jej na inne języki czy tworzenia wersji pochodnych są niedozwolone. Wszystkie znaki towarowe, prawa autorskie, prawa do baz danych i inne prawa własności intelektualnej związane z Aplikacją pozostają własnością Usługodawcy."
+          "Nieautoryzowane kopiowanie, modyfikacja Aplikacji, Witryny, jakiejkolwiek ich części lub naszych znaków towarowych jest surowo zabronione. Wszelkie próby wyodrębnienia kodu źródłowego Aplikacji, tłumaczenia jej na inne języki czy tworzenia wersji pochodnych są niedozwolone. Wszystkie znaki towarowe, prawa autorskie, prawa do baz danych i inne prawa własności intelektualnej związane z Aplikacją i Witryną pozostają własnością Usługodawcy."
         ]
       },
       {
@@ -550,6 +580,8 @@
           "https://posthog.com/terms - analityka produktowa",
           "https://sentry.io/terms/ - raportowanie awarii i błędów",
           "https://www.revenuecat.com/terms - zarządzanie subskrypcjami",
+          "https://vercel.com/legal/terms - hosting i analityka Witryny",
+          "https://tally.so/help/terms-and-conditions - formularz opinii w Witrynie",
           "https://www.apple.com/legal/internet-services/itunes/ - zakupy w iOS",
           "https://play.google.com/about/play-terms/ - zakupy w Androidzie"
         ]

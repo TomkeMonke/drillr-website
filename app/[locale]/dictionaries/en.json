@@ -314,7 +314,7 @@
       },
       {
         "q": "How do I delete my account or data?",
-        "a": "Email us from the address tied to your account and we'll remove your data. You can also review what we store in our privacy policy."
+        "a": "Open Settings > Delete Account in the app - that removes your profile and all your training data straight away. If you can't get into your account, email us from the address it's tied to and we'll do it for you. What we store is listed in our privacy policy."
       },
       {
         "q": "I found a bug. What should I do?",
@@ -324,9 +324,9 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Effective 2026-07-27",
+    "lastUpdated": "Effective 2026-07-31",
     "tocLabel": "Table of Contents",
-    "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service. This service is provided \"AS IS\".",
+    "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service, and to the Drillr website at getdrillr.app (hereinafter referred to as \"Website\"). This service is provided \"AS IS\".",
     "sections": [
       {
         "heading": "What information does the Application obtain and how is it used?",
@@ -351,6 +351,15 @@
           "In addition, the Application may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device's unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.",
           "We use PostHog to understand how users interact with the Application, including screens visited, features used, and actions taken. This analytics collection is enabled by default and forms part of the service you accept when you create an account, sign in, or otherwise use the Application. The Service Provider relies on its legitimate interest in securing, maintaining, and improving the Application as the legal basis for this processing. You can object at any time by contacting drillrapps@gmail.com, you can stop all collection by uninstalling the Application, and you can limit advertising and analytics identifiers through your device's privacy settings.",
           "When you purchase a subscription, the Application also receives your transaction ID, subscription status, purchase date, renewal date, and the product you purchased. Payment itself (credit card, Apple Pay, Google Pay) is handled entirely by Apple or Google - the Service Provider never sees or stores your payment card details."
+        ]
+      },
+      {
+        "heading": "What information does the Website collect?",
+        "paragraphs": [
+          "This Policy also covers the Drillr website at getdrillr.app. The Website is an information and support site: you can read every page without an account, and it sets no advertising, profiling, or cross-site tracking cookies.",
+          "The Website is hosted by Vercel, which keeps standard server access logs - including your IP address, the page requested, and your browser type - for security, abuse prevention, and reliability. The Service Provider also uses Vercel Web Analytics to see how many people visit each page and where they arrive from. Vercel Web Analytics is cookieless: it stores nothing on your device and builds no persistent profile of you, and the Service Provider sees only aggregate figures such as page views, referrer, country, and device type. The legal basis for both is the Service Provider's legitimate interest in operating, securing, and improving the Website.",
+          "The feedback form at getdrillr.app/feedback is provided by Tally and embedded from their servers. The \"Send feedback\" link inside the Application opens the same form. What you submit through it - the category you choose, the details you write, an optional screenshot or video you attach, and an email address if you choose to give one so that the Service Provider can reply - is sent to Tally and passed on to the Service Provider, and is used only to reply to you and to act on what you report. Tally stores form responses on servers in the European Union. Please do not attach a screenshot or video showing other people. The embedded form may set cookies that are strictly necessary for it to work; it does not set advertising or tracking cookies. If you would rather not use the form at all, you can email drillrapps@gmail.com instead.",
+          "Fonts are served from the Website's own domain, so reading a page does not send a request to any third-party font or advertising network. The App Store and Google Play buttons take you to Apple's and Google's own sites, which are governed by their privacy policies rather than this one."
         ]
       },
       {
@@ -395,6 +404,8 @@
           "https://posthog.com/privacy - product analytics, hosted in the European Union",
           "https://sentry.io/privacy/ - crash and error reporting",
           "https://www.revenuecat.com/privacy - subscription management and billing analytics",
+          "https://vercel.com/legal/privacy-policy - hosting and cookieless analytics for the Website",
+          "https://tally.so/help/privacy-policy - the feedback form on the Website",
           "https://www.apple.com/legal/privacy/ - for iOS purchases",
           "https://policies.google.com/privacy - for Android purchases"
         ]
@@ -421,7 +432,8 @@
         "heading": "What is the data retention policy and how can you manage your information?",
         "paragraphs": [
           "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please contact them at drillrapps@gmail.com and they will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.",
-          "You can also delete your account and all associated data yourself at any time within the Application, under Settings > Delete Account, which immediately removes your profile along with your training, weight, effort, and match data from the Service Provider's systems."
+          "You can also delete your account and all associated data yourself at any time within the Application, under Settings > Delete Account, which immediately removes your profile along with your training, weight, effort, and match data from the Service Provider's systems.",
+          "Feedback sent through the form described above is kept only for as long as it takes to deal with it. Once your report has been answered or resolved, the Service Provider deletes the response from Tally, including any screenshot or video you attached and any email address you gave."
         ]
       },
       {
@@ -439,6 +451,23 @@
           "the right to data portability, that is, to receive your data in a structured, commonly used format;",
           "the right to withdraw consent at any time, where processing is based on consent;",
           "the right to lodge a complaint with a supervisory authority - in Poland, the President of the Personal Data Protection Office (Prezes Urzędu Ochrony Danych Osobowych)."
+        ]
+      },
+      {
+        "heading": "Your rights if you live in the United States",
+        "paragraphs": [
+          "If you are a resident of California, or of another US state with a comprehensive privacy law such as Colorado, Connecticut, Montana, Oregon, Texas, or Virginia, you have the additional rights set out below. The categories of personal data the Service Provider collects, the purposes they are used for, and how long they are kept are described earlier in this Policy.",
+          "The Service Provider does not sell your personal information and does not share it for cross-context behavioural advertising, and has not done so in the preceding twelve months. There is no advertising network, data broker, or ad-targeting technology in the Application or on the Website. The Service Provider also does not knowingly sell or share the personal information of anyone under 16.",
+          "The Application collects some information that California law treats as sensitive personal information, namely health-related data such as your body metrics and injury status. The Service Provider uses it only to generate and adapt the training and nutrition plans you signed up for, and not to infer characteristics about you, so the right to limit the use of sensitive personal information does not restrict any processing that actually takes place.",
+          "To exercise any of the rights below, email drillrapps@gmail.com from the address linked to your account, or delete your account and its data yourself at any time under Settings > Delete Account in the Application. You may use an authorised agent, in which case the Service Provider may ask for proof of their authority and for confirmation from you directly. The Service Provider will respond within the period your state's law allows, and if a request is declined you can appeal by replying to the same address. Subject to the law of your state, you have the right to:"
+        ],
+        "bullets": [
+          "know what personal information is collected about you, and to obtain a copy of it;",
+          "have inaccurate personal information corrected;",
+          "have your personal information deleted;",
+          "receive your data in a portable, machine-readable form;",
+          "opt out of the sale or sharing of personal information, of targeted advertising, and of profiling that produces legal or similarly significant effects - none of which the Service Provider carries out;",
+          "not be discriminated against for exercising any of these rights. The Service Provider does not offer financial incentives in exchange for personal data, and the Application works the same way whether or not you exercise them."
         ]
       },
       {
@@ -480,20 +509,21 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Effective 2026-07-27",
+    "lastUpdated": "Effective 2026-07-31",
     "tocLabel": "Table of Contents",
-    "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service.",
+    "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service, and to the Drillr website at getdrillr.app (hereby referred to as \"Website\").",
     "sections": [
       {
         "heading": "Acceptance of Terms",
         "paragraphs": [
-          "By downloading, creating an account, signing in to, or otherwise using the Application, you agree to these Terms of Service and to the Drillr Privacy Policy, which is incorporated into these terms by reference - including the analytics and data processing described in that Policy. It is strongly advised that you thoroughly read and understand both documents prior to using the Application. If you do not agree, do not use the Application."
+          "By downloading, creating an account, signing in to, or otherwise using the Application, you agree to these Terms of Service and to the Drillr Privacy Policy, which is incorporated into these terms by reference - including the analytics and data processing described in that Policy. It is strongly advised that you thoroughly read and understand both documents prior to using the Application. If you do not agree, do not use the Application.",
+          "These terms also govern your use of the Website, to the extent they are relevant to it. The Website is provided for information and support: no account is needed to read it, the content on it is published for general information only and may change at any time, and the sections below that concern training, nutrition, and form-analysis content apply equally to the same content presented on the Website."
         ]
       },
       {
         "heading": "Intellectual Property",
         "paragraphs": [
-          "Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider."
+          "Unauthorized copying, modification of the Application, the Website, any part of either, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application and the Website remain the property of the Service Provider."
         ]
       },
       {
@@ -550,6 +580,8 @@
           "https://posthog.com/terms - product analytics",
           "https://sentry.io/terms/ - crash and error reporting",
           "https://www.revenuecat.com/terms - subscription management",
+          "https://vercel.com/legal/terms - hosting and analytics for the Website",
+          "https://tally.so/help/terms-and-conditions - the feedback form on the Website",
           "https://www.apple.com/legal/internet-services/itunes/ - iOS purchases",
           "https://play.google.com/about/play-terms/ - Android purchases"
         ]
