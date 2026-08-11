@@ -4,18 +4,18 @@ import { join } from "node:path";
 import { isLocale } from "@/lib/locales";
 import { BRAND } from "@/lib/brand";
 
-export const alt = "Drillr - football training that knows your position";
+export const alt = "Drillr - football fitness built for the position you play";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 const COPY = {
   en: {
-    headline: "Stop playing.\nStart dominating.",
-    sub: "Football training that knows your position.",
+    headline: "Every position\ntrains differently.",
+    sub: "Football fitness for the position you play. Home or gym.",
   },
   pl: {
-    headline: "Przestań tylko grać.\nZacznij dominować.",
-    sub: "Trening piłkarski pod twoją pozycję.",
+    headline: "Każda pozycja\ntrenuje inaczej.",
+    sub: "Trening pod twoją pozycję. W domu albo na siłowni.",
   },
 } as const;
 

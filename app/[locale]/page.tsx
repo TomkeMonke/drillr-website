@@ -13,6 +13,7 @@ import { Features } from "@/components/home/Features";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Faq } from "@/components/home/Faq";
 import { CoachesCta } from "@/components/home/CoachesCta";
+import { FinalCta } from "@/components/home/FinalCta";
 import { ScrollScene } from "@/components/animations/ScrollScene";
 
 export async function generateMetadata({
@@ -63,6 +64,9 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           <CoachesCta dict={dict} />
         </ScrollScene>
       )}
+      <ScrollScene>
+        <FinalCta dict={dict} />
+      </ScrollScene>
     </>
   );
 }

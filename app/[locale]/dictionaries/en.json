@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Drillr - football training for your position",
-    "description": "A training app that knows your position. One plan, built around your level, your week, and the goals you actually care about."
+    "title": "Drillr - football fitness training for your position",
+    "description": "Football fitness built for the position you actually play. Home or gym, one plan shaped around your role, your level, and the time you've got."
   },
   "nav": {
     "home": "Home",
@@ -22,19 +22,19 @@
   },
   "hero": {
     "badge": "Loved by 2200+ players · {rating} rating",
-    "titleLine1": "Stop playing.",
-    "titleLine2": "Start dominating.",
-    "subtitle": "Drillr is the football training app that actually knows your position. You get a plan shaped to your role, your level, and the time you've got.",
+    "titleLine1": "Every position",
+    "titleLine2": "trains differently.",
+    "subtitle": "Drillr is the football fitness app built around the position you actually play. Home or gym, shaped to your role, your level, and the time you've got.",
     "downloadCta": "Download"
   },
   "usedBy": {
     "title": "2200+ players train with us",
-    "subtitle": "From U14s to semi-pro, in 50+ countries, every single day.",
+    "subtitle": "From U14s to semi-pro, in 80+ countries, every single day.",
     "stats": [
       { "value": "2200+", "label": "Active players" },
       { "value": "80+", "label": "Countries" },
       { "value": "{rating}★", "label": "Average rating" },
-      { "value": "8K+", "label": "Drills completed" }
+      { "value": "8K+", "label": "Exercises completed" }
     ]
   },
   "story": {
@@ -49,7 +49,7 @@
       {
         "eyebrow": "Step 02",
         "title": "Train every day",
-        "body": "Short, honest sessions. 15 minutes a day is enough to change how you play, and Drillr keeps count for you."
+        "body": "Short, honest sessions. 25-45 minutes is enough to change how you play, and Drillr keeps count for you."
       },
       {
         "eyebrow": "Step 03",
@@ -62,8 +62,8 @@
     "title": "What's inside Drillr",
     "items": [
       {
-        "title": "Drills chosen for your spot",
-        "body": "Goalkeeper, defender, midfielder, forward. Every drill is picked for what your position actually demands."
+        "title": "Workouts built for your position",
+        "body": "Goalkeeper, defender, midfielder, forward. Every exercise is picked for what your position actually demands."
       },
       {
         "title": "A calendar that fits your week",
@@ -90,12 +90,12 @@
       {
         "name": "Sara K.",
         "role": "U16 Defender",
-        "quote": "My friend showed me the app and now I'm on it every day. Drills actually make sense for my position."
+        "quote": "My friend showed me the app and now I'm on it every day. The workouts actually make sense for my position."
       },
       {
         "name": "Daniel R.",
         "role": "Semi-pro Forward",
-        "quote": "The position-specific stuff is what hooked me. Every drill feels like it's for my game."
+        "quote": "The position-specific stuff is what hooked me. Every session feels like it's for my game."
       },
       {
         "name": "Jakub W.",
@@ -119,7 +119,7 @@
     "title": "What position do you play?",
     "subtitle": "Tap a position to see what Drillr does for it.",
     "focusBreakdown": "Focus breakdown",
-    "sampleDrills": "Sample drills",
+    "sampleDrills": "Sample exercises",
     "viewPlan": "See full plan",
     "categoryLabels": {
       "strength": "Strength",
@@ -142,7 +142,7 @@
       },
       {
         "q": "Is there a free version?",
-        "a": "Yes. You can go through onboarding and try a sample of your plan for free. The full weekly plan and the rest of the drills are behind a subscription."
+        "a": "Yes. You can go through onboarding and try a sample of your plan for free. The full weekly plan and the rest of the exercises are behind a subscription."
       },
       {
         "q": "Is Drillr safe for under-13s?",
@@ -171,6 +171,11 @@
     "title": "Coaching a team or running an academy?",
     "body": "We're working on team plans, group dashboards, and academy partnerships. Drop us a line and we'll be in touch.",
     "cta": "Get in touch"
+  },
+  "finalCta": {
+    "title": "Start training for your position",
+    "body": "Pick your position, try a sample of your plan for free, and see how a week built around your role actually feels.",
+    "note": "Free to try. iOS and Android."
   },
   "positions": {
     "indexTitle": "Train by position",

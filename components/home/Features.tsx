@@ -11,7 +11,7 @@ interface Props {
 }
 
 export function Features({ dict, locale }: Props) {
-  const dayDetailScreenshot = locale === "pl" ? "/screenshots/day-detail-v2-pl.png" : "/screenshots/day-detail-v2.png";
+  const positionScreenshot = locale === "pl" ? "/screenshots/position-v2-pl.png" : "/screenshots/position-v2.png";
   return (
     <section className="py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
@@ -27,7 +27,7 @@ export function Features({ dict, locale }: Props) {
                 <PhoneFrame variant="primary">
                   <div className="absolute inset-0 bg-[#111113]">
                     <Image
-                      src={dayDetailScreenshot}
+                      src={positionScreenshot}
                       alt={dict.common.screenshotAlt}
                       fill
                       sizes="(min-width: 768px) 320px, (min-width: 640px) 300px, 280px"

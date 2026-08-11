@@ -13,7 +13,7 @@ interface Props {
 }
 
 export function Hero({ dict, locale, rating }: Props) {
-  const positionScreenshot = locale === "pl" ? "/screenshots/position-v2-pl.png" : "/screenshots/position-v2.png";
+  const dayDetailScreenshot = locale === "pl" ? "/screenshots/day-detail-v2-pl.png" : "/screenshots/day-detail-v2.png";
   return (
     <section className="relative overflow-hidden">
       <HeroAurora />
@@ -75,7 +75,7 @@ export function Hero({ dict, locale, rating }: Props) {
             <PhoneFrame variant="primary">
               <div className="absolute inset-0 bg-[#111113]">
                 <Image
-                  src={positionScreenshot}
+                  src={dayDetailScreenshot}
                   alt={dict.common.screenshotAlt}
                   fill
                   priority
