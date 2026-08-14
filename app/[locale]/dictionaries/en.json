@@ -580,7 +580,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Effective 2026-07-31",
+    "lastUpdated": "Effective 2026-08-14",
     "tocLabel": "Table of Contents",
     "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service, and to the Drillr website at getdrillr.app (hereby referred to as \"Website\").",
     "sections": [
@@ -614,7 +614,7 @@
         "paragraphs": [
           "The Application provides general fitness, training, and conditioning programs, drills, and related content for informational and educational purposes only. It is not medical advice, physiotherapy, or professional coaching, and it is not a substitute for consultation with a qualified physician or other healthcare professional.",
           "Physical exercise carries inherent risks, including the risk of serious injury. You should consult a physician before beginning any exercise program, particularly if you are pregnant, have an existing injury or medical condition, or have been inactive. By using the Application, you confirm that you are medically able to take part in physical activity, and you voluntarily assume all risks associated with exercising and with following any plan, drill, or recommendation provided by the Application. You are solely responsible for exercising within your own limits and for stopping if you feel pain, dizziness, or discomfort.",
-          "To the fullest extent permitted by law, the Service Provider is not liable for any injury, loss, or damage arising out of your use of, or reliance on, the training content, plans, or recommendations provided by the Application.",
+          "To the fullest extent permitted by law, the Service Provider is not liable for any injury, loss, or damage arising out of your use of, or reliance on, the training content, plans, or recommendations provided by the Application. Nothing in this section excludes or limits liability that cannot be excluded or limited under applicable law, including liability for death or personal injury caused by the negligence of the Service Provider, and your mandatory rights as a consumer.",
           "Motivational messages, push notifications, and illustrative examples shown by the Application - including any names, scenarios, or activity described in them - are provided for encouragement only. They do not depict real users or guarantee any particular outcome, and individual results vary."
         ]
       },
@@ -693,7 +693,9 @@
         "heading": "Disclaimer of Warranties and Limitation of Liability",
         "paragraphs": [
           "The Application and the Service are provided \"AS IS\" and \"AS AVAILABLE\", without warranties of any kind, whether express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. The Service Provider does not warrant that the Application will be uninterrupted, error-free, or that any particular result or goal will be achieved.",
-          "To the fullest extent permitted by applicable law, the Service Provider shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profits, or goodwill, arising out of or in connection with your use of the Application. Nothing in these terms excludes or limits liability that cannot be excluded or limited under applicable law, including your mandatory rights as a consumer."
+          "To the fullest extent permitted by applicable law, the Service Provider shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profits, or goodwill, arising out of or in connection with your use of the Application.",
+          "To the fullest extent permitted by applicable law, the total aggregate liability of the Service Provider for all claims arising out of or in connection with the Application, the Website, or these terms, whether in contract, tort, or otherwise, shall not exceed the greater of: (a) the total amount you paid for the Service in the twelve months immediately preceding the event giving rise to the claim, or (b) EUR 50.",
+          "Nothing in these terms excludes or limits liability that cannot be excluded or limited under applicable law. This includes liability for death or personal injury caused by negligence, liability for fraud or fraudulent misrepresentation, liability for intentional misconduct or gross negligence, and your mandatory rights as a consumer, including your rights under the consumer-protection laws of your country of residence."
         ]
       },
       {

@@ -580,7 +580,7 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-07-31",
+    "lastUpdated": "Obowiązuje od 2026-08-14",
     "tocLabel": "Spis treści",
     "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\").",
     "sections": [
@@ -614,7 +614,7 @@
         "paragraphs": [
           "Aplikacja udostępnia ogólne programy treningowe, kondycyjne i sprawnościowe, ćwiczenia oraz powiązane treści wyłącznie w celach informacyjnych i edukacyjnych. Nie stanowią one porady medycznej, fizjoterapeutycznej ani profesjonalnego coachingu i nie zastępują konsultacji z wykwalifikowanym lekarzem lub innym specjalistą ochrony zdrowia.",
           "Aktywność fizyczna wiąże się z nieodłącznym ryzykiem, w tym ryzykiem poważnych obrażeń. Przed rozpoczęciem jakiegokolwiek programu ćwiczeń skonsultuj się z lekarzem, w szczególności jeśli jesteś w ciąży, masz kontuzję lub schorzenie albo prowadziłeś dotąd siedzący tryb życia. Korzystając z Aplikacji, potwierdzasz, że twój stan zdrowia pozwala na udział w aktywności fizycznej, i dobrowolnie przyjmujesz całe ryzyko związane z wykonywaniem ćwiczeń oraz ze stosowaniem się do planów, ćwiczeń i zaleceń udostępnianych przez Aplikację. Ponosisz wyłączną odpowiedzialność za ćwiczenie w granicach swoich możliwości oraz za przerwanie ćwiczeń w razie bólu, zawrotów głowy lub dyskomfortu.",
-          "W najszerszym zakresie dozwolonym przez prawo Usługodawca nie ponosi odpowiedzialności za jakiekolwiek obrażenia, straty ani szkody wynikające z korzystania z treści treningowych, planów lub zaleceń udostępnianych przez Aplikację albo z polegania na nich.",
+          "W najszerszym zakresie dozwolonym przez prawo Usługodawca nie ponosi odpowiedzialności za jakiekolwiek obrażenia, straty ani szkody wynikające z korzystania z treści treningowych, planów lub zaleceń udostępnianych przez Aplikację albo z polegania na nich. Żadne z postanowień niniejszej sekcji nie wyłącza ani nie ogranicza odpowiedzialności, której nie można wyłączyć lub ograniczyć na mocy obowiązującego prawa, w tym odpowiedzialności za śmierć lub uszkodzenie ciała spowodowane niedbalstwem Usługodawcy, ani twoich bezwzględnie obowiązujących praw jako konsumenta.",
           "Wiadomości motywacyjne, powiadomienia push oraz przykłady poglądowe prezentowane przez Aplikację - w tym wszelkie imiona, scenariusze lub opisana w nich aktywność - służą wyłącznie zachęcie. Nie przedstawiają one prawdziwych użytkowników ani nie gwarantują żadnego konkretnego rezultatu, a indywidualne wyniki mogą się różnić."
         ]
       },
@@ -693,7 +693,9 @@
         "heading": "Wyłączenie gwarancji i ograniczenie odpowiedzialności",
         "paragraphs": [
           "Aplikacja i Usługa są udostępniane \"AS IS\" (w stanie, w jakim się znajdują) oraz \"AS AVAILABLE\" (w miarę dostępności), bez jakichkolwiek gwarancji, wyraźnych lub dorozumianych, w tym między innymi dorozumianych gwarancji przydatności handlowej, przydatności do określonego celu oraz nienaruszania praw. Usługodawca nie gwarantuje, że Aplikacja będzie działać nieprzerwanie i bezbłędnie ani że zostanie osiągnięty jakikolwiek konkretny wynik lub cel.",
-          "W najszerszym zakresie dozwolonym przez obowiązujące prawo Usługodawca nie ponosi odpowiedzialności za jakiekolwiek szkody pośrednie, uboczne, szczególne, wynikowe ani o charakterze sankcyjnym, ani za utratę danych, zysków lub renomy, wynikające z korzystania z Aplikacji lub w związku z nim. Żadne z postanowień niniejszego regulaminu nie wyłącza ani nie ogranicza odpowiedzialności, której nie można wyłączyć lub ograniczyć na mocy obowiązującego prawa, w tym twoich bezwzględnie obowiązujących praw jako konsumenta."
+          "W najszerszym zakresie dozwolonym przez obowiązujące prawo Usługodawca nie ponosi odpowiedzialności za jakiekolwiek szkody pośrednie, uboczne, szczególne, wynikowe ani o charakterze sankcyjnym, ani za utratę danych, zysków lub renomy, wynikające z korzystania z Aplikacji lub w związku z nim.",
+          "W najszerszym zakresie dozwolonym przez obowiązujące prawo całkowita łączna odpowiedzialność Usługodawcy z tytułu wszystkich roszczeń wynikających z Aplikacji, Witryny lub niniejszego regulaminu albo pozostających z nimi w związku, niezależnie od tego, czy mają charakter kontraktowy, deliktowy czy inny, nie przekroczy wyższej z następujących kwot: (a) łącznej kwoty zapłaconej przez ciebie za Usługę w okresie dwunastu miesięcy bezpośrednio poprzedzających zdarzenie stanowiące podstawę roszczenia albo (b) 50 EUR.",
+          "Żadne z postanowień niniejszego regulaminu nie wyłącza ani nie ogranicza odpowiedzialności, której nie można wyłączyć lub ograniczyć na mocy obowiązującego prawa. Dotyczy to odpowiedzialności za śmierć lub uszkodzenie ciała spowodowane niedbalstwem, odpowiedzialności za oszustwo lub wprowadzenie w błąd w sposób noszący znamiona oszustwa, odpowiedzialności za winę umyślną lub rażące niedbalstwo, a także twoich bezwzględnie obowiązujących praw jako konsumenta, w tym praw wynikających z przepisów o ochronie konsumentów obowiązujących w kraju twojego zamieszkania."
         ]
       },
       {
