@@ -598,6 +598,26 @@
         ]
       },
       {
+        "heading": "Zasady korzystania",
+        "paragraphs": [
+          "Zobowiązujesz się korzystać z Aplikacji i Witryny zgodnie z prawem oraz w sposób, w jaki są przeznaczone do używania. W razie naruszenia przez ciebie niniejszej sekcji Usługodawca może zawiesić lub zamknąć twoje konto na zasadach opisanych w sekcji \"Konto i rozwiązanie umowy\", a ty możesz ponosić odpowiedzialność za wynikające z tego roszczenia osób trzecich na zasadach opisanych w sekcji \"Roszczenia spowodowane twoim działaniem\".",
+          "W szczególności zobowiązujesz się, że nie będziesz:"
+        ],
+        "bullets": [
+          "korzystać z Usługi w celach bezprawnych ani z naruszeniem przepisów prawa, które cię obowiązują",
+          "zakładać konta przy użyciu nieprawdziwych informacji, podszywać się pod inną osobę ani podawać nieprawdziwego wieku",
+          "udostępniać swojego konta innym osobom ani sprzedawać, wynajmować lub przekazywać dostępu do niego",
+          "próbować uzyskać dostępu do konta lub danych innego użytkownika ani do jakiejkolwiek części Usługi, do której nie przyznano ci dostępu",
+          "próbować obchodzić bramek płatności, weryfikacji subskrypcji, limitów użycia ani innych zabezpieczeń technicznych Usługi",
+          "kopiować, pobierać automatycznie ani systematycznie pozyskiwać treści treningowych, ćwiczeń, danych o ćwiczeniach lub innych materiałów zawartych w Usłudze, ani wykorzystywać ich do tworzenia lub trenowania konkurencyjnego produktu albo modelu uczenia maszynowego",
+          "korzystać z botów, programów pobierających ani innych zautomatyzowanych narzędzi dostępu do Usługi, poza metodami opublikowanymi w tym celu przez Usługodawcę",
+          "przesyłać, nagrywać ani udostępniać treści bezprawnych, naruszających prawa innych osób, zniesławiających lub szkodliwych, ani treści zawierających złośliwe oprogramowanie",
+          "nagrywać ani udostępniać klipów przedstawiających inną osobę bez jej zgody",
+          "zakłócać działania Usługi, jej serwerów ani zabezpieczeń, przeciążać ich, próbować je zakłócić ani testować ich pod kątem podatności bez pisemnej zgody Usługodawcy",
+          "odsprzedawać, udzielać dalszych licencji ani w inny sposób komercyjnie wykorzystywać Usługi lub jej treści bez pisemnej zgody Usługodawcy"
+        ]
+      },
+      {
         "heading": "Zmiany usługi",
         "paragraphs": [
           "Usługodawca dba o to, by Aplikacja była jak najbardziej użyteczna i efektywna. W związku z tym zastrzega sobie prawo do modyfikacji Aplikacji lub pobierania opłat za swoje usługi w dowolnym momencie i z dowolnego powodu. Usługodawca zapewnia, że wszelkie opłaty za Aplikację lub jej usługi będą wyraźnie zakomunikowane.",
@@ -699,7 +719,8 @@
           "Usługodawca może zawiesić lub zakończyć twój dostęp do Usługi, w całości lub w części, ze skutkiem natychmiastowym, jeżeli zachodzą ku temu poważne powody. Do poważnych powodów należą: istotne lub powtarzające się naruszenie niniejszego regulaminu; korzystanie z Usługi w celach bezprawnych lub w sposób naruszający prawa innych osób; oszustwo, oszustwo płatnicze albo nadużywanie okresów próbnych, zwrotów lub obciążeń zwrotnych; próby uzyskania nieuprawnionego dostępu do Usługi lub do danych innych użytkowników albo inne zakłócanie bezpieczeństwa lub działania Usługi; podanie nieprawdziwych informacji w celu założenia lub utrzymania konta, w tym co do twojego wieku; obraźliwe lub nękające zachowanie wobec Usługodawcy lub osób działających w jego imieniu; a także każde korzystanie z Usługi narażające Usługodawcę na odpowiedzialność prawną lub na obowiązek nałożony przez sąd, organ regulacyjny albo sklep z aplikacjami.",
           "Jeżeli będzie to rozsądne i wykonalne, Usługodawca poda ci powód zawieszenia lub zakończenia, a gdy problem da się usunąć - umożliwi ci wcześniejsze jego usunięcie. Zawieszenie będzie stosowane zamiast zakończenia, o ile jest wystarczające do rozwiązania problemu. Jeżeli uważasz, że zawieszenie lub zakończenie nastąpiło omyłkowo, możesz to zakwestionować, pisząc na adres drillrapps@gmail.com, a Usługodawca ponownie rozpatrzy decyzję i udzieli ci odpowiedzi.",
           "Usługodawca może również zakończyć prowadzenie twojego konta bez podania przyczyny, z zachowaniem co najmniej 30-dniowego okresu wypowiedzenia. Jeżeli twoje konto zostanie zamknięte bez podania przyczyny albo z przyczyny nieleżącej po twojej stronie, otrzymasz proporcjonalny zwrot za opłacony już okres subskrypcji, z którego nie skorzystasz.",
-          "W przypadku zakończenia z jakiejkolwiek przyczyny prawa i licencje udzielone ci na podstawie niniejszego regulaminu wygasają, a ty musisz zaprzestać korzystania z Aplikacji i (jeśli to konieczne) usunąć ją z urządzenia. Twoje dane są następnie przetwarzane w sposób opisany w Polityce prywatności. Zakończenie lub usunięcie konta samo w sobie nie anuluje subskrypcji zakupionej za pośrednictwem Apple lub Google. Te postanowienia niniejszego regulaminu, które ze swojej natury powinny obowiązywać po zakończeniu, w tym wyłączenia gwarancji, ograniczenia odpowiedzialności oraz postanowienia o prawie właściwym, pozostają w mocy."
+          "Jeżeli to Usługodawca zamyka twoje konto, otrzymasz rozsądną możliwość pobrania lub wyeksportowania swoich danych przed ich usunięciem, chyba że nie jest to możliwe lub byłoby niezgodne z prawem. Niezależnie od przyczyny zakończenia zachowujesz swoje prawa w zakresie ochrony danych, w tym prawo do otrzymania kopii swoich danych osobowych, opisane w Polityce prywatności.",
+          "W przypadku zakończenia z jakiejkolwiek przyczyny prawa i licencje udzielone ci na podstawie niniejszego regulaminu wygasają, a ty musisz zaprzestać korzystania z Aplikacji i (jeśli to konieczne) usunąć ją z urządzenia. Twoje dane są następnie przetwarzane w sposób opisany w Polityce prywatności. Zakończenie lub usunięcie konta samo w sobie nie anuluje subskrypcji zakupionej za pośrednictwem Apple lub Google. Jeżeli twoje konto zostało zamknięte z poważnych powodów, Usługodawca może odmówić ponownego świadczenia ci Usługi oraz zamknąć każde kolejne konto, które założysz. Te postanowienia niniejszego regulaminu, które ze swojej natury powinny obowiązywać po zakończeniu, w tym wyłączenia gwarancji, ograniczenia odpowiedzialności, twoja odpowiedzialność za roszczenia spowodowane twoim działaniem oraz postanowienia o prawie właściwym, pozostają w mocy."
         ]
       },
       {
@@ -719,7 +740,7 @@
         "paragraphs": [
           "Jeżeli osoba trzecia wystąpi z roszczeniem wobec Usługodawcy z powodu twojego działania, zobowiązujesz się ponieść odpowiedzialność za to roszczenie w zakresie, w jakim zostało ono przez ciebie spowodowane. Obejmuje to roszczenia wynikające z naruszenia przez ciebie niniejszego regulaminu, z treści nagrywanych, udostępnianych lub przesyłanych przez ciebie za pośrednictwem Aplikacji oraz z twojego bezprawnego działania lub naruszenia praw innej osoby. Poniesienie odpowiedzialności za roszczenie oznacza pokrycie odszkodowania, kwot ugody oraz uzasadnionych kosztów obsługi prawnej, które Usługodawca poniesie w sposób konieczny i bezpośrednio w związku z tym roszczeniem.",
           "Obowiązek ten powstaje wyłącznie w zakresie, w jakim roszczenie wynika z twojej winy. Nie obejmuje żadnej części roszczenia spowodowanej działaniem lub zaniechaniem Usługodawcy, wadą Aplikacji lub Witryny albo naruszeniem przez Usługodawcę niniejszego regulaminu lub obowiązującego prawa. Nie ma on zastosowania, jeżeli występujesz jako konsument, a obowiązujące przepisy nie pozwalają nałożyć na ciebie takiego obowiązku, i w żadnym razie nie wykracza poza granice dozwolone przez obowiązujące prawo.",
-          "W razie wystąpienia takiego roszczenia Usługodawca powiadomi cię o tym na piśmie bez zbędnej zwłoki, nie zawrze ugody bez uprzedniej konsultacji z tobą, zapewni ci rozsądną możliwość wypowiedzenia się co do sposobu prowadzenia sprawy oraz podejmie rozsądne działania w celu ograniczenia jego kosztów do minimum. Żadne z postanowień niniejszej sekcji nie narusza twoich bezwzględnie obowiązujących praw jako konsumenta."
+          "W razie wystąpienia takiego roszczenia Usługodawca powiadomi cię o tym na piśmie bez zbędnej zwłoki, nie zawrze ugody bez uprzedniej konsultacji z tobą, zapewni ci rozsądną możliwość wypowiedzenia się co do sposobu prowadzenia sprawy oraz podejmie rozsądne działania w celu ograniczenia jego kosztów do minimum. Żadne z postanowień niniejszej sekcji nie narusza twoich bezwzględnie obowiązujących praw jako konsumenta. Niniejsza sekcja obowiązuje nadal po zamknięciu twojego konta lub zakończeniu obowiązywania niniejszego regulaminu, w odniesieniu do zdarzeń zaistniałych w okresie jego obowiązywania."
         ]
       },
       {
@@ -744,6 +765,13 @@
         "paragraphs": [
           "Jeżeli którekolwiek postanowienie niniejszego regulaminu zostanie uznane przez sąd lub inny właściwy organ za nieważne, niezgodne z prawem lub niewykonalne, postanowienie to uważa się za zmienione w minimalnym zakresie niezbędnym do tego, by stało się ważne i wykonalne, a jeżeli taka zmiana nie jest możliwa - za wyłączone z regulaminu. Pozostałe postanowienia zachowują pełną moc obowiązującą.",
           "W szczególności, jeżeli jakiekolwiek wyłączenie lub ograniczenie odpowiedzialności albo jego część zostanie uznane za niewykonalne, pozostałe wyłączenia i ograniczenia nadal obowiązują. Niewyegzekwowanie przez Usługodawcę któregokolwiek z postanowień niniejszego regulaminu nie stanowi zrzeczenia się tego ani żadnego innego postanowienia."
+        ]
+      },
+      {
+        "heading": "Zawiadomienia",
+        "paragraphs": [
+          "Jeżeli niniejszy regulamin przewiduje obowiązek zawiadomienia cię przez Usługodawcę, zawiadomienie zostanie wysłane na adres e-mail przypisany do twojego konta, wyświetlone w Aplikacji albo przekazane w obu tych formach, i uznaje się je za dokonane w dniu wysłania lub pierwszego wyświetlenia. Twoim obowiązkiem jest utrzymywanie aktualnego adresu e-mail na koncie oraz zadbanie o to, by wiadomości od Usługodawcy nie były blokowane ani filtrowane.",
+          "Jeżeli chcesz przekazać zawiadomienie Usługodawcy, w tym zakwestionować zawieszenie lub zamknięcie konta, napisz na adres drillrapps@gmail.com."
         ]
       },
       {

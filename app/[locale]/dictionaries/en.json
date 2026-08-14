@@ -598,6 +598,26 @@
         ]
       },
       {
+        "heading": "Acceptable Use",
+        "paragraphs": [
+          "You agree to use the Application and the Website lawfully, and in the way they are intended to be used. If you breach this section, the Service Provider may suspend or terminate your account as described in the Account and Termination section, and you may be responsible for any resulting third-party claim as described in the Claims Caused by Your Conduct section.",
+          "In particular, you agree that you will not:"
+        ],
+        "bullets": [
+          "use the Service for any unlawful purpose, or in breach of any law or regulation that applies to you",
+          "create an account using false information, impersonate another person, or misstate your age",
+          "share your account with anyone else, or sell, rent, or transfer access to it",
+          "attempt to access another user's account or data, or any part of the Service you have not been given access to",
+          "attempt to circumvent any paywall, subscription check, usage limit, or other technical restriction in the Service",
+          "copy, scrape, or systematically extract the training content, drills, exercise data, or other material in the Service, or use any of it to build or train a competing product or a machine-learning model",
+          "use any bot, scraper, or other automated means to access the Service, other than by a method the Service Provider has published for that purpose",
+          "upload, record, or transmit anything that is unlawful, infringing, defamatory, or harmful, or that contains malicious code",
+          "record or share a clip depicting another person without their consent",
+          "interfere with, overload, or attempt to disrupt the Service, its servers, or its security features, or probe them for vulnerabilities without the Service Provider's written permission",
+          "resell, sublicense, or otherwise commercially exploit the Service or its content without the Service Provider's written permission"
+        ]
+      },
+      {
         "heading": "Service Changes",
         "paragraphs": [
           "The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.",
@@ -699,7 +719,8 @@
           "The Service Provider may suspend or terminate your access to the Service, in whole or in part, with immediate effect where there are serious grounds for doing so. Serious grounds include a material or repeated breach of these terms; use of the Service for unlawful purposes or in a way that infringes the rights of others; fraud, payment fraud, or abuse of free trials, refunds, or chargebacks; attempting to gain unauthorised access to the Service or to other users' data, or otherwise interfering with the security or operation of the Service; giving false information in order to create or keep an account, including about your age; abusive or harassing conduct towards the Service Provider or anyone acting on their behalf; and any use that exposes the Service Provider to legal liability or to a requirement imposed by a court, a regulator, or an app store.",
           "Where it is reasonable and practicable to do so, the Service Provider will tell you the reason for a suspension or termination and, where the problem can be put right, will give you an opportunity to put it right first. Suspension will be preferred to termination where suspension is enough to deal with the problem. If you believe a suspension or termination was made in error, you may contest it by writing to drillrapps@gmail.com, and the Service Provider will review the decision and respond to you.",
           "The Service Provider may also terminate your account without cause by giving you at least 30 days' notice. If your account is terminated without cause, or for any reason not attributable to you, you will be refunded the pro-rata portion of any subscription period that you have already paid for and will not receive.",
-          "On termination for any reason, the rights and licences granted to you under these terms end, and you must stop using the Application and, if necessary, remove it from your device. Your data is then handled as described in the Privacy Policy. Terminating or deleting your account does not by itself cancel a subscription purchased through Apple or Google. Those provisions of these terms that by their nature should survive termination, including the disclaimers, the limits on liability, and the governing law provisions, continue to apply."
+          "Where the Service Provider terminates your account, you will be given a reasonable opportunity to retrieve or export your data before it is deleted, unless that is not possible or would be unlawful. Whatever the reason for termination, you keep your data protection rights, including the right to receive a copy of your personal data, as set out in the Privacy Policy.",
+          "On termination for any reason, the rights and licences granted to you under these terms end, and you must stop using the Application and, if necessary, remove it from your device. Your data is then handled as described in the Privacy Policy. Terminating or deleting your account does not by itself cancel a subscription purchased through Apple or Google. If your account was terminated on serious grounds, the Service Provider may decline to provide the Service to you again and may close any further account you create. Those provisions of these terms that by their nature should survive termination, including the disclaimers, the limits on liability, your responsibility for claims caused by your conduct, and the governing law provisions, continue to apply."
         ]
       },
       {
@@ -719,7 +740,7 @@
         "paragraphs": [
           "If a third party brings a claim against the Service Provider because of something you did, you agree to be responsible for that claim to the extent it was caused by you. This covers claims arising from your breach of these terms, from content you record, share, or submit through the Application, and from unlawful conduct on your part or infringement of another person's rights. Being responsible for a claim means covering the damages, settlement sums, and reasonable legal costs that the Service Provider necessarily and directly incurs as a result of it.",
           "This obligation applies only to the extent the claim is attributable to your own fault. It does not apply to any part of a claim caused by an act or omission of the Service Provider, by a defect in the Application or the Website, or by the Service Provider's own breach of these terms or of applicable law. It does not apply at all where you are acting as a consumer and applicable law does not permit such an obligation to be placed on you, and it never extends further than applicable law allows.",
-          "If a claim of this kind arises, the Service Provider will notify you in writing without undue delay, will not settle it without consulting you first, will give you a reasonable opportunity to comment on how it is handled, and will take reasonable steps to keep the cost of it to a minimum. Nothing in this section affects your mandatory rights as a consumer."
+          "If a claim of this kind arises, the Service Provider will notify you in writing without undue delay, will not settle it without consulting you first, will give you a reasonable opportunity to comment on how it is handled, and will take reasonable steps to keep the cost of it to a minimum. Nothing in this section affects your mandatory rights as a consumer. This section continues to apply after your account is closed or these terms come to an end, in respect of anything that happened while they were in force."
         ]
       },
       {
@@ -744,6 +765,13 @@
         "paragraphs": [
           "If any provision of these terms is held to be invalid, unlawful, or unenforceable by a court or other competent authority, that provision is to be treated as modified to the minimum extent necessary to make it valid and enforceable, or, if it cannot be so modified, severed from these terms. The remaining provisions remain in full force and effect.",
           "In particular, if any exclusion or limitation of liability, or any part of one, is held to be unenforceable, the remaining exclusions and limitations continue to apply. The failure of the Service Provider to enforce any provision of these terms is not a waiver of that provision or of any other."
+        ]
+      },
+      {
+        "heading": "Notices",
+        "paragraphs": [
+          "Where these terms require the Service Provider to give you notice, it will be sent to the email address registered to your account, shown to you within the Application, or both, and is treated as given on the day it is sent or first displayed. It is your responsibility to keep the email address on your account current, and to make sure messages from the Service Provider are not blocked or filtered out.",
+          "Where you need to give notice to the Service Provider, including to contest a suspension or termination, write to drillrapps@gmail.com."
         ]
       },
       {
