@@ -600,7 +600,8 @@
       {
         "heading": "Service Changes",
         "paragraphs": [
-          "The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you."
+          "The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.",
+          "The Service Provider may also change, suspend, or discontinue any feature of the Application or the Website, in whole or in part, and will give reasonable notice where it is practicable to do so. Except as set out below, the Service Provider is not liable to you for any such change, suspension, or discontinuation. This does not affect your statutory rights, or any refund you are entitled to if a paid feature you have subscribed to is withdrawn."
         ]
       },
       {
@@ -639,9 +640,17 @@
         ]
       },
       {
+        "heading": "Beta and Experimental Features",
+        "paragraphs": [
+          "The Service Provider may make features available on a beta, preview, or otherwise experimental basis, and will identify them as such within the Application. Beta features are provided for evaluation only. They may be incomplete, may produce inaccurate results, may not work on every device, and may be changed or withdrawn at any time without notice.",
+          "To the fullest extent permitted by applicable law, beta features are provided without warranty of any kind and are used at your sole risk. Use of a beta feature is optional, and the limits set out in the Disclaimer of Warranties and Limitation of Liability section apply to it in full."
+        ]
+      },
+      {
         "heading": "Third-Party Services",
         "paragraphs": [
-          "Please note that the Application utilizes third-party services that have their own Terms of Service. Below are the links to the Terms of Service of the third-party service providers used by the Application:"
+          "Please note that the Application utilizes third-party services that have their own Terms of Service. These services are operated independently of the Service Provider, who does not control or endorse them and, to the fullest extent permitted by applicable law, is not responsible for their content, their availability, or any act or omission on their part. Your use of a third-party service is governed by that provider's own terms.",
+          "Below are the links to the Terms of Service of the third-party service providers used by the Application:"
         ],
         "bullets": [
           "https://policies.google.com/terms",
@@ -674,6 +683,16 @@
         ]
       },
       {
+        "heading": "Apple and Google App Stores",
+        "paragraphs": [
+          "These terms are concluded between you and the Service Provider only, and not with Apple Inc. or Google LLC. The Service Provider, not Apple or Google, is solely responsible for the Application and its content.",
+          "Apple and Google have no obligation whatsoever to furnish any maintenance or support services for the Application. In the event of any failure of the Application to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price of the Application to you, if you purchased it through the App Store. To the maximum extent permitted by applicable law, Apple has no other warranty obligation whatsoever with respect to the Application.",
+          "The Service Provider, not Apple or Google, is responsible for addressing any claim by you or any third party relating to the Application or your possession and use of it, including product liability claims, any claim that the Application fails to conform to any applicable legal or regulatory requirement, claims arising under consumer protection or similar legislation, and any claim that the Application infringes a third party's intellectual property rights.",
+          "You represent that you are not located in a country subject to a United States Government embargo or designated as a terrorist-supporting country, and that you are not listed on any United States Government list of prohibited or restricted parties.",
+          "Apple and its subsidiaries, and Google and its affiliates, are third-party beneficiaries of these terms, and upon your acceptance of these terms they have the right to enforce them against you as a third-party beneficiary. Nothing in this section limits your rights against the Service Provider or your mandatory rights as a consumer."
+        ]
+      },
+      {
         "heading": "Account and Termination",
         "paragraphs": [
           "You may stop using the Service at any time. You can permanently delete your account and associated data from within the Application, under Settings > Delete Account, or by contacting the Service Provider at drillrapps@gmail.com. Deleting your account does not by itself cancel a subscription purchased through Apple or Google; you must cancel that separately as described above."
@@ -686,7 +705,9 @@
           "If you are using the Application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the Application, or other third-party charges. By using the Application, you accept responsibility for any such charges, including roaming data charges if you use the Application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the Application, the Service Provider assumes that you have obtained permission from the bill payer.",
           "Similarly, the Service Provider cannot always assume responsibility for your usage of the Application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.",
           "While the Service Provider strives to ensure that the Application is updated and accurate at all times, they do rely on third parties to provide information so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the Application.",
-          "The Service Provider may wish to update the Application at some point. The Application is currently available as per the requirements for the operating system, and any additional systems they decide to extend availability to may change. You will need to download the updates if you want to continue using the Application. The Service Provider does not guarantee that they will always update the Application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the Application when offered to you. The Service Provider may also wish to cease providing the Application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the Application, and (if necessary) delete it from your device."
+          "The Service Provider may wish to update the Application at some point. The Application is currently available as per the requirements for the operating system, and any additional systems they decide to extend availability to may change. You will need to download the updates if you want to continue using the Application. The Service Provider does not guarantee that they will always update the Application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the Application when offered to you. The Service Provider may also wish to cease providing the Application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the Application, and (if necessary) delete it from your device.",
+          "Your training history and other data are stored on your device and on the Service Provider's hosting providers, and the Service Provider takes reasonable care to keep them available. Even so, no service can guarantee against loss or corruption of data. You should keep your own record of any training, health, or body-measurement information that matters to you, and should not treat the Application as your only copy of it.",
+          "The Service Provider is not liable for any failure or delay in providing the Application or the Website that is caused by events beyond its reasonable control, including outages or failures of hosting, network, app store, or payment providers, power or internet failures, industrial action, acts of government, natural events, epidemics, or armed conflict."
         ]
       },
       {
@@ -696,13 +717,21 @@
           "The Service Provider makes no representations or warranties as to the accuracy, adequacy, reliability, completeness, or timeliness of any content, information, or materials made available through the Application or the Website. Your use of the Application and the Website is at your sole risk.",
           "To the fullest extent permitted by applicable law, neither the Service Provider nor its contractors, suppliers, or content providers shall be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profits, or goodwill, arising out of or in connection with your use of the Application or the Website.",
           "To the fullest extent permitted by applicable law, the total aggregate liability of the Service Provider and its contractors, suppliers, and content providers for all claims arising out of or in connection with the Application, the Website, or these terms, whether in contract, tort, or otherwise, shall not exceed the greater of: (a) the total amount you paid for the Service in the twelve months immediately preceding the event giving rise to the claim, or (b) EUR 50.",
-          "Nothing in these terms excludes or limits liability that cannot be excluded or limited under applicable law. This includes liability for death or personal injury caused by negligence, liability for fraud or fraudulent misrepresentation, liability for intentional misconduct or gross negligence, and your mandatory rights as a consumer, including your rights under the consumer-protection laws of your country of residence."
+          "Nothing in these terms excludes or limits liability that cannot be excluded or limited under applicable law. This includes liability for death or personal injury caused by negligence, liability for fraud or fraudulent misrepresentation, liability for intentional misconduct or gross negligence, and your mandatory rights as a consumer, including your rights under the consumer-protection laws of your country of residence.",
+          "The exclusions and limits in this section reflect an agreed allocation of risk between you and the Service Provider, and are reflected in the price charged for the Service. They apply to the fullest extent permitted by applicable law, even if any limited remedy is found to have failed of its essential purpose, and they survive any termination of these terms or deletion of your account."
         ]
       },
       {
         "heading": "Governing Law and Disputes",
         "paragraphs": [
           "These terms are governed by the laws of Poland, without regard to its conflict-of-law rules. If you are a consumer resident in the European Union, you also benefit from the mandatory protections of the consumer-protection laws of your country of residence, and nothing in these terms affects those rights. The European Commission also provides an online dispute resolution platform at https://ec.europa.eu/consumers/odr for eligible disputes."
+        ]
+      },
+      {
+        "heading": "Severability",
+        "paragraphs": [
+          "If any provision of these terms is held to be invalid, unlawful, or unenforceable by a court or other competent authority, that provision is to be treated as modified to the minimum extent necessary to make it valid and enforceable, or, if it cannot be so modified, severed from these terms. The remaining provisions remain in full force and effect.",
+          "In particular, if any exclusion or limitation of liability, or any part of one, is held to be unenforceable, the remaining exclusions and limitations continue to apply. The failure of the Service Provider to enforce any provision of these terms is not a waiver of that provision or of any other."
         ]
       },
       {
