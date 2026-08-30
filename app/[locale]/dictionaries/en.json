@@ -395,7 +395,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Effective 2026-07-31",
+    "lastUpdated": "Effective 2026-08-30",
     "tocLabel": "Table of Contents",
     "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service, and to the Drillr website at getdrillr.app (hereinafter referred to as \"Website\"). This service is provided \"AS IS\".",
     "sections": [
@@ -489,7 +489,8 @@
         "bullets": [
           "as required by law, such as to comply with a subpoena, or similar legal process;",
           "when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;",
-          "with their trusted services providers who work on their behalf, do not have an independent use of the information disclosed to them, and have agreed to adhere to the rules set forth in this privacy statement."
+          "with their trusted services providers who work on their behalf, do not have an independent use of the information disclosed to them, and have agreed to adhere to the rules set forth in this privacy statement;",
+          "in connection with a merger, acquisition, reorganization, insolvency, or a sale of all or part of the Drillr business or its assets, in which case your information - including the health-related information described above - may be transferred to the party taking over. The Service Provider will tell you in the Application or by email before such a transfer takes effect, the party taking over will remain bound by this Policy for the information it receives until it gives you notice of any change, and every right described below continues to apply, including your right to delete your account and all of your data at any time."
         ]
       },
       {
@@ -580,7 +581,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Effective 2026-08-14",
+    "lastUpdated": "Effective 2026-08-30",
     "tocLabel": "Table of Contents",
     "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service, and to the Drillr website at getdrillr.app (hereby referred to as \"Website\").",
     "sections": [
@@ -762,6 +763,14 @@
           "If a dispute cannot be resolved that way, it may be taken to court. If you are a consumer resident in the European Union, you may bring proceedings against the Service Provider either in the courts of Poland or in the courts of the country where you live, and the Service Provider may bring proceedings against you only in the courts of the country where you live. If you are not a consumer, or you live outside the European Union, the courts of Poland have jurisdiction, without prejudice to any mandatory rule of your local law that provides otherwise.",
           "The Service Provider is not obliged to use an out-of-court consumer dispute resolution body and does not commit in advance to doing so, but will consider any such request in good faith. Consumers in Poland can get free assistance from a municipal or district consumer ombudsman (miejski lub powiatowy rzecznik konsumentów) or from the Trade Inspection (Inspekcja Handlowa), which conducts out-of-court consumer dispute resolution proceedings. Consumers elsewhere in the European Union can get free assistance with cross-border disputes from the European Consumer Centre in their own country.",
           "These terms are published in English and in Polish. If you are a consumer resident in Poland, the Polish version governs. In all other cases, if there is any conflict between the two versions, the English version governs."
+        ]
+      },
+      {
+        "heading": "Assignment",
+        "paragraphs": [
+          "You may not assign or transfer these terms, or your account, to anyone else without the Service Provider's prior written consent.",
+          "The Service Provider may assign or transfer these terms, and the rights and obligations under them, to another person or company - for example as part of a merger, acquisition, reorganization, or a sale of all or part of the Drillr business or its assets. In that case the party taking over steps into the Service Provider's place under these terms unchanged, your account and any subscription continue on the same conditions, and the transfer does not reduce any right you have under these terms or under mandatory consumer law.",
+          "The Service Provider will notify you in the Application or by email before such a transfer takes effect. If you do not wish to continue with the new provider, you may stop using the Application and delete your account at any time, and cancel your subscription through Apple or Google as described in the Subscriptions and Paid Plans section above. Any transfer of your personal data as part of such a transaction is described in the Privacy Policy."
         ]
       },
       {

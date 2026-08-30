@@ -395,7 +395,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Obowiązuje od 2026-07-31",
+    "lastUpdated": "Obowiązuje od 2026-08-30",
     "tocLabel": "Spis treści",
     "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\"). Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
@@ -489,7 +489,8 @@
         "bullets": [
           "gdy wymaga tego prawo, np. w celu zastosowania się do wezwania sądowego lub innej procedury prawnej;",
           "gdy w dobrej wierze uzna, że ujawnienie jest niezbędne do ochrony swoich praw, ochrony twojego bezpieczeństwa lub bezpieczeństwa innych osób, zwalczania oszustw lub odpowiedzi na żądanie organu publicznego;",
-          "zaufanym dostawcom usług, którzy działają w jego imieniu, nie wykorzystują udostępnionych im informacji niezależnie i zobowiązali się do przestrzegania zasad zawartych w niniejszej Polityce."
+          "zaufanym dostawcom usług, którzy działają w jego imieniu, nie wykorzystują udostępnionych im informacji niezależnie i zobowiązali się do przestrzegania zasad zawartych w niniejszej Polityce;",
+          "w związku z połączeniem, przejęciem, reorganizacją, niewypłacalnością lub sprzedażą całości albo części działalności Drillr lub jej aktywów - w takim przypadku twoje dane, w tym opisane powyżej dane dotyczące zdrowia, mogą zostać przekazane podmiotowi przejmującemu. Usługodawca poinformuje cię w Aplikacji lub e-mailem, zanim takie przekazanie nabierze skutku, podmiot przejmujący pozostanie związany niniejszą Polityką w zakresie otrzymanych danych do czasu poinformowania cię o jakiejkolwiek zmianie, a wszystkie prawa opisane poniżej nadal ci przysługują, w tym prawo do usunięcia konta i wszystkich twoich danych w dowolnym momencie."
         ]
       },
       {
@@ -580,7 +581,7 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-08-14",
+    "lastUpdated": "Obowiązuje od 2026-08-30",
     "tocLabel": "Spis treści",
     "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\").",
     "sections": [
@@ -762,6 +763,14 @@
           "Jeżeli sporu nie uda się rozwiązać w ten sposób, może on zostać skierowany na drogę sądową. Jeżeli jesteś konsumentem mającym miejsce zamieszkania w Unii Europejskiej, możesz wytoczyć powództwo przeciwko Usługodawcy przed sądem polskim albo przed sądem kraju twojego zamieszkania, a Usługodawca może wytoczyć powództwo przeciwko tobie wyłącznie przed sądem kraju twojego zamieszkania. Jeżeli nie jesteś konsumentem albo mieszkasz poza Unią Europejską, właściwe są sądy polskie, z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa miejscowego stanowiących inaczej.",
           "Usługodawca nie jest zobowiązany do korzystania z pozasądowego rozwiązywania sporów konsumenckich i nie zobowiązuje się do tego z góry, rozpatrzy jednak każdy taki wniosek w dobrej wierze. Konsumenci w Polsce mogą uzyskać bezpłatną pomoc u miejskiego lub powiatowego rzecznika konsumentów albo w Inspekcji Handlowej, która prowadzi postępowania w sprawie pozasądowego rozwiązywania sporów konsumenckich. Konsumenci z innych krajów Unii Europejskiej mogą uzyskać bezpłatną pomoc w sporach transgranicznych w Europejskim Centrum Konsumenckim w swoim kraju.",
           "Niniejszy regulamin jest publikowany w języku angielskim i polskim. Jeżeli jesteś konsumentem mającym miejsce zamieszkania w Polsce, wiążąca jest wersja polska. W pozostałych przypadkach, w razie rozbieżności między wersjami, rozstrzyga wersja angielska."
+        ]
+      },
+      {
+        "heading": "Przeniesienie praw i obowiązków",
+        "paragraphs": [
+          "Nie możesz przenieść niniejszego regulaminu ani swojego konta na inną osobę bez uprzedniej pisemnej zgody Usługodawcy.",
+          "Usługodawca może przenieść niniejszy regulamin oraz wynikające z niego prawa i obowiązki na inną osobę lub spółkę - na przykład w ramach połączenia, przejęcia, reorganizacji lub sprzedaży całości albo części działalności Drillr lub jej aktywów. W takim przypadku podmiot przejmujący wstępuje w miejsce Usługodawcy na warunkach niniejszego regulaminu w niezmienionej postaci, twoje konto i ewentualna subskrypcja są kontynuowane na tych samych zasadach, a przeniesienie nie ogranicza żadnego z twoich praw wynikających z niniejszego regulaminu ani z bezwzględnie obowiązujących przepisów o ochronie konsumentów.",
+          "Usługodawca poinformuje cię w Aplikacji lub e-mailem, zanim takie przeniesienie nabierze skutku. Jeżeli nie chcesz kontynuować korzystania z usługi u nowego usługodawcy, możesz w każdej chwili przestać korzystać z Aplikacji i usunąć konto, a subskrypcję anulować w Apple lub Google w sposób opisany w powyższej sekcji \"Subskrypcje i plany płatne\". Przekazanie twoich danych osobowych w ramach takiej transakcji opisano w Polityce prywatności."
         ]
       },
       {
