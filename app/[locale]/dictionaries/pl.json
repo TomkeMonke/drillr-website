@@ -395,7 +395,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Obowiązuje od 2026-08-30",
+    "lastUpdated": "Obowiązuje od 2026-09-15",
     "tocLabel": "Spis treści",
     "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\"). Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
@@ -421,6 +421,7 @@
         "paragraphs": [
           "Aplikacja może automatycznie zbierać określone informacje, w tym między innymi: rodzaj urządzenia mobilnego, unikalny identyfikator urządzenia, adres IP, system operacyjny, rodzaj używanych mobilnych przeglądarek internetowych oraz informacje o sposobie korzystania z Aplikacji.",
           "Korzystamy z PostHog, aby zrozumieć, jak użytkownicy korzystają z Aplikacji - jakie ekrany odwiedzają, jakich funkcji używają i jakie czynności wykonują. Ta analityka jest włączona domyślnie i stanowi część usługi, którą akceptujesz, zakładając konto, logując się lub w inny sposób korzystając z Aplikacji. Podstawą prawną tego przetwarzania jest prawnie uzasadniony interes Usługodawcy polegający na zabezpieczaniu, utrzymywaniu i ulepszaniu Aplikacji. Możesz w dowolnym momencie wnieść sprzeciw, kontaktując się pod adresem drillrapps@gmail.com, możesz zatrzymać całe zbieranie danych, odinstalowując Aplikację, a także ograniczyć identyfikatory reklamowe i analityczne w ustawieniach prywatności swojego urządzenia.",
+          "Aplikacja korzysta również z PostHog do tworzenia nagrań ekranu, dzięki którym Usługodawca widzi, gdzie Aplikacja przestaje działać, zawiesza się lub jest niezrozumiała, i może to naprawić. Nagranie ekranu to seria zrzutów ekranów samej Aplikacji wraz z dotknięciami i przejściami między ekranami, rejestrowana podczas korzystania z niej. Wpisywany tekst i obrazy są maskowane na twoim urządzeniu, zanim cokolwiek zostanie wysłane, a na ekranach Ustawień, w zakładce Dieta i na każdym ekranie korzystającym z kamery nagrywanie całkowicie się zatrzymuje, więc te ekrany nigdy nie są nagrywane. Nagrania powstają dopiero po zakończeniu onboardingu, gdy masz już konto, i nigdy nie dotyczą użytkowników poniżej wieku, od którego w ich kraju można samodzielnie wyrazić zgodę na przetwarzanie danych osobowych (na przykład 16 lat w Polsce, 14 lat w Hiszpanii oraz 13 lat w Wielkiej Brytanii i Stanach Zjednoczonych). Nagrania są powiązane z tym samym pseudonimowym identyfikatorem użytkownika co opisana wyżej analityka oraz z raportami o awariach, aby błąd można było odnieść do tego, co działo się na ekranie. Podstawą prawną tego przetwarzania jest prawnie uzasadniony interes Usługodawcy polegający na wykrywaniu i usuwaniu błędów w Aplikacji. Nagrania są automatycznie usuwane po 30 dniach. Możesz w każdej chwili wyłączyć nagrania ekranu w Aplikacji, w sekcji Ustawienia > Preferencje > Analiza produktu.",
           "Przy zakupie subskrypcji Aplikacja otrzymuje również identyfikator transakcji, status subskrypcji, datę zakupu, datę odnowienia oraz nazwę zakupionego produktu. Sama płatność (karta kredytowa, Apple Pay, Google Pay) obsługiwana jest wyłącznie przez Apple lub Google - Usługodawca nie widzi ani nie przechowuje danych twojej karty płatniczej."
         ]
       },
@@ -442,14 +443,15 @@
       {
         "heading": "Czy Aplikacja korzysta z technologii sztucznej inteligencji (AI)?",
         "paragraphs": [
-          "Aplikacja zawiera opcjonalną funkcję analizy techniki, która korzysta z wbudowanego w twój telefon wykrywania ruchu i postawy ciała (takiego jak framework Vision firmy Apple w systemie iOS), aby przekazać ci informacje zwrotne na temat techniki wykonywania ćwiczeń. Cała ta analiza odbywa się w całości na twoim urządzeniu. W ramach tej funkcji żadne dane wideo, obrazu ani postawy ciała nie są przesyłane do Usługodawcy ani żadnego podmiotu trzeciego i nie są wykorzystywane do twojej identyfikacji. Szczegóły znajdziesz w sekcji dotyczącej korzystania z kamery poniżej."
+          "Aplikacja zawiera opcjonalną funkcję analizy techniki, która korzysta z wbudowanego w twój telefon wykrywania ruchu i postawy ciała (takiego jak framework Vision firmy Apple w systemie iOS), aby przekazać ci informacje zwrotne na temat techniki wykonywania ćwiczeń. Cała ta analiza odbywa się w całości na twoim urządzeniu. W ramach tej funkcji żadne dane wideo, obrazu ani postawy ciała nie są przesyłane do Usługodawcy ani żadnego podmiotu trzeciego i nie są wykorzystywane do twojej identyfikacji. Szczegóły znajdziesz w sekcji dotyczącej korzystania z kamery poniżej.",
+          "Usługodawca korzysta również z funkcji sztucznej inteligencji wbudowanych w PostHog, które automatycznie przeglądają nagrania ekranu, raporty o awariach i błędach oraz dane analityczne, aby wykrywać błędy i problemy z użytecznością oraz przygotowywać zmiany w kodzie, które je naprawiają. Funkcje te działają na modelach AI firm Google, OpenAI i Anthropic, które przetwarzają dane w imieniu PostHog, mogą przetwarzać je poza Unią Europejską z zastosowaniem odpowiednich zabezpieczeń i mają umowny zakaz wykorzystywania ich do trenowania swoich modeli. Funkcje te nie służą do podejmowania decyzji dotyczących ciebie ani do tworzenia twojego profilu, a każdą proponowaną zmianę w kodzie Usługodawca sprawdza przed jej wykorzystaniem. Wykorzystywanie tych danych przez PostHog do trenowania własnych modeli AI jest wyłączone."
         ]
       },
       {
         "heading": "Czy Aplikacja korzysta z kamery i co dzieje się z nagraniami?",
         "paragraphs": [
           "Aplikacja zawiera opcjonalną funkcję sprawdzania techniki, która korzysta z kamery twojego urządzenia. Kamera jest uruchamiana wyłącznie wtedy, gdy sam rozpoczniesz sprawdzanie techniki dla obsługiwanego ćwiczenia, i tylko po to, by nagrać krótki klip przedstawiający wykonywanie tego ćwiczenia. W każdej chwili możesz odmówić lub cofnąć zgodę na dostęp do kamery w ustawieniach urządzenia; pozostała część Aplikacji nadal działa bez niej.",
-          "Nagrany klip jest analizowany w całości na twoim urządzeniu. Usługodawca nie otrzymuje, nie przesyła ani nie przechowuje twojego klipu na żadnym serwerze, klip nie jest automatycznie zapisywany w twojej bibliotece zdjęć i nie jest udostępniany żadnemu podmiotowi trzeciemu. W ramach tej funkcji Aplikacja nie nagrywa dźwięku.",
+          "Nagrany klip jest analizowany w całości na twoim urządzeniu. Usługodawca nie otrzymuje, nie przesyła ani nie przechowuje twojego klipu na żadnym serwerze, klip nie jest automatycznie zapisywany w twojej bibliotece zdjęć i nie jest udostępniany żadnemu podmiotowi trzeciemu. W ramach tej funkcji Aplikacja nie nagrywa dźwięku. Ekrany korzystające z kamery nigdy nie trafiają do nagrań ekranu.",
           "Jeśli zdecydujesz się udostępnić klip za pomocą opcji udostępniania, Aplikacja tworzy wersję ze znakiem wodnym Drillr i naniesionymi informacjami zwrotnymi o technice, a następnie przekazuje ją do standardowego arkusza udostępniania twojego urządzenia. Od momentu wybrania miejsca docelowego (na przykład komunikatora, sieci społecznościowej lub kontaktu) klip podlega regulaminowi i polityce prywatności danej usługi lub odbiorcy, a nie niniejszej Polityce, i Usługodawca nie ma kontroli nad sposobem ich postępowania z nim. Udostępniaj wyłącznie klipy z własnym udziałem i nie udostępniaj klipów przedstawiających inne osoby bez ich zgody."
         ]
       },
@@ -472,7 +474,8 @@
           "https://firebase.google.com/policies/analytics",
           "https://firebase.google.com/support/privacy",
           "https://expo.dev/privacy",
-          "https://posthog.com/privacy - analityka produktowa, dane przechowywane w Unii Europejskiej",
+          "https://posthog.com/privacy - analityka produktowa, nagrania ekranu i wykrywanie błędów wspomagane przez AI, dane przechowywane w Unii Europejskiej (funkcje AI korzystają z modeli firm Google, OpenAI i Anthropic)",
+          "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement - hosting kodu źródłowego Aplikacji, w tym proponowanych poprawek błędów wykrytych w danych diagnostycznych",
           "https://sentry.io/privacy/ - raportowanie awarii i błędów",
           "https://www.revenuecat.com/privacy - zarządzanie subskrypcjami i analityka rozliczeń",
           "https://vercel.com/legal/privacy-policy - hosting i analityka Witryny działająca bez plików cookie",
@@ -497,13 +500,14 @@
         "heading": "Jakie mam prawo do rezygnacji?",
         "paragraphs": [
           "Możesz w każdej chwili przerwać gromadzenie informacji przez Aplikację, odinstalowując ją. Skorzystaj ze standardowych metod odinstalowania dostępnych w urządzeniu mobilnym lub w sklepie z aplikacjami. Odinstalowanie Aplikacji nie powoduje automatycznego anulowania płatnej subskrypcji - musisz anulować ją w ustawieniach swojego konta Apple ID lub Google Play.",
-          "Możesz również w dowolnej chwili trwale usunąć swoje konto i wszystkie powiązane dane bezpośrednio w Aplikacji, w sekcji Ustawienia > Usuń konto."
+          "Możesz również w dowolnej chwili trwale usunąć swoje konto i wszystkie powiązane dane bezpośrednio w Aplikacji, w sekcji Ustawienia > Usuń konto.",
+          "Możesz w każdej chwili wyłączyć nagrania ekranu w Aplikacji, w sekcji Ustawienia > Preferencje > Analiza produktu. Nagrywanie zatrzymuje się od razu, a dopóki ta opcja jest wyłączona, nie powstają nowe nagrania."
         ]
       },
       {
         "heading": "Jaka jest polityka przechowywania danych i jak mogę zarządzać swoimi informacjami?",
         "paragraphs": [
-          "Usługodawca będzie przechowywać Dane Podane przez Użytkownika tak długo, jak korzystasz z Aplikacji, oraz przez rozsądny czas po zakończeniu korzystania. Dane Zbierane Automatycznie będą przechowywane przez okres do 24 miesięcy, a następnie mogą być przechowywane w formie zagregowanej. Jeśli chcesz, aby Usługodawca usunął Dane Podane przez Użytkownika, skontaktuj się z nim pod adresem drillrapps@gmail.com - odpowie w rozsądnym terminie. Pamiętaj, że część lub całość Danych Podanych przez Użytkownika może być wymagana do prawidłowego działania Aplikacji.",
+          "Usługodawca będzie przechowywać Dane Podane przez Użytkownika tak długo, jak korzystasz z Aplikacji, oraz przez rozsądny czas po zakończeniu korzystania. Dane Zbierane Automatycznie będą przechowywane przez okres do 24 miesięcy, a następnie mogą być przechowywane w formie zagregowanej, z wyjątkiem nagrań ekranu, które są automatycznie usuwane po 30 dniach. Jeśli chcesz, aby Usługodawca usunął Dane Podane przez Użytkownika, skontaktuj się z nim pod adresem drillrapps@gmail.com - odpowie w rozsądnym terminie. Pamiętaj, że część lub całość Danych Podanych przez Użytkownika może być wymagana do prawidłowego działania Aplikacji.",
           "Możesz również samodzielnie usunąć swoje konto i wszystkie powiązane dane w dowolnym momencie w Aplikacji, w sekcji Ustawienia > Usuń konto, co natychmiast usuwa twój profil oraz dane treningowe, wagowe, dane o wysiłku i meczach z systemów Usługodawcy.",
           "Opinie przesłane przez opisany wyżej formularz przechowywane są tylko przez czas potrzebny na ich rozpatrzenie. Po udzieleniu odpowiedzi lub rozwiązaniu zgłoszenia Usługodawca usuwa odpowiedź z Tally, wraz z załączonym zrzutem ekranu lub nagraniem oraz podanym adresem e-mail."
         ]
@@ -547,6 +551,7 @@
         "paragraphs": [
           "Aplikacja jest przeznaczona dla użytkowników w wieku 13 lat i starszych. Usługodawca nie zbiera świadomie danych od dzieci poniżej 13. roku życia ani nie kieruje do nich treści marketingowych.",
           "W niektórych krajach minimalny wiek wyrażenia zgody na przetwarzanie danych osobowych jest wyższy niż 13 lat - na przykład 16 lat w Polsce i części Unii Europejskiej. Aplikacja jest dostępna dla użytkowników w wieku 13 lat i starszych we wszystkich krajach. Jeśli masz co najmniej 13 lat, ale jesteś poniżej wieku zgody cyfrowej obowiązującego w twoim kraju, możesz korzystać z Aplikacji i podawać swoje dane osobowe wyłącznie przy udziale i za zgodą rodzica lub opiekuna prawnego, który akceptuje niniejszą Politykę w twoim imieniu.",
+          "Aplikacja nie tworzy nagrań ekranu użytkowników poniżej wieku zgody cyfrowej obowiązującego w ich kraju, nawet jeśli poza tym mogą korzystać z Aplikacji.",
           "Użytkownicy, którzy podczas onboardingu zaznaczą wiek poniżej 13 lat, nie mogą założyć konta. Aplikacja wyświetla komunikat, że Drillr jest przeznaczony dla osób w wieku 13 lat i starszych, i nie tworzy żadnego profilu w systemach Usługodawcy.",
           "Niewielka liczba kont założonych przed wprowadzeniem tej blokady wiekowej pozostaje w Usłudze w starszym Trybie Ograniczonym. W Trybie Ograniczonym Aplikacja nie zbiera danych osobowych takich jak płeć, wzrost, waga czy data urodzenia. Przechowywany jest wyłącznie adres e-mail w celu uwierzytelnienia konta. Żadne dane osobowe użytkowników w Trybie Ograniczonym nie są udostępniane podmiotom trzecim ani wykorzystywane do profilowania lub marketingu.",
           "Jeśli jesteś rodzicem lub opiekunem i wiesz, że twoje dziecko przekazało nam dane osobowe, skontaktuj się z Usługodawcą (drillrapps@gmail.com), aby mógł podjąć odpowiednie działania, w tym usunięcie konta."
@@ -567,7 +572,7 @@
       {
         "heading": "W jaki sposób wyrażasz zgodę?",
         "paragraphs": [
-          "Zakładając konto, logując się lub w inny sposób korzystając z Aplikacji, przyjmujesz do wiadomości niniejszą Politykę prywatności i wyrażasz zgodę na przetwarzanie przez Usługodawcę twoich informacji w sposób w niej określony, w obecnym brzmieniu oraz po wszelkich zmianach, w tym na analitykę służącą do obsługi, zabezpieczania i ulepszania Aplikacji. \"Przetwarzanie\" oznacza wykorzystywanie informacji w jakikolwiek sposób, w tym między innymi: zbieranie, przechowywanie, usuwanie, używanie, łączenie i ujawnianie informacji."
+          "Zakładając konto, logując się lub w inny sposób korzystając z Aplikacji, przyjmujesz do wiadomości niniejszą Politykę prywatności i wyrażasz zgodę na przetwarzanie przez Usługodawcę twoich informacji w sposób w niej określony, w obecnym brzmieniu oraz po wszelkich zmianach, w tym na analitykę i nagrania ekranu służące do obsługi, zabezpieczania i ulepszania Aplikacji. \"Przetwarzanie\" oznacza wykorzystywanie informacji w jakikolwiek sposób, w tym między innymi: zbieranie, przechowywanie, usuwanie, używanie, łączenie i ujawnianie informacji."
         ]
       },
       {
@@ -581,14 +586,14 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-08-30",
+    "lastUpdated": "Obowiązuje od 2026-09-15",
     "tocLabel": "Spis treści",
     "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\").",
     "sections": [
       {
         "heading": "Akceptacja regulaminu",
         "paragraphs": [
-          "Pobierając Aplikację, zakładając konto, logując się do niej lub w inny sposób z niej korzystając, akceptujesz niniejszy Regulamin oraz Politykę prywatności Drillr, która zostaje włączona do niniejszego regulaminu przez odniesienie - w tym analitykę i przetwarzanie danych opisane w tej Polityce. Zalecamy dokładne przeczytanie i zrozumienie obu dokumentów przed rozpoczęciem korzystania z Aplikacji. Jeśli się nie zgadzasz, nie korzystaj z Aplikacji.",
+          "Pobierając Aplikację, zakładając konto, logując się do niej lub w inny sposób z niej korzystając, akceptujesz niniejszy Regulamin oraz Politykę prywatności Drillr, która zostaje włączona do niniejszego regulaminu przez odniesienie - w tym analitykę, nagrania ekranu i przetwarzanie danych opisane w tej Polityce. Zalecamy dokładne przeczytanie i zrozumienie obu dokumentów przed rozpoczęciem korzystania z Aplikacji. Jeśli się nie zgadzasz, nie korzystaj z Aplikacji.",
           "Niniejszy Regulamin reguluje również korzystanie z Witryny w zakresie, w jakim ma do niej zastosowanie. Witryna ma charakter informacyjny i pomocowy: do jej przeglądania nie jest potrzebne konto, publikowane w niej treści mają charakter wyłącznie ogólnoinformacyjny i mogą się w każdej chwili zmienić, a poniższe punkty dotyczące treści treningowych, żywieniowych oraz analizy techniki stosuje się tak samo do tych samych treści prezentowanych w Witrynie."
         ]
       },
@@ -678,7 +683,7 @@
           "https://firebase.google.com/terms/analytics",
           "https://firebase.google.com/terms/crashlytics",
           "https://expo.dev/terms",
-          "https://posthog.com/terms - analityka produktowa",
+          "https://posthog.com/terms - analityka produktowa, nagrania ekranu i wykrywanie błędów wspomagane przez AI",
           "https://sentry.io/terms/ - raportowanie awarii i błędów",
           "https://www.revenuecat.com/terms - zarządzanie subskrypcjami",
           "https://vercel.com/legal/terms - hosting i analityka Witryny",

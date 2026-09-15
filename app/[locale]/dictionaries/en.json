@@ -395,7 +395,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Effective 2026-08-30",
+    "lastUpdated": "Effective 2026-09-15",
     "tocLabel": "Table of Contents",
     "intro": "This privacy policy is applicable to the Drillr app (hereinafter referred to as \"Application\") for mobile devices, which was developed by Tomasz Święcki (hereinafter referred to as \"Service Provider\") as a Freemium service, and to the Drillr website at getdrillr.app (hereinafter referred to as \"Website\"). This service is provided \"AS IS\".",
     "sections": [
@@ -421,6 +421,7 @@
         "paragraphs": [
           "In addition, the Application may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device's unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.",
           "We use PostHog to understand how users interact with the Application, including screens visited, features used, and actions taken. This analytics collection is enabled by default and forms part of the service you accept when you create an account, sign in, or otherwise use the Application. The Service Provider relies on its legitimate interest in securing, maintaining, and improving the Application as the legal basis for this processing. You can object at any time by contacting drillrapps@gmail.com, you can stop all collection by uninstalling the Application, and you can limit advertising and analytics identifiers through your device's privacy settings.",
+          "The Application also uses PostHog to make screen recordings, so the Service Provider can see where the Application breaks, freezes, or confuses people, and fix it. A screen recording is a series of screenshots of the Application's own screens, together with taps and screen changes, captured while you use it. Text you type and images are masked on your device before anything is sent, and recording stops completely on the Settings screens, the Diet tab, and any screen that uses the camera, so those screens are never recorded. Recordings start only after onboarding, once you have an account, and are never made of users below the age at which they can consent to the processing of their personal data in their country (for example 16 in Poland, 14 in Spain, and 13 in the United Kingdom and the United States). Recordings are linked to the same pseudonymous user ID as the analytics above, and to crash reports, so that a fault can be traced to what happened on screen. The Service Provider relies on its legitimate interest in finding and fixing faults in the Application as the legal basis for this processing. Recordings are deleted automatically after 30 days. You can turn screen recordings off at any time in the Application under Settings > Preferences > Product insights.",
           "When you purchase a subscription, the Application also receives your transaction ID, subscription status, purchase date, renewal date, and the product you purchased. Payment itself (credit card, Apple Pay, Google Pay) is handled entirely by Apple or Google - the Service Provider never sees or stores your payment card details."
         ]
       },
@@ -442,14 +443,15 @@
       {
         "heading": "Does the Application use Artificial Intelligence (AI) technologies?",
         "paragraphs": [
-          "The Application includes an optional form-analysis feature that uses on-device motion and body-pose detection built into your phone (such as Apple's Vision framework on iOS) to give you feedback on your exercise technique. All of this analysis runs entirely on your device. No video, image, or body-pose data is sent to the Service Provider or any third party for this feature, and it is not used to identify you. See the section on camera use below for details."
+          "The Application includes an optional form-analysis feature that uses on-device motion and body-pose detection built into your phone (such as Apple's Vision framework on iOS) to give you feedback on your exercise technique. All of this analysis runs entirely on your device. No video, image, or body-pose data is sent to the Service Provider or any third party for this feature, and it is not used to identify you. See the section on camera use below for details.",
+          "The Service Provider also uses AI features built into PostHog to review screen recordings, crash and error reports, and usage analytics automatically, in order to spot faults and usability problems and to draft code changes that fix them. These features run on AI models from Google, OpenAI, and Anthropic, which process the data on PostHog's behalf, may process it outside the European Union under appropriate safeguards, and are contractually prohibited from using it to train their models. They are not used to make decisions about you or to build a profile of you, and every proposed code change is reviewed by the Service Provider before it is used. PostHog's own use of this data to train its AI models is switched off."
         ]
       },
       {
         "heading": "Does the Application use your camera, and what happens to recordings?",
         "paragraphs": [
           "The Application includes an optional form-check feature that uses your device's camera. The camera is accessed only when you choose to start a form check for a supported exercise, and only to record a short clip of you performing that exercise. You can decline or revoke the camera permission at any time in your device settings; the rest of the Application continues to work without it.",
-          "The recorded clip is analyzed entirely on your device. The Service Provider does not receive, upload, or store your clip on any server, the clip is not saved to your photo library automatically, and it is not shared with any third party. The Application does not record audio as part of this feature.",
+          "The recorded clip is analyzed entirely on your device. The Service Provider does not receive, upload, or store your clip on any server, the clip is not saved to your photo library automatically, and it is not shared with any third party. The Application does not record audio as part of this feature. Screens that use the camera are never included in screen recordings.",
           "If you choose to share a clip using the share option, the Application creates a version with a Drillr watermark and the on-screen form feedback drawn into it, and hands it to your device's standard share sheet. From the moment you select a destination (for example a messaging app, social network, or contact), the clip is governed by that service's or recipient's own terms and privacy policy, not by this Policy, and the Service Provider has no control over how they handle it. Please only share clips of yourself, and do not share clips showing other people without their consent."
         ]
       },
@@ -472,7 +474,8 @@
           "https://firebase.google.com/policies/analytics",
           "https://firebase.google.com/support/privacy",
           "https://expo.dev/privacy",
-          "https://posthog.com/privacy - product analytics, hosted in the European Union",
+          "https://posthog.com/privacy - product analytics, screen recordings, and AI-assisted bug detection, hosted in the European Union (its AI features use models from Google, OpenAI, and Anthropic)",
+          "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement - hosting of the Application's source code, including proposed fixes for faults found in diagnostic data",
           "https://sentry.io/privacy/ - crash and error reporting",
           "https://www.revenuecat.com/privacy - subscription management and billing analytics",
           "https://vercel.com/legal/privacy-policy - hosting and cookieless analytics for the Website",
@@ -497,13 +500,14 @@
         "heading": "What are my opt-out rights?",
         "paragraphs": [
           "You can halt all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network. Uninstalling the Application does not automatically cancel a paid subscription - you must cancel through your Apple ID or Google Play account settings.",
-          "You can also permanently delete your account and all associated data directly in the Application at any time, under Settings > Delete Account."
+          "You can also permanently delete your account and all associated data directly in the Application at any time, under Settings > Delete Account.",
+          "You can turn screen recordings off at any time in the Application under Settings > Preferences > Product insights. Recording stops straight away, and no new recordings are made while it is off."
         ]
       },
       {
         "heading": "What is the data retention policy and how can you manage your information?",
         "paragraphs": [
-          "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please contact them at drillrapps@gmail.com and they will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.",
+          "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate, except screen recordings, which are deleted automatically after 30 days. If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please contact them at drillrapps@gmail.com and they will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.",
           "You can also delete your account and all associated data yourself at any time within the Application, under Settings > Delete Account, which immediately removes your profile along with your training, weight, effort, and match data from the Service Provider's systems.",
           "Feedback sent through the form described above is kept only for as long as it takes to deal with it. Once your report has been answered or resolved, the Service Provider deletes the response from Tally, including any screenshot or video you attached and any email address you gave."
         ]
@@ -547,6 +551,7 @@
         "paragraphs": [
           "The Application is intended for users aged 13 and older. The Service Provider does not knowingly solicit data from or market to children under the age of 13.",
           "In some countries the minimum age for consenting to the processing of personal data is higher than 13 - for example, 16 in Poland and parts of the European Union. The Application is available to users aged 13 and older everywhere. If you are at least 13 but below the digital-consent age in your country, you may use the Application and provide your personal data only with the involvement and consent of a parent or legal guardian, who accepts this Policy on your behalf.",
+          "The Application does not make screen recordings of users below the digital-consent age of their country, even where they may otherwise use the Application.",
           "Users who indicate during onboarding that they are under the age of 13 cannot create an account. The Application displays a message that Drillr is for ages 13 and up, and no profile is created on the Service Provider's systems.",
           "A small number of accounts created before this age gate took effect remain on the Service in a legacy Restricted Mode. In Restricted Mode, the Application does not collect personal details such as gender, height, weight, or date of birth. Only an email address is retained for account authentication purposes. No personal data from Restricted Mode users is shared with third parties or used for profiling or marketing.",
           "If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (drillrapps@gmail.com) so that they will be able to take the necessary actions, including account deletion."
@@ -567,7 +572,7 @@
       {
         "heading": "How do you give your consent?",
         "paragraphs": [
-          "By creating an account, signing in, or otherwise using the Application, you acknowledge this Privacy Policy and agree to the Service Provider processing your information as set forth here now and as amended in the future, including the analytics used to operate, secure, and improve the Application. \"Processing\" means using or handling information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information."
+          "By creating an account, signing in, or otherwise using the Application, you acknowledge this Privacy Policy and agree to the Service Provider processing your information as set forth here now and as amended in the future, including the analytics and screen recordings used to operate, secure, and improve the Application. \"Processing\" means using or handling information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information."
         ]
       },
       {
@@ -581,14 +586,14 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Effective 2026-08-30",
+    "lastUpdated": "Effective 2026-09-15",
     "tocLabel": "Table of Contents",
     "intro": "These terms of service apply to the Drillr app (hereby referred to as \"Application\") for mobile devices that was created by Tomasz Święcki (hereby referred to as \"Service Provider\") as a Freemium service, and to the Drillr website at getdrillr.app (hereby referred to as \"Website\").",
     "sections": [
       {
         "heading": "Acceptance of Terms",
         "paragraphs": [
-          "By downloading, creating an account, signing in to, or otherwise using the Application, you agree to these Terms of Service and to the Drillr Privacy Policy, which is incorporated into these terms by reference - including the analytics and data processing described in that Policy. It is strongly advised that you thoroughly read and understand both documents prior to using the Application. If you do not agree, do not use the Application.",
+          "By downloading, creating an account, signing in to, or otherwise using the Application, you agree to these Terms of Service and to the Drillr Privacy Policy, which is incorporated into these terms by reference - including the analytics, screen recordings, and data processing described in that Policy. It is strongly advised that you thoroughly read and understand both documents prior to using the Application. If you do not agree, do not use the Application.",
           "These terms also govern your use of the Website, to the extent they are relevant to it. The Website is provided for information and support: no account is needed to read it, the content on it is published for general information only and may change at any time, and the sections below that concern training, nutrition, and form-analysis content apply equally to the same content presented on the Website."
         ]
       },
@@ -678,7 +683,7 @@
           "https://firebase.google.com/terms/analytics",
           "https://firebase.google.com/terms/crashlytics",
           "https://expo.dev/terms",
-          "https://posthog.com/terms - product analytics",
+          "https://posthog.com/terms - product analytics, screen recordings, and AI-assisted bug detection",
           "https://sentry.io/terms/ - crash and error reporting",
           "https://www.revenuecat.com/terms - subscription management",
           "https://vercel.com/legal/terms - hosting and analytics for the Website",
