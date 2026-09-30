@@ -6,7 +6,7 @@ const APP_STORE_ID = "6761615321";
 const STOREFRONTS = ["pl", "us"] as const;
 // Shown when the lookup fails or returns no ratings, so the homepage never
 // renders without a rating.
-const FALLBACK_RATING = 4.7;
+const FALLBACK_RATING = 4.8;
 const REVALIDATE_SECONDS = 60 * 60 * 12;
 
 interface StorefrontRating {
