@@ -395,7 +395,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "lastUpdated": "Obowiązuje od 2026-09-16",
+    "lastUpdated": "Obowiązuje od 2026-09-30",
     "tocLabel": "Spis treści",
     "intro": "Niniejsza Polityka prywatności dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\"). Usługa świadczona jest \"AS IS\" (w stanie, w jakim się znajduje).",
     "sections": [
@@ -432,6 +432,14 @@
           "Witryna jest hostowana przez Vercel, który prowadzi standardowe logi serwera - obejmujące adres IP, adres żądanej strony i rodzaj przeglądarki - w celach bezpieczeństwa, przeciwdziałania nadużyciom i niezawodności. Usługodawca korzysta również z Vercel Web Analytics, aby sprawdzić, ile osób odwiedza poszczególne strony i skąd trafiają na Witrynę. Vercel Web Analytics działa bez plików cookie: nie zapisuje niczego na twoim urządzeniu i nie tworzy trwałego profilu, a Usługodawca widzi wyłącznie dane zbiorcze, takie jak liczba odsłon, źródło wejścia, kraj i rodzaj urządzenia. Podstawą prawną w obu przypadkach jest prawnie uzasadniony interes Usługodawcy polegający na prowadzeniu, zabezpieczaniu i ulepszaniu Witryny.",
           "Formularz opinii pod adresem getdrillr.app/feedback udostępnia Tally i jest on osadzony z serwerów tej firmy. Odnośnik \"Wyślij opinię\" w Aplikacji otwiera ten sam formularz. To, co przez niego wysyłasz - wybrana kategoria, wpisany przez ciebie opis, opcjonalny zrzut ekranu lub nagranie oraz adres e-mail, jeśli zdecydujesz się go podać, aby Usługodawca mógł odpowiedzieć - trafia do Tally i jest przekazywane Usługodawcy oraz wykorzystywane wyłącznie po to, aby ci odpowiedzieć i zająć się twoim zgłoszeniem. Tally przechowuje odpowiedzi z formularza na serwerach w Unii Europejskiej. Prosimy nie załączać zrzutów ekranu ani nagrań przedstawiających inne osoby. Osadzony formularz może zapisywać pliki cookie niezbędne do jego działania; nie zapisuje plików cookie reklamowych ani śledzących. Jeśli wolisz w ogóle nie korzystać z formularza, napisz na adres drillrapps@gmail.com.",
           "Czcionki serwowane są z własnej domeny Witryny, więc samo przeglądanie strony nie wysyła zapytania do zewnętrznej sieci czcionek ani reklamowej. Przyciski App Store i Google Play prowadzą do serwisów Apple i Google, które podlegają ich własnym politykom prywatności, a nie niniejszej Polityce."
+        ]
+      },
+      {
+        "heading": "Czy Usługodawca cytuje opinie, które publikujesz w App Store lub Google Play?",
+        "paragraphs": [
+          "Jeśli opublikujesz opinię o Aplikacji w App Store lub Google Play, Usługodawca może ją zacytować w Aplikacji (na przykład na ekranach onboardingu), w Witrynie, na stronach Aplikacji w sklepach oraz w innych materiałach promocyjnych Drillr, takich jak posty w mediach społecznościowych. Cytat zawiera treść twojej opinii, jej ocenę w gwiazdkach oraz twoje imię w skróconej formie - imię i pierwszą literę nazwiska albo pseudonim widoczny przy twojej opinii. Żadne inne informacje o tobie nie są pokazywane, a twoje zdjęcie profilowe nigdy nie jest wykorzystywane.",
+          "Usługodawca może poprawić pisownię, gramatykę i interpunkcję, skrócić opinię oraz przetłumaczyć ją lub dostosować jej sformułowania do innych języków i krajów (na przykład w amerykańskim angielskim \"footballer\" zmienia się w \"soccer player\"), ale nigdy nie dodaje słów ani twierdzeń, których nie ma w twojej opinii, i nie zmienia jej sensu. Cytowane są wyłącznie opinie opublikowane w App Store i Google Play, a oba sklepy przyjmują opinie tylko od osób, które pobrały Aplikację. Usługodawca nie pisze, nie kupuje ani nie nagradza opinii i sam wybiera, które z nich pokazać, więc cytaty są wyborem, a nie podsumowaniem wszystkich opinii. Jeśli pokazywana jest średnia ocena w gwiazdkach, jest to ocena publikowana przez App Store. Uwagi przesłane prywatnie - przez formularz opinii lub e-mailem - nigdy nie są cytowane bez twojej zgody.",
+          "Twoja opinia i widoczne przy niej imię to dane osobowe, które Usługodawca pozyskuje ze sklepu, w którym opinia została opublikowana, a nie bezpośrednio od ciebie. Podstawą prawną jest prawnie uzasadniony interes Usługodawcy polegający na pokazywaniu osobom rozważającym korzystanie z Aplikacji, co mówią o niej jej użytkownicy. Opinia jest publiczna z twojego wyboru, a opisane wyżej ograniczenia sprawiają, że cytat nie wykracza poza jej treść. Możesz w każdej chwili, bez podawania przyczyny, wnieść sprzeciw, pisząc na adres drillrapps@gmail.com; to samo może zrobić rodzic lub opiekun w imieniu dziecka. Usługodawca usunie wtedy twoją opinię z Witryny bez zbędnej zwłoki, a z Aplikacji w jej najbliższej aktualizacji, i nie wykorzysta jej w żadnych nowych materiałach promocyjnych. Usługodawca przestaje też korzystać z opinii, gdy dowie się, że została ona usunięta ze sklepu."
         ]
       },
       {
@@ -516,7 +524,7 @@
         "heading": "Twoje prawa do ochrony danych",
         "paragraphs": [
           "Administratorem twoich danych osobowych jest Tomasz Święcki, niezależny deweloper z siedzibą w Polsce, z którym można skontaktować się pod adresem drillrapps@gmail.com. Z uwagi na charakter i skalę przetwarzania Usługodawca nie jest zobowiązany do wyznaczenia Inspektora Ochrony Danych i go nie wyznaczył; wszelkie pytania dotyczące prywatności możesz kierować na ten sam adres.",
-          "Usługodawca przetwarza twoje dane osobowe na następujących podstawach prawnych: wykonanie umowy o udostępnienie ci Aplikacji; twoja zgoda - w tym twoja wyraźna zgoda na dane szczególnej kategorii dotyczące zdrowia, takie jak parametry ciała i kontuzje, oraz twoja zgoda na komunikaty marketingowe; a także prawnie uzasadniony interes Usługodawcy polegający na obsłudze, zabezpieczaniu i ulepszaniu Aplikacji.",
+          "Usługodawca przetwarza twoje dane osobowe na następujących podstawach prawnych: wykonanie umowy o udostępnienie ci Aplikacji; twoja zgoda - w tym twoja wyraźna zgoda na dane szczególnej kategorii dotyczące zdrowia, takie jak parametry ciała i kontuzje, oraz twoja zgoda na komunikaty marketingowe; a także prawnie uzasadniony interes Usługodawcy polegający na obsłudze, zabezpieczaniu i ulepszaniu Aplikacji oraz na cytowaniu publicznych opinii ze sklepów, jak opisano powyżej.",
           "Jeśli przebywasz w Europejskim Obszarze Gospodarczym, Wielkiej Brytanii lub regionie o porównywalnych przepisach, przysługują ci wymienione poniżej prawa dotyczące twoich danych osobowych. Aby skorzystać z któregokolwiek z nich, skontaktuj się z Usługodawcą pod adresem drillrapps@gmail.com; możesz także edytować swój profil w Aplikacji lub trwale usunąć konto i dane w sekcji Ustawienia > Usuń konto."
         ],
         "bullets": [
@@ -586,7 +594,7 @@
   },
   "terms": {
     "title": "Regulamin",
-    "lastUpdated": "Obowiązuje od 2026-09-15",
+    "lastUpdated": "Obowiązuje od 2026-09-30",
     "tocLabel": "Spis treści",
     "intro": "Niniejszy regulamin dotyczy aplikacji Drillr (zwanej dalej \"Aplikacją\") na urządzenia mobilne, stworzonej przez Tomasza Święckiego (zwanego dalej \"Usługodawcą\") jako usługa Freemium, oraz witryny Drillr pod adresem getdrillr.app (zwanej dalej \"Witryną\").",
     "sections": [
@@ -601,6 +609,14 @@
         "heading": "Własność intelektualna",
         "paragraphs": [
           "Nieautoryzowane kopiowanie, modyfikacja Aplikacji, Witryny, jakiejkolwiek ich części lub naszych znaków towarowych jest surowo zabronione. Wszelkie próby wyodrębnienia kodu źródłowego Aplikacji, tłumaczenia jej na inne języki czy tworzenia wersji pochodnych są niedozwolone. Wszystkie znaki towarowe, prawa autorskie, prawa do baz danych i inne prawa własności intelektualnej związane z Aplikacją i Witryną pozostają własnością Usługodawcy."
+        ]
+      },
+      {
+        "heading": "Opinie w App Store i Google Play",
+        "paragraphs": [
+          "Jeśli opublikujesz opinię o Aplikacji w App Store lub Google Play, zezwalasz Usługodawcy - nieodpłatnie i na zasadzie niewyłączności - na cytowanie jej wraz z oceną w gwiazdkach i twoim skróconym imieniem w Aplikacji, w Witrynie, na stronach Aplikacji w sklepach oraz w innych materiałach promocyjnych Drillr, w każdym kraju, w którym Aplikacja jest dostępna. Obejmuje to poprawienie pisowni, gramatyki i interpunkcji, skrócenie opinii oraz jej przetłumaczenie lub dostosowanie sformułowań do innych języków i krajów, ale nigdy dodanie słów lub twierdzeń, których w niej nie ma, ani zmianę jej sensu. Polityka prywatności wyjaśnia dokładnie, co jest pokazywane i jak przetwarzane są twoje dane.",
+          "Opinie nigdy nie są opłacane ani nagradzane, a nic w Aplikacji nie zależy od tego, czy wystawisz opinię ani co w niej napiszesz. Cytowana opinia odzwierciedla własne doświadczenia jej autora, a indywidualne rezultaty mogą się różnić.",
+          "Możesz w każdej chwili, bez podawania przyczyny, cofnąć to zezwolenie, pisząc na adres drillrapps@gmail.com, a Usługodawca przestanie korzystać z twojej opinii w sposób opisany w Polityce prywatności. Niniejszy punkt nie wpływa na prawa, jakie Apple lub Google mają do opinii publikowanych w ich sklepach."
         ]
       },
       {
