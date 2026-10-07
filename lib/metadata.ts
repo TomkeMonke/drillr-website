@@ -5,7 +5,11 @@ import { LOCALES, type Locale } from "./locales";
 export function localizedAlternates(locale: Locale, path = ""): Metadata["alternates"] {
   return {
     canonical: `/${locale}${path}`,
-    languages: Object.fromEntries(LOCALES.map((l) => [l, `/${l}${path}`])),
+    languages: {
+      ...Object.fromEntries(LOCALES.map((l) => [l, `/${l}${path}`])),
+      // The unprefixed path redirects by Accept-Language, so it is the default
+      "x-default": path || "/",
+    },
   };
 }
 

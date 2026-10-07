@@ -14,9 +14,10 @@ function localizedEntries(
   changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"],
   priority: number,
 ): MetadataRoute.Sitemap {
-  const languages = Object.fromEntries(
-    LOCALES.map((l) => [l, `${BASE_URL}/${l}${path}`]),
-  );
+  const languages = {
+    ...Object.fromEntries(LOCALES.map((l) => [l, `${BASE_URL}/${l}${path}`])),
+    "x-default": `${BASE_URL}${path || "/"}`,
+  };
   return LOCALES.map((l) => ({
     url: `${BASE_URL}/${l}${path}`,
     changeFrequency,
