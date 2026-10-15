@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
-import { LOCALES, isLocale } from "@/lib/locales";
+import { LOCALES, OG_LOCALES, isLocale } from "@/lib/locales";
 import { getDictionary } from "./dictionaries";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -43,7 +43,7 @@ export async function generateMetadata({
       siteName: "Drillr",
       title: dict.meta.title,
       description: dict.meta.description,
-      locale: locale === "pl" ? "pl_PL" : "en_US",
+      locale: OG_LOCALES[locale],
     },
     twitter: {
       card: "summary_large_image",

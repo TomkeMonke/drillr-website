@@ -17,6 +17,30 @@ const COPY = {
     headline: "Każda pozycja\ntrenuje inaczej.",
     sub: "Trening pod twoją pozycję. W domu albo na siłowni.",
   },
+  es: {
+    headline: "Cada posición\nentrena distinto.",
+    sub: "Preparación física para la posición en la que juegas. En casa o en el gimnasio.",
+  },
+  de: {
+    headline: "Jede Position\ntrainiert anders.",
+    sub: "Fußball-Fitness für deine Position. Zu Hause oder im Gym.",
+  },
+  fr: {
+    headline: "Chaque poste\ns'entraîne différemment.",
+    sub: "La prépa physique foot pour ton poste. À la maison ou en salle.",
+  },
+  it: {
+    headline: "Ogni ruolo\nsi allena in modo diverso.",
+    sub: "Preparazione atletica per il tuo ruolo. A casa o in palestra.",
+  },
+  pt: {
+    headline: "Cada posição\ntreina diferente.",
+    sub: "Preparação física para a posição em que você joga. Em casa ou na academia.",
+  },
+  id: {
+    headline: "Setiap posisi\nberlatih berbeda.",
+    sub: "Latihan fisik sepak bola untuk posisimu. Di rumah atau di gym.",
+  },
 } as const;
 
 export default async function Image({

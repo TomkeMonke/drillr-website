@@ -12,7 +12,8 @@ interface Props {
 
 const ACCENTS = ["#5B9FD6", "#E8A44A", "#8BD17C"];
 
-const SCREENSHOTS_BY_LOCALE: Record<Locale, string[]> = {
+// Languages without their own captures fall back to the English set.
+const SCREENSHOTS_BY_LOCALE: Partial<Record<Locale, string[]>> = {
   en: [
     "/screenshots/story-01-position-pick.png",
     "/screenshots/story-02-train.png",
@@ -26,7 +27,7 @@ const SCREENSHOTS_BY_LOCALE: Record<Locale, string[]> = {
 };
 
 export function StickyStory({ dict, locale }: Props) {
-  const SCREENSHOTS = SCREENSHOTS_BY_LOCALE[locale];
+  const SCREENSHOTS = SCREENSHOTS_BY_LOCALE[locale] ?? SCREENSHOTS_BY_LOCALE.en!;
   const steps = dict.story.steps;
   const [active, setActive] = useState(0);
   const refs = useRef<(HTMLDivElement | null)[]>([]);

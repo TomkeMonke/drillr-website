@@ -1,0 +1,826 @@
+{
+  "meta": {
+    "title": "Drillr - latihan fisik sepak bola untuk posisimu",
+    "description": "Latihan fisik sepak bola yang dibuat untuk posisi yang benar-benar kamu mainkan. Di rumah atau di gym, satu rencana yang disesuaikan dengan peranmu, levelmu, dan waktu yang kamu punya."
+  },
+  "nav": {
+    "home": "Beranda",
+    "faq": "FAQ",
+    "press": "Pers",
+    "manageSubscription": "Kelola Langganan",
+    "feedback": "Masukan",
+    "support": "Bantuan",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+  "common": {
+    "downloadAppStore": "Unduh di App Store",
+    "downloadGooglePlay": "Dapatkan di Google Play",
+    "appStoreKicker": "Unduh di",
+    "googlePlayKicker": "DAPATKAN DI",
+    "screenshotAlt": "Layar aplikasi Drillr"
+  },
+  "hero": {
+    "badge": "Disukai 3600+ pemain · rating {rating}",
+    "titleLine1": "Setiap posisi",
+    "titleLine2": "berlatih berbeda.",
+    "subtitle": "Drillr adalah aplikasi latihan fisik sepak bola yang dibangun di sekitar posisi yang benar-benar kamu mainkan. Di rumah atau di gym, disesuaikan dengan peranmu, levelmu, dan waktu yang kamu punya.",
+    "downloadCta": "Unduh"
+  },
+  "usedBy": {
+    "title": "3600+ pemain berlatih bersama kami",
+    "subtitle": "Dari U14 sampai semi-pro, di lebih dari 80 negara, setiap hari.",
+    "stats": [
+      { "value": "3600+", "label": "Pemain aktif" },
+      { "value": "80+", "label": "Negara" },
+      { "value": "{rating}★", "label": "Rating rata-rata" },
+      { "value": "10K+", "label": "Latihan diselesaikan" }
+    ]
+  },
+  "story": {
+    "eyebrow": "Cara kerjanya",
+    "title": "Tiga langkah. Itu saja.",
+    "steps": [
+      {
+        "eyebrow": "Langkah 01",
+        "title": "Pilih posisimu",
+        "body": "Penyerang, sayap, kiper, apa pun posisimu, kami menyusun rencana sesuai dengan apa yang benar-benar dituntut dari peranmu."
+      },
+      {
+        "eyebrow": "Langkah 02",
+        "title": "Berlatih setiap hari",
+        "body": "Sesi singkat yang jujur. 25-45 menit sudah cukup untuk mengubah caramu bermain, dan Drillr yang menghitungnya untukmu."
+      },
+      {
+        "eyebrow": "Langkah 03",
+        "title": "Lihat dirimu berkembang",
+        "body": "Runtunan, statistik, pencapaian kecil. Begitu kamu mulai berlatih beberapa hari berturut-turut, sulit untuk berhenti."
+      }
+    ]
+  },
+  "features": {
+    "title": "Isi Drillr",
+    "items": [
+      {
+        "title": "Latihan yang dibuat untuk posisimu",
+        "body": "Kiper, bek, gelandang, penyerang. Setiap gerakan dipilih berdasarkan apa yang benar-benar dituntut posisimu."
+      },
+      {
+        "title": "Kalender yang pas dengan minggumu",
+        "body": "Hari latihanmu, akses gym, dan tingkat pengalamanmu semuanya masuk ke dalam rencana. Rencananya menyesuaikan dengan hidupmu, bukan sebaliknya."
+      },
+      {
+        "title": "Video demo untuk semuanya",
+        "body": "Instruksi yang jelas, set, rep, dan video singkat untuk setiap gerakan. Kamu tidak perlu menebak-nebak seperti apa gerakannya."
+      },
+      {
+        "title": "Peregangan yang cocok dengan permainanmu",
+        "body": "Latihan mobilitas untuk otot-otot yang benar-benar kamu pakai di lapangan, bukan pendinginan yang umum."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What players are saying",
+    "items": [
+      {
+        "name": "Alex M.",
+        "role": "U17 Midfielder",
+        "quote": "Honestly didn't expect much, but after a month my coach said I was positioning way better. Stamina is crazy now too."
+      },
+      {
+        "name": "Sara K.",
+        "role": "U16 Defender",
+        "quote": "My friend showed me the app and now I'm on it every day. The workouts actually make sense for my position."
+      },
+      {
+        "name": "Daniel R.",
+        "role": "Semi-pro Forward",
+        "quote": "The position-specific stuff is what hooked me. Every session feels like it's for my game."
+      },
+      {
+        "name": "Jakub W.",
+        "role": "U19 Goalkeeper",
+        "quote": "Goalkeeper-specific work is rare in apps. Drillr nails it. My reactions and footwork are both up."
+      },
+      {
+        "name": "Maya L.",
+        "role": "Academy Midfielder",
+        "quote": "I love the calendar - it adapts when I miss a day instead of guilt-tripping me."
+      },
+      {
+        "name": "Tomasz B.",
+        "role": "Sunday League Defender",
+        "quote": "30 minutes a day, 4 days a week, and I feel like a different player on Sundays."
+      }
+    ]
+  },
+  "positionPicker": {
+    "badge": "Pilih tempatmu",
+    "title": "Kamu main di posisi apa?",
+    "subtitle": "Ketuk sebuah posisi untuk melihat apa yang dilakukan Drillr untuknya.",
+    "focusBreakdown": "Pembagian fokus",
+    "sampleDrills": "Contoh latihan",
+    "viewPlan": "Lihat rencana lengkap",
+    "categoryLabels": {
+      "strength": "Kekuatan",
+      "cardio": "Kardio",
+      "agility": "Kelincahan",
+      "flexibility": "Kelenturan"
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang sering diajukan",
+    "subtitle": "Semua yang perlu kamu ketahui tentang Drillr",
+    "items": [
+      {
+        "q": "Apakah aku perlu peralatan?",
+        "a": "Tidak. Drillr menyesuaikan dengan apa yang kamu punya. Beri tahu kami di awal apakah kamu punya akses ke gym, dan kami akan menyusun rencanamu sesuai dengan itu - barbel, dumbel, mesin, atau hanya berat badan."
+      },
+      {
+        "q": "Berapa lama per hari?",
+        "a": "Sebagian besar sesi berlangsung 25-45 menit. Kamu bisa berlatih 3, 5, atau 6 hari seminggu, tergantung tujuan yang kamu pilih di awal."
+      },
+      {
+        "q": "Apakah ada versi gratis?",
+        "a": "Ada. Kamu bisa menyelesaikan pengaturan awal dan mencoba sebagian rencanamu secara gratis. Rencana mingguan lengkap dan latihan lainnya tersedia dengan langganan."
+      },
+      {
+        "q": "Apakah Drillr aman untuk anak di bawah 13 tahun?",
+        "a": "Drillr dibuat untuk usia 13 tahun ke atas. Pemain yang lebih muda sebaiknya berlatih dengan pengawasan pelatih atau orang tua."
+      },
+      {
+        "q": "Aku baru mulai - apakah ini terlalu berat?",
+        "a": "Drillr menyesuaikan dengan kemampuanmu saat ini. Kamu memilih levelmu di awal, dan rencananya mengatur volume dan tingkat kesulitan sesuai itu. Orang yang baru pertama kali berlatih mendapat minggu yang berbeda dengan orang yang sudah main di klub lima hari seminggu."
+      },
+      {
+        "q": "Bagaimana kalau aku main di beberapa posisi?",
+        "a": "Pilih posisi yang paling sering kamu mainkan. Kamu bisa mengganti posisi kapan saja di pengaturan, dan rencanamu akan disusun ulang untuk posisi barunya."
+      },
+      {
+        "q": "Bisakah aku memakai Drillr bersamaan dengan program pelatihku?",
+        "a": "Bisa, banyak pemain melakukannya. Drillr dibuat untuk melengkapi latihan tim, bukan menggantikannya. Kurangi volume mingguanmu kalau mulai terasa terlalu capek."
+      },
+      {
+        "q": "Bagaimana cara membatalkan langganan?",
+        "a": "Batalkan kapan saja dari pengaturan langganan di perangkatmu, atau lewat halaman Kelola Langganan kami kalau kamu mendaftar lewat web."
+      }
+    ]
+  },
+  "coachesCta": {
+    "eyebrow": "Untuk pelatih & akademi",
+    "title": "Melatih tim atau mengelola akademi?",
+    "body": "Kami sedang mengerjakan paket tim, dasbor grup, dan kemitraan dengan akademi. Hubungi kami dan kami akan menghubungimu kembali.",
+    "cta": "Hubungi kami"
+  },
+  "finalCta": {
+    "title": "Mulai berlatih untuk posisimu",
+    "body": "Pilih posisimu, coba sebagian rencanamu secara gratis, dan rasakan seperti apa seminggu latihan yang dibangun untuk peranmu.",
+    "note": "Gratis dicoba. iOS dan Android."
+  },
+  "positions": {
+    "indexTitle": "Latihan per posisi",
+    "indexSubtitle": "Setiap rencana Drillr disusun sesuai dengan apa yang benar-benar dituntut posisimu.",
+    "downloadCta": "Unduh Drillr untuk ",
+    "weekTitle": "Minggu yang khas",
+    "drillsTitle": "Seperti apa sesimu",
+    "strengthsTitle": "Keunggulanmu",
+    "weaknessTitle": "Yang akan kami perbaiki",
+    "goalkeeper": {
+      "name": "Kiper",
+      "codes": "GK",
+      "tagline": "Refleks. Posisi. Komando.",
+      "description": "Refleks dan penempatan posisi yang membuat kiper hebat. Drillr mengasah keduanya lewat latihan reaksi, gerakan menyamping, dan stabilitas core - hal-hal yang dilewatkan kebanyakan aplikasi.",
+      "strengths": "Drillr membangun mobilitas menyamping yang eksplosif, kecepatan reaksi, dan stabilitas core yang membedakan kiper bagus dari kiper hebat.",
+      "weaknesses": "Kebanyakan kiper diam-diam melewatkan mobilitas menyamping dan kekuatan tubuh bagian bawah. Kami tidak akan membiarkanmu melakukannya.",
+      "drills": [
+        { "name": "Latihan bola reaksi", "spec": "3 × 60 dtk" },
+        { "name": "Jalan menyamping dengan band", "spec": "4 × 12" },
+        { "name": "Squat satu kaki", "spec": "3 × 8 tiap sisi" },
+        { "name": "Plank sambil meraih", "spec": "3 × 45 dtk" }
+      ],
+      "week": [
+        { "day": "Sen", "session": "Kekuatan tubuh bawah" },
+        { "day": "Sel", "session": "Reaksi & gerak kaki" },
+        { "day": "Rab", "session": "Core & stabilitas" },
+        { "day": "Kam", "session": "Pemulihan & peregangan" },
+        { "day": "Jum", "session": "Pliometrik & eksplosivitas" }
+      ]
+    },
+    "defender": {
+      "name": "Bek",
+      "codes": "CB · LB · RB",
+      "tagline": "Menangkan setiap duel.",
+      "description": "Duel udara, tekel bersih, lari mundur yang cepat - semuanya dimulai di gym. Drillr membangun kekuatan dan stamina yang menopangmu di duel satu lawan satu dan menjaga garis pertahanan.",
+      "strengths": "Menang duel udara dan tekel yang kuat dimulai di gym. Drillr melatih keduanya, plus kelincahan yang diam-diam dilewatkan kebanyakan bek.",
+      "weaknesses": "Bek sering melewatkan latihan kelincahan - padahal kaki yang cepat juga mencegah gol. Kami menjaga kakimu tetap tajam.",
+      "drills": [
+        { "name": "Squat dengan barbel", "spec": "4 × 6" },
+        { "name": "Box jump", "spec": "4 × 5" },
+        { "name": "Mountain climber", "spec": "4 × 30 dtk" },
+        { "name": "Russian twist", "spec": "3 × 20" }
+      ],
+      "week": [
+        { "day": "Sen", "session": "Kekuatan berat" },
+        { "day": "Sel", "session": "Pliometrik" },
+        { "day": "Rab", "session": "Interval kardio" },
+        { "day": "Kam", "session": "Kelincahan & gerak kaki" },
+        { "day": "Jum", "session": "Core & mobilitas" }
+      ]
+    },
+    "midfielder": {
+      "name": "Gelandang",
+      "codes": "CDM · CM · CAM · LM · RM",
+      "tagline": "Kuasai pertandingan selama 90 menit.",
+      "description": "Bermain box-to-box menuntut paket lengkap. Drillr membangun stamina, kelincahan, dan mobilitas yang kamu perlukan untuk menguasai lini tengah dari peluit pertama sampai peluit terakhir.",
+      "strengths": "Bermain box-to-box menuntut paket lengkap. Drillr menyiapkanmu untuk 90 menit penuh.",
+      "weaknesses": "Gelandang tengah yang melewatkan mobilitas lebih sering cedera di akhir pertandingan. Drillr tidak akan membiarkan itu terjadi.",
+      "drills": [
+        { "name": "Sprint interval", "spec": "8 × 200 m" },
+        { "name": "Lunge sambil berjalan", "spec": "3 × 12 tiap sisi" },
+        { "name": "Burpee", "spec": "4 × 10" },
+        { "name": "Tahan plank", "spec": "3 × 60 dtk" }
+      ],
+      "week": [
+        { "day": "Sen", "session": "Dasar daya tahan" },
+        { "day": "Sel", "session": "Kekuatan" },
+        { "day": "Rab", "session": "Interval sprint" },
+        { "day": "Kam", "session": "Kelincahan & berbalik arah" },
+        { "day": "Jum", "session": "Mobilitas & pemulihan" }
+      ]
+    },
+    "forward": {
+      "name": "Penyerang",
+      "codes": "ST · CF · LW · RW",
+      "tagline": "Lebih cepat. Lebih tinggi. Lebih banyak gol.",
+      "description": "Akselerasi eksplosif dan perubahan arah yang tajam adalah keunggulanmu. Drillr melatih kecepatan, tenaga, dan kelincahan yang membawamu ke belakang garis pertahanan, plus kekuatan untuk menahan bek saat kamu sampai di sana.",
+      "strengths": "Akselerasi eksplosif dan perubahan arah yang tajam adalah keunggulanmu. Drillr melatihnya setiap minggu.",
+      "weaknesses": "Penyerang yang melewatkan latihan kekuatan kalah dalam duel di pinggir lapangan. Kami memastikan itu tidak terjadi padamu.",
+      "drills": [
+        { "name": "Depth jump", "spec": "4 × 5" },
+        { "name": "Jump squat", "spec": "4 × 8" },
+        { "name": "Latihan tangga kelincahan", "spec": "5 set" },
+        { "name": "Calf raise", "spec": "3 × 15" }
+      ],
+      "week": [
+        { "day": "Sen", "session": "Tubuh bawah eksplosif" },
+        { "day": "Sel", "session": "Teknik sprint" },
+        { "day": "Rab", "session": "Kelincahan & penyelesaian" },
+        { "day": "Kam", "session": "Tenaga tubuh atas" },
+        { "day": "Jum", "session": "Pliometrik & mobilitas" }
+      ]
+    }
+  },
+  "footer": {
+    "download": "Unduh Drillr",
+    "legal": "Hukum",
+    "company": "Perusahaan",
+    "training": "Latihan",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Penggunaan",
+    "deleteAccount": "Hapus Akun",
+    "faq": "FAQ",
+    "press": "Pers",
+    "manageSubscription": "Kelola Langganan",
+    "feedback": "Masukan",
+    "support": "Bantuan",
+    "copyright": "© 2026 Drillr. Hak cipta dilindungi undang-undang."
+  },
+  "feedback": {
+    "title": "Kirim Masukan",
+    "subtitle": "Menemukan bug, punya ide, atau ingin meminta fitur? Ceritakan pada kami. Kami membaca setiap pesan.",
+    "loading": "Memuat formulir masukan…"
+  },
+  "press": {
+    "title": "Pers",
+    "subtitle": "Untuk pertanyaan media, permintaan wawancara, dan siaran pers, hubungi kami langsung lewat email.",
+    "contactLabel": "Pertanyaan pers"
+  },
+  "manageSubscription": {
+    "title": "Kelola Langganan",
+    "body": "Langganan ditagih melalui App Store atau Google Play. Kelola atau batalkan kapan saja dari perangkatmu lewat tautan untuk toko aplikasimu.",
+    "appleHelp": "Kelola di Apple",
+    "googleHelp": "Kelola di Google"
+  },
+  "support": {
+    "title": "Bantuan dan Dukungan",
+    "subtitle": "Pertanyaan, bug, tagihan, atau bantuan akun - kami siap membantu. Hubungi kami langsung dan kami akan menyelesaikannya.",
+    "emailLabel": "Bantuan lewat email",
+    "responseTime": "Kami biasanya membalas dalam 1-2 hari kerja.",
+    "feedbackTitle": "Kirim masukan",
+    "feedbackBody": "Laporkan bug atau minta fitur.",
+    "subscriptionTitle": "Kelola langganan",
+    "subscriptionBody": "Ubah, batalkan, atau dapatkan bantuan tagihan.",
+    "faqTitle": "Pertanyaan umum",
+    "faq": [
+      {
+        "q": "Bagaimana cara membatalkan langganan?",
+        "a": "Langganan ditagih oleh App Store atau Google Play, jadi pembatalan dilakukan dari pengaturan toko di perangkatmu. Halaman Kelola Langganan punya tautan langsung untuk masing-masing toko."
+      },
+      {
+        "q": "Bisakah aku mendapat pengembalian dana?",
+        "a": "Pengembalian dana ditangani oleh Apple dan Google, bukan oleh kami. Ajukan lewat App Store atau Google Play, dan email kami kalau kamu perlu bantuan."
+      },
+      {
+        "q": "Bagaimana cara menghapus akun atau data?",
+        "a": "Buka Pengaturan > Hapus Akun di aplikasi - itu langsung menghapus profilmu dan semua data latihanmu. Kalau kamu tidak bisa masuk ke akunmu, email kami dari alamat yang terhubung dengan akun itu dan kami akan melakukannya untukmu. Data yang kami simpan tercantum di kebijakan privasi kami."
+      },
+      {
+        "q": "Aku menemukan bug. Apa yang harus kulakukan?",
+        "a": "Kirimkan detailnya lewat formulir masukan atau email - tangkapan layar dan model perangkatmu membantu kami memperbaikinya lebih cepat."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Hapus akunmu",
+    "lastUpdated": "Berlaku mulai 2026-07-31",
+    "tocLabel": "Daftar Isi",
+    "intro": "Halaman ini menjelaskan cara menghapus akun Drillr-mu dan apa yang terjadi pada datamu saat kamu melakukannya. Drillr dikembangkan oleh Tomasz Święcki. Kamu bisa menghapus akunmu sendiri dari dalam aplikasi dalam beberapa detik, atau meminta kami melakukannya untukmu lewat email. Terjemahan ini hanya untuk informasi; jika ada perbedaan, versi bahasa Inggris yang berlaku.",
+    "sections": [
+      {
+        "heading": "Hapus akunmu dari dalam aplikasi",
+        "paragraphs": [
+          "Ini cara tercepat dan langsung berlaku. Kamu tidak perlu menghubungi kami."
+        ],
+        "bullets": [
+          "Buka Drillr dan masuk ke tab Pengaturan",
+          "Gulir ke bagian Akun",
+          "Ketuk Hapus Akun, baris terakhir di bagian itu",
+          "Konfirmasi saat diminta - tindakan ini tidak bisa dibatalkan"
+        ]
+      },
+      {
+        "heading": "Hapus akunmu lewat email",
+        "paragraphs": [
+          "Kalau kamu tidak bisa masuk, atau lebih suka kami yang melakukannya, kirim email ke drillrapps@gmail.com dari alamat yang terdaftar di akunmu, dengan subjek \"Account Deletion Request\". Pesannya harus dikirim dari alamat yang terdaftar agar kami bisa memastikan akun itu milikmu.",
+          "Kami memprosesnya dalam 30 hari, biasanya dalam beberapa hari kerja. Kami akan mengonfirmasi lewat email setelah selesai."
+        ]
+      },
+      {
+        "heading": "Apa yang dihapus",
+        "paragraphs": [
+          "Menghapus akunmu akan menghapus hal-hal berikut secara permanen. Tidak ada yang bisa dipulihkan setelahnya, baik olehmu maupun oleh kami."
+        ],
+        "bullets": [
+          "Profilmu - nama, alamat email, posisi, tinggi, berat, tanggal ulang tahun, dan gender",
+          "Seluruh riwayat latihanmu - setiap latihan, sesi, dan tanggal yang diselesaikan",
+          "Berat badan yang kamu catat dan riwayat beratmu",
+          "Catatan usaha dan kesiapanmu, serta evaluasi pertandinganmu",
+          "Nama penggunamu, yang dilepas agar bisa dipakai lagi",
+          "Data masukmu, sehingga akun itu tidak bisa dimasuki lagi",
+          "Semua data Drillr yang tersimpan di perangkatmu"
+        ]
+      },
+      {
+        "heading": "Apa yang disimpan, dan berapa lama",
+        "paragraphs": [
+          "Sebagian kecil informasi tetap ada setelah akun dihapus, karena alasan yang dijelaskan di bawah. Tidak ada yang bisa dipakai untuk masuk, dan tidak ada yang mengidentifikasimu di dalam aplikasi.",
+          "Kalau kamu ingin catatan analitik juga dihapus, sebutkan di emailmu dan kami akan menghapusnya. Minta langsung kepada kami, jangan berasumsi penghapusan akun sudah mencakupnya."
+        ],
+        "bullets": [
+          "Catatan pembelian dan langganan yang disimpan oleh Apple, Google, dan penyedia penagihan kami, RevenueCat. Ini catatan transaksi yang wajib kami simpan untuk keperluan pajak dan akuntansi, dan kami tidak bisa menghapusnya atas namamu",
+          "Analitik produk dengan nama samaran - layar mana yang dibuka dan fitur mana yang dipakai, terhubung ke pengenal acak, bukan ke nama atau emailmu",
+          "Laporan crash dan error, yang berisi informasi diagnostik tentang aplikasi, bukan informasi tentangmu",
+          "Catatan bahwa kamu meminta untuk tidak dihubungi lagi, jika kamu pernah memberi tahu kami. Kami hanya menyimpan yang diperlukan untuk menghormati permintaan itu"
+        ]
+      },
+      {
+        "heading": "Menghapus akun tidak membatalkan langgananmu",
+        "paragraphs": [
+          "Langganan ditagih oleh Apple dan Google, bukan oleh kami, jadi menghapus akun Drillr-mu tidak menghentikan tagihan. Batalkan lewat pengaturan Apple ID atau akun Google Play-mu sebelum menghapus akun, kalau tidak tagihan akan terus berjalan.",
+          "Halaman Kelola Langganan kami punya tautan langsung untuk kedua toko. Kalau kamu sudah menghapus akun dan masih ditagih, kirim email ke drillrapps@gmail.com dan kami akan membantu menyelesaikannya."
+        ]
+      }
+    ],
+    "crossLink": { "href": "/privacy", "label": "Baca Kebijakan Privasi lengkap" }
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "lastUpdated": "Berlaku mulai 2026-09-30",
+    "tocLabel": "Daftar Isi",
+    "intro": "Kebijakan privasi ini berlaku untuk aplikasi Drillr (selanjutnya disebut \"Aplikasi\") untuk perangkat seluler, yang dikembangkan oleh Tomasz Święcki (selanjutnya disebut \"Penyedia Layanan\") sebagai layanan Freemium, dan untuk situs web Drillr di getdrillr.app (selanjutnya disebut \"Situs\"). Layanan ini disediakan \"SEBAGAIMANA ADANYA\". Terjemahan ini hanya untuk informasi; jika ada perbedaan, versi bahasa Inggris yang berlaku.",
+    "sections": [
+      {
+        "heading": "Informasi apa yang diperoleh Aplikasi dan bagaimana informasi itu digunakan?",
+        "paragraphs": [
+          "Aplikasi memperoleh informasi yang kamu berikan saat mengunduh dan mendaftar di Aplikasi. Mendaftar ke Penyedia Layanan tidak wajib. Namun, ingat bahwa kamu mungkin tidak bisa memakai beberapa fitur Aplikasi kalau tidak mendaftar.",
+          "Penyedia Layanan juga dapat menggunakan informasi yang kamu berikan untuk menghubungimu dari waktu ke waktu guna menyampaikan informasi penting, pemberitahuan wajib, dan promosi. Aplikasi juga mengirim pengingat dan notifikasi lokal dari perangkatmu, seperti pengingat hari latihan dan pertandingan, yang bisa kamu matikan kapan saja di pengaturan perangkatmu.",
+          "Penyedia Layanan menggunakan informasi ini untuk membuat dan menyesuaikan rencana latihan dan nutrisi pribadimu, mengelola akunmu, dan meningkatkan Aplikasi. Sebagian informasi ini - khususnya ukuran tubuh dan status cedera - termasuk data kategori khusus (terkait kesehatan) menurut hukum perlindungan data. Penyedia Layanan hanya memprosesnya berdasarkan persetujuan eksplisitmu, yang kamu berikan dengan memilih untuk memasukkan informasi opsional ini agar Aplikasi dapat menyesuaikan rencanamu. Kamu bisa menarik persetujuanmu kapan saja dengan menghapus data itu di Pengaturan atau menghapus akunmu, tanpa memengaruhi bagian lain Aplikasi. Saat kamu membuat akun dan memakai Aplikasi, Penyedia Layanan dapat mengumpulkan kategori data pribadi berikut:"
+        ],
+        "bullets": [
+          "Data akun: alamat emailmu, nama tampilan dan nama pengguna opsional yang kamu pilih, dan, untuk masuk dengan email, kata sandi yang hanya disimpan dalam bentuk hash oleh penyedia autentikasi.",
+          "Data masuk: jika kamu masuk dengan Apple atau Google, nama dan alamat email (termasuk email relay pribadi Apple, jika kamu memakainya) yang dibagikan penyedia itu kepada Aplikasi.",
+          "Data profil dan tubuh yang kamu masukkan: usia atau tanggal lahir, gender, tinggi, berat dan riwayat berat, kewarganegaraan, dan posisi bermain.",
+          "Preferensi latihan dan gaya hidup: tujuanmu, area fokus, tingkat pengalaman, peralatan yang tersedia dan akses gym, hari latihan dan durasi sesi, status tim, dan preferensi makanan.",
+          "Informasi terkait kesehatan yang kamu pilih untuk diberikan, seperti status cederamu saat ini dan seberapa gugup atau percaya diri perasaanmu sebelum pertandingan. Ini opsional dan Aplikasi tetap berfungsi tanpanya.",
+          "Data aktivitas dan performa yang dihasilkan saat kamu memakai Aplikasi, seperti sesi dan latihan yang diselesaikan, penilaian usaha dan masukan, serta evaluasi diri setelah pertandingan.",
+          "Data langganan dan pembelian, seperti dijelaskan di bagian berikutnya."
+        ]
+      },
+      {
+        "heading": "Informasi apa yang dikumpulkan Aplikasi secara otomatis?",
+        "paragraphs": [
+          "Selain itu, Aplikasi dapat mengumpulkan informasi tertentu secara otomatis, termasuk tetapi tidak terbatas pada jenis perangkat seluler yang kamu pakai, ID unik perangkat selulermu, alamat IP perangkat selulermu, sistem operasi selulermu, jenis browser internet seluler yang kamu pakai, dan informasi tentang caramu memakai Aplikasi.",
+          "Kami menggunakan PostHog untuk memahami cara pengguna berinteraksi dengan Aplikasi, termasuk layar yang dikunjungi, fitur yang dipakai, dan tindakan yang dilakukan, serta untuk menerima laporan error yang dialami Aplikasi (pesan error, lokasinya di kode, versi aplikasi, dan jenis perangkat). Pengumpulan analitik ini aktif secara default dan merupakan bagian dari layanan yang kamu terima saat membuat akun, masuk, atau memakai Aplikasi dengan cara lain. Penyedia Layanan mengandalkan kepentingan sahnya untuk mengamankan, memelihara, dan meningkatkan Aplikasi sebagai dasar hukum pemrosesan ini. Kamu bisa menolak kapan saja dengan menghubungi drillrapps@gmail.com, kamu bisa menghentikan semua pengumpulan dengan mencopot pemasangan Aplikasi, dan kamu bisa membatasi pengenal iklan dan analitik lewat pengaturan privasi perangkatmu.",
+          "Aplikasi juga menggunakan PostHog untuk membuat rekaman layar, agar Penyedia Layanan bisa melihat di mana Aplikasi rusak, macet, atau membingungkan orang, lalu memperbaikinya. Rekaman layar adalah serangkaian tangkapan layar dari layar Aplikasi itu sendiri, beserta ketukan dan perpindahan layar, yang direkam saat kamu memakainya. Teks yang kamu ketik disamarkan di perangkatmu sebelum apa pun dikirim, begitu juga detail pribadi dan kesehatanmu - seperti nama, alamat email, tanggal ulang tahun, ukuran tubuh, gejala yang kamu laporkan, target nutrisi, dan catatan makanan - serta tampilan kamera dan klip rekamanmu, yang di rekaman hanya muncul sebagai blok kosong. Rekaman dimulai saat pengaturan awal, dari pertanyaan setelah pertanyaan tentang tanggal ulang tahunmu, dan tidak pernah dibuat untuk pengguna di bawah usia yang memungkinkan mereka menyetujui pemrosesan data pribadinya di negaranya (misalnya 16 tahun di Polandia, 14 tahun di Spanyol, dan 13 tahun di Inggris dan Amerika Serikat). Rekaman terhubung ke ID pengguna samaran yang sama dengan analitik di atas, dan ke laporan crash, agar sebuah masalah bisa ditelusuri ke apa yang terjadi di layar. Penyedia Layanan mengandalkan kepentingan sahnya untuk menemukan dan memperbaiki masalah di Aplikasi sebagai dasar hukum pemrosesan ini. Rekaman dihapus otomatis setelah 30 hari. Setelah punya akun, kamu bisa mematikan rekaman layar kapan saja di Aplikasi, di Pengaturan > Preferensi > Wawasan produk.",
+          "Saat kamu membeli langganan, Aplikasi juga menerima ID transaksi, status langganan, tanggal pembelian, tanggal perpanjangan, dan produk yang kamu beli. Pembayarannya sendiri (kartu kredit, Apple Pay, Google Pay) sepenuhnya ditangani oleh Apple atau Google - Penyedia Layanan tidak pernah melihat atau menyimpan detail kartu pembayaranmu."
+        ]
+      },
+      {
+        "heading": "Informasi apa yang dikumpulkan Situs?",
+        "paragraphs": [
+          "Kebijakan ini juga mencakup situs web Drillr di getdrillr.app. Situs adalah situs informasi dan bantuan: kamu bisa membaca semua halamannya tanpa akun, dan Situs tidak memasang cookie iklan, profiling, atau pelacakan lintas situs.",
+          "Situs di-hosting oleh Vercel, yang menyimpan log akses server standar - termasuk alamat IP-mu, halaman yang diminta, dan jenis browsermu - untuk keamanan, pencegahan penyalahgunaan, dan keandalan. Penyedia Layanan juga menggunakan Vercel Web Analytics untuk melihat berapa banyak orang yang mengunjungi setiap halaman dan dari mana mereka datang. Vercel Web Analytics tidak memakai cookie: tidak menyimpan apa pun di perangkatmu dan tidak membangun profil tetap tentangmu, dan Penyedia Layanan hanya melihat angka gabungan seperti tampilan halaman, situs perujuk, negara, dan jenis perangkat. Dasar hukum keduanya adalah kepentingan sah Penyedia Layanan untuk mengoperasikan, mengamankan, dan meningkatkan Situs.",
+          "Formulir masukan di getdrillr.app/feedback disediakan oleh Tally dan disematkan dari server mereka. Tautan \"Kirim masukan\" di dalam Aplikasi membuka formulir yang sama. Apa yang kamu kirim lewat formulir itu - kategori yang kamu pilih, detail yang kamu tulis, tangkapan layar atau video opsional yang kamu lampirkan, dan alamat email jika kamu memilih memberikannya agar Penyedia Layanan bisa membalas - dikirim ke Tally dan diteruskan ke Penyedia Layanan, dan hanya digunakan untuk membalasmu dan menindaklanjuti laporanmu. Tally menyimpan jawaban formulir di server di Uni Eropa. Mohon jangan melampirkan tangkapan layar atau video yang memperlihatkan orang lain. Formulir yang disematkan bisa memasang cookie yang benar-benar diperlukan agar berfungsi; formulir itu tidak memasang cookie iklan atau pelacakan. Kalau kamu lebih suka tidak memakai formulir sama sekali, kamu bisa mengirim email ke drillrapps@gmail.com.",
+          "Font disajikan dari domain Situs sendiri, jadi membaca sebuah halaman tidak mengirim permintaan ke jaringan font atau iklan pihak ketiga mana pun. Tombol App Store dan Google Play membawamu ke situs Apple dan Google, yang diatur oleh kebijakan privasi mereka sendiri, bukan kebijakan ini."
+        ]
+      },
+      {
+        "heading": "Apakah Penyedia Layanan mengutip ulasan yang kamu tulis di App Store atau Google Play?",
+        "paragraphs": [
+          "Jika kamu menerbitkan ulasan Aplikasi di App Store atau Google Play, Penyedia Layanan dapat mengutipnya di Aplikasi (misalnya di layar pengaturan awal), di Situs, di halaman Aplikasi di toko aplikasi, dan di materi promosi Drillr lainnya, seperti unggahan media sosial. Kutipan menampilkan teks ulasanmu, rating bintangnya, dan namamu dalam bentuk singkat - nama depan dan huruf pertama nama belakangmu, atau nama panggilan yang tampil bersama ulasanmu. Tidak ada hal lain tentangmu yang ditampilkan, dan foto profilmu tidak pernah dipakai.",
+          "Penyedia Layanan dapat memperbaiki ejaan, tata bahasa, dan tanda baca, mempersingkat ulasan, serta menerjemahkannya atau menyesuaikan kata-katanya untuk bahasa dan negara lain (misalnya, \"footballer\" menjadi \"soccer player\" dalam bahasa Inggris Amerika), tetapi tidak pernah menambahkan kata atau klaim yang tidak ada di ulasanmu atau mengubah maksudmu. Hanya ulasan yang diterbitkan di App Store dan Google Play yang dikutip, dan kedua toko hanya menerima ulasan dari orang yang sudah mengunduh Aplikasi. Penyedia Layanan tidak menulis, membeli, atau memberi imbalan untuk ulasan, dan memilih ulasan mana yang ditampilkan, jadi kutipan itu adalah pilihan, bukan ringkasan semua ulasan. Jika rating bintang rata-rata ditampilkan, itu adalah rating yang diterbitkan App Store. Masukan yang kamu kirim secara pribadi, lewat formulir masukan atau email, tidak pernah dikutip tanpa izinmu.",
+          "Ulasanmu dan nama yang tampil bersamanya adalah data pribadi yang diperoleh Penyedia Layanan dari toko tempat ulasan itu diterbitkan, bukan langsung darimu. Dasar hukumnya adalah kepentingan sah Penyedia Layanan untuk menunjukkan kepada orang yang sedang mempertimbangkan Aplikasi apa kata penggunanya. Kamu memilih untuk membuat ulasan itu publik, dan batasan yang dijelaskan di atas menjaga kutipan tetap sesuai dengan yang kamu tulis. Kamu bisa menolak kapan saja, tanpa memberi alasan, dengan menulis ke drillrapps@gmail.com, dan orang tua atau wali dapat melakukannya atas nama anak. Penyedia Layanan kemudian akan menghapus ulasanmu dari Situs tanpa penundaan yang tidak semestinya dan dari Aplikasi di pembaruan berikutnya, dan tidak akan memakainya di materi promosi baru. Penyedia Layanan juga berhenti memakai sebuah ulasan begitu mengetahui ulasan itu telah dihapus dari toko."
+        ]
+      },
+      {
+        "heading": "Apakah Aplikasi mengumpulkan informasi lokasi perangkat?",
+        "paragraphs": [
+          "Aplikasi ini tidak mengumpulkan informasi tentang lokasi perangkat selulermu."
+        ]
+      },
+      {
+        "heading": "Apakah Aplikasi menggunakan teknologi kecerdasan buatan (AI)?",
+        "paragraphs": [
+          "Aplikasi memiliki fitur analisis teknik opsional yang memakai deteksi gerakan dan pose tubuh bawaan di ponselmu (seperti framework Vision dari Apple di iOS) untuk memberimu masukan tentang teknik latihanmu. Seluruh analisis ini berjalan sepenuhnya di perangkatmu. Tidak ada video, gambar, atau data pose tubuh yang dikirim ke Penyedia Layanan atau pihak ketiga untuk fitur ini, dan fitur ini tidak dipakai untuk mengidentifikasimu. Lihat bagian tentang penggunaan kamera di bawah untuk detailnya.",
+          "Penyedia Layanan juga memakai fitur AI bawaan PostHog untuk meninjau rekaman layar, laporan crash dan error, serta analitik penggunaan secara otomatis, guna menemukan masalah dan kendala kegunaan serta menyusun perubahan kode untuk memperbaikinya. Fitur-fitur ini berjalan di model AI dari Google, OpenAI, dan Anthropic, yang memproses data atas nama PostHog, dapat memprosesnya di luar Uni Eropa dengan perlindungan yang sesuai, dan dilarang secara kontrak memakainya untuk melatih model mereka. Fitur ini tidak dipakai untuk membuat keputusan tentangmu atau membangun profilmu, dan setiap usulan perubahan kode ditinjau oleh Penyedia Layanan sebelum dipakai. Penggunaan data ini oleh PostHog untuk melatih model AI-nya sendiri dimatikan."
+        ]
+      },
+      {
+        "heading": "Apakah Aplikasi menggunakan kameramu, dan apa yang terjadi pada rekamannya?",
+        "paragraphs": [
+          "Aplikasi memiliki fitur cek teknik opsional yang memakai kamera perangkatmu. Kamera hanya diakses saat kamu memilih memulai cek teknik untuk latihan yang didukung, dan hanya untuk merekam klip singkat saat kamu melakukan latihan itu. Kamu bisa menolak atau mencabut izin kamera kapan saja di pengaturan perangkatmu; bagian lain Aplikasi tetap berfungsi tanpanya.",
+          "Klip yang direkam dianalisis sepenuhnya di perangkatmu. Penyedia Layanan tidak menerima, mengunggah, atau menyimpan klipmu di server mana pun, klip itu tidak otomatis tersimpan ke galeri fotomu, dan tidak dibagikan ke pihak ketiga mana pun. Aplikasi tidak merekam suara sebagai bagian dari fitur ini. Di rekaman layar, tampilan kamera dan klipmu selalu tersembunyi di balik blok kosong.",
+          "Jika kamu memilih membagikan klip lewat opsi bagikan, Aplikasi membuat versi dengan tanda air Drillr dan masukan teknik yang tergambar di atasnya, lalu menyerahkannya ke menu berbagi standar di perangkatmu. Sejak kamu memilih tujuan (misalnya aplikasi pesan, media sosial, atau kontak), klip itu diatur oleh ketentuan dan kebijakan privasi layanan atau penerima tersebut, bukan oleh Kebijakan ini, dan Penyedia Layanan tidak punya kendali atas cara mereka menanganinya. Mohon hanya bagikan klip dirimu sendiri, dan jangan bagikan klip yang memperlihatkan orang lain tanpa persetujuan mereka."
+        ]
+      },
+      {
+        "heading": "Apakah Aplikasi menggunakan pengambilan keputusan otomatis atau profiling?",
+        "paragraphs": [
+          "Aplikasi memakai informasi yang kamu berikan - seperti tujuan, tingkat pengalaman, ukuran tubuh, dan status cedera - untuk membuat dan menyesuaikan rencana latihan dan nutrisi pribadimu secara otomatis. Ini termasuk memilih latihan, menyesuaikan tingkat kesulitan latihan, dan menghitung target kalori dan makronutrien. Ini termasuk profiling, tetapi itulah tujuan utama Aplikasi yang kamu daftarkan, dan tidak menimbulkan akibat hukum atau akibat signifikan serupa bagimu.",
+          "Aplikasi tidak membuat keputusan yang sepenuhnya otomatis yang menimbulkan akibat hukum bagimu. Kendali tetap ada padamu: kamu bisa mengubah data yang kamu masukkan kapan saja di Pengaturan, dan kamu bisa menghubungi Penyedia Layanan di drillrapps@gmail.com untuk pertanyaan apa pun tentang cara rencanamu dibuat."
+        ]
+      },
+      {
+        "heading": "Apakah pihak ketiga melihat dan/atau punya akses ke informasi yang diperoleh Aplikasi?",
+        "paragraphs": [
+          "Penyedia Layanan mengirim pengenal samaran (seperti ID pengguna dan pengenal perangkat) ke layanan eksternal yang tercantum di bawah untuk mengautentikasi akunmu, menyinkronkan status langgananmu, mengumpulkan data diagnostik, dan meningkatkan Aplikasi. Penyedia Layanan dapat membagikan informasimu kepada pihak ketiga dengan cara yang dijelaskan dalam pernyataan privasi ini.",
+          "Data akun dan profilmu disimpan menggunakan Google Firebase (Firebase Authentication dan Cloud Firestore), dan masuk dengan Apple atau Google ditangani oleh penyedia masing-masing. Penyedia ini bertindak sebagai pemroses data untuk Penyedia Layanan dan dapat menyimpan data di server di luar negaramu, termasuk di Amerika Serikat, dengan perlindungan yang sesuai seperti Klausul Kontrak Standar Komisi Eropa.",
+          "Perhatikan bahwa Aplikasi menggunakan layanan pihak ketiga yang memiliki Kebijakan Privasi sendiri tentang penanganan data. Berikut tautan ke Kebijakan Privasi penyedia layanan pihak ketiga yang dipakai Aplikasi:"
+        ],
+        "bullets": [
+          "https://policies.google.com/privacy",
+          "https://firebase.google.com/policies/analytics",
+          "https://firebase.google.com/support/privacy",
+          "https://expo.dev/privacy",
+          "https://posthog.com/privacy - analitik produk, rekaman layar, laporan error, dan deteksi bug berbantuan AI, di-hosting di Uni Eropa (fitur AI-nya memakai model dari Google, OpenAI, dan Anthropic)",
+          "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement - hosting kode sumber Aplikasi, termasuk usulan perbaikan untuk masalah yang ditemukan di data diagnostik",
+          "https://sentry.io/privacy/ - laporan crash dan error",
+          "https://www.revenuecat.com/privacy - pengelolaan langganan dan analitik penagihan",
+          "https://vercel.com/legal/privacy-policy - hosting dan analitik tanpa cookie untuk Situs",
+          "https://tally.so/help/privacy-policy - formulir masukan di Situs",
+          "https://www.apple.com/legal/privacy/ - untuk pembelian di iOS",
+          "https://policies.google.com/privacy - untuk pembelian di Android"
+        ]
+      },
+      {
+        "heading": "Kapan Penyedia Layanan boleh mengungkapkan informasimu?",
+        "paragraphs": [
+          "Penyedia Layanan dapat mengungkapkan Informasi yang Diberikan Pengguna dan Informasi yang Dikumpulkan Secara Otomatis:"
+        ],
+        "bullets": [
+          "jika diwajibkan oleh hukum, misalnya untuk mematuhi panggilan pengadilan atau proses hukum serupa;",
+          "jika Penyedia Layanan dengan itikad baik meyakini bahwa pengungkapan diperlukan untuk melindungi haknya, melindungi keselamatanmu atau keselamatan orang lain, menyelidiki penipuan, atau menanggapi permintaan pemerintah;",
+          "kepada penyedia layanan tepercaya yang bekerja atas namanya, tidak memakai informasi yang diungkapkan kepada mereka secara mandiri, dan telah setuju untuk mematuhi aturan dalam pernyataan privasi ini;",
+          "sehubungan dengan merger, akuisisi, reorganisasi, kepailitan, atau penjualan seluruh atau sebagian bisnis Drillr atau asetnya, dalam hal ini informasimu - termasuk informasi terkait kesehatan yang dijelaskan di atas - dapat dialihkan kepada pihak yang mengambil alih. Penyedia Layanan akan memberitahumu di Aplikasi atau lewat email sebelum pengalihan itu berlaku, pihak yang mengambil alih tetap terikat oleh Kebijakan ini atas informasi yang diterimanya sampai memberitahumu tentang perubahan apa pun, dan setiap hak yang dijelaskan di bawah tetap berlaku, termasuk hakmu untuk menghapus akun dan semua datamu kapan saja."
+        ]
+      },
+      {
+        "heading": "Apa hak penolakanku?",
+        "paragraphs": [
+          "Kamu bisa menghentikan semua pengumpulan informasi oleh Aplikasi dengan mudah dengan mencopot pemasangan Aplikasi. Kamu bisa memakai proses pencopotan standar yang tersedia di perangkat selulermu atau lewat toko atau jaringan aplikasi. Mencopot pemasangan Aplikasi tidak otomatis membatalkan langganan berbayar - kamu harus membatalkannya lewat pengaturan Apple ID atau akun Google Play-mu.",
+          "Kamu juga bisa menghapus akunmu dan semua data terkaitnya secara permanen langsung di Aplikasi kapan saja, di Pengaturan > Hapus Akun.",
+          "Setelah punya akun, kamu bisa mematikan rekaman layar kapan saja di Aplikasi, di Pengaturan > Preferensi > Wawasan produk. Perekaman langsung berhenti, dan tidak ada rekaman baru yang dibuat selama fitur itu mati."
+        ]
+      },
+      {
+        "heading": "Bagaimana kebijakan penyimpanan data dan bagaimana kamu bisa mengelola informasimu?",
+        "paragraphs": [
+          "Penyedia Layanan akan menyimpan data yang diberikan pengguna selama kamu memakai Aplikasi dan selama waktu yang wajar setelahnya. Penyedia Layanan akan menyimpan informasi yang dikumpulkan secara otomatis hingga 24 bulan dan setelah itu dapat menyimpannya dalam bentuk gabungan, kecuali rekaman layar, yang dihapus otomatis setelah 30 hari. Jika kamu ingin Penyedia Layanan menghapus data yang kamu berikan lewat Aplikasi, hubungi drillrapps@gmail.com dan kamu akan mendapat balasan dalam waktu yang wajar. Perhatikan bahwa sebagian atau seluruh data yang diberikan pengguna mungkin diperlukan agar Aplikasi berfungsi dengan baik.",
+          "Kamu juga bisa menghapus sendiri akunmu dan semua data terkaitnya kapan saja di dalam Aplikasi, di Pengaturan > Hapus Akun, yang langsung menghapus profilmu beserta data latihan, berat, usaha, dan pertandinganmu dari sistem Penyedia Layanan.",
+          "Masukan yang dikirim lewat formulir yang dijelaskan di atas hanya disimpan selama diperlukan untuk menanganinya. Setelah laporanmu dijawab atau diselesaikan, Penyedia Layanan menghapus jawaban itu dari Tally, termasuk tangkapan layar atau video yang kamu lampirkan dan alamat email yang kamu berikan."
+        ]
+      },
+      {
+        "heading": "Hak perlindungan datamu",
+        "paragraphs": [
+          "Pengendali yang bertanggung jawab atas data pribadimu adalah Tomasz Święcki, pengembang independen yang berbasis di Polandia, yang dapat dihubungi di drillrapps@gmail.com. Mengingat sifat dan skala pemrosesannya, Penyedia Layanan tidak wajib menunjuk Petugas Pelindungan Data dan belum melakukannya; kamu bisa mengirim pertanyaan privasi apa pun ke alamat yang sama.",
+          "Penyedia Layanan memproses data pribadimu berdasarkan dasar hukum berikut: untuk melaksanakan perjanjian penyediaan Aplikasi kepadamu; persetujuanmu - termasuk persetujuan eksplisitmu untuk data kategori khusus terkait kesehatan seperti ukuran tubuh dan cedera, dan persetujuanmu untuk pesan pemasaran; dan kepentingan sah Penyedia Layanan untuk mengoperasikan, mengamankan, dan meningkatkan Aplikasi, serta untuk mengutip ulasan publik di toko aplikasi seperti dijelaskan di atas.",
+          "Jika kamu berada di Kawasan Ekonomi Eropa, Inggris, atau wilayah dengan hukum yang sebanding, kamu memiliki hak-hak yang tercantum di bawah atas data pribadimu. Untuk menggunakan hak-hak itu, hubungi Penyedia Layanan di drillrapps@gmail.com; kamu juga bisa mengubah profilmu di Aplikasi atau menghapus akun dan datamu secara permanen di Pengaturan > Hapus Akun."
+        ],
+        "bullets": [
+          "hak untuk mengakses data pribadi yang disimpan tentangmu;",
+          "hak untuk memperbaiki data yang tidak akurat atau tidak lengkap;",
+          "hak untuk menghapus datamu (\"hak untuk dilupakan\");",
+          "hak untuk membatasi atau menolak pemrosesan tertentu;",
+          "hak portabilitas data, yaitu menerima datamu dalam format yang terstruktur dan umum dipakai;",
+          "hak untuk menarik persetujuan kapan saja, jika pemrosesan didasarkan pada persetujuan;",
+          "hak untuk mengajukan keluhan ke otoritas pengawas - di Polandia, Presiden Kantor Perlindungan Data Pribadi (Prezes Urzędu Ochrony Danych Osobowych)."
+        ]
+      },
+      {
+        "heading": "Hakmu jika kamu tinggal di Amerika Serikat",
+        "paragraphs": [
+          "Jika kamu tinggal di California, atau di negara bagian AS lain yang memiliki undang-undang privasi menyeluruh seperti Colorado, Connecticut, Montana, Oregon, Texas, atau Virginia, kamu memiliki hak tambahan yang dijelaskan di bawah. Kategori data pribadi yang dikumpulkan Penyedia Layanan, tujuan penggunaannya, dan berapa lama disimpan sudah dijelaskan sebelumnya dalam Kebijakan ini.",
+          "Penyedia Layanan tidak menjual informasi pribadimu dan tidak membagikannya untuk iklan perilaku lintas konteks, dan tidak melakukannya dalam dua belas bulan terakhir. Tidak ada jaringan iklan, pialang data, atau teknologi penargetan iklan di Aplikasi atau di Situs. Penyedia Layanan juga tidak dengan sengaja menjual atau membagikan informasi pribadi siapa pun yang berusia di bawah 16 tahun.",
+          "Aplikasi mengumpulkan beberapa informasi yang diperlakukan hukum California sebagai informasi pribadi sensitif, yaitu data terkait kesehatan seperti ukuran tubuh dan status cederamu. Penyedia Layanan hanya memakainya untuk membuat dan menyesuaikan rencana latihan dan nutrisi yang kamu daftarkan, bukan untuk menyimpulkan karakteristik tentangmu, jadi hak untuk membatasi penggunaan informasi pribadi sensitif tidak membatasi pemrosesan apa pun yang benar-benar terjadi.",
+          "Untuk menggunakan hak-hak di bawah, kirim email ke drillrapps@gmail.com dari alamat yang terhubung dengan akunmu, atau hapus sendiri akunmu dan datanya kapan saja di Pengaturan > Hapus Akun di Aplikasi. Kamu bisa memakai kuasa yang sah, dan dalam hal itu Penyedia Layanan dapat meminta bukti kewenangannya dan konfirmasi langsung darimu. Penyedia Layanan akan menjawab dalam jangka waktu yang diizinkan hukum negara bagianmu, dan jika permintaan ditolak, kamu bisa mengajukan banding dengan membalas ke alamat yang sama. Sesuai hukum negara bagianmu, kamu berhak untuk:"
+        ],
+        "bullets": [
+          "mengetahui informasi pribadi apa yang dikumpulkan tentangmu, dan mendapatkan salinannya;",
+          "memperbaiki informasi pribadi yang tidak akurat;",
+          "menghapus informasi pribadimu;",
+          "menerima datamu dalam bentuk yang portabel dan dapat dibaca mesin;",
+          "menolak penjualan atau pembagian informasi pribadi, iklan bertarget, dan profiling yang menimbulkan akibat hukum atau akibat signifikan serupa - tidak satu pun dilakukan oleh Penyedia Layanan;",
+          "tidak didiskriminasi karena menggunakan hak-hak ini. Penyedia Layanan tidak menawarkan insentif finansial sebagai imbalan data pribadi, dan Aplikasi bekerja sama saja, baik kamu menggunakan hak-hak itu maupun tidak."
+        ]
+      },
+      {
+        "heading": "Bagaimana Aplikasi menjaga privasi anak-anak?",
+        "paragraphs": [
+          "Aplikasi ditujukan untuk pengguna berusia 13 tahun ke atas. Penyedia Layanan tidak dengan sengaja meminta data dari atau memasarkan kepada anak di bawah usia 13 tahun.",
+          "Di beberapa negara, usia minimum untuk menyetujui pemrosesan data pribadi lebih tinggi dari 13 tahun - misalnya 16 tahun di Polandia dan sebagian Uni Eropa. Aplikasi tersedia untuk pengguna berusia 13 tahun ke atas di mana saja. Jika kamu berusia minimal 13 tahun tetapi di bawah usia persetujuan digital di negaramu, kamu hanya boleh memakai Aplikasi dan memberikan data pribadimu dengan keterlibatan dan persetujuan orang tua atau wali sah, yang menerima Kebijakan ini atas namamu.",
+          "Aplikasi tidak membuat rekaman layar untuk pengguna di bawah usia persetujuan digital di negaranya, meskipun mereka tetap boleh memakai Aplikasi.",
+          "Pengguna yang menyatakan saat pengaturan awal bahwa usianya di bawah 13 tahun tidak bisa membuat akun. Aplikasi menampilkan pesan bahwa Drillr untuk usia 13 tahun ke atas, dan tidak ada profil yang dibuat di sistem Penyedia Layanan.",
+          "Sejumlah kecil akun yang dibuat sebelum batasan usia ini berlaku tetap ada di Layanan dalam Mode Terbatas versi lama. Dalam Mode Terbatas, Aplikasi tidak mengumpulkan detail pribadi seperti gender, tinggi, berat, atau tanggal lahir. Hanya alamat email yang disimpan untuk keperluan autentikasi akun. Tidak ada data pribadi pengguna Mode Terbatas yang dibagikan ke pihak ketiga atau dipakai untuk profiling atau pemasaran.",
+          "Jika kamu orang tua atau wali dan mengetahui bahwa anakmu telah memberikan informasi pribadi kepada kami, hubungi Penyedia Layanan (drillrapps@gmail.com) agar dapat mengambil tindakan yang diperlukan, termasuk menghapus akun."
+        ]
+      },
+      {
+        "heading": "Bagaimana informasimu dijaga keamanannya?",
+        "paragraphs": [
+          "Penyedia Layanan peduli untuk menjaga kerahasiaan informasimu. Penyedia Layanan menerapkan perlindungan fisik, elektronik, dan prosedural untuk melindungi informasi yang diproses dan disimpannya. Misalnya, akses ke informasi ini dibatasi untuk karyawan dan kontraktor berwenang yang perlu mengetahuinya untuk mengoperasikan, mengembangkan, atau meningkatkan Aplikasi. Perlu diketahui bahwa meskipun Penyedia Layanan berupaya memberikan keamanan yang wajar untuk informasi yang diproses dan disimpannya, tidak ada sistem keamanan yang dapat mencegah semua kemungkinan pelanggaran keamanan."
+        ]
+      },
+      {
+        "heading": "Bagaimana kamu diberi tahu tentang perubahan Kebijakan Privasi ini?",
+        "paragraphs": [
+          "Kebijakan Privasi ini dapat diperbarui dari waktu ke waktu dengan alasan apa pun. Penyedia Layanan akan memberitahumu tentang setiap perubahan dengan memperbarui halaman ini dengan Kebijakan Privasi yang baru. Kamu disarankan untuk memeriksa Kebijakan Privasi ini secara berkala, karena terus memakai Aplikasi dianggap sebagai persetujuan atas semua perubahan."
+        ]
+      },
+      {
+        "heading": "Bagaimana kamu memberikan persetujuan?",
+        "paragraphs": [
+          "Dengan membuat akun, masuk, atau memakai Aplikasi dengan cara lain, kamu mengakui Kebijakan Privasi ini dan menyetujui Penyedia Layanan memproses informasimu sebagaimana diatur di sini sekarang dan sebagaimana diubah di masa depan, termasuk analitik dan rekaman layar yang dipakai untuk mengoperasikan, mengamankan, dan meningkatkan Aplikasi. \"Pemrosesan\" berarti menggunakan atau menangani informasi dengan cara apa pun, termasuk tetapi tidak terbatas pada mengumpulkan, menyimpan, menghapus, menggunakan, menggabungkan, dan mengungkapkan informasi."
+        ]
+      },
+      {
+        "heading": "Bagaimana cara menghubungi kami?",
+        "paragraphs": [
+          "Jika kamu punya pertanyaan tentang privasi saat memakai Aplikasi, atau tentang praktik-praktik ini, hubungi Penyedia Layanan lewat email di drillrapps@gmail.com."
+        ]
+      }
+    ],
+    "crossLink": { "label": "Ketentuan Layanan Drillr", "href": "/terms" }
+  },
+  "terms": {
+    "title": "Ketentuan Layanan",
+    "lastUpdated": "Berlaku mulai 2026-09-30",
+    "tocLabel": "Daftar Isi",
+    "intro": "Ketentuan layanan ini berlaku untuk aplikasi Drillr (selanjutnya disebut \"Aplikasi\") untuk perangkat seluler yang dibuat oleh Tomasz Święcki (selanjutnya disebut \"Penyedia Layanan\") sebagai layanan Freemium, dan untuk situs web Drillr di getdrillr.app (selanjutnya disebut \"Situs\"). Terjemahan ini hanya untuk informasi; jika ada perbedaan, versi bahasa Inggris yang berlaku, seperti dijelaskan di bagian Hukum yang Berlaku dan Sengketa.",
+    "sections": [
+      {
+        "heading": "Penerimaan Ketentuan",
+        "paragraphs": [
+          "Dengan mengunduh, membuat akun, masuk, atau memakai Aplikasi dengan cara lain, kamu menyetujui Ketentuan Layanan ini dan Kebijakan Privasi Drillr, yang menjadi bagian dari ketentuan ini melalui rujukan - termasuk analitik, rekaman layar, dan pemrosesan data yang dijelaskan dalam Kebijakan itu. Kamu sangat disarankan membaca dan memahami kedua dokumen itu dengan saksama sebelum memakai Aplikasi. Jika kamu tidak setuju, jangan memakai Aplikasi.",
+          "Ketentuan ini juga mengatur penggunaan Situs olehmu, sejauh relevan. Situs disediakan untuk informasi dan bantuan: tidak perlu akun untuk membacanya, kontennya diterbitkan hanya sebagai informasi umum dan dapat berubah kapan saja, dan bagian-bagian di bawah yang menyangkut konten latihan, nutrisi, dan analisis teknik berlaku sama untuk konten yang sama yang ditampilkan di Situs."
+        ]
+      },
+      {
+        "heading": "Kekayaan Intelektual",
+        "paragraphs": [
+          "Menyalin atau mengubah tanpa izin Aplikasi, Situs, bagian mana pun dari keduanya, atau merek dagang kami dilarang keras. Upaya apa pun untuk mengekstrak kode sumber Aplikasi, menerjemahkan Aplikasi ke bahasa lain, atau membuat versi turunan tidak diizinkan. Semua merek dagang, hak cipta, hak basis data, dan hak kekayaan intelektual lainnya yang terkait dengan Aplikasi dan Situs tetap menjadi milik Penyedia Layanan."
+        ]
+      },
+      {
+        "heading": "Ulasan di App Store dan Google Play",
+        "paragraphs": [
+          "Jika kamu menerbitkan ulasan Aplikasi di App Store atau Google Play, kamu mengizinkan Penyedia Layanan, tanpa biaya dan secara non-eksklusif, untuk mengutipnya beserta rating bintang dan nama singkatmu di Aplikasi, di Situs, di halaman Aplikasi di toko aplikasi, dan di materi promosi Drillr lainnya, di negara mana pun tempat Aplikasi ditawarkan. Ini termasuk memperbaiki ejaan, tata bahasa, dan tanda baca, mempersingkat ulasan, serta menerjemahkannya atau menyesuaikan kata-katanya untuk bahasa dan negara lain, tetapi tidak pernah menambahkan kata atau klaim yang tidak ada di ulasanmu atau mengubah maksudmu. Kebijakan Privasi menjelaskan dengan tepat apa yang ditampilkan dan bagaimana datamu ditangani.",
+          "Ulasan tidak pernah dibayar atau diberi imbalan, dan tidak ada apa pun di Aplikasi yang bergantung pada apakah kamu menulis ulasan atau apa isinya. Ulasan yang dikutip mencerminkan pengalaman penulisnya sendiri, dan hasil setiap orang bisa berbeda.",
+          "Kamu bisa menarik izin ini kapan saja, tanpa memberi alasan, dengan menulis ke drillrapps@gmail.com, dan Penyedia Layanan akan berhenti memakai ulasanmu seperti dijelaskan di Kebijakan Privasi. Bagian ini tidak memengaruhi hak apa pun yang dimiliki Apple atau Google atas ulasan yang diterbitkan di toko mereka."
+        ]
+      },
+      {
+        "heading": "Penggunaan yang Diperbolehkan",
+        "paragraphs": [
+          "Kamu setuju untuk memakai Aplikasi dan Situs secara sah, dan sesuai dengan tujuan penggunaannya. Jika kamu melanggar bagian ini, Penyedia Layanan dapat menangguhkan atau menutup akunmu seperti dijelaskan di bagian Akun dan Pengakhiran, dan kamu dapat bertanggung jawab atas klaim pihak ketiga yang timbul seperti dijelaskan di bagian Klaim Akibat Perbuatanmu.",
+          "Secara khusus, kamu setuju untuk tidak:"
+        ],
+        "bullets": [
+          "memakai Layanan untuk tujuan yang melanggar hukum, atau melanggar hukum atau peraturan apa pun yang berlaku bagimu",
+          "membuat akun dengan informasi palsu, menyamar sebagai orang lain, atau memberikan usia yang tidak benar",
+          "membagikan akunmu kepada orang lain, atau menjual, menyewakan, atau mengalihkan aksesnya",
+          "mencoba mengakses akun atau data pengguna lain, atau bagian mana pun dari Layanan yang tidak diberikan aksesnya kepadamu",
+          "mencoba melewati paywall, pengecekan langganan, batas penggunaan, atau pembatasan teknis lainnya di Layanan",
+          "menyalin, melakukan scraping, atau mengekstrak secara sistematis konten latihan, drill, data latihan, atau materi lain di Layanan, atau memakai bagian mana pun darinya untuk membangun atau melatih produk pesaing atau model machine learning",
+          "memakai bot, scraper, atau cara otomatis lain untuk mengakses Layanan, selain dengan metode yang diterbitkan Penyedia Layanan untuk tujuan itu",
+          "mengunggah, merekam, atau mengirimkan apa pun yang melanggar hukum, melanggar hak, mencemarkan nama baik, atau berbahaya, atau yang mengandung kode berbahaya",
+          "merekam atau membagikan klip yang memperlihatkan orang lain tanpa persetujuan mereka",
+          "mengganggu, membebani, atau mencoba mengacaukan Layanan, servernya, atau fitur keamanannya, atau mencari celah keamanannya tanpa izin tertulis dari Penyedia Layanan",
+          "menjual kembali, mensublisensikan, atau memanfaatkan secara komersial Layanan atau kontennya dengan cara lain tanpa izin tertulis dari Penyedia Layanan"
+        ]
+      },
+      {
+        "heading": "Perubahan Layanan",
+        "paragraphs": [
+          "Penyedia Layanan berkomitmen untuk membuat Aplikasi semanfaat dan seefisien mungkin. Karena itu, Penyedia Layanan berhak mengubah Aplikasi atau mengenakan biaya untuk layanannya kapan saja dan dengan alasan apa pun. Penyedia Layanan menjamin bahwa biaya apa pun untuk Aplikasi atau layanannya akan disampaikan kepadamu dengan jelas.",
+          "Penyedia Layanan juga dapat mengubah, menangguhkan, atau menghentikan fitur apa pun dari Aplikasi atau Situs, seluruhnya atau sebagian, dan akan memberi pemberitahuan yang wajar jika memungkinkan. Kecuali sebagaimana diatur di bawah, Penyedia Layanan tidak bertanggung jawab kepadamu atas perubahan, penangguhan, atau penghentian tersebut. Ini tidak memengaruhi hak hukummu, atau pengembalian dana yang menjadi hakmu jika fitur berbayar yang kamu langgani ditarik."
+        ]
+      },
+      {
+        "heading": "Persyaratan Usia",
+        "paragraphs": [
+          "Layanan ditujukan untuk pengguna berusia 13 tahun ke atas. Pengguna yang menyatakan saat pengaturan awal bahwa usianya di bawah 13 tahun tidak bisa membuat akun. Sejumlah kecil akun yang dibuat sebelum persyaratan usia ini berlaku tetap ada di Layanan dalam Mode Terbatas versi lama, yang membatasi pengumpulan data pribadi. Jika kamu berusia antara 13 dan 17 tahun, kamu hanya boleh memakai Layanan dengan persetujuan dan pengawasan orang tua atau wali sah, yang setuju untuk bertanggung jawab penuh atas semua aktivitas yang dilakukan menggunakan Layanan."
+        ]
+      },
+      {
+        "heading": "Kesehatan, Kebugaran, dan Penerimaan Risiko",
+        "paragraphs": [
+          "Aplikasi menyediakan program kebugaran, latihan, dan pengondisian umum, drill, dan konten terkait hanya untuk tujuan informasi dan edukasi. Ini bukan nasihat medis, fisioterapi, atau pelatihan profesional, dan bukan pengganti konsultasi dengan dokter atau tenaga kesehatan lain yang berkualifikasi.",
+          "Latihan fisik mengandung risiko bawaan, termasuk risiko cedera serius. Kamu sebaiknya berkonsultasi dengan dokter sebelum memulai program latihan apa pun, terutama jika kamu sedang hamil, punya cedera atau kondisi medis, atau sudah lama tidak aktif. Dengan memakai Aplikasi, kamu menyatakan bahwa kondisi kesehatanmu memungkinkanmu melakukan aktivitas fisik, dan kamu secara sukarela menanggung semua risiko yang terkait dengan berlatih dan mengikuti rencana, drill, atau rekomendasi apa pun dari Aplikasi. Berlatih dalam batas kemampuanmu sendiri dan berhenti jika merasa sakit, pusing, atau tidak nyaman sepenuhnya menjadi tanggung jawabmu.",
+          "Sejauh diizinkan hukum, Penyedia Layanan tidak bertanggung jawab atas cedera, kerugian, atau kerusakan apa pun yang timbul dari penggunaanmu atas, atau kepercayaanmu pada, konten latihan, rencana, atau rekomendasi dari Aplikasi. Tidak ada dalam bagian ini yang mengecualikan atau membatasi tanggung jawab yang tidak dapat dikecualikan atau dibatasi menurut hukum yang berlaku, termasuk tanggung jawab atas kematian atau cedera pribadi yang disebabkan oleh kelalaian Penyedia Layanan, serta hak-hakmu yang wajib sebagai konsumen.",
+          "Pesan motivasi, notifikasi push, dan contoh ilustratif yang ditampilkan Aplikasi - termasuk nama, skenario, atau aktivitas yang digambarkan di dalamnya - hanya untuk memberi semangat. Itu tidak menggambarkan pengguna sungguhan atau menjamin hasil tertentu, dan hasil setiap orang bisa berbeda."
+        ]
+      },
+      {
+        "heading": "Nutrisi dan Rencana Makan",
+        "paragraphs": [
+          "Aplikasi dapat membuat saran target kalori, target makronutrien, dan rencana makan berdasarkan informasi yang kamu berikan. Konten ini otomatis, bersifat umum, dan hanya untuk tujuan informasi. Ini bukan nasihat diet, gizi, atau medis dan bukan pengganti arahan dari ahli gizi atau dokter yang berkualifikasi.",
+          "Nilai gizi dan label makanan (seperti vegetarian, vegan, bebas gluten, atau informasi terkait alergen) adalah perkiraan dan bisa tidak akurat atau tidak lengkap. Jika kamu punya alergi makanan, intoleransi, atau kondisi medis, jangan mengandalkan Aplikasi - selalu periksa sendiri bahan dan labelnya dan konsultasikan dengan tenaga profesional yang berkualifikasi. Penyedia Layanan tidak bertanggung jawab atas reaksi merugikan, kerugian, atau kerusakan apa pun yang timbul dari saran makanan atau informasi gizi di Aplikasi."
+        ]
+      },
+      {
+        "heading": "Keamanan Perangkat",
+        "paragraphs": [
+          "Aplikasi menyimpan dan memproses data pribadi yang kamu berikan kepada Penyedia Layanan untuk menyediakan Layanan. Kamu bertanggung jawab menjaga keamanan ponselmu dan akses ke Aplikasi. Penyedia Layanan sangat tidak menyarankan melakukan jailbreak atau root pada ponselmu, yaitu menghapus pembatasan perangkat lunak yang diterapkan oleh sistem operasi resmi perangkatmu. Tindakan seperti itu dapat membuat ponselmu rentan terhadap malware, virus, dan program berbahaya, merusak fitur keamanan ponselmu, dan dapat membuat Aplikasi tidak berfungsi dengan benar atau sama sekali."
+        ]
+      },
+      {
+        "heading": "Analisis Teknik dan Klip Rekaman",
+        "paragraphs": [
+          "Aplikasi memiliki fitur cek teknik opsional yang merekam klip singkat dan memberimu masukan otomatis tentang teknik latihanmu. Masukan ini dibuat secara otomatis, hanya untuk tujuan informasi dan latihan umum, dan bukan nasihat medis, fisioterapi, atau pelatihan profesional. Masukan itu bisa tidak lengkap atau tidak akurat, dan bukan pengganti arahan dari tenaga profesional yang berkualifikasi. Kamu bertanggung jawab untuk berlatih dengan aman dan memutuskan apakah sebuah gerakan cocok untukmu. Penyedia Layanan tidak bertanggung jawab atas cedera, kerugian, atau kerusakan apa pun yang timbul dari kepercayaanmu pada fitur ini.",
+          "Jika kamu memilih membagikan klip rekaman, kamu sepenuhnya bertanggung jawab atas konten yang kamu bagikan dan memastikan kamu berhak membagikannya. Kamu tidak boleh merekam atau membagikan klip yang memperlihatkan orang lain tanpa persetujuan mereka, dan tidak boleh memakai fitur ini untuk membuat atau menyebarkan konten yang melanggar hukum, melanggar hak, atau berbahaya. Setelah kamu membagikan klip di luar Aplikasi, klip itu ditangani oleh layanan atau penerima yang kamu kirimi dan tidak lagi berada dalam kendali Penyedia Layanan."
+        ]
+      },
+      {
+        "heading": "Fitur Beta dan Eksperimental",
+        "paragraphs": [
+          "Penyedia Layanan dapat menyediakan fitur dalam versi beta, pratinjau, atau eksperimental lainnya, dan akan menandainya demikian di dalam Aplikasi. Fitur beta disediakan hanya untuk evaluasi. Fitur itu mungkin belum lengkap, memberikan hasil yang tidak akurat, tidak berfungsi di semua perangkat, dan dapat diubah atau ditarik kapan saja tanpa pemberitahuan.",
+          "Sejauh diizinkan hukum yang berlaku, fitur beta disediakan tanpa jaminan apa pun dan dipakai dengan risiko sendiri. Penggunaan fitur beta bersifat opsional, dan batasan yang diatur di bagian Penafian Jaminan dan Batasan Tanggung Jawab berlaku sepenuhnya untuk fitur itu."
+        ]
+      },
+      {
+        "heading": "Layanan Pihak Ketiga",
+        "paragraphs": [
+          "Perhatikan bahwa Aplikasi menggunakan layanan pihak ketiga yang memiliki Ketentuan Layanan sendiri. Layanan ini dioperasikan secara terpisah dari Penyedia Layanan, yang tidak mengendalikan atau mendukungnya dan, sejauh diizinkan hukum yang berlaku, tidak bertanggung jawab atas konten, ketersediaan, atau tindakan maupun kelalaian mereka. Penggunaanmu atas layanan pihak ketiga diatur oleh ketentuan penyedia itu sendiri.",
+          "Berikut tautan ke Ketentuan Layanan penyedia layanan pihak ketiga yang dipakai Aplikasi:"
+        ],
+        "bullets": [
+          "https://policies.google.com/terms",
+          "https://firebase.google.com/terms/analytics",
+          "https://firebase.google.com/terms/crashlytics",
+          "https://expo.dev/terms",
+          "https://posthog.com/terms - analitik produk, rekaman layar, laporan error, dan deteksi bug berbantuan AI",
+          "https://sentry.io/terms/ - laporan crash dan error",
+          "https://www.revenuecat.com/terms - pengelolaan langganan",
+          "https://vercel.com/legal/terms - hosting dan analitik untuk Situs",
+          "https://tally.so/help/terms-and-conditions - formulir masukan di Situs",
+          "https://www.apple.com/legal/internet-services/itunes/ - pembelian di iOS",
+          "https://play.google.com/about/play-terms/ - pembelian di Android"
+        ]
+      },
+      {
+        "heading": "Langganan dan Paket Berbayar",
+        "paragraphs": [
+          "Aplikasi menawarkan langganan yang diperpanjang otomatis (\"Drillr Pro\") yang memberi akses ke fitur premium. Ketentuan berikut berlaku untuk semua langganan berbayar:"
+        ],
+        "bullets": [
+          "Paket, harga, dan durasi yang tersedia ditampilkan di Aplikasi sebelum pembelian.",
+          "Pembayaran ditagihkan ke Apple ID atau akun Google Play-mu saat pembelian dikonfirmasi.",
+          "Langganan diperpanjang otomatis di akhir setiap periode tagihan kecuali dibatalkan paling lambat 24 jam sebelum akhir periode berjalan.",
+          "Perpanjangan ditagihkan ke akunmu dalam 24 jam sebelum akhir periode berjalan dengan harga langganan yang berlaku saat perpanjangan.",
+          "Kamu bisa mengelola atau membatalkan langgananmu kapan saja lewat pengaturan Apple ID atau akun Google Play-mu, atau dari dalam Aplikasi di Pengaturan > Paket saat ini, yang membuka pengaturan toko yang sama. Mencopot pemasangan Aplikasi tidak membatalkan langganan.",
+          "Tidak ada pengembalian dana untuk periode langganan yang tidak penuh, kecuali jika ketentuan ini mengatur lain. Permintaan pengembalian dana ditangani langsung oleh Apple atau Google sesuai kebijakan masing-masing.",
+          "Sisa masa uji coba gratis yang belum dipakai hangus saat kamu membeli langganan.",
+          "Jika Penyedia Layanan mengubah harga langganan, kamu akan diberi tahu terlebih dahulu dan diberi kesempatan untuk membatalkan sebelum harga baru berlaku."
+        ]
+      },
+      {
+        "heading": "Toko Aplikasi Apple dan Google",
+        "paragraphs": [
+          "Ketentuan ini dibuat hanya antara kamu dan Penyedia Layanan, bukan dengan Apple Inc. atau Google LLC. Penyedia Layanan, bukan Apple atau Google, sepenuhnya bertanggung jawab atas Aplikasi dan kontennya.",
+          "Apple dan Google sama sekali tidak berkewajiban menyediakan layanan pemeliharaan atau dukungan untuk Aplikasi. Jika Aplikasi tidak sesuai dengan jaminan yang berlaku, kamu dapat memberi tahu Apple, dan Apple akan mengembalikan harga pembelian Aplikasi kepadamu jika kamu membelinya lewat App Store. Sejauh diizinkan hukum yang berlaku, Apple tidak memiliki kewajiban jaminan lain apa pun terkait Aplikasi.",
+          "Penyedia Layanan, bukan Apple atau Google, bertanggung jawab menangani klaim apa pun darimu atau pihak ketiga terkait Aplikasi atau kepemilikan dan penggunaanmu atas Aplikasi, termasuk klaim tanggung jawab produk, klaim bahwa Aplikasi tidak memenuhi persyaratan hukum atau peraturan yang berlaku, klaim berdasarkan undang-undang perlindungan konsumen atau undang-undang serupa, dan klaim bahwa Aplikasi melanggar hak kekayaan intelektual pihak ketiga.",
+          "Kamu menyatakan bahwa kamu tidak berada di negara yang dikenai embargo oleh Pemerintah Amerika Serikat atau yang ditetapkan sebagai negara pendukung terorisme, dan bahwa kamu tidak tercantum dalam daftar pihak yang dilarang atau dibatasi oleh Pemerintah Amerika Serikat.",
+          "Apple dan anak perusahaannya, serta Google dan afiliasinya, adalah pihak ketiga penerima manfaat dari ketentuan ini, dan setelah kamu menerima ketentuan ini, mereka berhak menegakkannya terhadapmu sebagai pihak ketiga penerima manfaat. Tidak ada dalam bagian ini yang membatasi hak-hakmu terhadap Penyedia Layanan atau hak-hakmu yang wajib sebagai konsumen."
+        ]
+      },
+      {
+        "heading": "Akun dan Pengakhiran",
+        "paragraphs": [
+          "Kamu bisa berhenti memakai Layanan kapan saja. Kamu bisa menghapus akunmu dan data terkaitnya secara permanen dari dalam Aplikasi, di Pengaturan > Hapus Akun, atau dengan menghubungi Penyedia Layanan di drillrapps@gmail.com. Menghapus akunmu tidak dengan sendirinya membatalkan langganan yang dibeli lewat Apple atau Google; kamu harus membatalkannya secara terpisah seperti dijelaskan di atas.",
+          "Penyedia Layanan dapat menangguhkan atau mengakhiri aksesmu ke Layanan, seluruhnya atau sebagian, dengan efek segera jika ada alasan serius untuk itu. Alasan serius termasuk pelanggaran material atau berulang terhadap ketentuan ini; penggunaan Layanan untuk tujuan yang melanggar hukum atau dengan cara yang melanggar hak orang lain; penipuan, penipuan pembayaran, atau penyalahgunaan uji coba gratis, pengembalian dana, atau chargeback; upaya mendapatkan akses tanpa izin ke Layanan atau data pengguna lain, atau mengganggu keamanan atau operasi Layanan dengan cara lain; memberikan informasi palsu untuk membuat atau mempertahankan akun, termasuk tentang usiamu; perilaku kasar atau melecehkan terhadap Penyedia Layanan atau siapa pun yang bertindak atas namanya; dan penggunaan apa pun yang membuat Penyedia Layanan menanggung tanggung jawab hukum atau tuntutan dari pengadilan, regulator, atau toko aplikasi.",
+          "Jika wajar dan memungkinkan, Penyedia Layanan akan memberi tahu alasan penangguhan atau pengakhiran dan, jika masalahnya bisa diperbaiki, akan memberimu kesempatan untuk memperbaikinya terlebih dahulu. Penangguhan akan lebih diutamakan daripada pengakhiran jika penangguhan sudah cukup untuk mengatasi masalahnya. Jika kamu yakin penangguhan atau pengakhiran dilakukan karena kesalahan, kamu bisa mengajukan keberatan dengan menulis ke drillrapps@gmail.com, dan Penyedia Layanan akan meninjau keputusan itu dan membalasmu.",
+          "Penyedia Layanan juga dapat mengakhiri akunmu tanpa alasan dengan pemberitahuan paling lambat 30 hari sebelumnya. Jika akunmu diakhiri tanpa alasan, atau karena alasan apa pun yang bukan kesalahanmu, kamu akan menerima pengembalian dana secara proporsional untuk periode langganan yang sudah kamu bayar dan tidak akan kamu terima.",
+          "Jika Penyedia Layanan mengakhiri akunmu, kamu akan diberi kesempatan yang wajar untuk mengambil atau mengekspor datamu sebelum dihapus, kecuali hal itu tidak mungkin atau melanggar hukum. Apa pun alasan pengakhirannya, kamu tetap memiliki hak perlindungan datamu, termasuk hak untuk menerima salinan data pribadimu, seperti diatur dalam Kebijakan Privasi.",
+          "Saat pengakhiran karena alasan apa pun, hak dan lisensi yang diberikan kepadamu berdasarkan ketentuan ini berakhir, dan kamu harus berhenti memakai Aplikasi dan, jika perlu, menghapusnya dari perangkatmu. Datamu kemudian ditangani seperti dijelaskan dalam Kebijakan Privasi. Mengakhiri atau menghapus akunmu tidak dengan sendirinya membatalkan langganan yang dibeli lewat Apple atau Google. Jika akunmu diakhiri karena alasan serius, Penyedia Layanan dapat menolak menyediakan Layanan kepadamu lagi dan dapat menutup akun lain yang kamu buat. Ketentuan-ketentuan yang menurut sifatnya harus tetap berlaku setelah pengakhiran, termasuk penafian, batasan tanggung jawab, tanggung jawabmu atas klaim akibat perbuatanmu, dan ketentuan hukum yang berlaku, tetap berlaku."
+        ]
+      },
+      {
+        "heading": "Ketentuan Umum",
+        "paragraphs": [
+          "Perlu diketahui bahwa Penyedia Layanan tidak bertanggung jawab atas aspek-aspek tertentu. Beberapa fungsi Aplikasi memerlukan koneksi internet aktif, baik lewat Wi-Fi maupun dari operator seluler. Penyedia Layanan tidak dapat dimintai pertanggungjawaban jika Aplikasi tidak berfungsi penuh karena tidak ada akses Wi-Fi atau karena kuota datamu habis.",
+          "Jika kamu memakai Aplikasi di luar jangkauan Wi-Fi, perlu diingat bahwa ketentuan perjanjian dengan operator selulermu tetap berlaku. Akibatnya, operatormu dapat mengenakan biaya penggunaan data selama terhubung ke Aplikasi, atau biaya pihak ketiga lainnya. Dengan memakai Aplikasi, kamu menerima tanggung jawab atas biaya tersebut, termasuk biaya roaming data jika kamu memakai Aplikasi di luar wilayah asalmu (yaitu wilayah atau negara) tanpa mematikan roaming data. Jika bukan kamu yang membayar tagihan perangkat tempat kamu memakai Aplikasi, Penyedia Layanan menganggap kamu sudah mendapat izin dari pembayar tagihan.",
+          "Demikian pula, Penyedia Layanan tidak selalu dapat bertanggung jawab atas penggunaan Aplikasi olehmu. Misalnya, kamu bertanggung jawab memastikan perangkatmu tetap terisi daya. Jika baterai perangkatmu habis dan kamu tidak bisa mengakses Layanan, Penyedia Layanan tidak dapat dimintai pertanggungjawaban.",
+          "Meskipun Penyedia Layanan berusaha memastikan Aplikasi selalu diperbarui dan akurat, Penyedia Layanan bergantung pada pihak ketiga untuk menyediakan informasi agar dapat menyediakannya untukmu. Penyedia Layanan tidak bertanggung jawab atas kerugian apa pun, langsung maupun tidak langsung, yang kamu alami karena sepenuhnya mengandalkan fungsi Aplikasi ini.",
+          "Penyedia Layanan mungkin ingin memperbarui Aplikasi suatu saat. Aplikasi saat ini tersedia sesuai persyaratan sistem operasi, dan persyaratan untuk sistem lain yang mungkin ditambahkan dapat berubah. Kamu perlu mengunduh pembaruan jika ingin terus memakai Aplikasi. Penyedia Layanan tidak menjamin akan selalu memperbarui Aplikasi agar tetap relevan bagimu dan/atau kompatibel dengan versi sistem operasi yang terpasang di perangkatmu. Namun, kamu setuju untuk selalu menerima pembaruan Aplikasi saat ditawarkan. Penyedia Layanan juga dapat memutuskan untuk berhenti menyediakan Aplikasi sama sekali, dan dalam hal itu bagian Akun dan Pengakhiran di atas berlaku.",
+          "Riwayat latihan dan data lainnya disimpan di perangkatmu dan di penyedia hosting Penyedia Layanan, dan Penyedia Layanan berupaya secara wajar menjaga ketersediaannya. Meski begitu, tidak ada layanan yang bisa menjamin data tidak akan hilang atau rusak. Kamu sebaiknya menyimpan catatan sendiri atas informasi latihan, kesehatan, atau ukuran tubuh yang penting bagimu, dan tidak menganggap Aplikasi sebagai satu-satunya salinanmu.",
+          "Penyedia Layanan tidak bertanggung jawab atas kegagalan atau keterlambatan dalam menyediakan Aplikasi atau Situs yang disebabkan oleh peristiwa di luar kendalinya yang wajar, termasuk gangguan atau kegagalan penyedia hosting, jaringan, toko aplikasi, atau pembayaran, gangguan listrik atau internet, aksi mogok, tindakan pemerintah, peristiwa alam, epidemi, atau konflik bersenjata."
+        ]
+      },
+      {
+        "heading": "Klaim Akibat Perbuatanmu",
+        "paragraphs": [
+          "Jika pihak ketiga mengajukan klaim terhadap Penyedia Layanan karena sesuatu yang kamu lakukan, kamu setuju untuk bertanggung jawab atas klaim itu sejauh klaim tersebut disebabkan olehmu. Ini mencakup klaim yang timbul dari pelanggaranmu terhadap ketentuan ini, dari konten yang kamu rekam, bagikan, atau kirim lewat Aplikasi, dan dari perbuatan melanggar hukum olehmu atau pelanggaran hak orang lain. Bertanggung jawab atas klaim berarti menanggung ganti rugi, jumlah penyelesaian, dan biaya hukum wajar yang harus dikeluarkan Penyedia Layanan secara langsung akibat klaim itu.",
+          "Kewajiban ini hanya berlaku sejauh klaim tersebut disebabkan oleh kesalahanmu sendiri. Kewajiban ini tidak berlaku untuk bagian klaim apa pun yang disebabkan oleh tindakan atau kelalaian Penyedia Layanan, oleh cacat pada Aplikasi atau Situs, atau oleh pelanggaran Penyedia Layanan sendiri terhadap ketentuan ini atau hukum yang berlaku. Kewajiban ini sama sekali tidak berlaku jika kamu bertindak sebagai konsumen dan hukum yang berlaku tidak mengizinkan kewajiban seperti itu dibebankan kepadamu, dan tidak pernah melampaui apa yang diizinkan hukum yang berlaku.",
+          "Jika klaim seperti ini muncul, Penyedia Layanan akan memberitahumu secara tertulis tanpa penundaan yang tidak semestinya, tidak akan menyelesaikannya tanpa berkonsultasi denganmu terlebih dahulu, akan memberimu kesempatan yang wajar untuk berpendapat tentang cara penanganannya, dan akan mengambil langkah yang wajar untuk menekan biayanya serendah mungkin. Tidak ada dalam bagian ini yang memengaruhi hak-hakmu yang wajib sebagai konsumen. Bagian ini tetap berlaku setelah akunmu ditutup atau ketentuan ini berakhir, untuk apa pun yang terjadi selama ketentuan ini berlaku."
+        ]
+      },
+      {
+        "heading": "Penafian Jaminan dan Batasan Tanggung Jawab",
+        "paragraphs": [
+          "Aplikasi, Situs, dan Layanan disediakan \"SEBAGAIMANA ADANYA\" dan \"SEBAGAIMANA TERSEDIA\", tanpa jaminan apa pun, baik tersurat maupun tersirat, termasuk tetapi tidak terbatas pada jaminan tersirat atas kelayakan untuk diperdagangkan, kesesuaian untuk tujuan tertentu, hak milik, dan tidak adanya pelanggaran. Penyedia Layanan tidak menjamin bahwa Aplikasi atau Situs akan berjalan tanpa gangguan, bebas error, atau aman, bahwa keduanya bebas dari virus atau komponen berbahaya lainnya, bahwa cacat apa pun akan diperbaiki, atau bahwa hasil atau tujuan tertentu akan tercapai.",
+          "Penyedia Layanan tidak memberikan pernyataan atau jaminan apa pun mengenai keakuratan, kecukupan, keandalan, kelengkapan, atau ketepatan waktu konten, informasi, atau materi apa pun yang tersedia lewat Aplikasi atau Situs. Penggunaan Aplikasi dan Situs sepenuhnya menjadi risikomu sendiri.",
+          "Sejauh diizinkan hukum yang berlaku, baik Penyedia Layanan maupun kontraktor, pemasok, atau penyedia kontennya tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, konsekuensial, atau punitif, atau atas hilangnya data, keuntungan, atau nama baik, yang timbul dari atau sehubungan dengan penggunaanmu atas Aplikasi atau Situs.",
+          "Sejauh diizinkan hukum yang berlaku, total tanggung jawab gabungan Penyedia Layanan serta kontraktor, pemasok, dan penyedia kontennya atas semua klaim yang timbul dari atau sehubungan dengan Aplikasi, Situs, atau ketentuan ini, baik berdasarkan kontrak, perbuatan melawan hukum, maupun lainnya, tidak akan melebihi jumlah yang lebih besar dari: (a) total jumlah yang kamu bayarkan untuk Layanan dalam dua belas bulan tepat sebelum peristiwa yang menimbulkan klaim, atau (b) EUR 50.",
+          "Tidak ada dalam ketentuan ini yang mengecualikan atau membatasi tanggung jawab yang tidak dapat dikecualikan atau dibatasi menurut hukum yang berlaku. Ini termasuk tanggung jawab atas kematian atau cedera pribadi akibat kelalaian, tanggung jawab atas penipuan atau pernyataan yang menyesatkan, tanggung jawab atas kesengajaan atau kelalaian berat, serta hak-hakmu yang wajib sebagai konsumen, termasuk hak-hakmu berdasarkan undang-undang perlindungan konsumen di negara tempat tinggalmu.",
+          "Pengecualian dan batasan dalam bagian ini mencerminkan pembagian risiko yang disepakati antara kamu dan Penyedia Layanan, dan tercermin dalam harga Layanan. Pengecualian dan batasan ini berlaku sejauh diizinkan hukum yang berlaku, bahkan jika upaya pemulihan terbatas dianggap gagal mencapai tujuan utamanya, dan tetap berlaku setelah pengakhiran ketentuan ini atau penghapusan akunmu."
+        ]
+      },
+      {
+        "heading": "Hukum yang Berlaku dan Sengketa",
+        "paragraphs": [
+          "Ketentuan ini diatur oleh hukum Polandia, tanpa memperhatikan aturan pertentangan hukumnya. Jika kamu seorang konsumen, pilihan hukum ini tidak menghilangkan perlindungan yang diberikan kepadamu oleh ketentuan wajib apa pun dari hukum negara tempat kamu tinggal, di mana pun itu, dan tidak ada dalam ketentuan ini yang memengaruhi hak-hak tersebut.",
+          "Jika terjadi masalah, silakan tulis dulu ke Penyedia Layanan di drillrapps@gmail.com. Sebagian besar masalah bisa diselesaikan dengan cara itu. Penyedia Layanan akan menanggapi keluhan konsumen dalam 30 hari sejak diterima, sebagaimana diwajibkan hukum Polandia. Kamu tidak wajib menempuh langkah ini sebelum menempuh upaya hukum lain, dan menempuhnya tidak memengaruhi tenggat waktu apa pun yang berlaku untuk klaim yang mungkin kamu miliki.",
+          "Jika sengketa tidak bisa diselesaikan dengan cara itu, sengketa dapat dibawa ke pengadilan. Jika kamu konsumen yang tinggal di Uni Eropa, kamu dapat menggugat Penyedia Layanan di pengadilan Polandia atau di pengadilan negara tempat kamu tinggal, dan Penyedia Layanan hanya dapat menggugatmu di pengadilan negara tempat kamu tinggal. Jika kamu bukan konsumen, atau tinggal di luar Uni Eropa, pengadilan Polandia yang berwenang, tanpa mengurangi aturan wajib dari hukum setempatmu yang menentukan lain.",
+          "Penyedia Layanan tidak wajib memakai lembaga penyelesaian sengketa konsumen di luar pengadilan dan tidak berkomitmen sebelumnya untuk melakukannya, tetapi akan mempertimbangkan permintaan semacam itu dengan itikad baik. Konsumen di Polandia bisa mendapat bantuan gratis dari ombudsman konsumen tingkat kota atau kabupaten (miejski lub powiatowy rzecznik konsumentów) atau dari Inspeksi Perdagangan (Inspekcja Handlowa), yang menjalankan proses penyelesaian sengketa konsumen di luar pengadilan. Konsumen di negara Uni Eropa lainnya bisa mendapat bantuan gratis untuk sengketa lintas negara dari Pusat Konsumen Eropa di negaranya sendiri.",
+          "Ketentuan ini diterbitkan dalam bahasa Inggris dan bahasa Polandia; versi bahasa Indonesia ini adalah terjemahan yang hanya untuk informasi. Jika kamu konsumen yang tinggal di Polandia, versi bahasa Polandia yang berlaku. Dalam semua kasus lain, jika ada pertentangan antara versi-versi tersebut, versi bahasa Inggris yang berlaku."
+        ]
+      },
+      {
+        "heading": "Pengalihan",
+        "paragraphs": [
+          "Kamu tidak boleh mengalihkan ketentuan ini, atau akunmu, kepada orang lain tanpa persetujuan tertulis sebelumnya dari Penyedia Layanan.",
+          "Penyedia Layanan dapat mengalihkan ketentuan ini, beserta hak dan kewajiban di dalamnya, kepada orang atau perusahaan lain - misalnya sebagai bagian dari merger, akuisisi, reorganisasi, atau penjualan seluruh atau sebagian bisnis Drillr atau asetnya. Dalam hal itu, pihak yang mengambil alih menggantikan posisi Penyedia Layanan berdasarkan ketentuan ini tanpa perubahan, akunmu dan langganan apa pun berlanjut dengan syarat yang sama, dan pengalihan itu tidak mengurangi hak apa pun yang kamu miliki berdasarkan ketentuan ini atau hukum konsumen yang wajib.",
+          "Penyedia Layanan akan memberitahumu di Aplikasi atau lewat email sebelum pengalihan itu berlaku. Jika kamu tidak ingin melanjutkan dengan penyedia baru, kamu bisa berhenti memakai Aplikasi dan menghapus akunmu kapan saja, serta membatalkan langgananmu lewat Apple atau Google seperti dijelaskan di bagian Langganan dan Paket Berbayar di atas. Pengalihan data pribadimu sebagai bagian dari transaksi semacam itu dijelaskan dalam Kebijakan Privasi."
+        ]
+      },
+      {
+        "heading": "Keterpisahan",
+        "paragraphs": [
+          "Jika suatu ketentuan di sini dinyatakan tidak sah, melanggar hukum, atau tidak dapat dilaksanakan oleh pengadilan atau otoritas berwenang lainnya, ketentuan itu dianggap diubah seminimal mungkin agar menjadi sah dan dapat dilaksanakan, atau, jika tidak bisa diubah demikian, dipisahkan dari ketentuan ini. Ketentuan lainnya tetap berlaku sepenuhnya.",
+          "Secara khusus, jika suatu pengecualian atau batasan tanggung jawab, atau bagian darinya, dinyatakan tidak dapat dilaksanakan, pengecualian dan batasan lainnya tetap berlaku. Tidak ditegakkannya suatu ketentuan oleh Penyedia Layanan bukan berarti pelepasan hak atas ketentuan itu atau ketentuan lainnya."
+        ]
+      },
+      {
+        "heading": "Pemberitahuan",
+        "paragraphs": [
+          "Jika ketentuan ini mewajibkan Penyedia Layanan memberi pemberitahuan kepadamu, pemberitahuan itu akan dikirim ke alamat email yang terdaftar di akunmu, ditampilkan di Aplikasi, atau keduanya, dan dianggap telah diberikan pada hari dikirim atau pertama kali ditampilkan. Kamu bertanggung jawab menjaga alamat email di akunmu tetap terbaru, dan memastikan pesan dari Penyedia Layanan tidak diblokir atau tersaring.",
+          "Jika kamu perlu memberi pemberitahuan kepada Penyedia Layanan, termasuk untuk mengajukan keberatan atas penangguhan atau pengakhiran, tulis ke drillrapps@gmail.com."
+        ]
+      },
+      {
+        "heading": "Perubahan Ketentuan Layanan Ini",
+        "paragraphs": [
+          "Penyedia Layanan dapat memperbarui Ketentuan Layanannya secara berkala. Karena itu, kamu disarankan memeriksa halaman ini secara rutin untuk melihat perubahan. Penyedia Layanan akan memberitahumu tentang setiap perubahan dengan menerbitkan Ketentuan Layanan yang baru di halaman ini."
+        ]
+      },
+      {
+        "heading": "Hubungi Kami",
+        "paragraphs": [
+          "Jika kamu punya pertanyaan atau saran tentang Ketentuan Layanan, jangan ragu menghubungi Penyedia Layanan di drillrapps@gmail.com."
+        ]
+      }
+    ],
+    "crossLink": { "label": "Kebijakan Privasi Drillr", "href": "/privacy" }
+  }
+}

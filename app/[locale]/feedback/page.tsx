@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Script from "next/script";
-import { isLocale } from "@/lib/locales";
+import { isLocale, type Locale } from "@/lib/locales";
 import { pageMetadata } from "@/lib/metadata";
 import { getDictionary } from "../dictionaries";
 import { PageHeader } from "@/components/PageHeader";
 
-const TALLY_FORM_ID = {
+// Only English and Polish have their own Tally form; every other language
+// gets the English one under a translated page header.
+const TALLY_FORM_ID: Partial<Record<Locale, string>> & { en: string } = {
   en: "BzQeRR",
   pl: "2EJR8L",
-} as const;
+};
 
 export async function generateMetadata({
   params,
@@ -29,7 +31,7 @@ export default async function FeedbackPage({ params }: PageProps<"/[locale]/feed
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
   const t = dict.feedback;
-  const formId = TALLY_FORM_ID[locale];
+  const formId = TALLY_FORM_ID[locale] ?? TALLY_FORM_ID.en;
 
   return (
     <section className="mx-auto max-w-3xl px-5 lg:px-8 py-20 lg:py-28">

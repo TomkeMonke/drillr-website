@@ -1,0 +1,826 @@
+{
+  "meta": {
+    "title": "Drillr - la prépa physique foot pour ton poste",
+    "description": "La préparation physique de football pensée pour le poste où tu joues vraiment. À la maison ou en salle, un plan adapté à ton rôle, à ton niveau et au temps dont tu disposes."
+  },
+  "nav": {
+    "home": "Accueil",
+    "faq": "FAQ",
+    "press": "Presse",
+    "manageSubscription": "Gérer l'abonnement",
+    "feedback": "Avis",
+    "support": "Assistance",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "common": {
+    "downloadAppStore": "Télécharger dans l'App Store",
+    "downloadGooglePlay": "Disponible sur Google Play",
+    "appStoreKicker": "Télécharger sur",
+    "googlePlayKicker": "DISPONIBLE SUR",
+    "screenshotAlt": "Écran de l'appli Drillr"
+  },
+  "hero": {
+    "badge": "Adoptée par 3600+ joueurs · note de {rating}",
+    "titleLine1": "Chaque poste",
+    "titleLine2": "s'entraîne différemment.",
+    "subtitle": "Drillr est l'appli de préparation physique de football construite autour du poste où tu joues vraiment. À la maison ou en salle, adaptée à ton rôle, à ton niveau et au temps dont tu disposes.",
+    "downloadCta": "Télécharger"
+  },
+  "usedBy": {
+    "title": "3600+ joueurs s'entraînent avec nous",
+    "subtitle": "Des U14 aux semi-pros, dans plus de 80 pays, tous les jours.",
+    "stats": [
+      { "value": "3600+", "label": "Joueurs actifs" },
+      { "value": "80+", "label": "Pays" },
+      { "value": "{rating}★", "label": "Note moyenne" },
+      { "value": "10K+", "label": "Exercices réalisés" }
+    ]
+  },
+  "story": {
+    "eyebrow": "Comment ça marche",
+    "title": "Trois étapes. C'est tout.",
+    "steps": [
+      {
+        "eyebrow": "Étape 01",
+        "title": "Choisis ton poste",
+        "body": "Attaquant, ailier, gardien, quel que soit ton poste, on construit le plan autour de ce que ton rôle exige vraiment de toi."
+      },
+      {
+        "eyebrow": "Étape 02",
+        "title": "Entraîne-toi chaque jour",
+        "body": "Des séances courtes et efficaces. 25-45 minutes suffisent pour changer ta façon de jouer, et Drillr compte pour toi."
+      },
+      {
+        "eyebrow": "Étape 03",
+        "title": "Regarde-toi progresser",
+        "body": "Séries, stats, petites étapes franchies. Une fois que tu enchaînes les jours, c'est dur de t'arrêter."
+      }
+    ]
+  },
+  "features": {
+    "title": "Ce qu'il y a dans Drillr",
+    "items": [
+      {
+        "title": "Des entraînements pour ton poste",
+        "body": "Gardien, défenseur, milieu de terrain, attaquant. Chaque exercice est choisi pour ce que ton poste exige vraiment."
+      },
+      {
+        "title": "Un calendrier qui s'adapte à ta semaine",
+        "body": "Tes jours d'entraînement, ton accès à une salle et ton niveau d'expérience entrent tous dans le plan. Il s'adapte à ta vie, pas l'inverse."
+      },
+      {
+        "title": "Des vidéos pour tout",
+        "body": "Des consignes claires, les séries, les répétitions et une courte vidéo pour chaque mouvement. Tu n'auras jamais à deviner à quoi doit ressembler un exercice."
+      },
+      {
+        "title": "Des étirements adaptés à ton jeu",
+        "body": "Un travail de mobilité ciblé sur les muscles que tu utilises vraiment sur le terrain, pas un retour au calme générique."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What players are saying",
+    "items": [
+      {
+        "name": "Alex M.",
+        "role": "U17 Midfielder",
+        "quote": "Honestly didn't expect much, but after a month my coach said I was positioning way better. Stamina is crazy now too."
+      },
+      {
+        "name": "Sara K.",
+        "role": "U16 Defender",
+        "quote": "My friend showed me the app and now I'm on it every day. The workouts actually make sense for my position."
+      },
+      {
+        "name": "Daniel R.",
+        "role": "Semi-pro Forward",
+        "quote": "The position-specific stuff is what hooked me. Every session feels like it's for my game."
+      },
+      {
+        "name": "Jakub W.",
+        "role": "U19 Goalkeeper",
+        "quote": "Goalkeeper-specific work is rare in apps. Drillr nails it. My reactions and footwork are both up."
+      },
+      {
+        "name": "Maya L.",
+        "role": "Academy Midfielder",
+        "quote": "I love the calendar - it adapts when I miss a day instead of guilt-tripping me."
+      },
+      {
+        "name": "Tomasz B.",
+        "role": "Sunday League Defender",
+        "quote": "30 minutes a day, 4 days a week, and I feel like a different player on Sundays."
+      }
+    ]
+  },
+  "positionPicker": {
+    "badge": "Choisis ta place",
+    "title": "À quel poste tu joues ?",
+    "subtitle": "Touche un poste pour voir ce que Drillr fait pour lui.",
+    "focusBreakdown": "Répartition du travail",
+    "sampleDrills": "Exemples d'exercices",
+    "viewPlan": "Voir le plan complet",
+    "categoryLabels": {
+      "strength": "Force",
+      "cardio": "Cardio",
+      "agility": "Agilité",
+      "flexibility": "Souplesse"
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce qu'il faut savoir sur Drillr",
+    "items": [
+      {
+        "q": "Est-ce que j'ai besoin de matériel ?",
+        "a": "Non. Drillr s'adapte à ce que tu as. Dis-nous au démarrage si tu as accès à une salle, et on construit ton plan en conséquence : barre, haltères, machines ou poids du corps uniquement."
+      },
+      {
+        "q": "Combien de temps par jour ?",
+        "a": "La plupart des séances durent 25-45 minutes. Tu peux t'entraîner 3, 5 ou 6 jours par semaine selon l'objectif que tu choisis au démarrage."
+      },
+      {
+        "q": "Est-ce qu'il y a une version gratuite ?",
+        "a": "Oui. Tu peux faire la configuration de départ et essayer gratuitement une partie de ton plan. Le plan hebdomadaire complet et le reste des exercices sont réservés à l'abonnement."
+      },
+      {
+        "q": "Drillr convient-il aux moins de 13 ans ?",
+        "a": "Drillr est conçu pour les 13 ans et plus. Les plus jeunes devraient s'entraîner sous la surveillance d'un coach ou d'un parent."
+      },
+      {
+        "q": "Je débute, est-ce que c'est trop avancé ?",
+        "a": "Drillr part de ton niveau actuel. Tu choisis ton niveau au démarrage, et le plan adapte le volume et la difficulté en conséquence. Quelqu'un qui s'entraîne pour la première fois n'a pas la même semaine que quelqu'un qui joue déjà en club cinq jours par semaine."
+      },
+      {
+        "q": "Et si je joue à plusieurs postes ?",
+        "a": "Choisis celui où tu joues le plus souvent. Tu peux changer de poste à tout moment dans les réglages, et ton plan se reconstruit autour du nouveau."
+      },
+      {
+        "q": "Est-ce que je peux utiliser Drillr en plus du programme de mon coach ?",
+        "a": "Oui, beaucoup de joueurs le font. Drillr est fait pour compléter l'entraînement d'équipe, pas pour le remplacer. Baisse ton volume hebdomadaire si tu commences à te sentir à plat."
+      },
+      {
+        "q": "Comment résilier mon abonnement ?",
+        "a": "Tu peux résilier à tout moment dans les réglages d'abonnement de ton appareil, ou via notre page Gérer l'abonnement si ton inscription s'est faite sur le web."
+      }
+    ]
+  },
+  "coachesCta": {
+    "eyebrow": "Pour les coachs et les académies",
+    "title": "Tu entraînes une équipe ou tu diriges une académie ?",
+    "body": "On travaille sur des plans d'équipe, des tableaux de bord de groupe et des partenariats avec des académies. Écris-nous et on revient vers toi.",
+    "cta": "Nous contacter"
+  },
+  "finalCta": {
+    "title": "Entraîne-toi pour ton poste",
+    "body": "Choisis ton poste, essaie gratuitement une partie de ton plan et découvre ce que donne une semaine construite autour de ton rôle.",
+    "note": "Essai gratuit. iOS et Android."
+  },
+  "positions": {
+    "indexTitle": "S'entraîner par poste",
+    "indexSubtitle": "Chaque plan Drillr est construit autour de ce que ton poste exige vraiment.",
+    "downloadCta": "Télécharger Drillr pour ",
+    "weekTitle": "Une semaine type",
+    "drillsTitle": "À quoi ressemblent tes séances",
+    "strengthsTitle": "Ton atout",
+    "weaknessTitle": "Ce qu'on va corriger",
+    "goalkeeper": {
+      "name": "Gardien",
+      "codes": "GK",
+      "tagline": "Réflexes. Placement. Autorité.",
+      "description": "Les réflexes et le placement font les grands gardiens. Drillr affûte les deux avec du travail de réaction, des déplacements latéraux et du gainage, justement ce que la plupart des applis zappent.",
+      "strengths": "Drillr développe la mobilité latérale explosive, la vitesse de réaction et la stabilité du tronc qui séparent les bons gardiens des grands.",
+      "weaknesses": "La plupart des gardiens zappent discrètement la mobilité latérale et la puissance du bas du corps. Nous, on ne te laissera pas faire.",
+      "drills": [
+        { "name": "Exercices avec balle de réaction", "spec": "3 × 60 s" },
+        { "name": "Pas latéraux avec élastique", "spec": "4 × 12" },
+        { "name": "Squats sur une jambe", "spec": "3 × 8 par côté" },
+        { "name": "Planche avec extension du bras", "spec": "3 × 45 s" }
+      ],
+      "week": [
+        { "day": "Lun", "session": "Force du bas du corps" },
+        { "day": "Mar", "session": "Réflexes et appuis" },
+        { "day": "Mer", "session": "Gainage et stabilité" },
+        { "day": "Jeu", "session": "Récupération et étirements" },
+        { "day": "Ven", "session": "Pliométrie et explosivité" }
+      ]
+    },
+    "defender": {
+      "name": "Défenseur",
+      "codes": "CB · LB · RB",
+      "tagline": "Gagne chaque duel.",
+      "description": "Duels aériens gagnés, tacles propres, replis rapides : tout commence en salle. Drillr développe la force et l'endurance qui te portent dans les un contre un et te font tenir la ligne.",
+      "strengths": "Les duels aériens et la puissance au tacle se construisent en salle. Drillr travaille les deux, plus l'agilité que la plupart des défenseurs zappent discrètement.",
+      "weaknesses": "Les défenseurs négligent souvent l'agilité, alors que des appuis rapides sauvent aussi des buts. On garde les tiens affûtés.",
+      "drills": [
+        { "name": "Squat à la barre", "spec": "4 × 6" },
+        { "name": "Sauts sur box", "spec": "4 × 5" },
+        { "name": "Mountain climbers", "spec": "4 × 30 s" },
+        { "name": "Russian twists", "spec": "3 × 20" }
+      ],
+      "week": [
+        { "day": "Lun", "session": "Force lourde" },
+        { "day": "Mar", "session": "Pliométrie" },
+        { "day": "Mer", "session": "Intervalles cardio" },
+        { "day": "Jeu", "session": "Agilité et appuis" },
+        { "day": "Ven", "session": "Gainage et mobilité" }
+      ]
+    },
+    "midfielder": {
+      "name": "Milieu de terrain",
+      "codes": "CDM · CM · CAM · LM · RM",
+      "tagline": "Dirige le match pendant 90 minutes.",
+      "description": "Le box-to-box demande la panoplie complète. Drillr développe le moteur, l'agilité et la mobilité qu'il te faut pour tenir le milieu du premier au dernier coup de sifflet.",
+      "strengths": "Le box-to-box demande la panoplie complète. Drillr te prépare pour les 90 minutes.",
+      "weaknesses": "Les milieux axiaux qui zappent la mobilité se blessent davantage en fin de match. Drillr ne laissera pas passer ça.",
+      "drills": [
+        { "name": "Sprints fractionnés", "spec": "8 × 200 m" },
+        { "name": "Fentes marchées", "spec": "3 × 12 par jambe" },
+        { "name": "Burpees", "spec": "4 × 10" },
+        { "name": "Gainage planche", "spec": "3 × 60 s" }
+      ],
+      "week": [
+        { "day": "Lun", "session": "Endurance de base" },
+        { "day": "Mar", "session": "Force" },
+        { "day": "Mer", "session": "Sprints fractionnés" },
+        { "day": "Jeu", "session": "Agilité et changements de direction" },
+        { "day": "Ven", "session": "Mobilité et récupération" }
+      ]
+    },
+    "forward": {
+      "name": "Attaquant",
+      "codes": "ST · CF · LW · RW",
+      "tagline": "Plus vite. Plus haut. Plus de buts.",
+      "description": "L'accélération explosive et les changements de direction secs sont ton atout. Drillr travaille la vitesse, la puissance et l'agilité qui te font passer dans le dos de la défense, plus la force pour tenir les défenseurs à distance une fois que tu y es.",
+      "strengths": "L'accélération explosive et les changements de direction secs sont ton atout. Drillr les travaille chaque semaine.",
+      "weaknesses": "Les attaquants qui zappent la force perdent les duels le long de la ligne de touche. On s'assure que ça ne t'arrive pas.",
+      "drills": [
+        { "name": "Sauts en contrebas", "spec": "4 × 5" },
+        { "name": "Squats sautés", "spec": "4 × 8" },
+        { "name": "Exercices à l'échelle de rythme", "spec": "5 séries" },
+        { "name": "Montées sur pointes", "spec": "3 × 15" }
+      ],
+      "week": [
+        { "day": "Lun", "session": "Bas du corps explosif" },
+        { "day": "Mar", "session": "Technique de sprint" },
+        { "day": "Mer", "session": "Agilité et finition" },
+        { "day": "Jeu", "session": "Puissance du haut du corps" },
+        { "day": "Ven", "session": "Pliométrie et mobilité" }
+      ]
+    }
+  },
+  "footer": {
+    "download": "Télécharger Drillr",
+    "legal": "Mentions légales",
+    "company": "Entreprise",
+    "training": "Entraînement",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "deleteAccount": "Supprimer le compte",
+    "faq": "FAQ",
+    "press": "Presse",
+    "manageSubscription": "Gérer l'abonnement",
+    "feedback": "Avis",
+    "support": "Assistance",
+    "copyright": "© 2026 Drillr. Tous droits réservés."
+  },
+  "feedback": {
+    "title": "Envoyer un avis",
+    "subtitle": "Tu as repéré un bug, tu as une idée ou tu veux demander une fonctionnalité ? Dis-le-nous. On lit chaque message.",
+    "loading": "Chargement du formulaire…"
+  },
+  "press": {
+    "title": "Presse",
+    "subtitle": "Pour les demandes des médias, les demandes d'interview et les communiqués de presse, écris-nous directement par e-mail.",
+    "contactLabel": "Demandes presse"
+  },
+  "manageSubscription": {
+    "title": "Gérer l'abonnement",
+    "body": "Les abonnements sont facturés via l'App Store ou Google Play. Gère-les ou résilie-les à tout moment depuis ton appareil avec le lien de ta boutique.",
+    "appleHelp": "Gérer chez Apple",
+    "googleHelp": "Gérer chez Google"
+  },
+  "support": {
+    "title": "Aide et assistance",
+    "subtitle": "Questions, bugs, facturation ou aide avec ton compte : on est là. Écris-nous directement et on s'en occupe.",
+    "emailLabel": "Assistance par e-mail",
+    "responseTime": "On répond en général sous 1-2 jours ouvrés.",
+    "feedbackTitle": "Envoyer un avis",
+    "feedbackBody": "Signale un bug ou demande une fonctionnalité.",
+    "subscriptionTitle": "Gérer l'abonnement",
+    "subscriptionBody": "Modifier, résilier ou obtenir de l'aide pour la facturation.",
+    "faqTitle": "Questions courantes",
+    "faq": [
+      {
+        "q": "Comment résilier mon abonnement ?",
+        "a": "Les abonnements sont facturés par l'App Store ou Google Play, donc tu résilies depuis les réglages de la boutique sur ton appareil. La page Gérer l'abonnement contient des liens directs pour chaque boutique."
+      },
+      {
+        "q": "Est-ce que je peux me faire rembourser ?",
+        "a": "Les remboursements sont gérés par Apple et Google, pas par nous. Fais ta demande via l'App Store ou Google Play, et écris-nous si tu as besoin d'un coup de main."
+      },
+      {
+        "q": "Comment supprimer mon compte ou mes données ?",
+        "a": "Dans l'appli, ouvre Réglages > Supprimer le compte : ton profil et toutes tes données d'entraînement sont supprimés immédiatement. Si tu ne peux plus accéder à ton compte, écris-nous depuis l'adresse qui y est liée et on s'en charge. Ce que nous conservons est détaillé dans notre politique de confidentialité."
+      },
+      {
+        "q": "J'ai trouvé un bug. Qu'est-ce que je fais ?",
+        "a": "Envoie-nous les détails via le formulaire d'avis ou par e-mail : des captures d'écran et le modèle de ton appareil nous aident à le corriger plus vite."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Supprimer ton compte",
+    "lastUpdated": "En vigueur depuis le 2026-07-31",
+    "tocLabel": "Sommaire",
+    "intro": "Cette page explique comment supprimer ton compte Drillr et ce qu'il advient de tes données quand tu le fais. Drillr est développé par Tomasz Święcki. Tu peux supprimer ton compte toi-même dans l'appli en quelques secondes, ou nous demander par e-mail de le faire pour toi. Cette traduction est fournie à titre informatif ; en cas de différence, la version anglaise prévaut.",
+    "sections": [
+      {
+        "heading": "Supprimer ton compte dans l'appli",
+        "paragraphs": [
+          "C'est la méthode la plus rapide, et elle prend effet immédiatement. Tu n'as pas besoin de nous contacter."
+        ],
+        "bullets": [
+          "Ouvre Drillr et va dans l'onglet Réglages",
+          "Fais défiler jusqu'à la section Compte",
+          "Touche Supprimer le compte, la dernière ligne de cette section",
+          "Confirme quand on te le demande : c'est irréversible"
+        ]
+      },
+      {
+        "heading": "Supprimer ton compte par e-mail",
+        "paragraphs": [
+          "Si tu ne peux pas te connecter, ou si tu préfères qu'on s'en occupe, écris à drillrapps@gmail.com depuis l'adresse avec laquelle ton compte est enregistré, avec l'objet \"Account Deletion Request\". Le message doit venir de l'adresse enregistrée pour qu'on puisse confirmer que le compte t'appartient.",
+          "Nous traitons ces demandes sous 30 jours, et normalement en quelques jours ouvrés. Nous te confirmerons par e-mail une fois que c'est fait."
+        ]
+      },
+      {
+        "heading": "Ce qui est supprimé",
+        "paragraphs": [
+          "Supprimer ton compte efface définitivement ce qui suit. Rien de tout cela ne peut être récupéré ensuite, ni par toi ni par nous."
+        ],
+        "bullets": [
+          "Ton profil : nom, adresse e-mail, poste, taille, poids, date d'anniversaire et genre",
+          "Tout ton historique d'entraînement : chaque exercice, séance et date réalisés",
+          "Tes poids enregistrés et ton historique de poids",
+          "Tes saisies d'effort et de forme, et tes évaluations de match",
+          "Ton nom d'utilisateur, qui est libéré pour pouvoir être réutilisé",
+          "Tes identifiants de connexion, de sorte que plus personne ne peut se connecter au compte",
+          "Toutes les données Drillr stockées sur ton appareil"
+        ]
+      },
+      {
+        "heading": "Ce qui est conservé, et pendant combien de temps",
+        "paragraphs": [
+          "Une petite quantité d'informations subsiste après la suppression du compte, pour les raisons indiquées ci-dessous. Rien de tout cela ne permet de se connecter, et rien ne t'identifie dans l'appli.",
+          "Si tu veux aussi que les données d'analyse soient effacées, précise-le dans ton e-mail et nous les supprimerons. Demande-le-nous directement plutôt que de supposer que la suppression les inclut."
+        ],
+        "bullets": [
+          "Les données d'achat et d'abonnement détenues par Apple, Google et notre prestataire de facturation RevenueCat. Ce sont des données de transaction que nous sommes tenus de conserver pour des raisons fiscales et comptables, et nous ne pouvons pas les supprimer à ta place",
+          "Des analyses produit pseudonymes : quels écrans ont été ouverts et quelles fonctionnalités ont été utilisées, liées à un identifiant aléatoire plutôt qu'à ton nom ou ton e-mail",
+          "Les rapports de plantage et d'erreur, qui contiennent des informations de diagnostic sur l'appli et non sur toi",
+          "Une trace indiquant que tu as demandé qu'on ne te contacte plus, si tu nous l'as déjà dit. Nous ne gardons que le nécessaire pour respecter cette demande"
+        ]
+      },
+      {
+        "heading": "Supprimer ton compte ne résilie pas ton abonnement",
+        "paragraphs": [
+          "Les abonnements sont facturés par Apple et Google, pas par nous, donc supprimer ton compte Drillr n'arrête pas la facturation. Résilie depuis les réglages de ton identifiant Apple ou de ton compte Google Play avant de supprimer ton compte, sinon la facturation continuera.",
+          "Notre page Gérer l'abonnement contient des liens directs pour les deux boutiques. Si tu as déjà supprimé ton compte et que la facturation continue, écris à drillrapps@gmail.com et nous t'aiderons à régler ça."
+        ]
+      }
+    ],
+    "crossLink": { "href": "/privacy", "label": "Lire la politique de confidentialité complète" }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "En vigueur depuis le 2026-09-30",
+    "tocLabel": "Sommaire",
+    "intro": "Cette politique de confidentialité s'applique à l'appli Drillr (ci-après l'\"Application\") pour appareils mobiles, développée par Tomasz Święcki (ci-après le \"Prestataire\") en tant que service Freemium, ainsi qu'au site web de Drillr à l'adresse getdrillr.app (ci-après le \"Site\"). Ce service est fourni \"EN L'ÉTAT\". Cette traduction est fournie à titre informatif ; en cas de différence, la version anglaise prévaut.",
+    "sections": [
+      {
+        "heading": "Quelles informations l'Application obtient-elle et comment sont-elles utilisées ?",
+        "paragraphs": [
+          "L'Application obtient les informations que tu fournis lorsque tu la télécharges et que tu t'inscris. L'inscription auprès du Prestataire n'est pas obligatoire. Garde toutefois à l'esprit que certaines fonctionnalités de l'Application peuvent ne pas être accessibles sans inscription.",
+          "Le Prestataire peut aussi utiliser les informations que tu as fournies pour te contacter de temps en temps afin de te transmettre des informations importantes, des avis obligatoires et des offres promotionnelles. L'Application envoie également des rappels et notifications locaux depuis ton appareil, comme des rappels de jours d'entraînement et de matchs, que tu peux désactiver à tout moment dans les réglages de ton appareil.",
+          "Le Prestataire utilise ces informations pour créer et adapter tes plans personnalisés d'entraînement et de nutrition, gérer ton compte et améliorer l'Application. Certaines de ces informations, en particulier les mesures corporelles et l'état des blessures, sont considérées comme des données de catégorie particulière (relatives à la santé) au sens du droit de la protection des données. Le Prestataire ne les traite que sur la base de ton consentement explicite, que tu donnes en choisissant de saisir ces informations facultatives pour que l'Application personnalise tes plans. Tu peux retirer ton consentement à tout moment en supprimant ces données dans les Réglages ou en supprimant ton compte, sans conséquence sur le reste de l'Application. Lorsque tu crées un compte et utilises l'Application, le Prestataire peut collecter les catégories de données personnelles suivantes :"
+        ],
+        "bullets": [
+          "Données de compte : ton adresse e-mail, le nom affiché et le nom d'utilisateur facultatif que tu choisis et, pour une connexion par e-mail, un mot de passe que le fournisseur d'authentification ne conserve que sous forme hachée.",
+          "Données de connexion : si tu te connectes avec Apple ou Google, le nom et l'adresse e-mail (y compris une adresse de relais privé Apple, si tu en utilises une) que le fournisseur partage avec l'Application.",
+          "Données de profil et corporelles que tu saisis : ton âge ou ta date de naissance, ton genre, ta taille, ton poids et ton historique de poids, ta nationalité et ton poste.",
+          "Préférences d'entraînement et de mode de vie : tes objectifs, tes axes de travail, ton niveau d'expérience, le matériel disponible et l'accès à une salle, tes jours d'entraînement et la durée des séances, ta situation en équipe et tes préférences alimentaires.",
+          "Les informations relatives à la santé que tu choisis de fournir, comme ton état actuel de blessure et ton niveau de stress ou de confiance avant les matchs. C'est facultatif, et l'Application fonctionne sans.",
+          "Les données d'activité et de performance générées lorsque tu utilises l'Application, comme les séances et exercices réalisés, les notes d'effort et de ressenti, et les auto-évaluations de match.",
+          "Les données d'abonnement et d'achat, décrites dans la section suivante."
+        ]
+      },
+      {
+        "heading": "Quelles informations l'Application collecte-t-elle automatiquement ?",
+        "paragraphs": [
+          "En outre, l'Application peut collecter certaines informations automatiquement, notamment le type d'appareil mobile que tu utilises, l'identifiant unique de ton appareil mobile, l'adresse IP de ton appareil mobile, ton système d'exploitation mobile, le type de navigateurs Internet mobiles que tu utilises et des informations sur la façon dont tu utilises l'Application.",
+          "Nous utilisons PostHog pour comprendre comment les utilisateurs interagissent avec l'Application, y compris les écrans consultés, les fonctionnalités utilisées et les actions effectuées, et pour recevoir des rapports sur les erreurs que rencontre l'Application (le message d'erreur, l'endroit du code où elle s'est produite, la version de l'appli et le type d'appareil). Cette collecte analytique est activée par défaut et fait partie du service que tu acceptes en créant un compte, en te connectant ou en utilisant l'Application de toute autre manière. Le Prestataire s'appuie sur son intérêt légitime à sécuriser, maintenir et améliorer l'Application comme base juridique de ce traitement. Tu peux t'y opposer à tout moment en écrivant à drillrapps@gmail.com, tu peux arrêter toute collecte en désinstallant l'Application, et tu peux limiter les identifiants publicitaires et d'analyse dans les réglages de confidentialité de ton appareil.",
+          "L'Application utilise aussi PostHog pour réaliser des enregistrements d'écran, afin que le Prestataire puisse voir où l'Application plante, se bloque ou désoriente les gens, et le corriger. Un enregistrement d'écran est une série de captures des propres écrans de l'Application, accompagnées des appuis et des changements d'écran, réalisée pendant que tu l'utilises. Le texte que tu tapes est masqué sur ton appareil avant tout envoi, tout comme tes informations personnelles et de santé, comme ton nom, ton adresse e-mail, ta date d'anniversaire, tes mensurations, les symptômes que tu signales, ton objectif nutritionnel et ton journal alimentaire, ainsi que la vue de la caméra et tes clips enregistrés, qui n'apparaissent dans les enregistrements que sous forme de blocs vides. Les enregistrements commencent pendant la configuration de départ, à partir de la question qui suit celle sur ta date d'anniversaire, et ne sont jamais réalisés pour les utilisateurs n'ayant pas l'âge auquel ils peuvent consentir au traitement de leurs données personnelles dans leur pays (par exemple 16 ans en Pologne, 14 ans en Espagne et 13 ans au Royaume-Uni et aux États-Unis). Les enregistrements sont liés au même identifiant utilisateur pseudonyme que les analyses ci-dessus, ainsi qu'aux rapports de plantage, pour qu'un défaut puisse être rattaché à ce qui s'est passé à l'écran. Le Prestataire s'appuie sur son intérêt légitime à trouver et corriger les défauts de l'Application comme base juridique de ce traitement. Les enregistrements sont supprimés automatiquement au bout de 30 jours. Une fois que tu as un compte, tu peux désactiver les enregistrements d'écran à tout moment dans l'Application, sous Réglages > Préférences > Analyse du produit.",
+          "Lorsque tu achètes un abonnement, l'Application reçoit aussi ton identifiant de transaction, le statut de ton abonnement, la date d'achat, la date de renouvellement et le produit acheté. Le paiement lui-même (carte bancaire, Apple Pay, Google Pay) est entièrement géré par Apple ou Google : le Prestataire ne voit ni ne conserve jamais les données de ta carte de paiement."
+        ]
+      },
+      {
+        "heading": "Quelles informations le Site collecte-t-il ?",
+        "paragraphs": [
+          "Cette Politique couvre aussi le site web de Drillr à l'adresse getdrillr.app. Le Site est un site d'information et d'assistance : tu peux lire toutes ses pages sans compte, et il ne dépose aucun cookie publicitaire, de profilage ou de suivi intersites.",
+          "Le Site est hébergé par Vercel, qui conserve des journaux d'accès serveur standard, notamment ton adresse IP, la page demandée et le type de navigateur, pour la sécurité, la prévention des abus et la fiabilité. Le Prestataire utilise aussi Vercel Web Analytics pour savoir combien de personnes visitent chaque page et d'où elles arrivent. Vercel Web Analytics fonctionne sans cookies : il ne stocke rien sur ton appareil et ne construit aucun profil persistant de toi, et le Prestataire ne voit que des chiffres agrégés comme les pages vues, le site d'origine, le pays et le type d'appareil. La base juridique de ces deux traitements est l'intérêt légitime du Prestataire à exploiter, sécuriser et améliorer le Site.",
+          "Le formulaire d'avis sur getdrillr.app/feedback est fourni par Tally et intégré depuis ses serveurs. Le lien \"Envoyer un avis\" dans l'Application ouvre le même formulaire. Ce que tu envoies par ce biais (la catégorie choisie, les détails que tu écris, une capture d'écran ou une vidéo facultative que tu joins, et une adresse e-mail si tu choisis d'en donner une pour que le Prestataire puisse te répondre) est envoyé à Tally puis transmis au Prestataire, et n'est utilisé que pour te répondre et donner suite à ton signalement. Tally conserve les réponses aux formulaires sur des serveurs situés dans l'Union européenne. Merci de ne pas joindre de capture d'écran ou de vidéo montrant d'autres personnes. Le formulaire intégré peut déposer des cookies strictement nécessaires à son fonctionnement ; il ne dépose aucun cookie publicitaire ou de suivi. Si tu préfères ne pas utiliser le formulaire, tu peux écrire à drillrapps@gmail.com.",
+          "Les polices sont servies depuis le propre domaine du Site, donc lire une page n'envoie aucune requête à un réseau tiers de polices ou de publicité. Les boutons App Store et Google Play te mènent aux sites d'Apple et de Google, qui sont régis par leurs propres politiques de confidentialité et non par celle-ci."
+        ]
+      },
+      {
+        "heading": "Le Prestataire cite-t-il les avis que tu publies sur l'App Store ou Google Play ?",
+        "paragraphs": [
+          "Si tu publies un avis sur l'Application sur l'App Store ou Google Play, le Prestataire peut le citer dans l'Application (par exemple sur les écrans de démarrage), sur le Site, sur les fiches de l'Application dans les boutiques et dans d'autres supports promotionnels de Drillr, comme des publications sur les réseaux sociaux. Une citation montre le texte de ton avis, sa note en étoiles et ton nom sous forme abrégée : ton prénom et l'initiale de ton nom de famille, ou le pseudo affiché avec ton avis. Rien d'autre sur toi n'est montré, et ta photo de profil n'est jamais utilisée.",
+          "Le Prestataire peut corriger l'orthographe, la grammaire et la ponctuation, raccourcir un avis et le traduire ou adapter sa formulation à d'autres langues et pays (par exemple, \"footballer\" devient \"soccer player\" en anglais américain), mais n'ajoute jamais de mots ou d'affirmations absents de ton avis et ne change jamais ce que tu voulais dire. Seuls les avis publiés sur l'App Store et Google Play sont cités, et les deux boutiques n'acceptent que les avis de personnes ayant téléchargé l'Application. Le Prestataire n'écrit, n'achète ni ne récompense d'avis, et choisit ceux qu'il affiche, donc les citations sont une sélection et non un résumé de tous les avis. Lorsqu'une note moyenne en étoiles est affichée, c'est la note publiée par l'App Store. Les retours que tu envoies en privé, via le formulaire ou par e-mail, ne sont jamais cités sans ton autorisation.",
+          "Ton avis et le nom affiché avec lui sont des données personnelles que le Prestataire obtient de la boutique où l'avis a été publié, et non directement de toi. La base juridique est l'intérêt légitime du Prestataire à montrer aux personnes qui envisagent l'Application ce qu'en disent ses utilisateurs. Tu as choisi de rendre l'avis public, et les limites décrites ci-dessus maintiennent la citation fidèle à ce que tu as écrit. Tu peux t'y opposer à tout moment, sans donner de raison, en écrivant à drillrapps@gmail.com, et un parent ou tuteur peut le faire au nom d'un enfant. Le Prestataire retirera alors ton avis du Site dans les meilleurs délais et de l'Application lors de sa prochaine mise à jour, et ne l'utilisera dans aucun nouveau support promotionnel. Le Prestataire cesse aussi d'utiliser un avis dès qu'il apprend que celui-ci a été supprimé de la boutique."
+        ]
+      },
+      {
+        "heading": "L'Application collecte-t-elle la localisation de l'appareil ?",
+        "paragraphs": [
+          "Cette Application ne collecte aucune information sur la localisation de ton appareil mobile."
+        ]
+      },
+      {
+        "heading": "L'Application utilise-t-elle des technologies d'intelligence artificielle (IA) ?",
+        "paragraphs": [
+          "L'Application propose une fonction facultative d'analyse de la technique qui utilise la détection de mouvement et de posture intégrée à ton téléphone (comme le framework Vision d'Apple sur iOS) pour te donner un retour sur ta technique d'exécution. Toute cette analyse s'effectue entièrement sur ton appareil. Aucune vidéo, image ou donnée de posture n'est envoyée au Prestataire ni à un tiers pour cette fonction, et elle n'est pas utilisée pour t'identifier. Consulte la section sur l'utilisation de la caméra ci-dessous pour plus de détails.",
+          "Le Prestataire utilise aussi des fonctions d'IA intégrées à PostHog pour examiner automatiquement les enregistrements d'écran, les rapports de plantage et d'erreur et les analyses d'utilisation, afin de repérer les défauts et les problèmes d'ergonomie et de rédiger des modifications de code qui les corrigent. Ces fonctions reposent sur des modèles d'IA de Google, OpenAI et Anthropic, qui traitent les données pour le compte de PostHog, peuvent les traiter hors de l'Union européenne avec des garanties appropriées, et ont contractuellement interdiction de les utiliser pour entraîner leurs modèles. Elles ne servent pas à prendre des décisions à ton sujet ni à établir ton profil, et chaque modification de code proposée est vérifiée par le Prestataire avant d'être utilisée. L'utilisation de ces données par PostHog pour entraîner ses propres modèles d'IA est désactivée."
+        ]
+      },
+      {
+        "heading": "L'Application utilise-t-elle ta caméra, et qu'advient-il des enregistrements ?",
+        "paragraphs": [
+          "L'Application propose une fonction facultative de vérification de la technique qui utilise la caméra de ton appareil. La caméra n'est utilisée que lorsque tu choisis de lancer une vérification de la technique pour un exercice compatible, et uniquement pour enregistrer un court clip où tu réalises cet exercice. Tu peux refuser ou révoquer l'autorisation d'accès à la caméra à tout moment dans les réglages de ton appareil ; le reste de l'Application continue de fonctionner sans.",
+          "Le clip enregistré est analysé entièrement sur ton appareil. Le Prestataire ne reçoit pas, ne téléverse pas et ne stocke pas ton clip sur un serveur, le clip n'est pas enregistré automatiquement dans ta photothèque et il n'est partagé avec aucun tiers. L'Application n'enregistre pas de son dans le cadre de cette fonction. Dans les enregistrements d'écran, la vue de la caméra et tes clips sont toujours cachés derrière un bloc vide.",
+          "Si tu choisis de partager un clip avec l'option de partage, l'Application crée une version avec un filigrane Drillr et les retours sur la technique incrustés, puis la transmet au menu de partage standard de ton appareil. À partir du moment où tu choisis une destination (par exemple une messagerie, un réseau social ou un contact), le clip est régi par les conditions et la politique de confidentialité de ce service ou de ce destinataire, et non par cette Politique, et le Prestataire n'a aucun contrôle sur la façon dont ils le traitent. Merci de ne partager que des clips où tu es la seule personne à apparaître, et de ne pas partager de clips montrant d'autres personnes sans leur consentement."
+        ]
+      },
+      {
+        "heading": "L'Application utilise-t-elle la prise de décision automatisée ou le profilage ?",
+        "paragraphs": [
+          "L'Application utilise les informations que tu fournis, comme tes objectifs, ton niveau d'expérience, tes mesures corporelles et ton état de blessure, pour générer et adapter automatiquement tes plans personnalisés d'entraînement et de nutrition. Cela comprend le choix des exercices, l'ajustement de la difficulté des séances et le calcul des objectifs de calories et de macronutriments. Il s'agit de profilage, mais c'est la finalité principale de l'Application à laquelle tu t'inscris, et cela ne produit pas d'effets juridiques ni d'effets similaires significatifs pour toi.",
+          "L'Application ne prend pas de décisions fondées exclusivement sur un traitement automatisé produisant des effets juridiques te concernant. Tu gardes la main : tu peux modifier les informations à tout moment dans les Réglages, et tu peux écrire au Prestataire à drillrapps@gmail.com pour toute question sur la façon dont ton plan est généré."
+        ]
+      },
+      {
+        "heading": "Des tiers voient-ils les informations obtenues par l'Application ou y ont-ils accès ?",
+        "paragraphs": [
+          "Le Prestataire transmet des identifiants pseudonymes (comme un identifiant utilisateur et un identifiant d'appareil) aux services externes listés ci-dessous pour authentifier ton compte, synchroniser le statut de ton abonnement, collecter des données de diagnostic et améliorer l'Application. Le Prestataire peut partager tes informations avec des tiers de la manière décrite dans cette déclaration de confidentialité.",
+          "Les données de ton compte et de ton profil sont stockées avec Google Firebase (Firebase Authentication et Cloud Firestore), et la connexion avec Apple ou Google est gérée par le fournisseur concerné. Ces fournisseurs agissent en tant que sous-traitants du Prestataire et peuvent stocker des données sur des serveurs situés hors de ton pays, notamment aux États-Unis, avec des garanties appropriées comme les clauses contractuelles types de la Commission européenne.",
+          "Note que l'Application utilise des services tiers qui ont leur propre politique de confidentialité concernant le traitement des données. Voici les liens vers les politiques de confidentialité des prestataires tiers utilisés par l'Application :"
+        ],
+        "bullets": [
+          "https://policies.google.com/privacy",
+          "https://firebase.google.com/policies/analytics",
+          "https://firebase.google.com/support/privacy",
+          "https://expo.dev/privacy",
+          "https://posthog.com/privacy - analyse produit, enregistrements d'écran, rapports d'erreur et détection de bugs assistée par IA, hébergé dans l'Union européenne (ses fonctions d'IA utilisent des modèles de Google, OpenAI et Anthropic)",
+          "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement - hébergement du code source de l'Application, y compris les corrections proposées pour les défauts trouvés dans les données de diagnostic",
+          "https://sentry.io/privacy/ - rapports de plantage et d'erreur",
+          "https://www.revenuecat.com/privacy - gestion des abonnements et analyse de la facturation",
+          "https://vercel.com/legal/privacy-policy - hébergement et analyse sans cookies du Site",
+          "https://tally.so/help/privacy-policy - le formulaire d'avis du Site",
+          "https://www.apple.com/legal/privacy/ - pour les achats sur iOS",
+          "https://policies.google.com/privacy - pour les achats sur Android"
+        ]
+      },
+      {
+        "heading": "Quand le Prestataire peut-il divulguer tes informations ?",
+        "paragraphs": [
+          "Le Prestataire peut divulguer les informations fournies par l'utilisateur et les informations collectées automatiquement :"
+        ],
+        "bullets": [
+          "lorsque la loi l'exige, par exemple pour se conformer à une injonction ou à une procédure judiciaire similaire ;",
+          "lorsqu'il estime de bonne foi que la divulgation est nécessaire pour protéger ses droits, protéger ta sécurité ou celle d'autrui, enquêter sur une fraude ou répondre à une demande d'une autorité publique ;",
+          "auprès de ses prestataires de confiance qui travaillent pour son compte, n'utilisent pas de manière indépendante les informations qui leur sont communiquées et ont accepté de respecter les règles énoncées dans cette déclaration de confidentialité ;",
+          "dans le cadre d'une fusion, d'une acquisition, d'une réorganisation, d'une insolvabilité ou de la vente de tout ou partie de l'activité Drillr ou de ses actifs, auquel cas tes informations, y compris les informations relatives à la santé décrites ci-dessus, peuvent être transférées au repreneur. Le Prestataire t'en informera dans l'Application ou par e-mail avant que ce transfert ne prenne effet, le repreneur restera lié par cette Politique pour les informations qu'il reçoit jusqu'à ce qu'il t'informe de tout changement, et tous les droits décrits ci-dessous continuent de s'appliquer, y compris ton droit de supprimer ton compte et toutes tes données à tout moment."
+        ]
+      },
+      {
+        "heading": "Quels sont mes droits d'opposition ?",
+        "paragraphs": [
+          "Tu peux facilement arrêter toute collecte d'informations par l'Application en la désinstallant. Tu peux utiliser les procédures de désinstallation habituelles de ton appareil mobile ou de la boutique ou du réseau d'applications. Désinstaller l'Application ne résilie pas automatiquement un abonnement payant : tu dois le résilier dans les réglages de ton identifiant Apple ou de ton compte Google Play.",
+          "Tu peux aussi supprimer définitivement ton compte et toutes les données associées directement dans l'Application à tout moment, sous Réglages > Supprimer le compte.",
+          "Une fois que tu as un compte, tu peux désactiver les enregistrements d'écran à tout moment dans l'Application, sous Réglages > Préférences > Analyse du produit. L'enregistrement s'arrête immédiatement, et aucun nouvel enregistrement n'est réalisé tant que l'option est désactivée."
+        ]
+      },
+      {
+        "heading": "Quelle est la politique de conservation des données et comment peux-tu gérer tes informations ?",
+        "paragraphs": [
+          "Le Prestataire conserve les données fournies par l'utilisateur tant que tu utilises l'Application et pendant une durée raisonnable ensuite. Le Prestataire conserve les informations collectées automatiquement jusqu'à 24 mois, puis peut les stocker sous forme agrégée, à l'exception des enregistrements d'écran, qui sont supprimés automatiquement au bout de 30 jours. Si tu veux que le Prestataire supprime les données que tu as fournies via l'Application, écris-lui à drillrapps@gmail.com et il répondra dans un délai raisonnable. Note que tout ou partie des données fournies peut être nécessaire au bon fonctionnement de l'Application.",
+          "Tu peux aussi supprimer toi-même ton compte et toutes les données associées à tout moment dans l'Application, sous Réglages > Supprimer le compte, ce qui efface immédiatement ton profil ainsi que tes données d'entraînement, de poids, d'effort et de match des systèmes du Prestataire.",
+          "Les avis envoyés via le formulaire décrit ci-dessus ne sont conservés que le temps nécessaire pour les traiter. Une fois ton signalement traité ou résolu, le Prestataire supprime la réponse de Tally, y compris toute capture d'écran ou vidéo jointe et toute adresse e-mail fournie."
+        ]
+      },
+      {
+        "heading": "Tes droits en matière de protection des données",
+        "paragraphs": [
+          "Le responsable du traitement de tes données personnelles est Tomasz Święcki, développeur indépendant établi en Pologne, que tu peux contacter à drillrapps@gmail.com. Compte tenu de la nature et de l'ampleur du traitement, le Prestataire n'est pas tenu de désigner un délégué à la protection des données et ne l'a pas fait ; tu peux envoyer toute question sur la confidentialité à la même adresse.",
+          "Le Prestataire traite tes données personnelles sur les bases juridiques suivantes : l'exécution du contrat visant à te fournir l'Application ; ton consentement, y compris ton consentement explicite pour les données de catégorie particulière relatives à la santé, comme les mesures corporelles et les blessures, et ton consentement aux messages marketing ; et l'intérêt légitime du Prestataire à exploiter, sécuriser et améliorer l'Application, et à citer les avis publics des boutiques comme décrit ci-dessus.",
+          "Si tu te trouves dans l'Espace économique européen, au Royaume-Uni ou dans une région dotée de lois comparables, tu disposes des droits listés ci-dessous sur tes données personnelles. Pour exercer l'un d'eux, écris au Prestataire à drillrapps@gmail.com ; tu peux aussi modifier ton profil dans l'Application ou supprimer définitivement ton compte et tes données sous Réglages > Supprimer le compte."
+        ],
+        "bullets": [
+          "le droit d'accéder aux données personnelles te concernant ;",
+          "le droit de faire rectifier les données inexactes ou incomplètes ;",
+          "le droit à l'effacement de tes données (le \"droit à l'oubli\") ;",
+          "le droit de limiter certains traitements ou de t'y opposer ;",
+          "le droit à la portabilité des données, c'est-à-dire de recevoir tes données dans un format structuré et couramment utilisé ;",
+          "le droit de retirer ton consentement à tout moment, lorsque le traitement repose sur le consentement ;",
+          "le droit d'introduire une réclamation auprès d'une autorité de contrôle ; en Pologne, auprès du Président de l'Office de protection des données personnelles (Prezes Urzędu Ochrony Danych Osobowych)."
+        ]
+      },
+      {
+        "heading": "Tes droits si tu vis aux États-Unis",
+        "paragraphs": [
+          "Si tu résides en Californie, ou dans un autre État américain doté d'une loi complète sur la vie privée, comme le Colorado, le Connecticut, le Montana, l'Oregon, le Texas ou la Virginie, tu disposes des droits supplémentaires énoncés ci-dessous. Les catégories de données personnelles que collecte le Prestataire, les finalités pour lesquelles elles sont utilisées et leur durée de conservation sont décrites plus haut dans cette Politique.",
+          "Le Prestataire ne vend pas tes informations personnelles et ne les partage pas pour de la publicité comportementale intercontextuelle, et ne l'a pas fait au cours des douze derniers mois. Il n'y a aucun réseau publicitaire, courtier en données ou technologie de ciblage publicitaire dans l'Application ni sur le Site. Le Prestataire ne vend ni ne partage non plus sciemment les informations personnelles de personnes de moins de 16 ans.",
+          "L'Application collecte certaines informations que la loi californienne considère comme des informations personnelles sensibles, à savoir des données relatives à la santé comme tes mesures corporelles et ton état de blessure. Le Prestataire ne les utilise que pour générer et adapter les plans d'entraînement et de nutrition auxquels tu as souscrit, et non pour en déduire des caractéristiques te concernant, donc le droit de limiter l'utilisation des informations personnelles sensibles ne restreint aucun traitement réellement effectué.",
+          "Pour exercer l'un des droits ci-dessous, écris à drillrapps@gmail.com depuis l'adresse liée à ton compte, ou supprime toi-même ton compte et ses données à tout moment sous Réglages > Supprimer le compte dans l'Application. Tu peux faire appel à un mandataire, auquel cas le Prestataire peut demander une preuve de son mandat et une confirmation directe de ta part. Le Prestataire répondra dans le délai prévu par la loi de ton État, et si une demande est refusée, tu peux faire appel en répondant à la même adresse. Sous réserve de la loi de ton État, tu as le droit de :"
+        ],
+        "bullets": [
+          "savoir quelles informations personnelles sont collectées à ton sujet et en obtenir une copie ;",
+          "faire rectifier les informations personnelles inexactes ;",
+          "faire supprimer tes informations personnelles ;",
+          "recevoir tes données sous une forme portable et lisible par machine ;",
+          "refuser la vente ou le partage d'informations personnelles, la publicité ciblée et le profilage produisant des effets juridiques ou similaires significatifs, rien de tout cela n'étant pratiqué par le Prestataire ;",
+          "ne subir aucune discrimination pour avoir exercé l'un de ces droits. Le Prestataire n'offre aucune incitation financière en échange de données personnelles, et l'Application fonctionne de la même façon, que tu exerces ces droits ou non."
+        ]
+      },
+      {
+        "heading": "Comment l'Application protège-t-elle la vie privée des enfants ?",
+        "paragraphs": [
+          "L'Application est destinée aux utilisateurs de 13 ans et plus. Le Prestataire ne sollicite pas sciemment de données auprès d'enfants de moins de 13 ans et ne leur adresse pas de marketing.",
+          "Dans certains pays, l'âge minimum pour consentir au traitement des données personnelles est supérieur à 13 ans : par exemple 16 ans en Pologne et dans certaines parties de l'Union européenne. L'Application est accessible partout aux utilisateurs de 13 ans et plus. Si tu as au moins 13 ans mais n'as pas atteint l'âge du consentement numérique de ton pays, tu ne peux utiliser l'Application et fournir tes données personnelles qu'avec la participation et le consentement d'un parent ou d'un tuteur légal, qui accepte cette Politique en ton nom.",
+          "L'Application ne réalise pas d'enregistrements d'écran pour les utilisateurs n'ayant pas l'âge du consentement numérique de leur pays, même lorsqu'ils peuvent par ailleurs utiliser l'Application.",
+          "Les utilisateurs qui indiquent pendant la configuration de départ avoir moins de 13 ans ne peuvent pas créer de compte. L'Application affiche un message indiquant que Drillr est destiné aux 13 ans et plus, et aucun profil n'est créé dans les systèmes du Prestataire.",
+          "Un petit nombre de comptes créés avant la mise en place de ce contrôle d'âge restent sur le Service dans un ancien Mode restreint. En Mode restreint, l'Application ne collecte pas d'informations personnelles comme le genre, la taille, le poids ou la date de naissance. Seule une adresse e-mail est conservée pour l'authentification du compte. Aucune donnée personnelle des utilisateurs en Mode restreint n'est partagée avec des tiers ni utilisée pour du profilage ou du marketing.",
+          "Si tu es parent ou tuteur et que tu sais que ton enfant nous a fourni des informations personnelles, contacte le Prestataire (drillrapps@gmail.com) pour qu'il puisse prendre les mesures nécessaires, y compris la suppression du compte."
+        ]
+      },
+      {
+        "heading": "Comment tes informations sont-elles protégées ?",
+        "paragraphs": [
+          "Le Prestataire tient à protéger la confidentialité de tes informations. Le Prestataire met en place des mesures de protection physiques, électroniques et organisationnelles pour protéger les informations qu'il traite et conserve. Par exemple, l'accès à ces informations est limité aux employés et sous-traitants autorisés qui en ont besoin pour exploiter, développer ou améliorer l'Application. Note que, même si le Prestataire s'efforce d'assurer une sécurité raisonnable pour les informations qu'il traite et conserve, aucun système de sécurité ne peut empêcher toutes les failles possibles."
+        ]
+      },
+      {
+        "heading": "Comment les modifications de cette Politique de confidentialité te sont-elles communiquées ?",
+        "paragraphs": [
+          "Cette Politique de confidentialité peut être mise à jour de temps en temps, pour quelque raison que ce soit. Le Prestataire t'informera de toute modification en mettant à jour cette page avec la nouvelle Politique de confidentialité. Il est conseillé de consulter régulièrement cette Politique de confidentialité, car la poursuite de l'utilisation vaut acceptation de toutes les modifications."
+        ]
+      },
+      {
+        "heading": "Comment donnes-tu ton consentement ?",
+        "paragraphs": [
+          "En créant un compte, en te connectant ou en utilisant l'Application de toute autre manière, tu prends connaissance de cette Politique de confidentialité et tu acceptes que le Prestataire traite tes informations comme indiqué ici, maintenant et dans ses versions futures, y compris les analyses et enregistrements d'écran utilisés pour exploiter, sécuriser et améliorer l'Application. Le \"traitement\" désigne toute utilisation ou manipulation d'informations, notamment la collecte, le stockage, la suppression, l'utilisation, la combinaison et la divulgation d'informations."
+        ]
+      },
+      {
+        "heading": "Comment nous contacter ?",
+        "paragraphs": [
+          "Si tu as des questions sur la confidentialité lors de l'utilisation de l'Application, ou sur ces pratiques, contacte le Prestataire par e-mail à drillrapps@gmail.com."
+        ]
+      }
+    ],
+    "crossLink": { "label": "Conditions d'utilisation de Drillr", "href": "/terms" }
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "En vigueur depuis le 2026-09-30",
+    "tocLabel": "Sommaire",
+    "intro": "Ces conditions d'utilisation s'appliquent à l'appli Drillr (ci-après l'\"Application\") pour appareils mobiles, créée par Tomasz Święcki (ci-après le \"Prestataire\") en tant que service Freemium, ainsi qu'au site web de Drillr à l'adresse getdrillr.app (ci-après le \"Site\"). Cette traduction est fournie à titre informatif ; en cas de différence, la version anglaise prévaut, comme indiqué dans la section Droit applicable et litiges.",
+    "sections": [
+      {
+        "heading": "Acceptation des conditions",
+        "paragraphs": [
+          "En téléchargeant l'Application, en créant un compte, en te connectant ou en l'utilisant de toute autre manière, tu acceptes ces Conditions d'utilisation et la Politique de confidentialité de Drillr, qui est intégrée à ces conditions par référence, y compris les analyses, les enregistrements d'écran et le traitement des données décrits dans cette Politique. Il est vivement conseillé de lire attentivement et de bien comprendre ces deux documents avant d'utiliser l'Application. Si tu n'es pas d'accord, n'utilise pas l'Application.",
+          "Ces conditions régissent aussi ton utilisation du Site, dans la mesure où elles s'y appliquent. Le Site est fourni à des fins d'information et d'assistance : aucun compte n'est nécessaire pour le lire, son contenu est publié à titre d'information générale uniquement et peut changer à tout moment, et les sections ci-dessous concernant les contenus d'entraînement, de nutrition et d'analyse de la technique s'appliquent de la même manière aux mêmes contenus présentés sur le Site."
+        ]
+      },
+      {
+        "heading": "Propriété intellectuelle",
+        "paragraphs": [
+          "Toute copie ou modification non autorisée de l'Application, du Site, d'une partie de ceux-ci ou de nos marques est strictement interdite. Toute tentative d'extraire le code source de l'Application, de traduire l'Application dans d'autres langues ou d'en créer des versions dérivées est interdite. Toutes les marques, droits d'auteur, droits sur les bases de données et autres droits de propriété intellectuelle liés à l'Application et au Site restent la propriété du Prestataire."
+        ]
+      },
+      {
+        "heading": "Avis sur l'App Store et Google Play",
+        "paragraphs": [
+          "Si tu publies un avis sur l'Application sur l'App Store ou Google Play, tu autorises le Prestataire, gratuitement et à titre non exclusif, à le citer avec sa note en étoiles et ton nom abrégé dans l'Application, sur le Site, sur les fiches de l'Application dans les boutiques et dans d'autres supports promotionnels de Drillr, dans tout pays où l'Application est proposée. Cela comprend la correction de l'orthographe, de la grammaire et de la ponctuation, le raccourcissement de l'avis et sa traduction ou l'adaptation de sa formulation à d'autres langues et pays, mais jamais l'ajout de mots ou d'affirmations absents de ton avis ni la modification de ce que tu voulais dire. La Politique de confidentialité explique précisément ce qui est affiché et comment tes données sont traitées.",
+          "Les avis ne sont jamais payés ni récompensés, et rien dans l'Application ne dépend du fait que tu laisses un avis ou de ce qu'il dit. Un avis cité reflète l'expérience personnelle de son auteur, et les résultats varient d'une personne à l'autre.",
+          "Tu peux retirer cette autorisation à tout moment, sans donner de raison, en écrivant à drillrapps@gmail.com, et le Prestataire cessera d'utiliser ton avis comme décrit dans la Politique de confidentialité. Cette section n'affecte pas les droits qu'Apple ou Google détiennent sur les avis publiés dans leurs boutiques."
+        ]
+      },
+      {
+        "heading": "Utilisation acceptable",
+        "paragraphs": [
+          "Tu t'engages à utiliser l'Application et le Site de manière licite et conformément à leur usage prévu. Si tu enfreins cette section, le Prestataire peut suspendre ou résilier ton compte comme décrit dans la section Compte et résiliation, et ta responsabilité peut être engagée pour toute réclamation de tiers qui en découle, comme décrit dans la section Réclamations causées par ton comportement.",
+          "En particulier, tu t'engages à ne pas :"
+        ],
+        "bullets": [
+          "utiliser le Service à des fins illicites, ou en violation d'une loi ou d'une réglementation qui t'est applicable",
+          "créer un compte avec de fausses informations, te faire passer pour une autre personne ou mentir sur ton âge",
+          "partager ton compte avec quelqu'un d'autre, ni vendre, louer ou transférer l'accès à celui-ci",
+          "tenter d'accéder au compte ou aux données d'un autre utilisateur, ou à toute partie du Service à laquelle l'accès ne t'a pas été accordé",
+          "tenter de contourner un paywall, une vérification d'abonnement, une limite d'utilisation ou toute autre restriction technique du Service",
+          "copier, aspirer ou extraire systématiquement les contenus d'entraînement, les exercices, les données d'exercices ou tout autre élément du Service, ni en utiliser une partie pour créer ou entraîner un produit concurrent ou un modèle d'apprentissage automatique",
+          "utiliser un bot, un outil d'aspiration ou tout autre moyen automatisé pour accéder au Service, sauf par une méthode publiée par le Prestataire à cette fin",
+          "téléverser, enregistrer ou transmettre quoi que ce soit d'illicite, de contrefaisant, de diffamatoire ou de nuisible, ou contenant du code malveillant",
+          "enregistrer ou partager un clip montrant une autre personne sans son consentement",
+          "perturber, surcharger ou tenter de perturber le Service, ses serveurs ou ses dispositifs de sécurité, ni les sonder à la recherche de vulnérabilités sans l'autorisation écrite du Prestataire",
+          "revendre, sous-licencier ou exploiter commercialement de toute autre manière le Service ou son contenu sans l'autorisation écrite du Prestataire"
+        ]
+      },
+      {
+        "heading": "Modifications du service",
+        "paragraphs": [
+          "Le Prestataire s'attache à rendre l'Application aussi utile et efficace que possible. À ce titre, il se réserve le droit de modifier l'Application ou de facturer ses services à tout moment et pour quelque raison que ce soit. Le Prestataire t'assure que tout tarif lié à l'Application ou à ses services te sera clairement communiqué.",
+          "Le Prestataire peut aussi modifier, suspendre ou interrompre toute fonctionnalité de l'Application ou du Site, en tout ou en partie, et en informera dans un délai raisonnable lorsque c'est possible. Sauf disposition contraire ci-dessous, le Prestataire n'est pas responsable envers toi d'une telle modification, suspension ou interruption. Cela n'affecte pas tes droits légaux, ni tout remboursement auquel tu as droit si une fonctionnalité payante de ton abonnement est retirée."
+        ]
+      },
+      {
+        "heading": "Conditions d'âge",
+        "paragraphs": [
+          "Le Service est destiné aux utilisateurs de 13 ans et plus. Les utilisateurs qui indiquent pendant la configuration de départ avoir moins de 13 ans ne peuvent pas créer de compte. Un petit nombre de comptes créés avant la mise en place de cette condition d'âge restent sur le Service dans un ancien Mode restreint, qui limite la collecte de données personnelles. Si tu as entre 13 et 17 ans, tu ne peux utiliser le Service qu'avec le consentement et sous la surveillance d'un parent ou d'un tuteur légal, qui accepte d'être pleinement responsable de toutes les activités menées avec le Service."
+        ]
+      },
+      {
+        "heading": "Santé, condition physique et acceptation des risques",
+        "paragraphs": [
+          "L'Application propose des programmes généraux de condition physique, d'entraînement et de préparation, des exercices et des contenus associés, uniquement à des fins d'information et d'éducation. Ce n'est ni un avis médical, ni de la kinésithérapie, ni du coaching professionnel, et cela ne remplace pas la consultation d'un médecin ou d'un autre professionnel de santé qualifié.",
+          "L'exercice physique comporte des risques inhérents, notamment le risque de blessure grave. Tu devrais consulter un médecin avant de commencer tout programme d'exercice, en particulier si tu es enceinte, si tu as une blessure ou un problème de santé, ou si tu n'as pas fait d'activité physique depuis longtemps. En utilisant l'Application, tu confirmes que ton état de santé te permet de pratiquer une activité physique, et tu acceptes volontairement tous les risques liés à l'exercice et au suivi de tout plan, exercice ou recommandation fourni par l'Application. Il t'appartient entièrement de t'entraîner dans tes propres limites et de t'arrêter si tu ressens une douleur, un vertige ou une gêne.",
+          "Dans toute la mesure permise par la loi, le Prestataire n'est pas responsable des blessures, pertes ou dommages résultant de ton utilisation des contenus d'entraînement, des plans ou des recommandations de l'Application, ou de la confiance que tu leur accordes. Rien dans cette section n'exclut ni ne limite une responsabilité qui ne peut être exclue ou limitée en vertu du droit applicable, y compris la responsabilité en cas de décès ou de dommage corporel causé par la négligence du Prestataire, ni tes droits impératifs en tant que consommateur.",
+          "Les messages de motivation, les notifications push et les exemples illustratifs affichés par l'Application, y compris les noms, situations ou activités qui y sont décrits, ne servent qu'à encourager. Ils ne représentent pas de vrais utilisateurs et ne garantissent aucun résultat particulier, et les résultats varient d'une personne à l'autre."
+        ]
+      },
+      {
+        "heading": "Nutrition et plans de repas",
+        "paragraphs": [
+          "L'Application peut générer des objectifs de calories, des objectifs de macronutriments et des plans de repas suggérés à partir des informations que tu fournis. Ces contenus sont automatisés, de nature générale et fournis à titre informatif uniquement. Ce ne sont pas des conseils diététiques, nutritionnels ou médicaux, et ils ne remplacent pas l'avis d'un diététicien ou d'un médecin qualifié.",
+          "Les valeurs nutritionnelles et les mentions alimentaires (comme végétarien, végan, sans gluten ou les informations sur les allergènes) sont des estimations et peuvent être inexactes ou incomplètes. Si tu as une allergie ou une intolérance alimentaire ou un problème de santé, ne te fie pas à l'Application : vérifie toujours toi-même les ingrédients et les étiquettes et consulte un professionnel qualifié. Le Prestataire n'est pas responsable des réactions indésirables, pertes ou dommages résultant des suggestions de repas ou des informations nutritionnelles de l'Application."
+        ]
+      },
+      {
+        "heading": "Sécurité de l'appareil",
+        "paragraphs": [
+          "L'Application stocke et traite les données personnelles que tu as fournies au Prestataire afin de fournir le Service. Il t'appartient de maintenir la sécurité de ton téléphone et de l'accès à l'Application. Le Prestataire déconseille fortement de jailbreaker ou de rooter ton téléphone, ce qui consiste à supprimer les restrictions et limitations logicielles imposées par le système d'exploitation officiel de ton appareil. Ces actions peuvent exposer ton téléphone à des logiciels malveillants, des virus et des programmes nuisibles, compromettre ses fonctions de sécurité et empêcher l'Application de fonctionner correctement, voire de fonctionner du tout."
+        ]
+      },
+      {
+        "heading": "Analyse de la technique et clips enregistrés",
+        "paragraphs": [
+          "L'Application propose une fonction facultative de vérification de la technique qui enregistre un court clip et te donne un retour automatique sur ta technique d'exécution. Ce retour est généré automatiquement, est fourni à des fins d'information et d'entraînement générales uniquement, et ne constitue pas un avis médical, de kinésithérapie ou de coaching professionnel. Il peut être incomplet ou inexact, et il ne remplace pas les conseils d'un professionnel qualifié. Il t'appartient de t'entraîner en sécurité et de décider si un mouvement te convient. Le Prestataire n'est pas responsable des blessures, pertes ou dommages résultant de la confiance que tu accordes à cette fonction.",
+          "Si tu choisis de partager un clip enregistré, la responsabilité du contenu que tu partages t'incombe entièrement, tout comme le fait de vérifier que tu as le droit de le partager. Tu ne dois pas enregistrer ni partager de clips montrant d'autres personnes sans leur consentement, ni utiliser la fonction pour créer ou diffuser des contenus illicites, contrefaisants ou nuisibles. Une fois que tu partages un clip en dehors de l'Application, il est géré par le service ou le destinataire auquel tu l'envoies et n'est plus sous le contrôle du Prestataire."
+        ]
+      },
+      {
+        "heading": "Fonctionnalités bêta et expérimentales",
+        "paragraphs": [
+          "Le Prestataire peut proposer des fonctionnalités en version bêta, en avant-première ou à titre expérimental, et les signalera comme telles dans l'Application. Les fonctionnalités bêta sont fournies uniquement pour évaluation. Elles peuvent être incomplètes, produire des résultats inexacts, ne pas fonctionner sur tous les appareils, et être modifiées ou retirées à tout moment sans préavis.",
+          "Dans toute la mesure permise par le droit applicable, les fonctionnalités bêta sont fournies sans aucune garantie et utilisées à tes seuls risques. L'utilisation d'une fonctionnalité bêta est facultative, et les limites prévues dans la section Exclusion de garanties et limitation de responsabilité s'y appliquent pleinement."
+        ]
+      },
+      {
+        "heading": "Services tiers",
+        "paragraphs": [
+          "Note que l'Application utilise des services tiers qui ont leurs propres conditions d'utilisation. Ces services sont exploités indépendamment du Prestataire, qui ne les contrôle ni ne les cautionne et, dans toute la mesure permise par le droit applicable, n'est pas responsable de leur contenu, de leur disponibilité ni de leurs actes ou omissions. Ton utilisation d'un service tiers est régie par les propres conditions de ce fournisseur.",
+          "Voici les liens vers les conditions d'utilisation des prestataires tiers utilisés par l'Application :"
+        ],
+        "bullets": [
+          "https://policies.google.com/terms",
+          "https://firebase.google.com/terms/analytics",
+          "https://firebase.google.com/terms/crashlytics",
+          "https://expo.dev/terms",
+          "https://posthog.com/terms - analyse produit, enregistrements d'écran, rapports d'erreur et détection de bugs assistée par IA",
+          "https://sentry.io/terms/ - rapports de plantage et d'erreur",
+          "https://www.revenuecat.com/terms - gestion des abonnements",
+          "https://vercel.com/legal/terms - hébergement et analyse du Site",
+          "https://tally.so/help/terms-and-conditions - le formulaire d'avis du Site",
+          "https://www.apple.com/legal/internet-services/itunes/ - achats sur iOS",
+          "https://play.google.com/about/play-terms/ - achats sur Android"
+        ]
+      },
+      {
+        "heading": "Abonnements et offres payantes",
+        "paragraphs": [
+          "L'Application propose des abonnements à renouvellement automatique (\"Drillr Pro\") qui donnent accès à des fonctionnalités premium. Les conditions suivantes s'appliquent à tous les abonnements payants :"
+        ],
+        "bullets": [
+          "Les offres disponibles, leurs prix et leur durée sont affichés dans l'Application avant l'achat.",
+          "Le paiement est débité de ton identifiant Apple ou de ton compte Google Play à la confirmation de l'achat.",
+          "Les abonnements se renouvellent automatiquement à la fin de chaque période de facturation, sauf résiliation au moins 24 heures avant la fin de la période en cours.",
+          "Le renouvellement est débité de ton compte dans les 24 heures précédant la fin de la période en cours, au prix d'abonnement en vigueur au moment du renouvellement.",
+          "Tu peux gérer ou résilier ton abonnement à tout moment dans les réglages de ton identifiant Apple ou de ton compte Google Play, ou depuis l'Application sous Réglages > Offre actuelle, qui ouvre les mêmes réglages de la boutique. Désinstaller l'Application ne résilie pas un abonnement.",
+          "Aucun remboursement n'est accordé pour les périodes d'abonnement partielles, sauf disposition contraire de ces conditions. Les demandes de remboursement sont traitées directement par Apple ou Google selon leurs politiques respectives.",
+          "Toute partie non utilisée d'un essai gratuit est perdue lorsque tu achètes un abonnement.",
+          "Si le Prestataire modifie le prix d'un abonnement, on t'en informera à l'avance et tu auras la possibilité de résilier avant l'entrée en vigueur du nouveau prix."
+        ]
+      },
+      {
+        "heading": "Boutiques d'applications d'Apple et de Google",
+        "paragraphs": [
+          "Ces conditions sont conclues uniquement entre toi et le Prestataire, et non avec Apple Inc. ou Google LLC. Le Prestataire, et non Apple ou Google, est seul responsable de l'Application et de son contenu.",
+          "Apple et Google n'ont aucune obligation de fournir des services de maintenance ou d'assistance pour l'Application. Si l'Application ne respecte pas une garantie applicable, tu peux en informer Apple, et Apple te remboursera le prix d'achat de l'Application si tu l'as achetée sur l'App Store. Dans toute la mesure permise par le droit applicable, Apple n'a aucune autre obligation de garantie concernant l'Application.",
+          "Le Prestataire, et non Apple ou Google, est responsable du traitement de toute réclamation de ta part ou d'un tiers relative à l'Application ou à ta possession et ton utilisation de celle-ci, y compris les réclamations en responsabilité du fait des produits, toute réclamation selon laquelle l'Application ne respecte pas une exigence légale ou réglementaire applicable, les réclamations fondées sur la législation de protection des consommateurs ou une législation similaire, et toute réclamation selon laquelle l'Application porte atteinte aux droits de propriété intellectuelle d'un tiers.",
+          "Tu déclares ne pas te trouver dans un pays soumis à un embargo du gouvernement des États-Unis ou désigné comme soutenant le terrorisme, et ne figurer sur aucune liste de parties interdites ou restreintes du gouvernement des États-Unis.",
+          "Apple et ses filiales, ainsi que Google et ses sociétés affiliées, sont des tiers bénéficiaires de ces conditions et, dès ton acceptation de celles-ci, ont le droit de les faire valoir contre toi en tant que tiers bénéficiaires. Rien dans cette section ne limite tes droits envers le Prestataire ni tes droits impératifs en tant que consommateur."
+        ]
+      },
+      {
+        "heading": "Compte et résiliation",
+        "paragraphs": [
+          "Tu peux cesser d'utiliser le Service à tout moment. Tu peux supprimer définitivement ton compte et les données associées depuis l'Application, sous Réglages > Supprimer le compte, ou en écrivant au Prestataire à drillrapps@gmail.com. Supprimer ton compte ne résilie pas à lui seul un abonnement acheté via Apple ou Google ; tu dois le résilier séparément comme décrit ci-dessus.",
+          "Le Prestataire peut suspendre ou résilier ton accès au Service, en tout ou en partie, avec effet immédiat lorsqu'il existe des motifs graves. Constituent notamment des motifs graves : une violation importante ou répétée de ces conditions ; l'utilisation du Service à des fins illicites ou d'une manière qui porte atteinte aux droits d'autrui ; la fraude, la fraude au paiement ou l'abus d'essais gratuits, de remboursements ou de rétrofacturations ; une tentative d'accès non autorisé au Service ou aux données d'autres utilisateurs, ou toute autre atteinte à la sécurité ou au fonctionnement du Service ; la fourniture de fausses informations pour créer ou conserver un compte, y compris sur ton âge ; un comportement injurieux ou de harcèlement envers le Prestataire ou toute personne agissant pour son compte ; et toute utilisation qui expose le Prestataire à une responsabilité juridique ou à une exigence imposée par un tribunal, une autorité de régulation ou une boutique d'applications.",
+          "Lorsque c'est raisonnable et possible, le Prestataire t'indiquera la raison d'une suspension ou d'une résiliation et, si le problème peut être corrigé, te donnera d'abord la possibilité de le faire. La suspension sera privilégiée à la résiliation lorsqu'elle suffit à régler le problème. Si tu penses qu'une suspension ou une résiliation a été prononcée par erreur, tu peux la contester en écrivant à drillrapps@gmail.com, et le Prestataire réexaminera la décision et te répondra.",
+          "Le Prestataire peut aussi résilier ton compte sans motif moyennant un préavis d'au moins 30 jours. Si ton compte est résilié sans motif, ou pour une raison qui ne t'est pas imputable, on te remboursera au prorata de toute période d'abonnement déjà payée dont tu ne bénéficieras pas.",
+          "Lorsque le Prestataire résilie ton compte, tu disposeras d'une possibilité raisonnable de récupérer ou d'exporter tes données avant leur suppression, sauf si c'est impossible ou illicite. Quelle que soit la raison de la résiliation, tu conserves tes droits en matière de protection des données, y compris le droit de recevoir une copie de tes données personnelles, comme prévu dans la Politique de confidentialité.",
+          "En cas de résiliation, pour quelque raison que ce soit, les droits et licences qui t'ont été accordés en vertu de ces conditions prennent fin, et tu dois cesser d'utiliser l'Application et, si nécessaire, la supprimer de ton appareil. Tes données sont ensuite traitées comme décrit dans la Politique de confidentialité. Résilier ou supprimer ton compte ne résilie pas à lui seul un abonnement acheté via Apple ou Google. Si ton compte a été résilié pour motifs graves, le Prestataire peut refuser de te fournir à nouveau le Service et peut fermer tout autre compte que tu crées. Les dispositions de ces conditions qui, par leur nature, doivent survivre à la résiliation, y compris les exclusions de garantie, les limites de responsabilité, ta responsabilité pour les réclamations causées par ton comportement et les dispositions relatives au droit applicable, continuent de s'appliquer."
+        ]
+      },
+      {
+        "heading": "Conditions générales",
+        "paragraphs": [
+          "Note que le Prestataire n'assume pas la responsabilité de certains aspects. Certaines fonctions de l'Application nécessitent une connexion Internet active, en Wi-Fi ou fournie par ton opérateur mobile. Le Prestataire ne peut être tenu responsable si l'Application ne fonctionne pas pleinement faute d'accès au Wi-Fi ou parce que tu as épuisé ton forfait de données.",
+          "Si tu utilises l'Application hors d'une zone Wi-Fi, garde à l'esprit que les conditions de ton contrat avec ton opérateur mobile continuent de s'appliquer. Ton opérateur peut donc te facturer l'utilisation de données pendant la connexion à l'Application, ou d'autres frais de tiers. En utilisant l'Application, tu acceptes d'être responsable de ces frais, y compris les frais d'itinérance si tu utilises l'Application hors de ton territoire (c'est-à-dire ta région ou ton pays) sans désactiver l'itinérance des données. Si tu n'es pas la personne qui paie la facture de l'appareil sur lequel tu utilises l'Application, le Prestataire considère que tu as obtenu l'autorisation de cette personne.",
+          "De même, le Prestataire ne peut pas toujours être responsable de ton utilisation de l'Application. Par exemple, il t'appartient de veiller à ce que ton appareil reste chargé. Si ton appareil n'a plus de batterie et que tu ne peux pas accéder au Service, le Prestataire ne peut en être tenu responsable.",
+          "Bien que le Prestataire s'efforce de maintenir l'Application à jour et exacte en permanence, il dépend de tiers qui lui fournissent des informations pour pouvoir te les rendre accessibles. Le Prestataire décline toute responsabilité pour les pertes, directes ou indirectes, que tu subis du fait de t'en remettre entièrement à cette fonctionnalité de l'Application.",
+          "Le Prestataire peut souhaiter mettre à jour l'Application à un moment donné. L'Application est actuellement disponible selon les exigences du système d'exploitation, et les exigences des autres systèmes auxquels il pourrait décider d'étendre la disponibilité peuvent changer. Tu devras télécharger les mises à jour si tu veux continuer à utiliser l'Application. Le Prestataire ne garantit pas qu'il mettra toujours l'Application à jour pour qu'elle reste pertinente pour toi et/ou compatible avec la version du système d'exploitation installée sur ton appareil. Tu acceptes toutefois d'accepter toujours les mises à jour de l'Application lorsqu'elles te sont proposées. Le Prestataire peut aussi décider de cesser complètement de fournir l'Application, auquel cas la section Compte et résiliation ci-dessus s'applique.",
+          "Ton historique d'entraînement et tes autres données sont stockés sur ton appareil et chez les hébergeurs du Prestataire, et le Prestataire veille raisonnablement à ce qu'ils restent disponibles. Malgré tout, aucun service ne peut garantir l'absence de perte ou de corruption de données. Tu devrais conserver ta propre trace de toute information d'entraînement, de santé ou de mensurations qui compte pour toi, et ne pas considérer l'Application comme ta seule copie.",
+          "Le Prestataire n'est pas responsable de tout manquement ou retard dans la fourniture de l'Application ou du Site causé par des événements échappant à son contrôle raisonnable, notamment les pannes ou défaillances d'hébergeurs, de réseaux, de boutiques d'applications ou de prestataires de paiement, les coupures d'électricité ou d'Internet, les grèves, les actes des autorités, les phénomènes naturels, les épidémies ou les conflits armés."
+        ]
+      },
+      {
+        "heading": "Réclamations causées par ton comportement",
+        "paragraphs": [
+          "Si un tiers présente une réclamation contre le Prestataire en raison de quelque chose que tu as fait, tu acceptes d'en répondre dans la mesure où elle a été causée par toi. Cela couvre les réclamations découlant de ta violation de ces conditions, des contenus que tu enregistres, partages ou soumets via l'Application, et d'un comportement illicite de ta part ou d'une atteinte aux droits d'une autre personne. Répondre d'une réclamation signifie prendre en charge les dommages-intérêts, les sommes transactionnelles et les frais juridiques raisonnables que le Prestataire engage nécessairement et directement de ce fait.",
+          "Cette obligation ne s'applique que dans la mesure où la réclamation est imputable à ta propre faute. Elle ne s'applique pas à la partie d'une réclamation causée par un acte ou une omission du Prestataire, par un défaut de l'Application ou du Site, ou par une violation de ces conditions ou du droit applicable par le Prestataire. Elle ne s'applique pas du tout lorsque tu agis en tant que consommateur et que le droit applicable ne permet pas de te l'imposer, et elle ne va jamais au-delà de ce que permet le droit applicable.",
+          "Si une telle réclamation survient, le Prestataire t'en informera par écrit dans les meilleurs délais, ne transigera pas sans te consulter au préalable, te donnera une possibilité raisonnable de donner ton avis sur sa gestion et prendra des mesures raisonnables pour en limiter le coût. Rien dans cette section n'affecte tes droits impératifs en tant que consommateur. Cette section continue de s'appliquer après la fermeture de ton compte ou la fin de ces conditions, pour tout ce qui s'est produit pendant qu'elles étaient en vigueur."
+        ]
+      },
+      {
+        "heading": "Exclusion de garanties et limitation de responsabilité",
+        "paragraphs": [
+          "L'Application, le Site et le Service sont fournis \"EN L'ÉTAT\" et \"SELON DISPONIBILITÉ\", sans garantie d'aucune sorte, expresse ou implicite, y compris, sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier, de titre et d'absence de contrefaçon. Le Prestataire ne garantit pas que l'Application ou le Site seront ininterrompus, sans erreur ou sécurisés, qu'ils seront exempts de virus ou d'autres éléments nuisibles, que les défauts seront corrigés ni qu'un résultat ou objectif particulier sera atteint.",
+          "Le Prestataire ne fait aucune déclaration et n'offre aucune garantie quant à l'exactitude, la pertinence, la fiabilité, l'exhaustivité ou l'actualité des contenus, informations ou éléments mis à disposition via l'Application ou le Site. Tu utilises l'Application et le Site à tes seuls risques.",
+          "Dans toute la mesure permise par le droit applicable, ni le Prestataire ni ses sous-traitants, fournisseurs ou fournisseurs de contenu ne sauraient être tenus responsables des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, ni de toute perte de données, de bénéfices ou de clientèle, découlant de ton utilisation de l'Application ou du Site ou liés à celle-ci.",
+          "Dans toute la mesure permise par le droit applicable, la responsabilité totale cumulée du Prestataire et de ses sous-traitants, fournisseurs et fournisseurs de contenu pour toutes les réclamations découlant de l'Application, du Site ou de ces conditions ou liées à ceux-ci, qu'elle soit contractuelle, délictuelle ou autre, ne dépassera pas le plus élevé des montants suivants : (a) le montant total que tu as payé pour le Service au cours des douze mois précédant immédiatement l'événement à l'origine de la réclamation, ou (b) 50 EUR.",
+          "Rien dans ces conditions n'exclut ni ne limite une responsabilité qui ne peut être exclue ou limitée en vertu du droit applicable. Cela comprend la responsabilité en cas de décès ou de dommage corporel causé par négligence, la responsabilité en cas de fraude ou de déclaration frauduleuse, la responsabilité en cas de faute intentionnelle ou de négligence grave, et tes droits impératifs en tant que consommateur, y compris tes droits en vertu des lois de protection des consommateurs de ton pays de résidence.",
+          "Les exclusions et limites de cette section reflètent une répartition des risques convenue entre toi et le Prestataire, et sont prises en compte dans le prix du Service. Elles s'appliquent dans toute la mesure permise par le droit applicable, même si un recours limité est jugé avoir manqué à son objet essentiel, et survivent à toute résiliation de ces conditions ou suppression de ton compte."
+        ]
+      },
+      {
+        "heading": "Droit applicable et litiges",
+        "paragraphs": [
+          "Ces conditions sont régies par le droit polonais, sans égard à ses règles de conflit de lois. Si tu es consommateur, ce choix de loi ne te prive pas de la protection que t'accorde toute disposition impérative de la loi du pays où tu vis, quel qu'il soit, et rien dans ces conditions n'affecte ces droits.",
+          "En cas de problème, écris d'abord au Prestataire à drillrapps@gmail.com. La plupart des problèmes peuvent se régler ainsi. Le Prestataire répondra à une réclamation d'un consommateur dans les 30 jours suivant sa réception, comme l'exige le droit polonais. Rien ne t'oblige à passer par cette étape avant d'exercer tout autre recours, et le faire n'affecte aucun délai applicable à une réclamation que tu pourrais avoir.",
+          "Si un litige ne peut être réglé de cette façon, il peut être porté devant les tribunaux. Si tu es un consommateur résidant dans l'Union européenne, tu peux engager une action contre le Prestataire soit devant les tribunaux polonais, soit devant les tribunaux du pays où tu vis, et le Prestataire ne peut engager une action contre toi que devant les tribunaux du pays où tu vis. Si tu n'es pas consommateur, ou si tu vis hors de l'Union européenne, les tribunaux polonais sont compétents, sans préjudice de toute règle impérative de ton droit local prévoyant le contraire.",
+          "Le Prestataire n'est pas tenu de recourir à un organisme de règlement extrajudiciaire des litiges de consommation et ne s'y engage pas à l'avance, mais examinera de bonne foi toute demande en ce sens. Les consommateurs en Pologne peuvent obtenir une aide gratuite auprès d'un médiateur municipal ou de district des consommateurs (miejski lub powiatowy rzecznik konsumentów) ou de l'Inspection du commerce (Inspekcja Handlowa), qui mène des procédures de règlement extrajudiciaire des litiges de consommation. Les consommateurs ailleurs dans l'Union européenne peuvent obtenir une aide gratuite pour les litiges transfrontaliers auprès du Centre européen des consommateurs de leur propre pays.",
+          "Ces conditions sont publiées en anglais et en polonais ; cette version française est une traduction fournie à titre informatif. Si tu es un consommateur résidant en Pologne, la version polonaise prévaut. Dans tous les autres cas, en cas de divergence entre les versions, la version anglaise prévaut."
+        ]
+      },
+      {
+        "heading": "Cession",
+        "paragraphs": [
+          "Tu ne peux pas céder ni transférer ces conditions, ou ton compte, à quelqu'un d'autre sans l'accord écrit préalable du Prestataire.",
+          "Le Prestataire peut céder ou transférer ces conditions, ainsi que les droits et obligations qui en découlent, à une autre personne ou société, par exemple dans le cadre d'une fusion, d'une acquisition, d'une réorganisation ou de la vente de tout ou partie de l'activité Drillr ou de ses actifs. Dans ce cas, le repreneur prend la place du Prestataire en vertu de ces conditions sans modification, ton compte et tout abonnement se poursuivent aux mêmes conditions, et le transfert ne réduit aucun droit dont tu disposes en vertu de ces conditions ou du droit impératif de la consommation.",
+          "Le Prestataire t'en informera dans l'Application ou par e-mail avant que ce transfert ne prenne effet. Si tu ne souhaites pas continuer avec le nouveau fournisseur, tu peux cesser d'utiliser l'Application et supprimer ton compte à tout moment, et résilier ton abonnement via Apple ou Google comme décrit dans la section Abonnements et offres payantes ci-dessus. Tout transfert de tes données personnelles dans le cadre d'une telle opération est décrit dans la Politique de confidentialité."
+        ]
+      },
+      {
+        "heading": "Divisibilité",
+        "paragraphs": [
+          "Si une disposition de ces conditions est jugée invalide, illicite ou inapplicable par un tribunal ou une autre autorité compétente, elle est réputée modifiée dans la mesure minimale nécessaire pour la rendre valide et applicable ou, si cela n'est pas possible, retirée de ces conditions. Les autres dispositions restent pleinement en vigueur.",
+          "En particulier, si une exclusion ou limitation de responsabilité, ou une partie de celle-ci, est jugée inapplicable, les autres exclusions et limitations continuent de s'appliquer. Le fait que le Prestataire ne fasse pas valoir une disposition de ces conditions ne vaut pas renonciation à cette disposition ni à aucune autre."
+        ]
+      },
+      {
+        "heading": "Notifications",
+        "paragraphs": [
+          "Lorsque ces conditions imposent au Prestataire de t'informer, la notification est envoyée à l'adresse e-mail enregistrée sur ton compte, affichée dans l'Application, ou les deux, et est réputée donnée le jour de son envoi ou de son premier affichage. Il t'appartient de tenir à jour l'adresse e-mail de ton compte et de t'assurer que les messages du Prestataire ne sont pas bloqués ou filtrés.",
+          "Lorsque tu dois adresser une notification au Prestataire, y compris pour contester une suspension ou une résiliation, écris à drillrapps@gmail.com."
+        ]
+      },
+      {
+        "heading": "Modifications de ces Conditions d'utilisation",
+        "paragraphs": [
+          "Le Prestataire peut mettre à jour périodiquement ses Conditions d'utilisation. Il est donc conseillé de consulter régulièrement cette page. Le Prestataire t'informera de toute modification en publiant les nouvelles Conditions d'utilisation sur cette page."
+        ]
+      },
+      {
+        "heading": "Nous contacter",
+        "paragraphs": [
+          "Si tu as des questions ou des suggestions concernant les Conditions d'utilisation, n'hésite pas à contacter le Prestataire à drillrapps@gmail.com."
+        ]
+      }
+    ],
+    "crossLink": { "label": "Politique de confidentialité de Drillr", "href": "/privacy" }
+  }
+}
