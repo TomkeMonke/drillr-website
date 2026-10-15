@@ -26,6 +26,11 @@ export const OG_LOCALES: Record<Locale, string> = {
   id: "id_ID",
 };
 
+/** App screenshot for a language: English has no suffix, every other language "-<code>". */
+export function screenshotSrc(name: string, locale: Locale): string {
+  return `/screenshots/${name}${locale === "en" ? "" : `-${locale}`}.png`;
+}
+
 export function isLocale(value: string): value is Locale {
   return (LOCALES as readonly string[]).includes(value);
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
-import type { Locale } from "@/lib/locales";
+import { screenshotSrc, type Locale } from "@/lib/locales";
 import { DownloadBadges } from "../DownloadBadges";
 import { PhoneFrame } from "../PhoneFrame";
 import { TiltFrame } from "../animations/TiltFrame";
@@ -13,7 +13,7 @@ interface Props {
 }
 
 export function Hero({ dict, locale, rating }: Props) {
-  const dayDetailScreenshot = locale === "pl" ? "/screenshots/day-detail-v2-pl.png" : "/screenshots/day-detail-v2.png";
+  const dayDetailScreenshot = screenshotSrc("day-detail-v2", locale);
   return (
     <section className="relative overflow-hidden">
       <HeroAurora />

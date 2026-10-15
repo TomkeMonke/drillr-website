@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
-import type { Locale } from "@/lib/locales";
+import { screenshotSrc, type Locale } from "@/lib/locales";
 import { PhoneFrame } from "../PhoneFrame";
 import { Reveal } from "../animations/Reveal";
 import { TiltFrame } from "../animations/TiltFrame";
@@ -11,7 +11,7 @@ interface Props {
 }
 
 export function Features({ dict, locale }: Props) {
-  const positionScreenshot = locale === "pl" ? "/screenshots/position-v2-pl.png" : "/screenshots/position-v2.png";
+  const positionScreenshot = screenshotSrc("position-v2", locale);
   return (
     <section className="py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">

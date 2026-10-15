@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import type { Dictionary } from "@/app/[locale]/dictionaries";
-import type { Locale } from "@/lib/locales";
+import { screenshotSrc, type Locale } from "@/lib/locales";
 
 interface Props {
   dict: Dictionary;
@@ -12,22 +12,10 @@ interface Props {
 
 const ACCENTS = ["#5B9FD6", "#E8A44A", "#8BD17C"];
 
-// Languages without their own captures fall back to the English set.
-const SCREENSHOTS_BY_LOCALE: Partial<Record<Locale, string[]>> = {
-  en: [
-    "/screenshots/story-01-position-pick.png",
-    "/screenshots/story-02-train.png",
-    "/screenshots/story-03-progress.png",
-  ],
-  pl: [
-    "/screenshots/story-01-position-pick-pl.png",
-    "/screenshots/story-02-train-pl.png",
-    "/screenshots/story-03-progress-pl.png",
-  ],
-};
+const STORY_SHOTS = ["story-01-position-pick", "story-02-train", "story-03-progress"];
 
 export function StickyStory({ dict, locale }: Props) {
-  const SCREENSHOTS = SCREENSHOTS_BY_LOCALE[locale] ?? SCREENSHOTS_BY_LOCALE.en!;
+  const SCREENSHOTS = STORY_SHOTS.map((name) => screenshotSrc(name, locale));
   const steps = dict.story.steps;
   const [active, setActive] = useState(0);
   const refs = useRef<(HTMLDivElement | null)[]>([]);
