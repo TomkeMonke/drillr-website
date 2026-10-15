@@ -6,11 +6,16 @@ import { pageMetadata } from "@/lib/metadata";
 import { getDictionary } from "../dictionaries";
 import { PageHeader } from "@/components/PageHeader";
 
-// Only English and Polish have their own Tally form; every other language
-// gets the English one under a translated page header.
-const TALLY_FORM_ID: Partial<Record<Locale, string>> & { en: string } = {
+// One Tally form per language, each with Tally's own UI set to that language.
+const TALLY_FORM_ID: Record<Locale, string> = {
   en: "BzQeRR",
   pl: "2EJR8L",
+  es: "gbjGdP",
+  de: "q5ZVDO",
+  fr: "yXZY28",
+  it: "X5l0JP",
+  pt: "8Noxal",
+  id: "0VrOB9",
 };
 
 export async function generateMetadata({
@@ -31,7 +36,7 @@ export default async function FeedbackPage({ params }: PageProps<"/[locale]/feed
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
   const t = dict.feedback;
-  const formId = TALLY_FORM_ID[locale] ?? TALLY_FORM_ID.en;
+  const formId = TALLY_FORM_ID[locale];
 
   return (
     <section className="mx-auto max-w-3xl px-5 lg:px-8 py-20 lg:py-28">
