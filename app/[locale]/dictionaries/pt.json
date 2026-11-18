@@ -21,17 +21,17 @@
     "screenshotAlt": "Tela do app Drillr"
   },
   "hero": {
-    "badge": "Escolhido por 3600+ jogadores · nota {rating}",
+    "badge": "Escolhido por 4500+ jogadores · nota {rating}",
     "titleLine1": "Cada posição",
     "titleLine2": "treina diferente.",
     "subtitle": "Drillr é o app de preparação física de futebol feito em torno da posição em que você realmente joga. Em casa ou na academia, ajustado à sua função, ao seu nível e ao tempo que você tem.",
     "downloadCta": "Baixar"
   },
   "usedBy": {
-    "title": "3600+ jogadores treinam com a gente",
+    "title": "4500+ jogadores treinam com a gente",
     "subtitle": "Do sub-14 ao semiprofissional, em mais de 80 países, todos os dias.",
     "stats": [
-      { "value": "3600+", "label": "Jogadores ativos" },
+      { "value": "4500+", "label": "Jogadores ativos" },
       { "value": "80+", "label": "Países" },
       { "value": "{rating}★", "label": "Nota média" },
       { "value": "10K+", "label": "Exercícios concluídos" }

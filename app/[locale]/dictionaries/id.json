@@ -21,17 +21,17 @@
     "screenshotAlt": "Layar aplikasi Drillr"
   },
   "hero": {
-    "badge": "Disukai 3600+ pemain · rating {rating}",
+    "badge": "Disukai 4500+ pemain · rating {rating}",
     "titleLine1": "Setiap posisi",
     "titleLine2": "berlatih berbeda.",
     "subtitle": "Drillr adalah aplikasi latihan fisik sepak bola yang dibangun di sekitar posisi yang benar-benar kamu mainkan. Di rumah atau di gym, disesuaikan dengan peranmu, levelmu, dan waktu yang kamu punya.",
     "downloadCta": "Unduh"
   },
   "usedBy": {
-    "title": "3600+ pemain berlatih bersama kami",
+    "title": "4500+ pemain berlatih bersama kami",
     "subtitle": "Dari U14 sampai semi-pro, di lebih dari 80 negara, setiap hari.",
     "stats": [
-      { "value": "3600+", "label": "Pemain aktif" },
+      { "value": "4500+", "label": "Pemain aktif" },
       { "value": "80+", "label": "Negara" },
       { "value": "{rating}★", "label": "Rating rata-rata" },
       { "value": "10K+", "label": "Latihan diselesaikan" }

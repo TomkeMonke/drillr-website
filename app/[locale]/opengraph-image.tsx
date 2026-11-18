@@ -41,6 +41,10 @@ const COPY = {
     headline: "Setiap posisi\nberlatih berbeda.",
     sub: "Latihan fisik sepak bola untuk posisimu. Di rumah atau di gym.",
   },
+  tr: {
+    headline: "Her pozisyon\nfarklı çalışır.",
+    sub: "Pozisyonuna göre futbol kondisyonu. Evde ya da salonda.",
+  },
 } as const;
 
 export default async function Image({

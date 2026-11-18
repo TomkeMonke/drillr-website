@@ -1,4 +1,4 @@
-export const LOCALES = ["en", "pl", "es", "de", "fr", "it", "pt", "id"] as const;
+export const LOCALES = ["en", "pl", "es", "de", "fr", "it", "pt", "id", "tr"] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = "en";
 
@@ -12,6 +12,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   it: "Italiano",
   pt: "Português",
   id: "Bahasa Indonesia",
+  tr: "Türkçe",
 };
 
 /** Open Graph locale per language. pt is Brazilian Portuguese, same as the app. */
@@ -24,11 +25,16 @@ export const OG_LOCALES: Record<Locale, string> = {
   it: "it_IT",
   pt: "pt_BR",
   id: "id_ID",
+  tr: "tr_TR",
 };
+
+/** Languages without their own captures in public/screenshots yet; they show the English set. */
+const NO_SCREENSHOTS: readonly Locale[] = ["tr"];
 
 /** App screenshot for a language: English has no suffix, every other language "-<code>". */
 export function screenshotSrc(name: string, locale: Locale): string {
-  return `/screenshots/${name}${locale === "en" ? "" : `-${locale}`}.png`;
+  const shown = NO_SCREENSHOTS.includes(locale) ? "en" : locale;
+  return `/screenshots/${name}${shown === "en" ? "" : `-${shown}`}.png`;
 }
 
 export function isLocale(value: string): value is Locale {

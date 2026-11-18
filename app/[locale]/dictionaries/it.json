@@ -21,17 +21,17 @@
     "screenshotAlt": "Schermata dell'app Drillr"
   },
   "hero": {
-    "badge": "Scelta da 3600+ giocatori · valutazione {rating}",
+    "badge": "Scelta da 4500+ giocatori · valutazione {rating}",
     "titleLine1": "Ogni ruolo",
     "titleLine2": "si allena in modo diverso.",
     "subtitle": "Drillr è l'app di preparazione atletica per il calcio costruita sul ruolo in cui giochi davvero. A casa o in palestra, adattata al tuo ruolo, al tuo livello e al tempo che hai.",
     "downloadCta": "Scarica"
   },
   "usedBy": {
-    "title": "3600+ giocatori si allenano con noi",
+    "title": "4500+ giocatori si allenano con noi",
     "subtitle": "Dall'Under 14 ai semiprofessionisti, in oltre 80 paesi, ogni singolo giorno.",
     "stats": [
-      { "value": "3600+", "label": "Giocatori attivi" },
+      { "value": "4500+", "label": "Giocatori attivi" },
       { "value": "80+", "label": "Paesi" },
       { "value": "{rating}★", "label": "Valutazione media" },
       { "value": "10K+", "label": "Esercizi completati" }

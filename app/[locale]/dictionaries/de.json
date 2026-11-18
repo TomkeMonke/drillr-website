@@ -21,17 +21,17 @@
     "screenshotAlt": "Screenshot der Drillr-App"
   },
   "hero": {
-    "badge": "Beliebt bei 3600+ Spielern · {rating} Bewertung",
+    "badge": "Beliebt bei 4500+ Spielern · {rating} Bewertung",
     "titleLine1": "Jede Position",
     "titleLine2": "trainiert anders.",
     "subtitle": "Drillr ist die Fußball-Fitness-App, die um die Position gebaut ist, die du wirklich spielst. Zu Hause oder im Gym, zugeschnitten auf deine Rolle, dein Level und deine Zeit.",
     "downloadCta": "Download"
   },
   "usedBy": {
-    "title": "3600+ Spieler trainieren mit uns",
+    "title": "4500+ Spieler trainieren mit uns",
     "subtitle": "Von der U14 bis zum Halbprofi, in über 80 Ländern, jeden einzelnen Tag.",
     "stats": [
-      { "value": "3600+", "label": "Aktive Spieler" },
+      { "value": "4500+", "label": "Aktive Spieler" },
       { "value": "80+", "label": "Länder" },
       { "value": "{rating}★", "label": "Durchschnittliche Bewertung" },
       { "value": "10K+", "label": "Absolvierte Übungen" }

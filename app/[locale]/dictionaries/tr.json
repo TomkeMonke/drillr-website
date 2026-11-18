@@ -1,0 +1,826 @@
+{
+  "meta": {
+    "title": "Drillr - pozisyonuna göre futbol kondisyon antrenmanı",
+    "description": "Gerçekten oynadığın pozisyon için kurulmuş futbol kondisyonu. Evde ya da salonda, rolüne, seviyene ve ayırabildiğin süreye göre şekillenen tek bir plan."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "faq": "SSS",
+    "press": "Basın",
+    "manageSubscription": "Aboneliği yönet",
+    "feedback": "Geri bildirim",
+    "support": "Destek",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "common": {
+    "downloadAppStore": "App Store'dan indir",
+    "downloadGooglePlay": "Google Play'den edinin",
+    "appStoreKicker": "Şuradan indir:",
+    "googlePlayKicker": "ŞURADAN EDİNİN",
+    "screenshotAlt": "Drillr uygulama ekranı"
+  },
+  "hero": {
+    "badge": "4500+ oyuncu seviyor · Puan: {rating}",
+    "titleLine1": "Her pozisyon",
+    "titleLine2": "farklı çalışır.",
+    "subtitle": "Drillr, gerçekten oynadığın pozisyona göre kurulmuş futbol kondisyon uygulaması. Evde ya da salonda; rolüne, seviyene ve ayırabildiğin süreye göre şekillenir.",
+    "downloadCta": "İndir"
+  },
+  "usedBy": {
+    "title": "4500+ oyuncu bizimle çalışıyor",
+    "subtitle": "U14'ten yarı profesyonele, 80+ ülkede, her gün.",
+    "stats": [
+      { "value": "4500+", "label": "Aktif oyuncu" },
+      { "value": "80+", "label": "Ülke" },
+      { "value": "{rating}★", "label": "Ortalama puan" },
+      { "value": "10K+", "label": "Tamamlanan egzersiz" }
+    ]
+  },
+  "story": {
+    "eyebrow": "Nasıl çalışır",
+    "title": "Üç adım. Bu kadar.",
+    "steps": [
+      {
+        "eyebrow": "Adım 01",
+        "title": "Pozisyonunu seç",
+        "body": "Forvet, kanat, kaleci, ne oynarsan oyna, planı rolünün senden gerçekten istediklerine göre kuruyoruz."
+      },
+      {
+        "eyebrow": "Adım 02",
+        "title": "Her gün çalış",
+        "body": "Kısa ve dürüst antrenmanlar. 25-45 dakika oyununu değiştirmeye yeter, Drillr da senin yerine sayar."
+      },
+      {
+        "eyebrow": "Adım 03",
+        "title": "Gelişimini izle",
+        "body": "Seriler, istatistikler, küçük kilometre taşları. Günleri art arda dizmeye başlayınca bırakmak zorlaşıyor."
+      }
+    ]
+  },
+  "features": {
+    "title": "Drillr'da neler var",
+    "items": [
+      {
+        "title": "Pozisyonuna göre kurulmuş antrenmanlar",
+        "body": "Kaleci, defans, orta saha, forvet. Her egzersiz pozisyonunun gerçekten istediklerine göre seçilir."
+      },
+      {
+        "title": "Haftana uyan bir takvim",
+        "body": "Antrenman günlerin, salon imkânın ve deneyim seviyen plana girer. Plan senin hayatına uyar, tersi değil."
+      },
+      {
+        "title": "Her şey için video",
+        "body": "Her hareket için net talimatlar, setler, tekrarlar ve kısa bir video. Bir hareketin nasıl görünmesi gerektiğini asla tahmin etmek zorunda kalmazsın."
+      },
+      {
+        "title": "Oyununa uyan esneme",
+        "body": "Sıradan bir soğuma değil, sahada gerçekten kullandığın kaslara yönelik mobilite çalışması."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Oyuncular ne diyor",
+    "items": [
+      {
+        "name": "Alex M.",
+        "role": "U17 orta saha",
+        "quote": "Açıkçası pek bir şey beklemiyordum ama bir ay sonra hocam pozisyon almamın çok daha iyi olduğunu söyledi. Dayanıklılığım da artık inanılmaz."
+      },
+      {
+        "name": "Sara K.",
+        "role": "U16 defans",
+        "quote": "Arkadaşım uygulamayı gösterdi, artık her gün kullanıyorum. Antrenmanlar pozisyonum için gerçekten mantıklı."
+      },
+      {
+        "name": "Daniel R.",
+        "role": "Yarı profesyonel forvet",
+        "quote": "Beni bağlayan şey pozisyona özel çalışmalar oldu. Her antrenman benim oyunum için yapılmış gibi."
+      },
+      {
+        "name": "Jakub W.",
+        "role": "U19 kaleci",
+        "quote": "Uygulamalarda kaleciye özel çalışma nadir. Drillr bunu tam tutturuyor. Reflekslerim de ayak çalışmam da gelişti."
+      },
+      {
+        "name": "Maya L.",
+        "role": "Akademi orta saha",
+        "quote": "Takvime bayılıyorum - bir günü kaçırınca beni suçlu hissettirmek yerine uyum sağlıyor."
+      },
+      {
+        "name": "Tomasz B.",
+        "role": "Amatör lig defans",
+        "quote": "Günde 30 dakika, haftada 4 gün, ve pazar maçlarında bambaşka bir oyuncu gibi hissediyorum."
+      }
+    ]
+  },
+  "positionPicker": {
+    "badge": "Yerini seç",
+    "title": "Hangi pozisyonda oynuyorsun?",
+    "subtitle": "Drillr'ın o pozisyon için ne yaptığını görmek için bir pozisyona dokun.",
+    "focusBreakdown": "Odak dağılımı",
+    "sampleDrills": "Örnek egzersizler",
+    "viewPlan": "Tüm planı gör",
+    "categoryLabels": {
+      "strength": "Güç",
+      "cardio": "Kondisyon",
+      "agility": "Çeviklik",
+      "flexibility": "Esneklik"
+    }
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "subtitle": "Drillr hakkında bilmen gereken her şey",
+    "items": [
+      {
+        "q": "Ekipmana ihtiyacım var mı?",
+        "a": "Hayır. Drillr elindekine uyum sağlar. Başlangıçta salona erişimin olup olmadığını söyle, planını buna göre kuralım - halter, dambıl, makineler ya da sadece vücut ağırlığı."
+      },
+      {
+        "q": "Günde ne kadar zaman gerekiyor?",
+        "a": "Çoğu antrenman 25-45 dakika sürer. Başlangıçta seçtiğin hedefe göre haftada 3, 5 ya da 6 gün çalışabilirsin."
+      },
+      {
+        "q": "Ücretsiz bir sürüm var mı?",
+        "a": "Evet. Başlangıç adımlarını tamamlayıp planından bir örneği ücretsiz deneyebilirsin. Tüm haftalık plan ve diğer egzersizler abonelikle açılır."
+      },
+      {
+        "q": "Drillr 13 yaş altı için güvenli mi?",
+        "a": "Drillr 13 yaş ve üzeri için yapıldı. Daha küçük oyuncular bir antrenör ya da ebeveyn gözetiminde çalışmalı."
+      },
+      {
+        "q": "Yeni başlıyorum - bu bana fazla mı ağır?",
+        "a": "Drillr seni olduğun yerden alır. Seviyeni başlangıçta belirlersin, plan da hacmi ve zorluğu buna göre ayarlar. İlk kez antrenman yapan biri, haftada beş gün kulüpte oynayan birinden farklı bir hafta alır."
+      },
+      {
+        "q": "Birden fazla pozisyonda oynuyorsam?",
+        "a": "En sık oynadığını seç. Ayarlardan pozisyonunu istediğin zaman değiştirebilirsin, planın yeni pozisyona göre yeniden kurulur."
+      },
+      {
+        "q": "Drillr'ı hocamın programıyla birlikte kullanabilir miyim?",
+        "a": "Evet, birçok oyuncu böyle yapıyor. Drillr takım antrenmanının yerine geçmek için değil, yanında durmak için var. Çok yorgun hissetmeye başlarsan haftalık hacmini azalt."
+      },
+      {
+        "q": "Aboneliğimi nasıl iptal ederim?",
+        "a": "Cihazının abonelik ayarlarından ya da webden kaydolduysan Aboneliği yönet sayfamızdan istediğin zaman iptal edebilirsin."
+      }
+    ]
+  },
+  "coachesCta": {
+    "eyebrow": "Antrenörler ve akademiler için",
+    "title": "Bir takım mı çalıştırıyorsun, bir akademi mi yönetiyorsun?",
+    "body": "Takım planları, grup panelleri ve akademi iş birlikleri üzerinde çalışıyoruz. Bize yaz, sana dönelim.",
+    "cta": "İletişime geç"
+  },
+  "finalCta": {
+    "title": "Pozisyonun için çalışmaya başla",
+    "body": "Pozisyonunu seç, planından bir örneği ücretsiz dene ve rolüne göre kurulmuş bir haftanın nasıl hissettirdiğini gör.",
+    "note": "Denemesi ücretsiz. iOS ve Android."
+  },
+  "positions": {
+    "indexTitle": "Pozisyona göre çalış",
+    "indexSubtitle": "Her Drillr planı, pozisyonunun gerçekten istediklerine göre şekillenir.",
+    "downloadCta": "Drillr'ı indir: ",
+    "weekTitle": "Tipik bir hafta",
+    "drillsTitle": "Antrenmanların nasıl görünür",
+    "strengthsTitle": "Senin avantajın",
+    "weaknessTitle": "Neyi düzelteceğiz",
+    "goalkeeper": {
+      "name": "Kaleci",
+      "codes": "GK",
+      "tagline": "Refleks. Pozisyon. Hâkimiyet.",
+      "description": "İyi kalecileri refleks ve pozisyon alma yapar. Drillr ikisini de refleks çalışması, yana hareket ve core stabilitesiyle keskinleştirir - çoğu uygulamanın atladığı şeyler.",
+      "strengths": "Drillr, iyi kaleciyi harika kaleciden ayıran patlayıcı yana hareketi, refleks hızını ve core stabilitesini geliştirir.",
+      "weaknesses": "Çoğu kaleci yana mobiliteyi ve alt vücut gücünü sessizce atlar. Biz izin vermeyiz.",
+      "drills": [
+        { "name": "Refleks topu çalışması", "spec": "3 × 60 sn" },
+        { "name": "Bantla yana yürüyüş", "spec": "4 × 12" },
+        { "name": "Tek bacak squat", "spec": "Her taraf 3 × 8" },
+        { "name": "Uzanmalı plank", "spec": "3 × 45 sn" }
+      ],
+      "week": [
+        { "day": "Pzt", "session": "Alt vücut gücü" },
+        { "day": "Sal", "session": "Refleks ve ayak çalışması" },
+        { "day": "Çar", "session": "Core ve denge" },
+        { "day": "Per", "session": "Toparlanma ve esneme" },
+        { "day": "Cum", "session": "Pliometri ve patlayıcılık" }
+      ]
+    },
+    "defender": {
+      "name": "Defans",
+      "codes": "CB · LB · RB",
+      "tagline": "Her ikili mücadeleyi kazan.",
+      "description": "Hava toplarını kazanmak, temiz müdahaleler, hızlı geri koşular - hepsi salonda başlar. Drillr, ikili mücadeleleri ve hat düzenini taşıyan gücü ve dayanıklılığı geliştirir.",
+      "strengths": "Hava topu ve müdahale gücü salonda başlar. Drillr ikisini de çalıştırır, üstüne çoğu defansın sessizce atladığı çevikliği de.",
+      "weaknesses": "Defans oyuncuları çevikliği sık atlar - hızlı ayaklar da gol kurtarır. Seninkini keskin tutuyoruz.",
+      "drills": [
+        { "name": "Halterle squat", "spec": "4 × 6" },
+        { "name": "Kutu atlama", "spec": "4 × 5" },
+        { "name": "Mountain climber", "spec": "4 × 30 sn" },
+        { "name": "Russian twist", "spec": "3 × 20" }
+      ],
+      "week": [
+        { "day": "Pzt", "session": "Ağır güç" },
+        { "day": "Sal", "session": "Pliometri" },
+        { "day": "Çar", "session": "Kondisyon interval" },
+        { "day": "Per", "session": "Çeviklik ve ayak çalışması" },
+        { "day": "Cum", "session": "Core ve mobilite" }
+      ]
+    },
+    "midfielder": {
+      "name": "Orta saha",
+      "codes": "CDM · CM · CAM · LM · RM",
+      "tagline": "90 dakika oyunu yönet.",
+      "description": "İki ceza sahası arasında koşmak her şeyi ister. Drillr, orta sahayı ilk düdükten son düdüğe kadar yönetmen için gereken motoru, çevikliği ve mobiliteyi geliştirir.",
+      "strengths": "İki ceza sahası arasında koşmak her şeyi ister. Drillr seni 90 dakikanın tamamına hazırlar.",
+      "weaknesses": "Mobiliteyi atlayan merkez orta sahalar maçın sonlarında daha çok sakatlanır. Drillr buna göz yummaz.",
+      "drills": [
+        { "name": "Interval sprint", "spec": "8 × 200 m" },
+        { "name": "Yürüyerek lunge", "spec": "Her taraf 3 × 12" },
+        { "name": "Burpee", "spec": "4 × 10" },
+        { "name": "Plank", "spec": "3 × 60 sn" }
+      ],
+      "week": [
+        { "day": "Pzt", "session": "Dayanıklılık temeli" },
+        { "day": "Sal", "session": "Güç" },
+        { "day": "Çar", "session": "Sprint interval" },
+        { "day": "Per", "session": "Çeviklik ve dönüşler" },
+        { "day": "Cum", "session": "Mobilite ve toparlanma" }
+      ]
+    },
+    "forward": {
+      "name": "Forvet",
+      "codes": "ST · CF · LW · RW",
+      "tagline": "Daha hızlı koş. Daha yükseğe zıpla. Daha çok gol at.",
+      "description": "Patlayıcı ivmelenme ve keskin yön değiştirme senin avantajın. Drillr, seni savunmanın arkasına taşıyan hızı, gücü ve çevikliği çalıştırır; oraya vardığında defansı uzak tutacak gücü de.",
+      "strengths": "Patlayıcı ivmelenme ve keskin yön değiştirme senin avantajın. Drillr bunları her hafta çalıştırır.",
+      "weaknesses": "Gücü atlayan forvetler çizgi kenarındaki mücadeleleri kaybeder. Senin kaybetmemeni sağlıyoruz.",
+      "drills": [
+        { "name": "Derinlik atlaması", "spec": "4 × 5" },
+        { "name": "Zıplamalı squat", "spec": "4 × 8" },
+        { "name": "Çeviklik merdiveni çalışması", "spec": "5 set" },
+        { "name": "Baldır kaldırma", "spec": "3 × 15" }
+      ],
+      "week": [
+        { "day": "Pzt", "session": "Patlayıcı alt vücut" },
+        { "day": "Sal", "session": "Sprint tekniği" },
+        { "day": "Çar", "session": "Çeviklik ve bitiricilik" },
+        { "day": "Per", "session": "Üst vücut gücü" },
+        { "day": "Cum", "session": "Pliometri ve mobilite" }
+      ]
+    }
+  },
+  "footer": {
+    "download": "Drillr'ı indir",
+    "legal": "Yasal",
+    "company": "Şirket",
+    "training": "Antrenman",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım koşulları",
+    "deleteAccount": "Hesabı sil",
+    "faq": "SSS",
+    "press": "Basın",
+    "manageSubscription": "Aboneliği yönet",
+    "feedback": "Geri bildirim",
+    "support": "Destek",
+    "copyright": "© 2026 Drillr. Tüm hakları saklıdır."
+  },
+  "feedback": {
+    "title": "Geri bildirim gönder",
+    "subtitle": "Bir hata mı buldun, bir fikrin mi var, ya da bir özellik mi istiyorsun? Bize anlat. Her mesajı okuyoruz.",
+    "loading": "Geri bildirim formu yükleniyor…"
+  },
+  "press": {
+    "title": "Basın",
+    "subtitle": "Medya soruları, röportaj talepleri ve basın bültenleri için bize doğrudan e-postayla ulaş.",
+    "contactLabel": "Basın soruları"
+  },
+  "manageSubscription": {
+    "title": "Aboneliği yönet",
+    "body": "Abonelikler App Store ya da Google Play üzerinden ücretlendirilir. Mağazana ait bağlantıyı kullanarak cihazından istediğin zaman yönetebilir ya da iptal edebilirsin.",
+    "appleHelp": "Apple'da yönet",
+    "googleHelp": "Google'da yönet"
+  },
+  "support": {
+    "title": "Yardım ve destek",
+    "subtitle": "Sorular, hatalar, ödeme ya da hesap yardımı - buradayız. Bize doğrudan yaz, çözelim.",
+    "emailLabel": "E-posta desteği",
+    "responseTime": "Genellikle 1-2 iş günü içinde yanıt veriyoruz.",
+    "feedbackTitle": "Geri bildirim gönder",
+    "feedbackBody": "Bir hata bildir ya da özellik iste.",
+    "subscriptionTitle": "Aboneliği yönet",
+    "subscriptionBody": "Güncelle, iptal et ya da ödeme yardımı al.",
+    "faqTitle": "Sık sorulanlar",
+    "faq": [
+      {
+        "q": "Aboneliğimi nasıl iptal ederim?",
+        "a": "Abonelikler App Store ya da Google Play tarafından ücretlendirilir, bu yüzden iptali cihazının mağaza ayarlarından yaparsın. Aboneliği yönet sayfasında her iki mağaza için doğrudan bağlantılar var."
+      },
+      {
+        "q": "Para iadesi alabilir miyim?",
+        "a": "İadeler bizim tarafımızdan değil, Apple ve Google tarafından yapılır. App Store ya da Google Play üzerinden talep et; yardıma ihtiyacın olursa bize e-posta at."
+      },
+      {
+        "q": "Hesabımı ya da verilerimi nasıl silerim?",
+        "a": "Uygulamada Ayarlar > Hesabı sil'i aç - bu, profilini ve tüm antrenman verilerini hemen siler. Hesabına giremiyorsan, hesabına bağlı adresten bize e-posta at, senin için silelim. Neleri sakladığımız gizlilik politikamızda listelenmiştir."
+      },
+      {
+        "q": "Bir hata buldum. Ne yapmalıyım?",
+        "a": "Ayrıntıları geri bildirim formuyla ya da e-postayla gönder - ekran görüntüleri ve cihaz modelin hatayı daha hızlı düzeltmemize yardımcı olur."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Hesabını sil",
+    "lastUpdated": "Yürürlük tarihi: 2026-07-31",
+    "tocLabel": "İçindekiler",
+    "intro": "Bu sayfa, Drillr hesabını nasıl sileceğini ve sildiğinde verilerine ne olduğunu açıklar. Drillr, Tomasz Święcki tarafından geliştirilmektedir. Hesabını birkaç saniyede uygulamanın içinden kendin silebilir ya da e-postayla bizden silmemizi isteyebilirsin. Bu çeviri yalnızca bilgilendirme amaçlıdır; İngilizce sürümden farklıysa İngilizce sürüm geçerlidir.",
+    "sections": [
+      {
+        "heading": "Hesabını uygulamanın içinden sil",
+        "paragraphs": [
+          "Bu en hızlı yoldur ve hemen geçerli olur. Bizimle iletişime geçmen gerekmez."
+        ],
+        "bullets": [
+          "Drillr'ı aç ve Ayarlar sekmesine git",
+          "Hesap bölümüne kadar kaydır",
+          "O bölümün son satırı olan Hesabı sil'e dokun",
+          "Sorulduğunda onayla - bu işlem geri alınamaz"
+        ]
+      },
+      {
+        "heading": "Hesabını e-postayla sil",
+        "paragraphs": [
+          "Giriş yapamıyorsan ya da bunu bizim yapmamızı tercih ediyorsan, hesabının kayıtlı olduğu adresten \"Account Deletion Request\" konulu bir e-postayı drillrapps@gmail.com adresine gönder. Hesabın sana ait olduğunu doğrulayabilmemiz için mesajın kayıtlı adresten gelmesi gerekir.",
+          "Bu talepleri 30 gün içinde, genellikle de birkaç iş günü içinde yerine getiririz. İşlem tamamlandığında e-postayla onaylarız."
+        ]
+      },
+      {
+        "heading": "Neler silinir",
+        "paragraphs": [
+          "Hesabını silmek aşağıdakileri kalıcı olarak kaldırır. Bunların hiçbiri sonradan ne senin ne de bizim tarafımızdan geri getirilebilir."
+        ],
+        "bullets": [
+          "Profilin - adın, e-posta adresin, pozisyonun, boyun, kilon, doğum günün ve cinsiyetin",
+          "Tüm antrenman geçmişin - tamamlanan her egzersiz, antrenman ve tarih",
+          "Kaydettiğin ağırlıklar ve kilo geçmişin",
+          "Efor ve hazır olma kayıtların ile maç değerlendirmelerin",
+          "Kullanıcı adın; yeniden kullanılabilmesi için serbest bırakılır",
+          "Giriş bilgilerin; böylece hesaba artık giriş yapılamaz",
+          "Cihazında yerel olarak saklanan tüm Drillr verileri"
+        ]
+      },
+      {
+        "heading": "Neler saklanır ve ne kadar süreyle",
+        "paragraphs": [
+          "Aşağıda belirtilen nedenlerle az miktarda bilgi hesap silindikten sonra da kalır. Bunların hiçbiri giriş yapmak için kullanılamaz ve hiçbiri uygulama içinde seni tanımlamaz.",
+          "Analiz kayıtlarının da silinmesini istiyorsan, e-postanda bunu belirt, onları da kaldıralım. Silme işleminin bunu kapsadığını varsaymak yerine doğrudan bize sor."
+        ],
+        "bullets": [
+          "Apple, Google ve ödeme sağlayıcımız RevenueCat tarafından tutulan satın alma ve abonelik kayıtları. Bunlar vergi ve muhasebe amacıyla saklamamız gereken işlem kayıtlarıdır ve senin adına silemeyiz",
+          "Takma adlı ürün analizleri - hangi ekranların açıldığı ve hangi özelliklerin kullanıldığı; adına ya da e-postana değil, rastgele bir kimliğe bağlıdır",
+          "Senin hakkında değil, uygulama hakkında teşhis bilgisi içeren çökme ve hata raporları",
+          "Bize bir daha iletişime geçilmemesini söylediysen, bunun kaydı. Yalnızca bu talebe uymak için gereken bilgiyi saklarız"
+        ]
+      },
+      {
+        "heading": "Hesabını silmek aboneliğini iptal etmez",
+        "paragraphs": [
+          "Abonelikler bizim tarafımızdan değil, Apple ve Google tarafından ücretlendirilir; bu yüzden Drillr hesabını silmek ödemeyi durdurmaz. Silmeden önce Apple Kimliği ya da Google Play hesap ayarlarından iptal et, yoksa ücretlendirilmeye devam edersin.",
+          "Aboneliği yönet sayfamızda iki mağaza için de doğrudan bağlantılar var. Hesabını zaten sildiysen ve hâlâ ücretlendiriliyorsan, drillrapps@gmail.com adresine yaz, çözmene yardım edelim."
+        ]
+      }
+    ],
+    "crossLink": { "href": "/privacy", "label": "Gizlilik politikasının tamamını oku" }
+  },
+  "privacy": {
+    "title": "Gizlilik politikası",
+    "lastUpdated": "Yürürlük tarihi: 2026-09-30",
+    "tocLabel": "İçindekiler",
+    "intro": "Bu gizlilik politikası, Tomasz Święcki (bundan sonra \"Hizmet Sağlayıcı\" olarak anılacaktır) tarafından Freemium hizmet olarak geliştirilen mobil cihazlar için Drillr uygulaması (bundan sonra \"Uygulama\" olarak anılacaktır) ile getdrillr.app adresindeki Drillr web sitesi (bundan sonra \"Web Sitesi\" olarak anılacaktır) için geçerlidir. Bu hizmet \"OLDUĞU GİBİ\" sunulmaktadır. Bu çeviri yalnızca bilgilendirme amaçlıdır; İngilizce sürümden farklıysa İngilizce sürüm geçerlidir.",
+    "sections": [
+      {
+        "heading": "Uygulama hangi bilgileri alır ve bunlar nasıl kullanılır?",
+        "paragraphs": [
+          "Uygulama, Uygulamayı indirip kaydolduğunda verdiğin bilgileri alır. Hizmet Sağlayıcıya kaydolmak zorunlu değildir. Ancak kaydolmadan Uygulamanın sunduğu bazı özellikleri kullanamayabileceğini unutma.",
+          "Hizmet Sağlayıcı, verdiğin bilgileri zaman zaman sana önemli bilgiler, gerekli bildirimler ve pazarlama kampanyaları iletmek için seninle iletişime geçmek amacıyla da kullanabilir. Uygulama ayrıca cihazından antrenman günü ve maç hatırlatıcıları gibi yerel hatırlatmalar ve bildirimler gönderir; bunları cihaz ayarlarından istediğin zaman kapatabilirsin.",
+          "Hizmet Sağlayıcı bu bilgileri kişiselleştirilmiş antrenman ve beslenme planlarını oluşturmak ve uyarlamak, hesabını işletmek ve Uygulamayı geliştirmek için kullanır. Bu bilgilerin bir kısmı - özellikle vücut ölçüleri ve sakatlık durumu - veri koruma mevzuatı kapsamında özel nitelikli (sağlıkla ilgili) veri olarak değerlendirilir. Hizmet Sağlayıcı bunları yalnızca açık rızana dayanarak işler; bu rızayı, Uygulamanın planlarını kişiselleştirebilmesi için bu isteğe bağlı bilgileri girmeyi seçerek verirsin. Rızanı istediğin zaman Ayarlar'dan bu verileri kaldırarak ya da hesabını silerek geri çekebilirsin; bu, Uygulamanın geri kalanını etkilemez. Bir hesap oluşturup Uygulamayı kullandığında Hizmet Sağlayıcı aşağıdaki kişisel veri kategorilerini toplayabilir:"
+        ],
+        "bullets": [
+          "Hesap verileri: e-posta adresin, seçtiğin görünen ad ve isteğe bağlı kullanıcı adı ile e-postayla girişte, kimlik doğrulama sağlayıcısı tarafından yalnızca karma (hash) biçiminde saklanan bir şifre.",
+          "Giriş verileri: Apple ya da Google ile giriş yaparsan, sağlayıcının Uygulamayla paylaştığı ad ve e-posta adresi (kullanıyorsan Apple'ın gizli yönlendirme e-postası dahil).",
+          "Girdiğin profil ve vücut verileri: yaşın ya da doğum tarihin, cinsiyetin, boyun, kilon ve kilo geçmişin, uyruğun ve oyun pozisyonun.",
+          "Antrenman ve yaşam tarzı tercihleri: hedeflerin, odak alanların, deneyim seviyen, mevcut ekipmanın ve salon erişimin, antrenman günlerin ve antrenman süren, takım durumun ve beslenme tercihlerin.",
+          "Vermeyi seçtiğin sağlıkla ilgili bilgiler; örneğin mevcut sakatlık durumun ve maçlardan önce ne kadar gergin ya da özgüvenli hissettiğin. Bunlar isteğe bağlıdır ve Uygulama bunlar olmadan da çalışır.",
+          "Uygulamayı kullandıkça oluşan etkinlik ve performans verileri; örneğin tamamlanan antrenmanlar ve alıştırmalar, efor ve geri bildirim puanları ile maç öz değerlendirmeleri.",
+          "Sonraki bölümde açıklanan abonelik ve satın alma verileri."
+        ]
+      },
+      {
+        "heading": "Uygulama hangi bilgileri otomatik olarak toplar?",
+        "paragraphs": [
+          "Ayrıca Uygulama bazı bilgileri otomatik olarak toplayabilir; bunlar arasında kullandığın mobil cihazın türü, mobil cihazının benzersiz cihaz kimliği, mobil cihazının IP adresi, mobil işletim sistemin, kullandığın mobil internet tarayıcılarının türü ve Uygulamayı nasıl kullandığına dair bilgiler yer alır ancak bunlarla sınırlı değildir.",
+          "Kullanıcıların Uygulamayla nasıl etkileşime girdiğini - ziyaret edilen ekranlar, kullanılan özellikler ve yapılan işlemler dahil - anlamak ve Uygulamanın karşılaştığı hataların raporlarını almak için (hata mesajı, kodun neresinde olduğu, uygulama sürümü ve cihaz türü) PostHog kullanıyoruz. Bu analiz toplama varsayılan olarak açıktır ve hesap oluşturduğunda, giriş yaptığında ya da Uygulamayı başka şekilde kullandığında kabul ettiğin hizmetin bir parçasıdır. Hizmet Sağlayıcı bu işlemenin hukuki dayanağı olarak Uygulamayı güvence altına alma, sürdürme ve geliştirmedeki meşru menfaatine dayanır. drillrapps@gmail.com adresine yazarak istediğin zaman itiraz edebilir, Uygulamayı kaldırarak tüm toplamayı durdurabilir ve cihazının gizlilik ayarlarından reklam ve analiz tanımlayıcılarını sınırlayabilirsin.",
+          "Uygulama ayrıca PostHog'u ekran kayıtları yapmak için kullanır; böylece Hizmet Sağlayıcı Uygulamanın nerede bozulduğunu, donduğunu ya da insanların kafasını karıştırdığını görüp düzeltebilir. Ekran kaydı, sen Uygulamayı kullanırken yakalanan, Uygulamanın kendi ekranlarının bir dizi ekran görüntüsü ile dokunuşlar ve ekran değişiklikleridir. Yazdığın metinler, hiçbir şey gönderilmeden önce cihazında maskelenir; kişisel ve sağlık bilgilerin de - örneğin adın, e-posta adresin, doğum günün, vücut ölçülerin, bildirdiğin belirtiler, beslenme hedefin ve yemek kaydın - ve kamera görüntüsü ile kaydettiğin klipler de maskelenir; bunlar kayıtlarda yalnızca boş bloklar olarak görünür. Kayıtlar başlangıç adımlarında, doğum gününle ilgili sorudan sonraki sorudan itibaren başlar ve ülkelerinde kişisel verilerinin işlenmesine rıza gösterebilecekleri yaşın altındaki kullanıcılar için asla yapılmaz (örneğin Polonya'da 16, İspanya'da 14, Birleşik Krallık ve Amerika Birleşik Devletleri'nde 13). Kayıtlar, bir hatanın ekranda olanlara kadar izlenebilmesi için yukarıdaki analizlerle aynı takma adlı kullanıcı kimliğine ve çökme raporlarına bağlanır. Hizmet Sağlayıcı bu işlemenin hukuki dayanağı olarak Uygulamadaki hataları bulma ve düzeltmedeki meşru menfaatine dayanır. Kayıtlar 30 gün sonra otomatik olarak silinir. Bir hesabın olduktan sonra, ekran kayıtlarını Uygulamada Ayarlar > Tercihler > Ürün içgörüleri altından istediğin zaman kapatabilirsin.",
+          "Bir abonelik satın aldığında Uygulama ayrıca işlem kimliğini, abonelik durumunu, satın alma tarihini, yenileme tarihini ve satın aldığın ürünü alır. Ödemenin kendisi (kredi kartı, Apple Pay, Google Pay) tamamen Apple ya da Google tarafından yürütülür - Hizmet Sağlayıcı ödeme kartı bilgilerini asla görmez ya da saklamaz."
+        ]
+      },
+      {
+        "heading": "Web Sitesi hangi bilgileri toplar?",
+        "paragraphs": [
+          "Bu Politika getdrillr.app adresindeki Drillr web sitesini de kapsar. Web Sitesi bir bilgi ve destek sitesidir: her sayfayı hesap olmadan okuyabilirsin ve site reklam, profil oluşturma ya da siteler arası izleme çerezi kullanmaz.",
+          "Web Sitesi, güvenlik, kötüye kullanımı önleme ve güvenilirlik için standart sunucu erişim kayıtlarını - IP adresin, istenen sayfa ve tarayıcı türün dahil - tutan Vercel tarafından barındırılır. Hizmet Sağlayıcı ayrıca her sayfayı kaç kişinin ziyaret ettiğini ve nereden geldiklerini görmek için Vercel Web Analytics kullanır. Vercel Web Analytics çerezsizdir: cihazında hiçbir şey saklamaz ve senin hakkında kalıcı bir profil oluşturmaz; Hizmet Sağlayıcı yalnızca sayfa görüntülemeleri, yönlendiren site, ülke ve cihaz türü gibi toplu rakamları görür. Her ikisinin de hukuki dayanağı, Hizmet Sağlayıcının Web Sitesini işletme, güvence altına alma ve geliştirmedeki meşru menfaatidir.",
+          "getdrillr.app/feedback adresindeki geri bildirim formu Tally tarafından sağlanır ve onların sunucularından yerleştirilir. Uygulamanın içindeki \"Geri bildirim gönder\" bağlantısı aynı formu açar. Bu form aracılığıyla gönderdiklerin - seçtiğin kategori, yazdığın ayrıntılar, eklediğin isteğe bağlı ekran görüntüsü ya da video ve Hizmet Sağlayıcının sana yanıt verebilmesi için vermeyi seçersen e-posta adresin - Tally'ye gönderilir, Hizmet Sağlayıcıya iletilir ve yalnızca sana yanıt vermek ve bildirdiğin konuda işlem yapmak için kullanılır. Tally form yanıtlarını Avrupa Birliği'ndeki sunucularda saklar. Lütfen başka kişileri gösteren bir ekran görüntüsü ya da video ekleme. Yerleştirilmiş form, çalışması için kesinlikle gerekli çerezleri kullanabilir; reklam ya da izleme çerezi kullanmaz. Formu hiç kullanmak istemiyorsan bunun yerine drillrapps@gmail.com adresine e-posta gönderebilirsin.",
+          "Yazı tipleri Web Sitesinin kendi alan adından sunulur, bu yüzden bir sayfayı okumak herhangi bir üçüncü taraf yazı tipi ya da reklam ağına istek göndermez. App Store ve Google Play düğmeleri seni Apple'ın ve Google'ın kendi sitelerine götürür; bu siteler bu politikaya değil, kendi gizlilik politikalarına tabidir."
+        ]
+      },
+      {
+        "heading": "Hizmet Sağlayıcı App Store ya da Google Play'de yazdığın yorumlardan alıntı yapar mı?",
+        "paragraphs": [
+          "Uygulama hakkında App Store ya da Google Play'de bir yorum yayınlarsan, Hizmet Sağlayıcı bu yorumu Uygulamada (örneğin başlangıç ekranlarında), Web Sitesinde, Uygulamanın mağaza sayfalarında ve sosyal medya gönderileri gibi Drillr'ın diğer tanıtım materyallerinde alıntılayabilir. Alıntıda yorumunun metni, yıldız puanı ve kısaltılmış adın gösterilir - adın ve soyadının ilk harfi ya da yorumunla birlikte gösterilen takma ad. Senin hakkında başka hiçbir şey gösterilmez ve profil fotoğrafın asla kullanılmaz.",
+          "Hizmet Sağlayıcı yazım, dil bilgisi ve noktalama hatalarını düzeltebilir, bir yorumu kısaltabilir ve onu çevirebilir ya da ifadesini başka diller ve ülkeler için uyarlayabilir (örneğin Amerikan İngilizcesinde \"footballer\" kelimesi \"soccer player\" olur), ancak yorumunda olmayan kelimeler ya da iddialar asla eklemez veya kastettiğin anlamı değiştirmez. Yalnızca App Store ve Google Play'de yayınlanan yorumlar alıntılanır ve her iki mağaza da yalnızca Uygulamayı indirmiş kişilerden yorum kabul eder. Hizmet Sağlayıcı yorum yazmaz, satın almaz ya da yorum karşılığında ödül vermez; hangilerinin gösterileceğini seçer, bu yüzden alıntılar tüm yorumların bir özeti değil, bir seçkidir. Ortalama yıldız puanı gösterildiğinde, bu App Store'un yayınladığı puandır. Geri bildirim formu ya da e-posta yoluyla özel olarak gönderdiğin geri bildirimler iznin olmadan asla alıntılanmaz.",
+          "Yorumun ve onunla birlikte gösterilen ad, Hizmet Sağlayıcının doğrudan senden değil, yorumun yayınlandığı mağazadan elde ettiği kişisel verilerdir. Hukuki dayanak, Hizmet Sağlayıcının Uygulamayı kullanmayı düşünen kişilere kullanıcılarının onun hakkında ne söylediğini gösterme konusundaki meşru menfaatidir. Yorumu herkese açık yapmayı sen seçtin ve yukarıda açıklanan sınırlar alıntıyı yazdıklarınla sınırlı tutar. drillrapps@gmail.com adresine yazarak istediğin zaman, gerekçe göstermeden itiraz edebilirsin; bir ebeveyn ya da veli de bir çocuk adına aynısını yapabilir. Hizmet Sağlayıcı bu durumda yorumunu Web Sitesinden gecikmeksizin, Uygulamadan ise bir sonraki güncellemede kaldırır ve yeni tanıtım materyallerinde kullanmaz. Hizmet Sağlayıcı, bir yorumun mağazadan silindiğini öğrendiğinde de o yorumu kullanmayı bırakır."
+        ]
+      },
+      {
+        "heading": "Uygulama cihazın konum bilgisini toplar mı?",
+        "paragraphs": [
+          "Bu Uygulama mobil cihazının konumu hakkında bilgi toplamaz."
+        ]
+      },
+      {
+        "heading": "Uygulama yapay zekâ (YZ) teknolojileri kullanır mı?",
+        "paragraphs": [
+          "Uygulama, egzersiz tekniğin hakkında geri bildirim vermek için telefonuna yerleşik cihaz üzeri hareket ve vücut pozu algılamayı (örneğin iOS'ta Apple'ın Vision çerçevesi) kullanan isteğe bağlı bir form analizi özelliği içerir. Bu analizin tamamı cihazında çalışır. Bu özellik için hiçbir video, görüntü ya da vücut pozu verisi Hizmet Sağlayıcıya veya herhangi bir üçüncü tarafa gönderilmez ve seni tanımlamak için kullanılmaz. Ayrıntılar için aşağıdaki kamera kullanımı bölümüne bak.",
+          "Hizmet Sağlayıcı ayrıca ekran kayıtlarını, çökme ve hata raporlarını ve kullanım analizlerini otomatik olarak incelemek, hataları ve kullanılabilirlik sorunlarını tespit etmek ve bunları düzelten kod değişikliklerinin taslağını hazırlamak için PostHog'a yerleşik YZ özelliklerini kullanır. Bu özellikler, verileri PostHog adına işleyen, uygun güvenceler altında Avrupa Birliği dışında işleyebilen ve sözleşmeyle bu verileri kendi modellerini eğitmek için kullanmaları yasaklanmış Google, OpenAI ve Anthropic'in YZ modelleri üzerinde çalışır. Bu özellikler senin hakkında karar vermek ya da senin profilini oluşturmak için kullanılmaz ve önerilen her kod değişikliği kullanılmadan önce Hizmet Sağlayıcı tarafından incelenir. PostHog'un bu verileri kendi YZ modellerini eğitmek için kullanması kapalıdır."
+        ]
+      },
+      {
+        "heading": "Uygulama kameranı kullanır mı ve kayıtlara ne olur?",
+        "paragraphs": [
+          "Uygulama, cihazının kamerasını kullanan isteğe bağlı bir form kontrolü özelliği içerir. Kameraya yalnızca desteklenen bir egzersiz için form kontrolü başlatmayı seçtiğinde ve yalnızca o egzersizi yaparken kısa bir klibini kaydetmek için erişilir. Kamera iznini cihaz ayarlarından istediğin zaman reddedebilir ya da geri alabilirsin; Uygulamanın geri kalanı onsuz çalışmaya devam eder.",
+          "Kaydedilen klip tamamen cihazında analiz edilir. Hizmet Sağlayıcı klibini hiçbir sunucuda almaz, yüklemez ya da saklamaz; klip fotoğraf arşivine otomatik olarak kaydedilmez ve hiçbir üçüncü tarafla paylaşılmaz. Uygulama bu özelliğin parçası olarak ses kaydetmez. Ekran kayıtlarında kamera görüntüsü ve kliplerin her zaman boş bir bloğun arkasında gizlenir.",
+          "Paylaş seçeneğiyle bir klibi paylaşmayı seçersen, Uygulama Drillr filigranı ve ekrandaki form geri bildirimi işlenmiş bir sürüm oluşturur ve bunu cihazının standart paylaşım ekranına verir. Bir hedef seçtiğin andan itibaren (örneğin bir mesajlaşma uygulaması, sosyal ağ ya da kişi), klip bu Politikaya değil, o hizmetin ya da alıcının kendi koşullarına ve gizlilik politikasına tabidir ve Hizmet Sağlayıcının onu nasıl işleyecekleri üzerinde hiçbir kontrolü yoktur. Lütfen yalnızca kendi kliplerini paylaş ve başka kişileri gösteren klipleri onların rızası olmadan paylaşma."
+        ]
+      },
+      {
+        "heading": "Uygulama otomatik karar verme ya da profil oluşturma kullanır mı?",
+        "paragraphs": [
+          "Uygulama, verdiğin bilgileri - örneğin hedeflerin, deneyim seviyen, vücut ölçülerin ve sakatlık durumun - kişiselleştirilmiş antrenman ve beslenme planlarını otomatik olarak oluşturmak ve uyarlamak için kullanır. Buna alıştırmaları seçmek, antrenmanların zorluğunu ayarlamak ve kalori ile makro besin hedeflerini hesaplamak dahildir. Bu bir profil oluşturma sayılır, ancak kaydolduğun Uygulamanın temel amacıdır ve senin için hukuki ya da benzer ölçüde önemli sonuçlar doğurmaz.",
+          "Uygulama, seninle ilgili hukuki sonuç doğuran, yalnızca otomatik işlemeye dayalı kararlar vermez. Kontrol sende kalır: girdileri Ayarlar'dan istediğin zaman değiştirebilir ve planının nasıl oluşturulduğuyla ilgili her türlü soru için Hizmet Sağlayıcıya drillrapps@gmail.com adresinden ulaşabilirsin."
+        ]
+      },
+      {
+        "heading": "Üçüncü taraflar Uygulamanın elde ettiği bilgileri görür ve/veya bunlara erişebilir mi?",
+        "paragraphs": [
+          "Hizmet Sağlayıcı, hesabını doğrulamak, abonelik durumunu senkronize etmek, teşhis verisi toplamak ve Uygulamayı geliştirmek için takma adlı tanımlayıcıları (örneğin bir kullanıcı kimliği ve cihaz tanımlayıcısı) aşağıda listelenen harici hizmetlere iletir. Hizmet Sağlayıcı bilgilerini bu gizlilik bildiriminde açıklanan şekillerde üçüncü taraflarla paylaşabilir.",
+          "Hesap ve profil verilerin Google Firebase (Firebase Authentication ve Cloud Firestore) kullanılarak saklanır; Apple ya da Google ile giriş ilgili sağlayıcı tarafından yürütülür. Bu sağlayıcılar Hizmet Sağlayıcının veri işleyenleri olarak hareket eder ve verileri, Avrupa Komisyonu'nun Standart Sözleşme Maddeleri gibi uygun güvenceler altında, Amerika Birleşik Devletleri dahil olmak üzere ülken dışındaki sunucularda saklayabilir.",
+          "Uygulamanın, verilerin işlenmesiyle ilgili kendi gizlilik politikaları olan üçüncü taraf hizmetleri kullandığını lütfen unutma. Uygulamanın kullandığı üçüncü taraf hizmet sağlayıcılarının gizlilik politikalarının bağlantıları aşağıdadır:"
+        ],
+        "bullets": [
+          "https://policies.google.com/privacy",
+          "https://firebase.google.com/policies/analytics",
+          "https://firebase.google.com/support/privacy",
+          "https://expo.dev/privacy",
+          "https://posthog.com/privacy - ürün analizleri, ekran kayıtları, hata raporları ve YZ destekli hata tespiti; Avrupa Birliği'nde barındırılır (YZ özellikleri Google, OpenAI ve Anthropic modellerini kullanır)",
+          "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement - teşhis verilerinde bulunan hatalar için önerilen düzeltmeler dahil, Uygulamanın kaynak kodunun barındırılması",
+          "https://sentry.io/privacy/ - çökme ve hata raporlama",
+          "https://www.revenuecat.com/privacy - abonelik yönetimi ve ödeme analizleri",
+          "https://vercel.com/legal/privacy-policy - Web Sitesinin barındırılması ve çerezsiz analizleri",
+          "https://tally.so/help/privacy-policy - Web Sitesindeki geri bildirim formu",
+          "https://www.apple.com/legal/privacy/ - iOS satın almaları için",
+          "https://policies.google.com/privacy - Android satın almaları için"
+        ]
+      },
+      {
+        "heading": "Hizmet Sağlayıcı bilgilerini ne zaman açıklayabilir?",
+        "paragraphs": [
+          "Hizmet Sağlayıcı, Kullanıcı Tarafından Sağlanan ve Otomatik Olarak Toplanan Bilgileri şu durumlarda açıklayabilir:"
+        ],
+        "bullets": [
+          "bir mahkeme celbine ya da benzer bir yasal sürece uymak gibi, yasaların gerektirdiği durumlarda;",
+          "açıklamanın haklarını korumak, senin ya da başkalarının güvenliğini korumak, dolandırıcılığı soruşturmak veya bir resmi makam talebine yanıt vermek için gerekli olduğuna iyi niyetle inandığında;",
+          "kendi adına çalışan, kendilerine açıklanan bilgileri bağımsız olarak kullanmayan ve bu gizlilik bildiriminde belirtilen kurallara uymayı kabul etmiş güvenilir hizmet sağlayıcılarıyla;",
+          "bir birleşme, devralma, yeniden yapılanma, iflas ya da Drillr işinin veya varlıklarının tamamının veya bir kısmının satışıyla bağlantılı olarak; bu durumda bilgilerin - yukarıda açıklanan sağlıkla ilgili bilgiler dahil - devralan tarafa aktarılabilir. Hizmet Sağlayıcı böyle bir aktarım yürürlüğe girmeden önce seni Uygulamada ya da e-postayla bilgilendirir; devralan taraf, sana herhangi bir değişikliği bildirene kadar aldığı bilgiler için bu Politikaya bağlı kalır ve aşağıda açıklanan her hak - hesabını ve tüm verilerini istediğin zaman silme hakkın dahil - geçerli olmaya devam eder."
+        ]
+      },
+      {
+        "heading": "Vazgeçme haklarım nelerdir?",
+        "paragraphs": [
+          "Uygulamayı kaldırarak Uygulamanın tüm bilgi toplamasını kolayca durdurabilirsin. Mobil cihazının bir parçası olarak ya da mobil uygulama mağazası veya ağı aracılığıyla sunulan standart kaldırma işlemlerini kullanabilirsin. Uygulamayı kaldırmak ücretli bir aboneliği otomatik olarak iptal etmez - iptali Apple Kimliği ya da Google Play hesap ayarlarından yapman gerekir.",
+          "Ayrıca hesabını ve ilişkili tüm verileri istediğin zaman doğrudan Uygulamada, Ayarlar > Hesabı sil altından kalıcı olarak silebilirsin.",
+          "Bir hesabın olduktan sonra, ekran kayıtlarını Uygulamada Ayarlar > Tercihler > Ürün içgörüleri altından istediğin zaman kapatabilirsin. Kayıt hemen durur ve kapalı olduğu sürece yeni kayıt yapılmaz."
+        ]
+      },
+      {
+        "heading": "Veri saklama politikası nedir ve bilgilerini nasıl yönetebilirsin?",
+        "paragraphs": [
+          "Hizmet Sağlayıcı, Kullanıcı Tarafından Sağlanan verileri Uygulamayı kullandığın sürece ve sonrasında makul bir süre boyunca saklar. Hizmet Sağlayıcı, Otomatik Olarak Toplanan bilgileri 24 aya kadar saklar ve sonrasında toplu halde saklayabilir; 30 gün sonra otomatik olarak silinen ekran kayıtları bunun dışındadır. Hizmet Sağlayıcının Uygulama aracılığıyla verdiğin Kullanıcı Tarafından Sağlanan Verileri silmesini istiyorsan, lütfen drillrapps@gmail.com adresinden iletişime geç; makul bir süre içinde yanıt verilir. Uygulamanın düzgün çalışması için Kullanıcı Tarafından Sağlanan Verilerin bir kısmının ya da tamamının gerekebileceğini lütfen unutma.",
+          "Ayrıca hesabını ve ilişkili tüm verileri istediğin zaman Uygulamada, Ayarlar > Hesabı sil altından kendin silebilirsin; bu, profilini antrenman, kilo, efor ve maç verilerinle birlikte Hizmet Sağlayıcının sistemlerinden hemen kaldırır.",
+          "Yukarıda açıklanan form aracılığıyla gönderilen geri bildirimler yalnızca ilgilenmek için gereken süre boyunca saklanır. Bildirimin yanıtlandığında ya da çözüldüğünde, Hizmet Sağlayıcı yanıtı - eklediğin ekran görüntüsü ya da video ve verdiğin e-posta adresi dahil - Tally'den siler."
+        ]
+      },
+      {
+        "heading": "Veri koruma hakların",
+        "paragraphs": [
+          "Kişisel verilerinden sorumlu veri sorumlusu, Polonya'da yaşayan bağımsız bir geliştirici olan Tomasz Święcki'dir ve drillrapps@gmail.com adresinden ulaşılabilir. İşlemenin niteliği ve ölçeği göz önüne alındığında Hizmet Sağlayıcının bir Veri Koruma Görevlisi ataması gerekmez ve atamamıştır; gizlilikle ilgili tüm sorularını aynı adrese gönderebilirsin.",
+          "Hizmet Sağlayıcı kişisel verilerini şu hukuki dayanaklarla işler: Uygulamayı sana sunma sözleşmesinin ifası; rızan - vücut ölçüleri ve sakatlıklar gibi özel nitelikli sağlıkla ilgili veriler için açık rızan ve pazarlama mesajları için rızan dahil; ve Hizmet Sağlayıcının Uygulamayı işletme, güvence altına alma ve geliştirme ile yukarıda açıklandığı şekilde herkese açık mağaza yorumlarını alıntılamadaki meşru menfaati.",
+          "Avrupa Ekonomik Alanı'nda, Birleşik Krallık'ta ya da benzer yasalara sahip bir bölgede bulunuyorsan, kişisel verilerinle ilgili aşağıda listelenen haklara sahipsin. Bunlardan herhangi birini kullanmak için Hizmet Sağlayıcıya drillrapps@gmail.com adresinden ulaş; ayrıca profilini Uygulamada düzenleyebilir ya da hesabını ve verilerini Ayarlar > Hesabı sil altından kalıcı olarak silebilirsin."
+        ],
+        "bullets": [
+          "hakkında tutulan kişisel verilere erişim hakkı;",
+          "yanlış ya da eksik verilerin düzeltilmesini isteme hakkı;",
+          "verilerinin silinmesini isteme hakkı (\"unutulma hakkı\");",
+          "belirli işlemelerin kısıtlanmasını isteme ya da bunlara itiraz etme hakkı;",
+          "veri taşınabilirliği hakkı, yani verilerini yapılandırılmış, yaygın olarak kullanılan bir biçimde alma hakkı;",
+          "işlemenin rızaya dayandığı durumlarda rızanı istediğin zaman geri çekme hakkı;",
+          "bir denetim makamına şikâyette bulunma hakkı - Polonya'da Kişisel Verileri Koruma Dairesi Başkanı (Prezes Urzędu Ochrony Danych Osobowych)."
+        ]
+      },
+      {
+        "heading": "Amerika Birleşik Devletleri'nde yaşıyorsan hakların",
+        "paragraphs": [
+          "Kaliforniya'da ya da Colorado, Connecticut, Montana, Oregon, Teksas veya Virginia gibi kapsamlı bir gizlilik yasasına sahip başka bir ABD eyaletinde yaşıyorsan, aşağıda belirtilen ek haklara sahipsin. Hizmet Sağlayıcının topladığı kişisel veri kategorileri, bunların kullanıldığı amaçlar ve ne kadar süre saklandıkları bu Politikanın önceki bölümlerinde açıklanmıştır.",
+          "Hizmet Sağlayıcı kişisel bilgilerini satmaz, bağlamlar arası davranışsal reklamcılık için paylaşmaz ve önceki on iki ayda da bunu yapmamıştır. Uygulamada ya da Web Sitesinde hiçbir reklam ağı, veri simsarı ya da reklam hedefleme teknolojisi yoktur. Hizmet Sağlayıcı ayrıca 16 yaşından küçük kimsenin kişisel bilgilerini bilerek satmaz ya da paylaşmaz.",
+          "Uygulama, Kaliforniya yasasının hassas kişisel bilgi olarak kabul ettiği bazı bilgileri, yani vücut ölçülerin ve sakatlık durumun gibi sağlıkla ilgili verileri toplar. Hizmet Sağlayıcı bunları yalnızca kaydolduğun antrenman ve beslenme planlarını oluşturmak ve uyarlamak için kullanır, senin hakkında özellik çıkarımı yapmak için kullanmaz; bu nedenle hassas kişisel bilgilerin kullanımını sınırlama hakkı, fiilen yapılan hiçbir işlemeyi kısıtlamaz.",
+          "Aşağıdaki haklardan herhangi birini kullanmak için hesabına bağlı adresten drillrapps@gmail.com adresine e-posta gönder ya da hesabını ve verilerini Uygulamada Ayarlar > Hesabı sil altından istediğin zaman kendin sil. Yetkili bir temsilci kullanabilirsin; bu durumda Hizmet Sağlayıcı temsilcinin yetkisine dair kanıt ve doğrudan senden onay isteyebilir. Hizmet Sağlayıcı eyaletinin yasasının izin verdiği süre içinde yanıt verir; bir talep reddedilirse aynı adrese yanıt vererek itiraz edebilirsin. Eyaletinin yasasına bağlı olarak şu haklara sahipsin:"
+        ],
+        "bullets": [
+          "hakkında hangi kişisel bilgilerin toplandığını bilme ve bunların bir kopyasını alma;",
+          "yanlış kişisel bilgilerin düzeltilmesini isteme;",
+          "kişisel bilgilerinin silinmesini isteme;",
+          "verilerini taşınabilir, makine tarafından okunabilir bir biçimde alma;",
+          "kişisel bilgilerin satışından veya paylaşılmasından, hedefli reklamcılıktan ve hukuki ya da benzer ölçüde önemli sonuçlar doğuran profil oluşturmadan vazgeçme - Hizmet Sağlayıcı bunların hiçbirini yapmaz;",
+          "bu haklardan herhangi birini kullandığın için ayrımcılığa uğramama. Hizmet Sağlayıcı kişisel veri karşılığında finansal teşvik sunmaz ve Uygulama bu hakları kullansan da kullanmasan da aynı şekilde çalışır."
+        ]
+      },
+      {
+        "heading": "Uygulama çocukların gizliliğini nasıl ele alır?",
+        "paragraphs": [
+          "Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. Hizmet Sağlayıcı 13 yaşından küçük çocuklardan bilerek veri istemez ya da onlara yönelik pazarlama yapmaz.",
+          "Bazı ülkelerde kişisel verilerin işlenmesine rıza gösterme yaşı 13'ten yüksektir - örneğin Polonya'da ve Avrupa Birliği'nin bazı bölgelerinde 16. Uygulama her yerde 13 yaş ve üzeri kullanıcılara açıktır. En az 13 yaşındaysan ama ülkendeki dijital rıza yaşının altındaysan, Uygulamayı kullanabilir ve kişisel verilerini ancak bu Politikayı senin adına kabul eden bir ebeveynin ya da yasal velinin katılımı ve rızasıyla verebilirsin.",
+          "Uygulama, Uygulamayı başka açılardan kullanabilecek olsalar bile, ülkelerindeki dijital rıza yaşının altındaki kullanıcıların ekran kaydını yapmaz.",
+          "Başlangıç adımlarında 13 yaşından küçük olduğunu belirten kullanıcılar hesap oluşturamaz. Uygulama, Drillr'ın 13 yaş ve üzeri için olduğunu belirten bir mesaj gösterir ve Hizmet Sağlayıcının sistemlerinde hiçbir profil oluşturulmaz.",
+          "Bu yaş sınırı yürürlüğe girmeden önce oluşturulmuş az sayıda hesap, Hizmette eski bir Kısıtlı Modda kalmaya devam eder. Kısıtlı Modda Uygulama cinsiyet, boy, kilo ya da doğum tarihi gibi kişisel bilgileri toplamaz. Yalnızca hesap doğrulama amacıyla bir e-posta adresi saklanır. Kısıtlı Mod kullanıcılarının hiçbir kişisel verisi üçüncü taraflarla paylaşılmaz ya da profil oluşturma veya pazarlama için kullanılmaz.",
+          "Bir ebeveyn ya da veliysen ve çocuğunun bize kişisel bilgi verdiğini biliyorsan, hesap silme dahil gerekli işlemleri yapabilmesi için lütfen Hizmet Sağlayıcıyla (drillrapps@gmail.com) iletişime geç."
+        ]
+      },
+      {
+        "heading": "Bilgilerin nasıl güvende tutulur?",
+        "paragraphs": [
+          "Hizmet Sağlayıcı bilgilerinin gizliliğini korumayı önemser. Hizmet Sağlayıcı, işlediği ve sakladığı bilgileri korumak için fiziksel, elektronik ve usule ilişkin güvenlik önlemleri alır. Örneğin bu bilgilere erişim, Uygulamayı işletmek, geliştirmek ya da iyileştirmek için bilmesi gereken yetkili çalışanlar ve yüklenicilerle sınırlıdır. Hizmet Sağlayıcı işlediği ve sakladığı bilgiler için makul güvenlik sağlamaya çalışsa da hiçbir güvenlik sisteminin tüm olası güvenlik ihlallerini önleyemeyeceğini lütfen unutma."
+        ]
+      },
+      {
+        "heading": "Bu Gizlilik Politikasındaki değişikliklerden nasıl haberdar olursun?",
+        "paragraphs": [
+          "Bu Gizlilik Politikası herhangi bir nedenle zaman zaman güncellenebilir. Hizmet Sağlayıcı Gizlilik Politikasındaki değişiklikleri bu sayfayı yeni Gizlilik Politikasıyla güncelleyerek sana bildirir. Kullanmaya devam etmen tüm değişikliklerin onayı sayıldığından, değişiklikler için bu Gizlilik Politikasını düzenli olarak kontrol etmen önerilir."
+        ]
+      },
+      {
+        "heading": "Rızanı nasıl verirsin?",
+        "paragraphs": [
+          "Bir hesap oluşturarak, giriş yaparak ya da Uygulamayı başka şekilde kullanarak bu Gizlilik Politikasını kabul etmiş olursun ve Hizmet Sağlayıcının bilgilerini, Uygulamayı işletmek, güvence altına almak ve geliştirmek için kullanılan analizler ve ekran kayıtları dahil, burada şu an ve gelecekte değiştirildiği şekliyle belirtildiği gibi işlemesini kabul edersin. \"İşleme\", bilgilerin toplanması, saklanması, silinmesi, kullanılması, birleştirilmesi ve açıklanması dahil ancak bunlarla sınırlı olmamak üzere, bilgilerin herhangi bir şekilde kullanılması ya da ele alınması anlamına gelir."
+        ]
+      },
+      {
+        "heading": "Bize nasıl ulaşabilirsin?",
+        "paragraphs": [
+          "Uygulamayı kullanırken gizlilikle ilgili herhangi bir sorun ya da uygulamalarla ilgili soruların varsa, lütfen Hizmet Sağlayıcıya drillrapps@gmail.com adresinden e-postayla ulaş."
+        ]
+      }
+    ],
+    "crossLink": { "label": "Drillr kullanım koşulları", "href": "/terms" }
+  },
+  "terms": {
+    "title": "Kullanım koşulları",
+    "lastUpdated": "Yürürlük tarihi: 2026-09-30",
+    "tocLabel": "İçindekiler",
+    "intro": "Bu kullanım koşulları, Tomasz Święcki (bundan sonra \"Hizmet Sağlayıcı\" olarak anılacaktır) tarafından Freemium hizmet olarak oluşturulan mobil cihazlar için Drillr uygulaması (bundan sonra \"Uygulama\" olarak anılacaktır) ile getdrillr.app adresindeki Drillr web sitesi (bundan sonra \"Web Sitesi\" olarak anılacaktır) için geçerlidir. Bu çeviri yalnızca bilgilendirme amaçlıdır; farklılık olması halinde, Uygulanacak hukuk ve uyuşmazlıklar bölümünde belirtildiği gibi İngilizce sürüm geçerlidir.",
+    "sections": [
+      {
+        "heading": "Koşulların kabulü",
+        "paragraphs": [
+          "Uygulamayı indirerek, bir hesap oluşturarak, giriş yaparak ya da Uygulamayı başka şekilde kullanarak bu Kullanım Koşullarını ve bu koşullara atıf yoluyla dahil edilen Drillr Gizlilik Politikasını - o Politikada açıklanan analizler, ekran kayıtları ve veri işleme dahil - kabul etmiş olursun. Uygulamayı kullanmadan önce her iki belgeyi de dikkatle okuyup anlaman şiddetle tavsiye edilir. Kabul etmiyorsan Uygulamayı kullanma.",
+          "Bu koşullar, ilgili olduğu ölçüde Web Sitesini kullanımını da düzenler. Web Sitesi bilgi ve destek amacıyla sunulur: okumak için hesap gerekmez, içeriği yalnızca genel bilgi amacıyla yayınlanır ve her an değişebilir; antrenman, beslenme ve form analizi içeriğiyle ilgili aşağıdaki bölümler, Web Sitesinde sunulan aynı içerik için de aynen geçerlidir."
+        ]
+      },
+      {
+        "heading": "Fikri mülkiyet",
+        "paragraphs": [
+          "Uygulamanın, Web Sitesinin, bunların herhangi bir bölümünün ya da markalarımızın izinsiz kopyalanması veya değiştirilmesi kesinlikle yasaktır. Uygulamanın kaynak kodunu çıkarma, Uygulamayı başka dillere çevirme ya da türev sürümler oluşturma girişimlerine izin verilmez. Uygulama ve Web Sitesiyle ilgili tüm ticari markalar, telif hakları, veri tabanı hakları ve diğer fikri mülkiyet hakları Hizmet Sağlayıcının mülkiyetinde kalır."
+        ]
+      },
+      {
+        "heading": "App Store ve Google Play'deki yorumlar",
+        "paragraphs": [
+          "Uygulama hakkında App Store ya da Google Play'de bir yorum yayınlarsan, Hizmet Sağlayıcıya bu yorumu yıldız puanı ve kısaltılmış adınla birlikte Uygulamada, Web Sitesinde, Uygulamanın mağaza sayfalarında ve Drillr'ın diğer tanıtım materyallerinde, Uygulamanın sunulduğu her ülkede ücretsiz ve münhasır olmayan şekilde alıntılama izni verirsin. Buna yazım, dil bilgisi ve noktalama hatalarını düzeltmek, yorumu kısaltmak ve onu çevirmek ya da ifadesini başka diller ve ülkeler için uyarlamak dahildir; ancak yorumunda olmayan kelimeler ya da iddialar eklemek veya kastettiğin anlamı değiştirmek asla dahil değildir. Gizlilik Politikası tam olarak neyin gösterildiğini ve verilerinin nasıl işlendiğini açıklar.",
+          "Yorumlar için asla ödeme ya da ödül verilmez ve Uygulamadaki hiçbir şey yorum bırakıp bırakmamana ya da yorumunda ne yazdığına bağlı değildir. Alıntılanan bir yorum yazarının kendi deneyimini yansıtır ve bireysel sonuçlar farklılık gösterir.",
+          "Bu izni istediğin zaman, gerekçe göstermeden drillrapps@gmail.com adresine yazarak geri çekebilirsin; Hizmet Sağlayıcı da Gizlilik Politikasında açıklandığı şekilde yorumunu kullanmayı bırakır. Bu bölüm, Apple ya da Google'ın kendi mağazalarında yayınlanan yorumlar üzerindeki haklarını etkilemez."
+        ]
+      },
+      {
+        "heading": "Kabul edilebilir kullanım",
+        "paragraphs": [
+          "Uygulamayı ve Web Sitesini yasalara uygun ve amaçlandıkları şekilde kullanmayı kabul edersin. Bu bölümü ihlal edersen, Hizmet Sağlayıcı Hesap ve fesih bölümünde açıklandığı şekilde hesabını askıya alabilir ya da sonlandırabilir; ayrıca Davranışından kaynaklanan talepler bölümünde açıklandığı şekilde ortaya çıkan üçüncü taraf taleplerinden sorumlu olabilirsin.",
+          "Özellikle şunları yapmayacağını kabul edersin:"
+        ],
+        "bullets": [
+          "Hizmeti herhangi bir yasa dışı amaçla ya da sana uygulanan herhangi bir yasa veya düzenlemeyi ihlal edecek şekilde kullanmak",
+          "yanlış bilgilerle hesap oluşturmak, başka birinin kimliğine bürünmek ya da yaşını yanlış belirtmek",
+          "hesabını başka biriyle paylaşmak ya da hesabına erişimi satmak, kiralamak veya devretmek",
+          "başka bir kullanıcının hesabına ya da verilerine veya sana erişim verilmemiş Hizmetin herhangi bir bölümüne erişmeye çalışmak",
+          "Hizmetteki herhangi bir ödeme duvarını, abonelik kontrolünü, kullanım sınırını ya da diğer teknik kısıtlamaları aşmaya çalışmak",
+          "Hizmetteki antrenman içeriğini, alıştırmaları, egzersiz verilerini ya da diğer materyalleri kopyalamak, kazımak veya sistematik olarak çıkarmak ya da bunları rakip bir ürün veya makine öğrenimi modeli oluşturmak ya da eğitmek için kullanmak",
+          "Hizmete, Hizmet Sağlayıcının bu amaçla yayınladığı bir yöntem dışında herhangi bir bot, kazıyıcı ya da başka bir otomatik yolla erişmek",
+          "yasa dışı, hak ihlali içeren, karalayıcı veya zararlı olan ya da kötü amaçlı kod içeren herhangi bir şeyi yüklemek, kaydetmek ya da iletmek",
+          "başka bir kişiyi gösteren bir klibi onun rızası olmadan kaydetmek ya da paylaşmak",
+          "Hizmete, sunucularına ya da güvenlik özelliklerine müdahale etmek, bunları aşırı yüklemek veya bozmaya çalışmak ya da Hizmet Sağlayıcının yazılı izni olmadan bunlarda güvenlik açığı aramak",
+          "Hizmeti ya da içeriğini Hizmet Sağlayıcının yazılı izni olmadan yeniden satmak, alt lisans vermek ya da başka şekilde ticari olarak kullanmak"
+        ]
+      },
+      {
+        "heading": "Hizmet değişiklikleri",
+        "paragraphs": [
+          "Hizmet Sağlayıcı, Uygulamanın olabildiğince faydalı ve verimli olmasını sağlamaya kendini adamıştır. Bu nedenle Uygulamayı değiştirme ya da hizmetleri için herhangi bir zamanda ve herhangi bir nedenle ücret alma hakkını saklı tutar. Hizmet Sağlayıcı, Uygulama ya da hizmetleri için alınacak her türlü ücretin sana açıkça bildirileceğini taahhüt eder.",
+          "Hizmet Sağlayıcı ayrıca Uygulamanın ya da Web Sitesinin herhangi bir özelliğini tamamen veya kısmen değiştirebilir, askıya alabilir ya da sonlandırabilir ve bunun mümkün olduğu durumlarda makul bir süre önceden bildirimde bulunur. Aşağıda belirtilenler dışında, Hizmet Sağlayıcı böyle bir değişiklik, askıya alma ya da sonlandırma nedeniyle sana karşı sorumlu değildir. Bu, yasal haklarını ya da abone olduğun ücretli bir özelliğin kaldırılması halinde hak kazandığın iadeyi etkilemez."
+        ]
+      },
+      {
+        "heading": "Yaş koşulları",
+        "paragraphs": [
+          "Hizmet 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. Başlangıç adımlarında 13 yaşından küçük olduğunu belirten kullanıcılar hesap oluşturamaz. Bu yaş koşulu yürürlüğe girmeden önce oluşturulmuş az sayıda hesap, kişisel veri toplamayı sınırlayan eski bir Kısıtlı Modda Hizmette kalmaya devam eder. 13 ile 17 yaş arasındaysan, Hizmeti yalnızca Hizmet aracılığıyla yürütülen tüm faaliyetlerin tüm sorumluluğunu üstlenmeyi kabul eden bir ebeveynin ya da yasal velinin rızası ve gözetimiyle kullanabilirsin."
+        ]
+      },
+      {
+        "heading": "Sağlık, fitness ve riskin üstlenilmesi",
+        "paragraphs": [
+          "Uygulama genel fitness, antrenman ve kondisyon programları, alıştırmalar ve ilgili içerikleri yalnızca bilgilendirme ve eğitim amacıyla sunar. Bu içerik tıbbi tavsiye, fizyoterapi ya da profesyonel antrenörlük değildir ve nitelikli bir hekime ya da başka bir sağlık uzmanına danışmanın yerini tutmaz.",
+          "Fiziksel egzersiz, ciddi sakatlanma riski dahil doğal riskler taşır. Herhangi bir egzersiz programına başlamadan önce, özellikle hamileysen, mevcut bir sakatlığın ya da sağlık sorunun varsa veya uzun süredir hareketsizsen bir hekime danışmalısın. Uygulamayı kullanarak fiziksel aktiviteye katılmaya tıbben uygun olduğunu onaylarsın ve egzersiz yapmakla ve Uygulamanın sunduğu herhangi bir plan, alıştırma ya da öneriye uymakla ilişkili tüm riskleri gönüllü olarak üstlenirsin. Kendi sınırların içinde egzersiz yapmaktan ve ağrı, baş dönmesi ya da rahatsızlık hissedersen durmaktan yalnızca sen sorumlusun.",
+          "Yasaların izin verdiği en geniş ölçüde, Hizmet Sağlayıcı Uygulamanın sunduğu antrenman içeriğini, planları ya da önerileri kullanmandan veya bunlara güvenmenden kaynaklanan herhangi bir sakatlık, kayıp ya da zarardan sorumlu değildir. Bu bölümdeki hiçbir şey, Hizmet Sağlayıcının ihmalinden kaynaklanan ölüm ya da kişisel yaralanma sorumluluğu dahil, uygulanabilir yasa kapsamında hariç tutulamayan ya da sınırlandırılamayan sorumluluğu ve tüketici olarak emredici haklarını hariç tutmaz veya sınırlandırmaz.",
+          "Uygulamanın gösterdiği motivasyon mesajları, anlık bildirimler ve açıklayıcı örnekler - içlerinde anlatılan isimler, senaryolar ya da etkinlikler dahil - yalnızca cesaretlendirme amacıyla sunulur. Gerçek kullanıcıları tasvir etmez ya da belirli bir sonucu garanti etmez ve bireysel sonuçlar farklılık gösterir."
+        ]
+      },
+      {
+        "heading": "Beslenme ve yemek planları",
+        "paragraphs": [
+          "Uygulama verdiğin bilgilere göre önerilen kalori hedefleri, makro besin hedefleri ve yemek planları oluşturabilir. Bu içerik otomatiktir, genel niteliktedir ve yalnızca bilgilendirme amacıyla sunulur. Diyet, beslenme ya da tıbbi tavsiye değildir ve nitelikli bir diyetisyenin ya da hekimin rehberliğinin yerini tutmaz.",
+          "Besin değerleri ve diyet etiketleri (vejetaryen, vegan, glütensiz ya da alerjenlerle ilgili bilgiler gibi) tahminidir ve yanlış ya da eksik olabilir. Bir gıda alerjin, intoleransın ya da sağlık sorunun varsa Uygulamaya güvenme - içerikleri ve etiketleri her zaman kendin kontrol et ve nitelikli bir uzmana danış. Hizmet Sağlayıcı, Uygulamadaki yemek önerilerinden ya da besin bilgilerinden kaynaklanan herhangi bir olumsuz reaksiyon, kayıp ya da zarardan sorumlu değildir."
+        ]
+      },
+      {
+        "heading": "Cihaz güvenliği",
+        "paragraphs": [
+          "Uygulama, Hizmeti sunabilmek için Hizmet Sağlayıcıya verdiğin kişisel verileri saklar ve işler. Telefonunun ve Uygulamaya erişiminin güvenliğini sağlamak senin sorumluluğundadır. Hizmet Sağlayıcı, cihazının resmi işletim sisteminin getirdiği yazılım kısıtlamalarını ve sınırlamalarını kaldırmak anlamına gelen jailbreak ya da root işlemlerini telefonunda yapmamanı şiddetle tavsiye eder. Bu tür işlemler telefonunu kötü amaçlı yazılımlara, virüslere ve zararlı programlara açık hale getirebilir, telefonunun güvenlik özelliklerini tehlikeye atabilir ve Uygulamanın düzgün çalışmamasına ya da hiç çalışmamasına yol açabilir."
+        ]
+      },
+      {
+        "heading": "Form analizi ve kaydedilen klipler",
+        "paragraphs": [
+          "Uygulama, kısa bir klip kaydeden ve egzersiz tekniğin hakkında sana otomatik geri bildirim veren isteğe bağlı bir form kontrolü özelliği içerir. Bu geri bildirim otomatik olarak oluşturulur, yalnızca genel bilgilendirme ve antrenman amaçlıdır ve tıbbi, fizyoterapi ya da profesyonel antrenörlük tavsiyesi değildir. Eksik ya da yanlış olabilir ve nitelikli bir uzmanın rehberliğinin yerini tutmaz. Güvenli şekilde egzersiz yapmaktan ve herhangi bir hareketin sana uygun olup olmadığına karar vermekten sen sorumlusun. Hizmet Sağlayıcı, bu özelliğe güvenmenden kaynaklanan herhangi bir sakatlık, kayıp ya da zarardan sorumlu değildir.",
+          "Kaydedilen bir klibi paylaşmayı seçersen, paylaştığın içerikten ve onu paylaşma hakkına sahip olduğundan emin olmaktan yalnızca sen sorumlusun. Başka kişileri gösteren klipleri onların rızası olmadan kaydetmemeli ya da paylaşmamalı ve bu özelliği yasa dışı, hak ihlali içeren ya da zararlı içerik oluşturmak veya dağıtmak için kullanmamalısın. Bir klibi Uygulamanın dışında paylaştığında, klip gönderdiğin hizmet ya da alıcı tarafından işlenir ve artık Hizmet Sağlayıcının kontrolünde değildir."
+        ]
+      },
+      {
+        "heading": "Beta ve deneysel özellikler",
+        "paragraphs": [
+          "Hizmet Sağlayıcı bazı özellikleri beta, ön izleme ya da başka şekilde deneysel olarak sunabilir ve bunları Uygulamada bu şekilde belirtir. Beta özellikler yalnızca değerlendirme amacıyla sunulur. Eksik olabilir, yanlış sonuçlar verebilir, her cihazda çalışmayabilir ve herhangi bir zamanda bildirimde bulunulmadan değiştirilebilir ya da kaldırılabilir.",
+          "Uygulanabilir yasaların izin verdiği en geniş ölçüde, beta özellikler hiçbir garanti olmaksızın sunulur ve riski tamamen sana ait olmak üzere kullanılır. Bir beta özelliği kullanmak isteğe bağlıdır ve Garantilerin reddi ve sorumluluğun sınırlandırılması bölümünde belirtilen sınırlar ona tamamen uygulanır."
+        ]
+      },
+      {
+        "heading": "Üçüncü taraf hizmetleri",
+        "paragraphs": [
+          "Uygulamanın, kendi kullanım koşulları olan üçüncü taraf hizmetleri kullandığını lütfen unutma. Bu hizmetler Hizmet Sağlayıcıdan bağımsız olarak işletilir; Hizmet Sağlayıcı bunları kontrol etmez ya da desteklemez ve uygulanabilir yasaların izin verdiği en geniş ölçüde bunların içeriğinden, erişilebilirliğinden ya da herhangi bir eylem veya ihmalinden sorumlu değildir. Bir üçüncü taraf hizmetini kullanımın, o sağlayıcının kendi koşullarına tabidir.",
+          "Uygulamanın kullandığı üçüncü taraf hizmet sağlayıcılarının kullanım koşullarının bağlantıları aşağıdadır:"
+        ],
+        "bullets": [
+          "https://policies.google.com/terms",
+          "https://firebase.google.com/terms/analytics",
+          "https://firebase.google.com/terms/crashlytics",
+          "https://expo.dev/terms",
+          "https://posthog.com/terms - ürün analizleri, ekran kayıtları, hata raporları ve YZ destekli hata tespiti",
+          "https://sentry.io/terms/ - çökme ve hata raporlama",
+          "https://www.revenuecat.com/terms - abonelik yönetimi",
+          "https://vercel.com/legal/terms - Web Sitesinin barındırılması ve analizleri",
+          "https://tally.so/help/terms-and-conditions - Web Sitesindeki geri bildirim formu",
+          "https://www.apple.com/legal/internet-services/itunes/ - iOS satın almaları",
+          "https://play.google.com/about/play-terms/ - Android satın almaları"
+        ]
+      },
+      {
+        "heading": "Abonelikler ve ücretli planlar",
+        "paragraphs": [
+          "Uygulama, premium özelliklere erişim sağlayan otomatik yenilenen abonelikler (\"Drillr Pro\") sunar. Tüm ücretli aboneliklere aşağıdaki koşullar uygulanır:"
+        ],
+        "bullets": [
+          "Mevcut planlar, fiyatlar ve süreler satın almadan önce Uygulamada gösterilir.",
+          "Ödeme, satın alma onaylandığında Apple Kimliğinden ya da Google Play hesabından tahsil edilir.",
+          "Abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece her fatura döneminin sonunda otomatik olarak yenilenir.",
+          "Hesabından yenileme ücreti, mevcut dönemin bitiminden önceki 24 saat içinde, yenileme anında geçerli olan abonelik fiyatı üzerinden tahsil edilir.",
+          "Aboneliğini istediğin zaman Apple Kimliği ya da Google Play hesap ayarlarından veya Uygulamanın içinde aynı mağaza ayarlarını açan Ayarlar > Mevcut plan bölümünden yönetebilir ya da iptal edebilirsin. Uygulamayı kaldırmak aboneliği iptal etmez.",
+          "Bu koşullarda aksi belirtilmedikçe, kısmi abonelik dönemleri için iade yapılmaz. İade talepleri doğrudan Apple ya da Google tarafından kendi politikalarına göre ele alınır.",
+          "Bir abonelik satın aldığında ücretsiz denemenin kullanılmayan kısmı geçersiz olur.",
+          "Hizmet Sağlayıcı bir aboneliğin fiyatını değiştirirse, sana önceden bildirilir ve yeni fiyat yürürlüğe girmeden önce iptal etme fırsatı verilir."
+        ]
+      },
+      {
+        "heading": "Apple ve Google uygulama mağazaları",
+        "paragraphs": [
+          "Bu koşullar Apple Inc. ya da Google LLC ile değil, yalnızca seninle Hizmet Sağlayıcı arasında akdedilmiştir. Uygulamadan ve içeriğinden Apple ya da Google değil, yalnızca Hizmet Sağlayıcı sorumludur.",
+          "Apple ve Google'ın Uygulama için herhangi bir bakım ya da destek hizmeti sağlama yükümlülüğü yoktur. Uygulamanın geçerli herhangi bir garantiye uymaması durumunda Apple'a bildirebilirsin; Uygulamayı App Store üzerinden satın aldıysan Apple, Uygulamanın satın alma bedelini sana iade eder. Uygulanabilir yasaların izin verdiği en geniş ölçüde, Apple'ın Uygulamayla ilgili başka hiçbir garanti yükümlülüğü yoktur.",
+          "Senin ya da herhangi bir üçüncü tarafın Uygulamayla veya Uygulamaya sahip olman ve onu kullanmanla ilgili herhangi bir talebini - ürün sorumluluğu talepleri, Uygulamanın geçerli herhangi bir yasal ya da düzenleyici gerekliliğe uymadığı yönündeki talepler, tüketici koruma veya benzeri mevzuattan doğan talepler ve Uygulamanın bir üçüncü tarafın fikri mülkiyet haklarını ihlal ettiği yönündeki talepler dahil - ele almaktan Apple ya da Google değil, Hizmet Sağlayıcı sorumludur.",
+          "Amerika Birleşik Devletleri Hükümeti ambargosuna tabi olan ya da terörü destekleyen ülke olarak belirlenmiş bir ülkede bulunmadığını ve Amerika Birleşik Devletleri Hükümeti'nin yasaklı ya da kısıtlı taraflar listelerinin hiçbirinde yer almadığını beyan edersin.",
+          "Apple ve bağlı ortaklıkları ile Google ve iştirakleri bu koşulların üçüncü taraf lehtarlarıdır ve bu koşulları kabul etmenle birlikte bunları bir üçüncü taraf lehtar olarak sana karşı uygulama hakkına sahip olurlar. Bu bölümdeki hiçbir şey Hizmet Sağlayıcıya karşı haklarını ya da tüketici olarak emredici haklarını sınırlamaz."
+        ]
+      },
+      {
+        "heading": "Hesap ve fesih",
+        "paragraphs": [
+          "Hizmeti kullanmayı istediğin zaman bırakabilirsin. Hesabını ve ilişkili verileri Uygulamanın içinden, Ayarlar > Hesabı sil altından ya da Hizmet Sağlayıcıya drillrapps@gmail.com adresinden ulaşarak kalıcı olarak silebilirsin. Hesabını silmek, Apple ya da Google üzerinden satın alınmış bir aboneliği tek başına iptal etmez; onu yukarıda açıklandığı şekilde ayrıca iptal etmen gerekir.",
+          "Hizmet Sağlayıcı, ciddi gerekçelerin bulunduğu durumlarda Hizmete erişimini tamamen ya da kısmen derhal askıya alabilir veya sonlandırabilir. Ciddi gerekçeler şunları içerir: bu koşulların esaslı ya da tekrarlanan ihlali; Hizmetin yasa dışı amaçlarla ya da başkalarının haklarını ihlal edecek şekilde kullanılması; dolandırıcılık, ödeme dolandırıcılığı ya da ücretsiz denemelerin, iadelerin veya ters ibrazların kötüye kullanılması; Hizmete ya da diğer kullanıcıların verilerine yetkisiz erişim sağlamaya çalışmak veya Hizmetin güvenliğine ya da işleyişine başka şekilde müdahale etmek; bir hesap oluşturmak ya da korumak için yaşın dahil yanlış bilgi vermek; Hizmet Sağlayıcıya ya da onun adına hareket eden herhangi birine karşı taciz edici veya rahatsız edici davranış; ve Hizmet Sağlayıcıyı yasal sorumluluğa ya da bir mahkeme, düzenleyici kurum veya uygulama mağazası tarafından getirilen bir yükümlülüğe maruz bırakan her türlü kullanım.",
+          "Makul ve uygulanabilir olduğu durumlarda Hizmet Sağlayıcı sana askıya alma ya da feshin nedenini bildirir ve sorunun düzeltilebileceği durumlarda önce düzeltmen için fırsat verir. Askıya almanın sorunu çözmeye yettiği durumlarda fesih yerine askıya alma tercih edilir. Bir askıya alma ya da feshin hatalı yapıldığını düşünüyorsan, drillrapps@gmail.com adresine yazarak itiraz edebilirsin; Hizmet Sağlayıcı kararı yeniden inceler ve sana yanıt verir.",
+          "Hizmet Sağlayıcı ayrıca en az 30 gün önceden bildirimde bulunarak hesabını gerekçesiz olarak da sonlandırabilir. Hesabın gerekçesiz olarak ya da sana atfedilemeyen herhangi bir nedenle sonlandırılırsa, önceden ödediğin ancak yararlanamayacağın abonelik döneminin orantılı kısmı sana iade edilir.",
+          "Hizmet Sağlayıcı hesabını sonlandırdığında, bu mümkün değilse ya da yasaya aykırı olmadıkça, verilerin silinmeden önce onları almak ya da dışa aktarmak için sana makul bir fırsat verilir. Fesih nedeni ne olursa olsun, Gizlilik Politikasında belirtildiği şekilde kişisel verilerinin bir kopyasını alma hakkı dahil veri koruma hakların saklı kalır.",
+          "Herhangi bir nedenle fesih halinde, bu koşullar kapsamında sana tanınan haklar ve lisanslar sona erer ve Uygulamayı kullanmayı bırakman, gerekirse cihazından kaldırman gerekir. Verilerin bundan sonra Gizlilik Politikasında açıklandığı şekilde işlenir. Hesabını sonlandırmak ya da silmek, Apple veya Google üzerinden satın alınmış bir aboneliği tek başına iptal etmez. Hesabın ciddi gerekçelerle sonlandırıldıysa Hizmet Sağlayıcı sana Hizmeti yeniden sunmayı reddedebilir ve oluşturduğun başka hesapları kapatabilir. Bu koşulların niteliği gereği fesihten sonra da geçerli kalması gereken hükümleri - garanti retleri, sorumluluk sınırları, davranışından kaynaklanan taleplerden sorumluluğun ve uygulanacak hukuka ilişkin hükümler dahil - uygulanmaya devam eder."
+        ]
+      },
+      {
+        "heading": "Genel koşullar",
+        "paragraphs": [
+          "Hizmet Sağlayıcının bazı konularda sorumluluk üstlenmediğini lütfen unutma. Uygulamanın bazı işlevleri, Wi-Fi ya da mobil ağ operatörün tarafından sağlanan etkin bir internet bağlantısı gerektirir. Wi-Fi erişimi olmadığı ya da veri kotanı tükettiğin için Uygulama tam kapasiteyle çalışmazsa Hizmet Sağlayıcı sorumlu tutulamaz.",
+          "Uygulamayı Wi-Fi alanı dışında kullanıyorsan, mobil ağ operatörünle yaptığın sözleşmenin koşullarının hâlâ geçerli olduğunu unutma. Bu nedenle Uygulamaya bağlantı sırasındaki veri kullanımı için mobil operatörün tarafından ücretlendirilebilir ya da başka üçüncü taraf ücretleriyle karşılaşabilirsin. Uygulamayı kullanarak, veri dolaşımını kapatmadan Uygulamayı kendi bölgen ya da ülken dışında kullanman halinde dolaşım veri ücretleri dahil bu tür ücretlerin sorumluluğunu kabul edersin. Uygulamayı kullandığın cihazın faturasını ödeyen kişi sen değilsen, Hizmet Sağlayıcı fatura sahibinden izin aldığını varsayar.",
+          "Benzer şekilde, Hizmet Sağlayıcı Uygulamayı kullanımın için her zaman sorumluluk üstlenemez. Örneğin cihazının şarjlı kalmasını sağlamak senin sorumluluğundadır. Cihazının şarjı biterse ve Hizmete erişemezsen Hizmet Sağlayıcı sorumlu tutulamaz.",
+          "Hizmet Sağlayıcı Uygulamanın her zaman güncel ve doğru olmasını sağlamaya çalışsa da bilgileri sana sunabilmek için üçüncü taraflara dayanır. Hizmet Sağlayıcı, Uygulamanın bu işlevine tamamen güvenmen sonucunda yaşadığın doğrudan ya da dolaylı hiçbir kayıptan sorumlu değildir.",
+          "Hizmet Sağlayıcı bir noktada Uygulamayı güncellemek isteyebilir. Uygulama şu anda işletim sistemi gerekliliklerine göre sunulmaktadır ve erişilebilirliği genişletmeye karar verdikleri ek sistemler değişebilir. Uygulamayı kullanmaya devam etmek istiyorsan güncellemeleri indirmen gerekir. Hizmet Sağlayıcı, Uygulamayı her zaman senin için uygun ve/veya cihazında yüklü belirli işletim sistemi sürümüyle uyumlu olacak şekilde güncelleyeceğini garanti etmez. Ancak sana sunulduğunda Uygulama güncellemelerini her zaman kabul etmeyi kabul edersin. Hizmet Sağlayıcı ayrıca Uygulamayı sunmayı tamamen bırakmaya karar verebilir; bu durumda yukarıdaki Hesap ve fesih bölümü uygulanır.",
+          "Antrenman geçmişin ve diğer verilerin cihazında ve Hizmet Sağlayıcının barındırma sağlayıcılarında saklanır ve Hizmet Sağlayıcı bunları erişilebilir tutmak için makul özeni gösterir. Yine de hiçbir hizmet veri kaybına ya da bozulmasına karşı garanti veremez. Senin için önemli olan antrenman, sağlık ya da vücut ölçüsü bilgilerinin kendi kaydını tutmalı ve Uygulamayı bunların tek kopyası olarak görmemelisin.",
+          "Hizmet Sağlayıcı, barındırma, ağ, uygulama mağazası ya da ödeme sağlayıcılarındaki kesintiler veya arızalar, elektrik ya da internet kesintileri, grevler, hükümet işlemleri, doğal olaylar, salgınlar ya da silahlı çatışmalar dahil, makul kontrolü dışındaki olayların neden olduğu Uygulama veya Web Sitesi sunumundaki herhangi bir aksaklık ya da gecikmeden sorumlu değildir."
+        ]
+      },
+      {
+        "heading": "Davranışından kaynaklanan talepler",
+        "paragraphs": [
+          "Bir üçüncü taraf, senin yaptığın bir şey nedeniyle Hizmet Sağlayıcıya karşı bir talepte bulunursa, bu talepten senin neden olduğun ölçüde sorumlu olmayı kabul edersin. Bu, bu koşulları ihlal etmenden, Uygulama aracılığıyla kaydettiğin, paylaştığın ya da gönderdiğin içerikten ve senin tarafından gerçekleştirilen yasa dışı davranışlardan veya başka bir kişinin haklarını ihlal etmenden doğan talepleri kapsar. Bir talepten sorumlu olmak, Hizmet Sağlayıcının bunun sonucunda zorunlu ve doğrudan olarak katlandığı tazminatları, sulh bedellerini ve makul hukuki masrafları karşılamak anlamına gelir.",
+          "Bu yükümlülük yalnızca talebin senin kusuruna atfedilebildiği ölçüde geçerlidir. Talebin Hizmet Sağlayıcının bir eylemi ya da ihmalinden, Uygulamadaki veya Web Sitesindeki bir kusurdan ya da Hizmet Sağlayıcının bu koşulları veya uygulanabilir yasaları ihlal etmesinden kaynaklanan kısmına uygulanmaz. Tüketici olarak hareket ettiğin ve uygulanabilir yasanın sana böyle bir yükümlülük getirilmesine izin vermediği durumlarda hiç uygulanmaz ve hiçbir zaman uygulanabilir yasanın izin verdiğinin ötesine geçmez.",
+          "Bu türden bir talep ortaya çıkarsa, Hizmet Sağlayıcı seni gecikmeksizin yazılı olarak bilgilendirir, önce sana danışmadan sulh yoluna gitmez, nasıl ele alınacağı konusunda görüş bildirmen için sana makul bir fırsat verir ve masrafı en aza indirmek için makul adımlar atar. Bu bölümdeki hiçbir şey tüketici olarak emredici haklarını etkilemez. Bu bölüm, hesabın kapatıldıktan ya da bu koşullar sona erdikten sonra da yürürlükte oldukları süre içinde gerçekleşen her şey bakımından geçerli olmaya devam eder."
+        ]
+      },
+      {
+        "heading": "Garantilerin reddi ve sorumluluğun sınırlandırılması",
+        "paragraphs": [
+          "Uygulama, Web Sitesi ve Hizmet, satılabilirlik, belirli bir amaca uygunluk, mülkiyet ve hak ihlali olmaması dair zımni garantiler dahil ancak bunlarla sınırlı olmamak üzere, açık ya da zımni hiçbir garanti olmaksızın \"OLDUĞU GİBİ\" ve \"MEVCUT OLDUĞU ŞEKİLDE\" sunulur. Hizmet Sağlayıcı, Uygulamanın ya da Web Sitesinin kesintisiz, hatasız veya güvenli olacağını, virüslerden ya da diğer zararlı bileşenlerden arınmış olacağını, herhangi bir kusurun düzeltileceğini veya belirli bir sonuca ya da hedefe ulaşılacağını garanti etmez.",
+          "Hizmet Sağlayıcı, Uygulama ya da Web Sitesi aracılığıyla sunulan herhangi bir içeriğin, bilginin veya materyalin doğruluğu, yeterliliği, güvenilirliği, eksiksizliği ya da güncelliği konusunda hiçbir beyan veya garantide bulunmaz. Uygulamayı ve Web Sitesini kullanmanın riski tamamen sana aittir.",
+          "Uygulanabilir yasaların izin verdiği en geniş ölçüde, ne Hizmet Sağlayıcı ne de yüklenicileri, tedarikçileri veya içerik sağlayıcıları, Uygulamayı ya da Web Sitesini kullanmandan kaynaklanan veya bununla bağlantılı herhangi bir dolaylı, arızi, özel, sonuç olarak ortaya çıkan ya da cezai zarardan veya herhangi bir veri, kâr ya da itibar kaybından sorumlu tutulamaz.",
+          "Uygulanabilir yasaların izin verdiği en geniş ölçüde, Hizmet Sağlayıcının ve yüklenicilerinin, tedarikçilerinin ve içerik sağlayıcılarının Uygulamadan, Web Sitesinden ya da bu koşullardan kaynaklanan veya bunlarla bağlantılı tüm talepler için - sözleşme, haksız fiil ya da başka bir dayanakla - toplam sorumluluğu şu ikisinden büyük olanı aşamaz: (a) talebe yol açan olaydan hemen önceki on iki ayda Hizmet için ödediğin toplam tutar ya da (b) 50 EUR.",
+          "Bu koşullardaki hiçbir şey, uygulanabilir yasa kapsamında hariç tutulamayan ya da sınırlandırılamayan sorumluluğu hariç tutmaz veya sınırlandırmaz. Buna ihmalden kaynaklanan ölüm ya da kişisel yaralanma sorumluluğu, dolandırıcılık ya da hileli beyan sorumluluğu, kasıtlı kusur ya da ağır ihmal sorumluluğu ve ikamet ettiğin ülkenin tüketici koruma yasaları kapsamındaki hakların dahil olmak üzere tüketici olarak emredici hakların dahildir.",
+          "Bu bölümdeki istisnalar ve sınırlar, seninle Hizmet Sağlayıcı arasında üzerinde anlaşılmış bir risk paylaşımını yansıtır ve Hizmet için alınan fiyata yansıtılmıştır. Herhangi bir sınırlı çözüm yolunun esas amacına ulaşamadığı tespit edilse bile uygulanabilir yasaların izin verdiği en geniş ölçüde uygulanır ve bu koşulların herhangi bir şekilde sona ermesinden ya da hesabının silinmesinden sonra da geçerli kalır."
+        ]
+      },
+      {
+        "heading": "Uygulanacak hukuk ve uyuşmazlıklar",
+        "paragraphs": [
+          "Bu koşullar, kanunlar ihtilafı kuralları dikkate alınmaksızın Polonya hukukuna tabidir. Tüketiciysen, bu hukuk seçimi seni, nerede olursa olsun yaşadığın ülkenin hukukunun emredici hükümlerinin sağladığı korumadan yoksun bırakmaz ve bu koşullardaki hiçbir şey bu hakları etkilemez.",
+          "Bir şeyler ters giderse lütfen önce Hizmet Sağlayıcıya drillrapps@gmail.com adresinden yaz. Çoğu sorun bu şekilde çözülebilir. Hizmet Sağlayıcı, Polonya hukukunun gerektirdiği şekilde bir tüketici şikâyetine şikâyeti aldıktan sonra 30 gün içinde yanıt verir. Başka bir çözüm yoluna başvurmadan önce bu adımı atmak zorunda değilsin ve bu adımı atmak, sahip olabileceğin bir talep için geçerli olan herhangi bir süreyi etkilemez.",
+          "Bir uyuşmazlık bu şekilde çözülemezse mahkemeye götürülebilir. Avrupa Birliği'nde ikamet eden bir tüketiciysen, Hizmet Sağlayıcıya karşı Polonya mahkemelerinde ya da yaşadığın ülkenin mahkemelerinde dava açabilirsin; Hizmet Sağlayıcı ise sana karşı yalnızca yaşadığın ülkenin mahkemelerinde dava açabilir. Tüketici değilsen ya da Avrupa Birliği dışında yaşıyorsan, yerel hukukunun aksini öngören emredici kuralları saklı kalmak kaydıyla Polonya mahkemeleri yetkilidir.",
+          "Hizmet Sağlayıcı, mahkeme dışı bir tüketici uyuşmazlık çözüm kuruluşunu kullanmakla yükümlü değildir ve bunu yapmayı önceden taahhüt etmez, ancak bu yöndeki her talebi iyi niyetle değerlendirir. Polonya'daki tüketiciler bir belediye ya da ilçe tüketici avukatından (miejski lub powiatowy rzecznik konsumentów) veya mahkeme dışı tüketici uyuşmazlık çözüm süreçleri yürüten Ticaret Denetimi'nden (Inspekcja Handlowa) ücretsiz yardım alabilir. Avrupa Birliği'nin diğer ülkelerindeki tüketiciler, sınır ötesi uyuşmazlıklar için kendi ülkelerindeki Avrupa Tüketici Merkezi'nden ücretsiz yardım alabilir.",
+          "Bu koşullar İngilizce ve Lehçe olarak yayınlanır; bu Türkçe sürüm yalnızca bilgilendirme amaçlı bir çeviridir. Polonya'da ikamet eden bir tüketiciysen Lehçe sürüm geçerlidir. Diğer tüm durumlarda, sürümler arasında herhangi bir çelişki olması halinde İngilizce sürüm geçerlidir."
+        ]
+      },
+      {
+        "heading": "Devir",
+        "paragraphs": [
+          "Bu koşulları ya da hesabını, Hizmet Sağlayıcının önceden yazılı onayı olmadan başka birine devredemez veya aktaramazsın.",
+          "Hizmet Sağlayıcı bu koşulları ve bunlardan doğan hak ve yükümlülükleri başka bir kişiye ya da şirkete devredebilir veya aktarabilir - örneğin bir birleşme, devralma, yeniden yapılanma ya da Drillr işinin veya varlıklarının tamamının veya bir kısmının satışı kapsamında. Bu durumda devralan taraf, bu koşullar kapsamında Hizmet Sağlayıcının yerine değişiklik olmadan geçer; hesabın ve aboneliğin aynı koşullarla devam eder ve devir, bu koşullar ya da emredici tüketici hukuku kapsamındaki hiçbir hakkını azaltmaz.",
+          "Hizmet Sağlayıcı böyle bir devir yürürlüğe girmeden önce seni Uygulamada ya da e-postayla bilgilendirir. Yeni sağlayıcıyla devam etmek istemiyorsan, Uygulamayı kullanmayı bırakabilir ve hesabını istediğin zaman silebilir, aboneliğini de yukarıdaki Abonelikler ve ücretli planlar bölümünde açıklandığı şekilde Apple ya da Google üzerinden iptal edebilirsin. Böyle bir işlem kapsamında kişisel verilerinin her türlü aktarımı Gizlilik Politikasında açıklanmıştır."
+        ]
+      },
+      {
+        "heading": "Bölünebilirlik",
+        "paragraphs": [
+          "Bu koşulların herhangi bir hükmü bir mahkeme ya da başka bir yetkili makam tarafından geçersiz, hukuka aykırı veya uygulanamaz bulunursa, o hüküm geçerli ve uygulanabilir hale getirmek için gereken asgari ölçüde değiştirilmiş sayılır ya da bu şekilde değiştirilemiyorsa bu koşullardan çıkarılır. Geri kalan hükümler tamamen yürürlükte kalır.",
+          "Özellikle, herhangi bir sorumluluk istisnası ya da sınırlaması veya bunun bir kısmı uygulanamaz bulunursa, geri kalan istisnalar ve sınırlamalar uygulanmaya devam eder. Hizmet Sağlayıcının bu koşulların herhangi bir hükmünü uygulamaması, o hükümden ya da başka herhangi bir hükümden feragat ettiği anlamına gelmez."
+        ]
+      },
+      {
+        "heading": "Bildirimler",
+        "paragraphs": [
+          "Bu koşulların Hizmet Sağlayıcının sana bildirimde bulunmasını gerektirdiği durumlarda, bildirim hesabına kayıtlı e-posta adresine gönderilir, Uygulamada gösterilir ya da her ikisi birden yapılır ve gönderildiği ya da ilk gösterildiği gün yapılmış sayılır. Hesabındaki e-posta adresini güncel tutmak ve Hizmet Sağlayıcıdan gelen mesajların engellenmediğinden ya da filtrelenmediğinden emin olmak senin sorumluluğundadır.",
+          "Bir askıya almaya ya da feshe itiraz etmek dahil, Hizmet Sağlayıcıya bildirimde bulunman gerektiğinde drillrapps@gmail.com adresine yaz."
+        ]
+      },
+      {
+        "heading": "Bu Kullanım Koşullarındaki değişiklikler",
+        "paragraphs": [
+          "Hizmet Sağlayıcı Kullanım Koşullarını zaman zaman güncelleyebilir. Bu nedenle değişiklikler için bu sayfayı düzenli olarak incelemen önerilir. Hizmet Sağlayıcı yeni Kullanım Koşullarını bu sayfada yayınlayarak değişiklikleri sana bildirir."
+        ]
+      },
+      {
+        "heading": "Bize ulaş",
+        "paragraphs": [
+          "Kullanım Koşullarıyla ilgili herhangi bir sorun ya da önerin varsa, Hizmet Sağlayıcıya drillrapps@gmail.com adresinden ulaşmaktan çekinme."
+        ]
+      }
+    ],
+    "crossLink": { "label": "Drillr gizlilik politikası", "href": "/privacy" }
+  }
+}

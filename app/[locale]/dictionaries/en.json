@@ -21,17 +21,17 @@
     "screenshotAlt": "Drillr app screen"
   },
   "hero": {
-    "badge": "Loved by 3600+ players · {rating} rating",
+    "badge": "Loved by 4500+ players · {rating} rating",
     "titleLine1": "Every position",
     "titleLine2": "trains differently.",
     "subtitle": "Drillr is the football fitness app built around the position you actually play. Home or gym, shaped to your role, your level, and the time you've got.",
     "downloadCta": "Download"
   },
   "usedBy": {
-    "title": "3600+ players train with us",
+    "title": "4500+ players train with us",
     "subtitle": "From U14s to semi-pro, in 80+ countries, every single day.",
     "stats": [
-      { "value": "3600+", "label": "Active players" },
+      { "value": "4500+", "label": "Active players" },
       { "value": "80+", "label": "Countries" },
       { "value": "{rating}★", "label": "Average rating" },
       { "value": "10K+", "label": "Exercises completed" }

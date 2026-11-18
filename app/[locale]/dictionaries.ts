@@ -10,6 +10,7 @@ const dictionaries = {
   it: () => import("./dictionaries/it.json").then((m) => m.default),
   pt: () => import("./dictionaries/pt.json").then((m) => m.default),
   id: () => import("./dictionaries/id.json").then((m) => m.default),
+  tr: () => import("./dictionaries/tr.json").then((m) => m.default),
 } as const;
 
 export type Dictionary = Awaited<ReturnType<(typeof dictionaries)["en"]>>;
