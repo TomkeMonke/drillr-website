@@ -44,7 +44,7 @@ export default async function TrainingIndex({ params }: PageProps<"/[locale]/tra
               className="group card-lift relative overflow-hidden rounded-3xl border border-white/5 bg-surface/60 hover:bg-surface p-8"
             >
               <div
-                className="absolute -top-16 -right-16 h-40 w-40 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-opacity pointer-events-none"
+                className="absolute -top-16 -end-16 h-40 w-40 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-opacity pointer-events-none"
                 style={{ background: data.accent }}
                 aria-hidden="true"
               />
@@ -58,7 +58,7 @@ export default async function TrainingIndex({ params }: PageProps<"/[locale]/tra
               <p className="relative mt-1 text-white/60">{pos.tagline}</p>
               <div className="relative mt-6 flex items-center gap-2 text-sm text-primary">
                 {dict.positionPicker.viewPlan}
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4 transition-transform group-hover:translate-x-1">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:-scale-x-100 rtl:group-hover:-translate-x-1">
                   <path d="M5 12h14M13 5l7 7-7 7" />
                 </svg>
               </div>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { LOCALES, isLocale } from "@/lib/locales";
+import { LOCALES, isLocale, isRtl } from "@/lib/locales";
 import { pageMetadata } from "@/lib/metadata";
 import { FEATURES } from "@/lib/features";
 import { FOCUS_CATEGORIES, POSITION_SLUGS, POSITIONS, isPositionSlug } from "@/lib/positions";
@@ -177,7 +177,7 @@ export default async function PositionPage({
               <Reveal key={drill.name} as="li" delay={i * 80}>
                 <div className="flex items-center justify-between rounded-xl bg-surface/60 border border-white/5 px-5 py-4">
                   <span className="text-white/90 font-medium">{drill.name}</span>
-                  <span className="text-sm text-white/50 tabular-nums shrink-0 ml-3">
+                  <span className="text-sm text-white/50 tabular-nums shrink-0 ms-3">
                     {drill.spec}
                   </span>
                 </div>
@@ -204,7 +204,7 @@ export default async function PositionPage({
                 href={`/${locale}/training`}
                 className="text-sm text-white/50 hover:text-white transition-colors"
               >
-                ← {dict.positions.indexTitle}
+                {isRtl(locale) ? "→" : "←"} {dict.positions.indexTitle}
               </Link>
             </div>
           </Reveal>

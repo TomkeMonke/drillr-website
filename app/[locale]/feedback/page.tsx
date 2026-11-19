@@ -18,6 +18,8 @@ const TALLY_FORM_ID: Record<Locale, string> = {
   id: "0VrOB9",
   // English form until a Turkish one exists in Tally.
   tr: "BzQeRR",
+  // English form until an Arabic one exists in Tally.
+  ar: "BzQeRR",
 };
 
 export async function generateMetadata({

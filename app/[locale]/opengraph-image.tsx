@@ -45,6 +45,12 @@ const COPY = {
     headline: "Her pozisyon\nfarklı çalışır.",
     sub: "Pozisyonuna göre futbol kondisyonu. Evde ya da salonda.",
   },
+  // English card: Satori lays Arabic words out left to right, so the line would
+  // read backwards (and with some Arabic fonts it throws on their glyph tables).
+  ar: {
+    headline: "Every position\ntrains differently.",
+    sub: "Football fitness for the position you play. Home or gym.",
+  },
 } as const;
 
 export default async function Image({

@@ -8,7 +8,7 @@ export function ScrollProgress() {
       aria-hidden="true"
       className="fixed top-0 left-0 right-0 z-50 h-[2px] pointer-events-none"
     >
-      <div className="scroll-progress-bar h-full bg-gradient-to-r from-primary via-primary-light to-accent" />
+      <div className="scroll-progress-bar h-full bg-gradient-to-r rtl:bg-gradient-to-l from-primary via-primary-light to-accent" />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Noto_Sans_Arabic } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
-import { LOCALES, OG_LOCALES, isLocale } from "@/lib/locales";
+import { LOCALES, OG_LOCALES, isLocale, isRtl } from "@/lib/locales";
 import { getDictionary } from "./dictionaries";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -12,6 +12,15 @@ import { Analytics } from "@vercel/analytics/next";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin", "latin-ext"],
+});
+
+// Geist has no Arabic glyphs. Only ar pages put this font's variable on <html>
+// (see globals.css); it is not preloaded, since a root-layout preload would
+// make every language download it.
+const notoSansArabic = Noto_Sans_Arabic({
+  variable: "--font-arabic",
+  subsets: ["arabic"],
+  preload: false,
 });
 
 export async function generateStaticParams() {
@@ -60,9 +69,15 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
+  const fontVariables =
+    locale === "ar" ? `${geistSans.variable} ${notoSansArabic.variable}` : geistSans.variable;
 
   return (
-    <html lang={locale} className={`${geistSans.variable} h-full antialiased`}>
+    <html
+      lang={locale}
+      dir={isRtl(locale) ? "rtl" : undefined}
+      className={`${fontVariables} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ScrollProgress />
         <Header locale={locale} dict={dict} />

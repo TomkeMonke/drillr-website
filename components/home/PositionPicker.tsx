@@ -38,7 +38,7 @@ export function PositionPicker({ dict, locale }: Props) {
                 type="button"
                 aria-pressed={isActive}
                 onClick={() => setActive(slug)}
-                className={`rounded-2xl border p-5 text-left transition-all duration-300 hover:-translate-y-0.5 ${
+                className={`rounded-2xl border p-5 text-start transition-all duration-300 hover:-translate-y-0.5 ${
                   isActive
                     ? "bg-surface border-transparent shadow-lg"
                     : "bg-surface/40 border-white/5 hover:bg-surface/80"
@@ -111,7 +111,7 @@ export function PositionPicker({ dict, locale }: Props) {
                   className="flex items-center justify-between rounded-xl bg-white/[0.03] border border-white/5 px-4 py-3"
                 >
                   <span className="text-white/90">{drill.name}</span>
-                  <span className="text-xs text-white/50 tabular-nums shrink-0 ml-3">
+                  <span className="text-xs text-white/50 tabular-nums shrink-0 ms-3">
                     {drill.spec}
                   </span>
                 </li>
@@ -127,7 +127,7 @@ export function PositionPicker({ dict, locale }: Props) {
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
-                className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:-scale-x-100 rtl:group-hover:-translate-x-1"
               >
                 <path d="M5 12h14M13 5l7 7-7 7" />
               </svg>

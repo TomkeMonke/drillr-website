@@ -53,7 +53,7 @@ export function LegalPage({ locale, t }: Props) {
             className={`scroll-mt-24 ${i > 0 ? "pt-12 border-t border-white/5" : ""}`}
           >
             <h2 className="text-xl font-semibold text-white mb-5">
-              <span className="text-white/40 mr-2 tabular-nums">{i + 1}.</span>
+              <span className="text-white/40 me-2 tabular-nums">{i + 1}.</span>
               {s.heading}
             </h2>
             <div className="space-y-4">
@@ -63,7 +63,7 @@ export function LegalPage({ locale, t }: Props) {
                 </p>
               ))}
               {s.bullets && (
-                <ul className="space-y-2 pl-6 list-disc marker:text-primary/50 text-white/70 leading-relaxed">
+                <ul className="space-y-2 ps-6 list-disc marker:text-primary/50 text-white/70 leading-relaxed">
                   {s.bullets.map((b, j) => (
                     <li key={j}>
                       <RichText text={b} />
@@ -83,7 +83,7 @@ export function LegalPage({ locale, t }: Props) {
             className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary-light transition-colors"
           >
             <span>{t.crossLink.label}</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4 rtl:-scale-x-100">
               <path d="M5 12h14M13 5l7 7-7 7" />
             </svg>
           </Link>

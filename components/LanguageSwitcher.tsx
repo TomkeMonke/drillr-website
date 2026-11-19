@@ -54,7 +54,7 @@ export function LanguageSwitcher({ current }: Props) {
       {open && (
         <ul
           role="menu"
-          className="absolute right-0 top-full mt-2 z-50 min-w-44 rounded-2xl border border-white/10 bg-surface/95 backdrop-blur p-1 shadow-xl"
+          className="absolute end-0 top-full mt-2 z-50 min-w-44 whitespace-nowrap rounded-2xl border border-white/10 bg-surface/95 backdrop-blur p-1 shadow-xl"
         >
           {LOCALES.map((loc) => {
             const active = loc === current;

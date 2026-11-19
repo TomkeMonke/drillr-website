@@ -41,6 +41,8 @@ function GooglePlayIcon({ className }: { className?: string }) {
   );
 }
 
+// Each badge keeps dir="ltr" so it is never mirrored on right-to-left pages,
+// matching the official store artwork; only the order of the two badges flips.
 export function DownloadBadges({ labels, size = "md", className = "" }: Props) {
   const s = sizeMap[size];
   return (
@@ -50,6 +52,7 @@ export function DownloadBadges({ labels, size = "md", className = "" }: Props) {
           href="https://apps.apple.com/us/app/drillr-dominate-your-position/id6761615321"
           target="_blank"
           rel="noopener"
+          dir="ltr"
           aria-label={labels.downloadAppStore}
           className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(var(--primary-rgb),0.55)]`}
         >
@@ -65,6 +68,7 @@ export function DownloadBadges({ labels, size = "md", className = "" }: Props) {
           href="https://play.google.com/store/apps/details?id=com.anonymous.FootballApp"
           target="_blank"
           rel="noopener"
+          dir="ltr"
           aria-label={labels.downloadGooglePlay}
           className={`${s.h} ${s.pad} ${s.gap} btn-shine group flex items-center rounded-xl bg-black border border-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-[border-color,transform,box-shadow] duration-300 hover:shadow-[0_18px_36px_-18px_rgba(var(--primary-rgb),0.55)]`}
         >

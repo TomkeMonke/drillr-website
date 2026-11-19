@@ -16,7 +16,7 @@ export function CoachesCta({ dict }: Props) {
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-white/10 p-10 lg:p-14 bg-gradient-to-br from-[#10121a] via-[#0f1118] to-[#0a0a0e]">
             <div
-              className="absolute -top-20 -right-20 h-64 w-64 rounded-full blur-3xl opacity-40 pointer-events-none"
+              className="absolute -top-20 -end-20 h-64 w-64 rounded-full blur-3xl opacity-40 pointer-events-none"
               style={{ background: "radial-gradient(closest-side, rgba(var(--primary-rgb),0.4), transparent)" }}
               aria-hidden="true"
             />
@@ -41,7 +41,7 @@ export function CoachesCta({ dict }: Props) {
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="2"
-                    className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                    className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:-scale-x-100 rtl:group-hover:-translate-x-1"
                   >
                     <path d="M5 12h14M13 5l7 7-7 7" />
                   </svg>
