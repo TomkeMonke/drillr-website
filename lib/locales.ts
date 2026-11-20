@@ -32,8 +32,9 @@ export const OG_LOCALES: Record<Locale, string> = {
   sv: "sv_SE",
 };
 
-/** Languages without their own captures in public/screenshots yet; they show the English set. */
-const NO_SCREENSHOTS: readonly Locale[] = ["sv"];
+/** Languages without their own captures in public/screenshots yet; they show the English set.
+ *  Empty since 2026-11-20 (Swedish was the last). */
+const NO_SCREENSHOTS: readonly Locale[] = [];
 
 /** App screenshot for a language: English has no suffix, every other language "-<code>". */
 export function screenshotSrc(name: string, locale: Locale): string {
