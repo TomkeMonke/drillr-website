@@ -51,6 +51,10 @@ const COPY = {
     headline: "Every position\ntrains differently.",
     sub: "Football fitness for the position you play. Home or gym.",
   },
+  sv: {
+    headline: "Varje position\ntränar olika.",
+    sub: "Fysträning för fotboll, för positionen du spelar. Hemma eller på gymmet.",
+  },
 } as const;
 
 export default async function Image({

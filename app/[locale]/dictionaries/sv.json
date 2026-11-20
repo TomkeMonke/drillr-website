@@ -1,0 +1,955 @@
+{
+  "meta": {
+    "title": "Drillr - fysträning för fotboll, efter din position",
+    "description": "Fysträning för fotboll, byggd för positionen du faktiskt spelar. Hemma eller på gymmet, en plan formad efter din roll, din nivå och tiden du har."
+  },
+  "nav": {
+    "home": "Hem",
+    "faq": "Vanliga frågor",
+    "press": "Press",
+    "manageSubscription": "Hantera prenumeration",
+    "feedback": "Feedback",
+    "support": "Support",
+    "openMenu": "Öppna menyn",
+    "closeMenu": "Stäng menyn"
+  },
+  "common": {
+    "downloadAppStore": "Hämta i App Store",
+    "downloadGooglePlay": "Ladda ned på Google Play",
+    "appStoreKicker": "Hämta i",
+    "googlePlayKicker": "LADDA NED PÅ",
+    "screenshotAlt": "Skärm i Drillr-appen"
+  },
+  "hero": {
+    "badge": "Gillad av 4500+ spelare · betyg {rating}",
+    "titleLine1": "Varje position",
+    "titleLine2": "tränar olika.",
+    "subtitle": "Drillr är fysappen för fotboll som är byggd runt positionen du faktiskt spelar. Hemma eller på gymmet, anpassad efter din roll, din nivå och tiden du har.",
+    "downloadCta": "Ladda ned"
+  },
+  "usedBy": {
+    "title": "4500+ spelare tränar med oss",
+    "subtitle": "Från U14 till halvproffs, i 80+ länder, varenda dag.",
+    "stats": [
+      {
+        "value": "4500+",
+        "label": "Aktiva spelare"
+      },
+      {
+        "value": "80+",
+        "label": "Länder"
+      },
+      {
+        "value": "{rating}★",
+        "label": "Snittbetyg"
+      },
+      {
+        "value": "10K+",
+        "label": "Genomförda övningar"
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Så funkar det",
+    "title": "Tre steg. Det är allt.",
+    "steps": [
+      {
+        "eyebrow": "Steg 01",
+        "title": "Välj din position",
+        "body": "Anfallare, ytter, målvakt, vad du än spelar formar vi planen efter vad din roll faktiskt kräver av dig."
+      },
+      {
+        "eyebrow": "Steg 02",
+        "title": "Träna varje dag",
+        "body": "Korta, ärliga pass. 25-45 minuter räcker för att ändra hur du spelar, och Drillr håller räkningen åt dig."
+      },
+      {
+        "eyebrow": "Steg 03",
+        "title": "Se dig själv växa",
+        "body": "Sviter, statistik, små milstolpar. När du väl börjar sätta ihop dagar blir det svårt att sluta."
+      }
+    ]
+  },
+  "features": {
+    "title": "Det här finns i Drillr",
+    "items": [
+      {
+        "title": "Pass byggda för din position",
+        "body": "Målvakt, försvarare, mittfältare, anfallare. Varje övning är vald efter vad din position faktiskt kräver."
+      },
+      {
+        "title": "En kalender som passar din vecka",
+        "body": "Dina träningsdagar, tillgång till gym och din erfarenhet går in i planen. Den anpassar sig efter ditt liv, inte tvärtom."
+      },
+      {
+        "title": "Videodemo för allt",
+        "body": "Tydliga instruktioner, set, reps och en kort video för varje rörelse. Du behöver aldrig gissa hur något ska se ut."
+      },
+      {
+        "title": "Stretch som matchar ditt spel",
+        "body": "Rörlighetsträning riktad mot musklerna du faktiskt använder på planen, inte en nedvarvning som är likadan för alla."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Det här säger spelarna",
+    "items": [
+      {
+        "name": "Alex M.",
+        "role": "Mittfältare U17",
+        "quote": "Ärligt talat förväntade jag mig inte mycket, men efter en månad sa min tränare att jag placerade mig mycket bättre. Uthålligheten är galen nu också."
+      },
+      {
+        "name": "Sara K.",
+        "role": "Försvarare U16",
+        "quote": "En kompis visade mig appen och nu kör jag den varje dag. Passen är faktiskt vettiga för min position."
+      },
+      {
+        "name": "Daniel R.",
+        "role": "Anfallare, halvproffs",
+        "quote": "Det positionsspecifika var det som fick mig att fastna. Varje pass känns som att det är gjort för mitt spel."
+      },
+      {
+        "name": "Jakub W.",
+        "role": "Målvakt U19",
+        "quote": "Målvaktsspecifik träning är ovanligt i appar. Drillr sitter perfekt. Både mina reaktioner och mitt fotarbete har blivit bättre."
+      },
+      {
+        "name": "Maya L.",
+        "role": "Mittfältare i akademi",
+        "quote": "Jag älskar kalendern - den anpassar sig när jag missar en dag i stället för att ge mig dåligt samvete."
+      },
+      {
+        "name": "Tomasz B.",
+        "role": "Försvarare i korpen",
+        "quote": "30 minuter om dagen, 4 dagar i veckan, och jag känner mig som en annan spelare på söndagarna."
+      }
+    ]
+  },
+  "positionPicker": {
+    "badge": "Välj din plats",
+    "title": "Vilken position spelar du?",
+    "subtitle": "Tryck på en position för att se vad Drillr gör för den.",
+    "focusBreakdown": "Fördelning av fokus",
+    "sampleDrills": "Exempel på övningar",
+    "viewPlan": "Se hela planen",
+    "categoryLabels": {
+      "strength": "Styrka",
+      "cardio": "Kondition",
+      "agility": "Smidighet",
+      "flexibility": "Rörlighet"
+    }
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "subtitle": "Allt du behöver veta om Drillr",
+    "items": [
+      {
+        "q": "Behöver jag någon utrustning?",
+        "a": "Nej. Drillr anpassar sig efter det du har. Berätta i introduktionen om du har tillgång till gym, så bygger vi din plan runt det - skivstång, hantlar, maskiner eller bara kroppsvikt."
+      },
+      {
+        "q": "Hur mycket tid per dag?",
+        "a": "De flesta pass tar 25-45 minuter. Du kan träna 3, 5 eller 6 dagar i veckan beroende på målet du väljer i introduktionen."
+      },
+      {
+        "q": "Finns det en gratisversion?",
+        "a": "Ja. Du kan gå igenom introduktionen och testa ett smakprov av din plan gratis. Hela veckoplanen och resten av övningarna ingår i en prenumeration."
+      },
+      {
+        "q": "Är Drillr säkert för dig under 13?",
+        "a": "Drillr är byggt för dig som är 13 år eller äldre. Yngre spelare bör träna under uppsikt av en tränare eller förälder."
+      },
+      {
+        "q": "Jag har precis börjat - är det här för avancerat?",
+        "a": "Drillr möter dig där du är. Du väljer din nivå i introduktionen, och planen anpassar mängd och svårighet efter den. Den som tränar för första gången får en annan vecka än den som redan spelar klubbfotboll fem dagar i veckan."
+      },
+      {
+        "q": "Vad händer om jag spelar flera positioner?",
+        "a": "Välj den du spelar oftast. Du kan byta position när som helst under inställningar, så byggs din plan om runt den nya."
+      },
+      {
+        "q": "Kan jag använda Drillr vid sidan av min tränares program?",
+        "a": "Ja, massor av spelare gör det. Drillr är tänkt att finnas bredvid lagträningen, inte ersätta den. Dra ner på veckomängden om du börjar känna dig helt slut."
+      },
+      {
+        "q": "Hur säger jag upp min prenumeration?",
+        "a": "Säg upp när som helst i enhetens prenumerationsinställningar, eller via vår sida Hantera prenumeration om du registrerade dig på webben."
+      }
+    ]
+  },
+  "coachesCta": {
+    "eyebrow": "För tränare och akademier",
+    "title": "Tränar du ett lag eller driver en akademi?",
+    "body": "Vi jobbar på lagplaner, gruppöversikter och samarbeten med akademier. Hör av dig så kontaktar vi dig.",
+    "cta": "Kontakta oss"
+  },
+  "finalCta": {
+    "title": "Börja träna för din position",
+    "body": "Välj din position, testa ett smakprov av din plan gratis och känn hur en vecka byggd runt din roll faktiskt känns.",
+    "note": "Gratis att testa. iOS och Android."
+  },
+  "positions": {
+    "indexTitle": "Träna efter position",
+    "indexSubtitle": "Varje plan i Drillr formas efter vad din position faktiskt kräver.",
+    "downloadCta": "Ladda ned Drillr för ",
+    "weekTitle": "En vanlig vecka",
+    "drillsTitle": "Så ser dina pass ut",
+    "strengthsTitle": "Ditt övertag",
+    "weaknessTitle": "Det här fixar vi",
+    "goalkeeper": {
+      "name": "Målvakt",
+      "codes": "GK",
+      "tagline": "Reaktioner. Placering. Ledarskap.",
+      "description": "Reflexer och placering är det som gör en bra målvakt. Drillr vässar båda med reaktionsträning, förflyttning i sidled och stabilitet i bålen - det som de flesta appar hoppar över.",
+      "strengths": "Drillr bygger den explosiva rörligheten i sidled, reaktionsförmågan och stabiliteten i bålen som skiljer bra målvakter från riktigt bra.",
+      "weaknesses": "De flesta målvakter hoppar i tysthet över rörlighet i sidled och kraft i underkroppen. Det låter vi inte dig göra.",
+      "drills": [
+        {
+          "name": "Reaktionsboll",
+          "spec": "3 × 60 s"
+        },
+        {
+          "name": "Sidogång med gummiband",
+          "spec": "4 × 12"
+        },
+        {
+          "name": "Enbensknäböj",
+          "spec": "3 × 8 per sida"
+        },
+        {
+          "name": "Planka med räckning",
+          "spec": "3 × 45 s"
+        }
+      ],
+      "week": [
+        {
+          "day": "Mån",
+          "session": "Styrka i underkroppen"
+        },
+        {
+          "day": "Tis",
+          "session": "Reaktioner och fotarbete"
+        },
+        {
+          "day": "Ons",
+          "session": "Bål och stabilitet"
+        },
+        {
+          "day": "Tor",
+          "session": "Återhämtning och stretch"
+        },
+        {
+          "day": "Fre",
+          "session": "Plyometri och explosivitet"
+        }
+      ]
+    },
+    "defender": {
+      "name": "Försvarare",
+      "codes": "CB · LB · RB",
+      "tagline": "Vinn varje duell.",
+      "description": "Vunna luftdueller, rena tacklingar, snabba hemlöpningar - allt börjar på gymmet. Drillr bygger styrkan och uthålligheten som bär en mot en och rensningar.",
+      "strengths": "Vunna luftdueller och kraft i tacklingarna börjar på gymmet. Drillr tränar båda, plus smidigheten som de flesta försvarare i tysthet hoppar över.",
+      "weaknesses": "Försvarare hoppar ofta över smidigheten - snabba fötter räddar också mål. Vi håller dina vassa.",
+      "drills": [
+        {
+          "name": "Knäböj med skivstång",
+          "spec": "4 × 6"
+        },
+        {
+          "name": "Lådhopp",
+          "spec": "4 × 5"
+        },
+        {
+          "name": "Mountain climbers",
+          "spec": "4 × 30 s"
+        },
+        {
+          "name": "Ryska vridningar",
+          "spec": "3 × 20"
+        }
+      ],
+      "week": [
+        {
+          "day": "Mån",
+          "session": "Tung styrka"
+        },
+        {
+          "day": "Tis",
+          "session": "Plyometri"
+        },
+        {
+          "day": "Ons",
+          "session": "Konditionsintervaller"
+        },
+        {
+          "day": "Tor",
+          "session": "Smidighet och fotarbete"
+        },
+        {
+          "day": "Fre",
+          "session": "Bål och rörlighet"
+        }
+      ]
+    },
+    "midfielder": {
+      "name": "Mittfältare",
+      "codes": "CDM · CM · CAM · LM · RM",
+      "tagline": "Styr matchen i 90 minuter.",
+      "description": "Box till box kräver hela verktygslådan. Drillr bygger motorn, smidigheten och rörligheten du behöver för att styra mitten från första till sista visslingen.",
+      "strengths": "Box till box kräver hela verktygslådan. Drillr gör dig redo för alla 90 minuter.",
+      "weaknesses": "Centrala mittfältare som hoppar över rörligheten skadar sig oftare sent i matcherna. Det släpper Drillr inte igenom.",
+      "drills": [
+        {
+          "name": "Intervallsprintar",
+          "spec": "8 × 200 m"
+        },
+        {
+          "name": "Gående utfallssteg",
+          "spec": "3 × 12 per ben"
+        },
+        {
+          "name": "Burpees",
+          "spec": "4 × 10"
+        },
+        {
+          "name": "Planka",
+          "spec": "3 × 60 s"
+        }
+      ],
+      "week": [
+        {
+          "day": "Mån",
+          "session": "Grunduthållighet"
+        },
+        {
+          "day": "Tis",
+          "session": "Styrka"
+        },
+        {
+          "day": "Ons",
+          "session": "Sprintintervaller"
+        },
+        {
+          "day": "Tor",
+          "session": "Smidighet och vändningar"
+        },
+        {
+          "day": "Fre",
+          "session": "Rörlighet och återhämtning"
+        }
+      ]
+    },
+    "forward": {
+      "name": "Anfallare",
+      "codes": "ST · CF · LW · RW",
+      "tagline": "Snabbare. Högre. Fler mål.",
+      "description": "Explosiv acceleration och skarpa riktningsbyten är ditt övertag. Drillr tränar farten, kraften och smidigheten som tar dig bakom backlinjen, plus styrkan att hålla undan försvarare när du väl är där.",
+      "strengths": "Explosiv acceleration och skarpa riktningsbyten är ditt övertag. Drillr tränar dem varenda vecka.",
+      "weaknesses": "Anfallare som hoppar över styrkan förlorar duellerna längs sidlinjen. Vi ser till att du inte gör det.",
+      "drills": [
+        {
+          "name": "Djuphopp",
+          "spec": "4 × 5"
+        },
+        {
+          "name": "Hoppknäböj",
+          "spec": "4 × 8"
+        },
+        {
+          "name": "Stegeövningar",
+          "spec": "5 set"
+        },
+        {
+          "name": "Tåhävningar",
+          "spec": "3 × 15"
+        }
+      ],
+      "week": [
+        {
+          "day": "Mån",
+          "session": "Explosiv underkropp"
+        },
+        {
+          "day": "Tis",
+          "session": "Sprintteknik"
+        },
+        {
+          "day": "Ons",
+          "session": "Smidighet och avslut"
+        },
+        {
+          "day": "Tor",
+          "session": "Kraft i överkroppen"
+        },
+        {
+          "day": "Fre",
+          "session": "Plyometri och rörlighet"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "download": "Ladda ned Drillr",
+    "legal": "Juridik",
+    "company": "Företag",
+    "training": "Träning",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "deleteAccount": "Radera konto",
+    "faq": "Vanliga frågor",
+    "press": "Press",
+    "manageSubscription": "Hantera prenumeration",
+    "feedback": "Feedback",
+    "support": "Support",
+    "copyright": "© 2026 Drillr. Alla rättigheter förbehållna."
+  },
+  "feedback": {
+    "title": "Skicka feedback",
+    "subtitle": "Har du hittat en bugg, har en idé eller vill önska en funktion? Berätta för oss. Vi läser varje meddelande.",
+    "loading": "Laddar feedbackformuläret…"
+  },
+  "press": {
+    "title": "Press",
+    "subtitle": "För mediefrågor, intervjuförfrågningar och pressmeddelanden, kontakta oss direkt via e-post.",
+    "contactLabel": "Pressfrågor"
+  },
+  "manageSubscription": {
+    "title": "Hantera prenumeration",
+    "body": "Prenumerationer debiteras via App Store eller Google Play. Hantera eller säg upp när som helst från din enhet via länken för din butik.",
+    "appleHelp": "Hantera hos Apple",
+    "googleHelp": "Hantera hos Google"
+  },
+  "support": {
+    "title": "Hjälp och support",
+    "subtitle": "Frågor, buggar, betalning eller hjälp med kontot - vi finns här. Kontakta oss direkt så löser vi det.",
+    "emailLabel": "Support via e-post",
+    "responseTime": "Vi svarar oftast inom 1-2 arbetsdagar.",
+    "feedbackTitle": "Skicka feedback",
+    "feedbackBody": "Rapportera en bugg eller önska en funktion.",
+    "subscriptionTitle": "Hantera prenumeration",
+    "subscriptionBody": "Ändra, säg upp eller få hjälp med betalning.",
+    "faqTitle": "Vanliga frågor",
+    "faq": [
+      {
+        "q": "Hur säger jag upp min prenumeration?",
+        "a": "Prenumerationer debiteras av App Store eller Google Play, så du säger upp i butiksinställningarna på din enhet. Sidan Hantera prenumeration har direktlänkar för varje butik."
+      },
+      {
+        "q": "Kan jag få pengarna tillbaka?",
+        "a": "Återbetalningar hanteras av Apple och Google, inte av oss. Begär en via App Store eller Google Play, och mejla oss om du behöver hjälp."
+      },
+      {
+        "q": "Hur raderar jag mitt konto eller min data?",
+        "a": "Öppna Inställningar > Radera konto i appen - det tar bort din profil och all din träningsdata direkt. Kommer du inte in på ditt konto kan du mejla oss från adressen som kontot är kopplat till, så gör vi det åt dig. Vad vi sparar står i vår integritetspolicy."
+      },
+      {
+        "q": "Jag har hittat en bugg. Vad ska jag göra?",
+        "a": "Skicka detaljerna till oss via feedbackformuläret eller via e-post - skärmdumpar och din enhetsmodell hjälper oss att fixa det snabbare."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Radera ditt konto",
+    "lastUpdated": "Gäller från 2026-07-31",
+    "tocLabel": "Innehåll",
+    "intro": "Den här sidan förklarar hur du raderar ditt Drillr-konto och vad som händer med din data när du gör det. Drillr är utvecklat av Tomasz Święcki. Du kan radera ditt konto själv inne i appen på några sekunder, eller be oss göra det åt dig via e-post. Den här översättningen är endast avsedd som information; vid avvikelser gäller den engelska versionen.",
+    "sections": [
+      {
+        "heading": "Radera ditt konto inne i appen",
+        "paragraphs": [
+          "Det här är det snabbaste sättet och det gäller direkt. Du behöver inte kontakta oss."
+        ],
+        "bullets": [
+          "Öppna Drillr och gå till fliken Inställningar",
+          "Skrolla till avsnittet Konto",
+          "Tryck på Radera konto, den sista raden i det avsnittet",
+          "Bekräfta när du blir tillfrågad - det går inte att ångra"
+        ]
+      },
+      {
+        "heading": "Radera ditt konto via e-post",
+        "paragraphs": [
+          "Om du inte kan logga in, eller hellre vill att vi gör det åt dig, mejla drillrapps@gmail.com från adressen som ditt konto är registrerat på, med ämnesraden \"Account Deletion Request\". Meddelandet måste komma från den registrerade adressen så att vi kan bekräfta att kontot är ditt.",
+          "Vi hanterar sådana förfrågningar inom 30 dagar, och normalt inom några arbetsdagar. Vi bekräftar via e-post när det är gjort."
+        ]
+      },
+      {
+        "heading": "Det här raderas",
+        "paragraphs": [
+          "När du raderar ditt konto tas följande bort för alltid. Inget av det kan återställas efteråt, varken av dig eller av oss."
+        ],
+        "bullets": [
+          "Din profil - namn, e-postadress, position, längd, vikt, födelsedag och kön",
+          "Hela din träningshistorik - varje genomförd övning, varje pass och datum",
+          "Dina registrerade vikter och din vikthistorik",
+          "Dina uppgifter om ansträngning och form, och dina matchutvärderingar",
+          "Ditt användarnamn, som frigörs så att det kan användas igen",
+          "Dina inloggningsuppgifter, så att det inte längre går att logga in på kontot",
+          "All Drillr-data som är sparad lokalt på din enhet"
+        ]
+      },
+      {
+        "heading": "Det här sparas, och hur länge",
+        "paragraphs": [
+          "En liten mängd information finns kvar efter att kontot har raderats, av skälen nedan. Inget av det kan användas för att logga in, och inget av det identifierar dig i appen.",
+          "Om du vill att analysposterna också raderas, skriv det i ditt mejl så tar vi bort dem. Fråga oss direkt i stället för att utgå från att raderingen täcker dem."
+        ],
+        "bullets": [
+          "Köp- och prenumerationsposter som finns hos Apple, Google och vår betalningsleverantör RevenueCat. Det är transaktionsposter som vi måste spara av skatte- och bokföringsskäl, och vi kan inte radera dem åt dig",
+          "Pseudonym produktanalys - vilka skärmar som öppnades och vilka funktioner som användes, kopplat till en slumpmässig identifierare i stället för till ditt namn eller din e-post",
+          "Krasch- och felrapporter, som innehåller diagnostisk information om appen i stället för information om dig",
+          "En anteckning om att du bett att inte bli kontaktad igen, om du någonsin sagt det till oss. Vi sparar bara det som behövs för att respektera den begäran"
+        ]
+      },
+      {
+        "heading": "Att radera kontot säger inte upp din prenumeration",
+        "paragraphs": [
+          "Prenumerationer debiteras av Apple och Google, inte av oss, så att radera ditt Drillr-konto stoppar inte debiteringen. Säg upp via inställningarna för ditt Apple-ID eller Google Play-konto innan du raderar, annars fortsätter du att debiteras.",
+          "Vår sida Hantera prenumeration har direktlänkar till båda butikerna. Om du redan har raderat ditt konto och fortfarande debiteras, mejla drillrapps@gmail.com så hjälper vi dig att lösa det."
+        ]
+      }
+    ],
+    "crossLink": {
+      "href": "/privacy",
+      "label": "Läs hela integritetspolicyn"
+    }
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "lastUpdated": "Gäller från 2026-09-30",
+    "tocLabel": "Innehåll",
+    "intro": "Den här integritetspolicyn gäller för appen Drillr (nedan kallad \"Applikationen\") för mobila enheter, som har utvecklats av Tomasz Święcki (nedan kallad \"Tjänsteleverantören\") som en freemiumtjänst, och för Drillrs webbplats på getdrillr.app (nedan kallad \"Webbplatsen\"). Tjänsten tillhandahålls \"I BEFINTLIGT SKICK\". Den här översättningen är endast avsedd som information; vid avvikelser gäller den engelska versionen.",
+    "sections": [
+      {
+        "heading": "Vilken information får Applikationen och hur används den?",
+        "paragraphs": [
+          "Applikationen får den information du lämnar när du laddar ned och registrerar dig i Applikationen. Det är inte obligatoriskt att registrera sig hos Tjänsteleverantören. Tänk dock på att du kanske inte kan använda vissa av de funktioner som Applikationen erbjuder om du inte registrerar dig.",
+          "Tjänsteleverantören kan också använda informationen du har lämnat för att då och då kontakta dig med viktig information, nödvändiga meddelanden och marknadsföringserbjudanden. Applikationen skickar även lokala påminnelser och notiser från din enhet, till exempel påminnelser om träningsdagar och matcher, som du när som helst kan stänga av i enhetens inställningar.",
+          "Tjänsteleverantören använder informationen för att skapa och anpassa dina personliga tränings- och kostplaner, sköta ditt konto och förbättra Applikationen. En del av informationen - särskilt kroppsmått och skadestatus - behandlas som särskilda kategorier av personuppgifter (hälsorelaterade uppgifter) enligt dataskyddslagstiftningen. Tjänsteleverantören behandlar dem endast med stöd av ditt uttryckliga samtycke, som du ger genom att välja att ange den här frivilliga informationen så att Applikationen kan anpassa dina planer. Du kan när som helst återkalla ditt samtycke genom att ta bort uppgifterna under Inställningar eller radera ditt konto, utan att det påverkar resten av Applikationen. När du skapar ett konto och använder Applikationen kan Tjänsteleverantören samla in följande kategorier av personuppgifter:"
+        ],
+        "bullets": [
+          "Kontouppgifter: din e-postadress, visningsnamnet och det frivilliga användarnamn du väljer, och vid inloggning med e-post ett lösenord som autentiseringsleverantören endast lagrar i hashad form.",
+          "Inloggningsuppgifter: om du loggar in med Apple eller Google, det namn och den e-postadress (inklusive en privat vidarebefordringsadress från Apple, om du använder en sådan) som leverantören delar med Applikationen.",
+          "Profil- och kroppsuppgifter som du anger: din ålder eller ditt födelsedatum, kön, längd, vikt och vikthistorik, nationalitet och spelposition.",
+          "Inställningar för träning och livsstil: dina mål, fokusområden, erfarenhetsnivå, tillgänglig utrustning och tillgång till gym, träningsdagar och passlängd, din situation i laget och dina kostpreferenser.",
+          "Hälsorelaterad information som du väljer att lämna, till exempel din nuvarande skadestatus och hur nervös eller säker du känner dig före matcher. Det är frivilligt och Applikationen fungerar utan det.",
+          "Aktivitets- och prestationsdata som skapas när du använder Applikationen, till exempel genomförda pass och övningar, betyg för ansträngning och feedback, och egna matchutvärderingar.",
+          "Prenumerations- och köpuppgifter, enligt beskrivningen i nästa avsnitt."
+        ]
+      },
+      {
+        "heading": "Vilken information samlar Applikationen in automatiskt?",
+        "paragraphs": [
+          "Dessutom kan Applikationen automatiskt samla in viss information, bland annat men inte enbart vilken typ av mobil enhet du använder, din mobila enhets unika enhets-ID, din mobila enhets IP-adress, ditt mobila operativsystem, vilken typ av mobila webbläsare du använder och information om hur du använder Applikationen.",
+          "Vi använder PostHog för att förstå hur användare interagerar med Applikationen, bland annat vilka skärmar som besöks, vilka funktioner som används och vilka åtgärder som görs, och för att få rapporter om fel som Applikationen stöter på (felmeddelandet, var i koden det hände, appversionen och enhetstypen). Den här analysinsamlingen är aktiverad som standard och ingår i den tjänst du godkänner när du skapar ett konto, loggar in eller på annat sätt använder Applikationen. Tjänsteleverantören stöder sig på sitt berättigade intresse av att skydda, underhålla och förbättra Applikationen som rättslig grund för behandlingen. Du kan när som helst invända genom att kontakta drillrapps@gmail.com, du kan stoppa all insamling genom att avinstallera Applikationen, och du kan begränsa identifierare för annonser och analys i enhetens integritetsinställningar.",
+          "Applikationen använder även PostHog för att göra skärminspelningar, så att Tjänsteleverantören kan se var Applikationen går sönder, fryser eller förvirrar användare, och åtgärda det. En skärminspelning är en serie skärmbilder av Applikationens egna skärmar, tillsammans med tryck och skärmbyten, som fångas medan du använder den. Text du skriver maskeras på din enhet innan något skickas, och det gör även dina person- och hälsouppgifter - som ditt namn, din e-postadress, födelsedag, dina kroppsmått, de symtom du rapporterar, ditt kostmål och din matlogg - samt kamerabilden och dina inspelade klipp, som bara syns som tomma block i inspelningarna. Inspelningarna startar under introduktionen, från frågan som följer efter frågan om din födelsedag, och görs aldrig av användare som är under den ålder då de själva kan samtycka till behandling av sina personuppgifter i sitt land (till exempel 16 år i Polen, 14 år i Spanien och 13 år i Storbritannien och USA). Inspelningarna kopplas till samma pseudonyma användar-ID som analysen ovan, och till kraschrapporter, så att ett fel kan spåras till vad som hände på skärmen. Tjänsteleverantören stöder sig på sitt berättigade intresse av att hitta och åtgärda fel i Applikationen som rättslig grund för behandlingen. Inspelningarna raderas automatiskt efter 30 dagar. När du har ett konto kan du när som helst stänga av skärminspelningar i Applikationen under Inställningar > Preferenser > Produktinsikter.",
+          "När du köper en prenumeration får Applikationen även ditt transaktions-ID, prenumerationsstatus, köpdatum, förnyelsedatum och den produkt du köpte. Själva betalningen (kreditkort, Apple Pay, Google Pay) hanteras helt av Apple eller Google - Tjänsteleverantören ser eller lagrar aldrig dina kortuppgifter."
+        ]
+      },
+      {
+        "heading": "Vilken information samlar Webbplatsen in?",
+        "paragraphs": [
+          "Den här policyn omfattar även Drillrs webbplats på getdrillr.app. Webbplatsen är en informations- och supportsida: du kan läsa alla sidor utan konto, och den sätter inga cookies för annonsering, profilering eller spårning mellan webbplatser.",
+          "Webbplatsen drivs hos Vercel, som för vanliga serverloggar - bland annat din IP-adress, den begärda sidan och din webbläsartyp - för säkerhet, förebyggande av missbruk och tillförlitlighet. Tjänsteleverantören använder också Vercel Web Analytics för att se hur många som besöker varje sida och var de kommer ifrån. Vercel Web Analytics använder inga cookies: det sparar ingenting på din enhet och bygger ingen bestående profil av dig, och Tjänsteleverantören ser bara sammanställda siffror som sidvisningar, hänvisande sida, land och enhetstyp. Den rättsliga grunden för båda är Tjänsteleverantörens berättigade intresse av att driva, skydda och förbättra Webbplatsen.",
+          "Feedbackformuläret på getdrillr.app/feedback tillhandahålls av Tally och bäddas in från deras servrar. Länken \"Skicka feedback\" i Applikationen öppnar samma formulär. Det du skickar via det - den kategori du väljer, de detaljer du skriver, en valfri skärmbild eller video som du bifogar, och en e-postadress om du väljer att ange en så att Tjänsteleverantören kan svara - skickas till Tally och vidare till Tjänsteleverantören, och används bara för att svara dig och åtgärda det du rapporterar. Tally lagrar formulärsvar på servrar inom Europeiska unionen. Bifoga inte skärmbilder eller videor som visar andra personer. Det inbäddade formuläret kan sätta cookies som är absolut nödvändiga för att det ska fungera; det sätter inga cookies för annonsering eller spårning. Om du hellre inte vill använda formuläret alls kan du mejla drillrapps@gmail.com i stället.",
+          "Typsnitten levereras från Webbplatsens egen domän, så när du läser en sida skickas ingen begäran till något externt typsnitts- eller annonsnätverk. Knapparna för App Store och Google Play tar dig till Apples och Googles egna webbplatser, som omfattas av deras integritetspolicyer och inte av den här."
+        ]
+      },
+      {
+        "heading": "Citerar Tjänsteleverantören recensioner som du publicerar i App Store eller Google Play?",
+        "paragraphs": [
+          "Om du publicerar en recension av Applikationen i App Store eller Google Play kan Tjänsteleverantören citera den i Applikationen (till exempel på introduktionsskärmarna), på Webbplatsen, i Applikationens butikssidor och i annat marknadsföringsmaterial för Drillr, till exempel inlägg i sociala medier. Ett citat visar texten i din recension, dess stjärnbetyg och ditt namn i förkortad form - ditt förnamn och första bokstaven i ditt efternamn, eller smeknamnet som visas med din recension. Inget annat om dig visas, och din profilbild används aldrig.",
+          "Tjänsteleverantören kan rätta stavning, grammatik och interpunktion, korta ned en recension och översätta den eller anpassa formuleringen för andra språk och länder (till exempel blir \"footballer\" \"soccer player\" på amerikansk engelska), men lägger aldrig till ord eller påståenden som inte finns i din recension och ändrar aldrig vad du menade. Endast recensioner som publicerats i App Store och Google Play citeras, och båda butikerna tar bara emot recensioner från personer som har laddat ned Applikationen. Tjänsteleverantören skriver, köper eller belönar inte recensioner, och väljer vilka som visas, så citaten är ett urval och inte en sammanfattning av alla recensioner. Där ett genomsnittligt stjärnbetyg visas är det betyget som publicerats av App Store. Feedback du skickar privat, via feedbackformuläret eller via e-post, citeras aldrig utan ditt tillstånd.",
+          "Din recension och namnet som visas med den är personuppgifter som Tjänsteleverantören får från butiken där recensionen publicerades, inte direkt från dig. Den rättsliga grunden är Tjänsteleverantörens berättigade intresse av att visa personer som överväger Applikationen vad användarna säger om den. Du valde att göra recensionen offentlig, och begränsningarna ovan håller citatet till det du skrev. Du kan när som helst invända, utan att ange skäl, genom att skriva till drillrapps@gmail.com, och en förälder eller vårdnadshavare kan göra detsamma för ett barns räkning. Tjänsteleverantören tar då bort din recension från Webbplatsen utan onödigt dröjsmål och från Applikationen i nästa uppdatering, och använder den inte i något nytt marknadsföringsmaterial. Tjänsteleverantören slutar också använda en recension när den får veta att recensionen har raderats från butiken."
+        ]
+      },
+      {
+        "heading": "Samlar Applikationen in information om enhetens plats?",
+        "paragraphs": [
+          "Applikationen samlar inte in information om var din mobila enhet befinner sig."
+        ]
+      },
+      {
+        "heading": "Använder Applikationen tekniker för artificiell intelligens (AI)?",
+        "paragraphs": [
+          "Applikationen har en frivillig funktion för teknikanalys som använder rörelse- och kroppspositionsigenkänning som är inbyggd i din telefon (till exempel Apples Vision-ramverk på iOS) för att ge dig feedback på din teknik i övningarna. All den här analysen körs helt på din enhet. Ingen video, bild eller kroppspositionsdata skickas till Tjänsteleverantören eller någon tredje part för den här funktionen, och den används inte för att identifiera dig. Se avsnittet om kameraanvändning nedan för detaljer.",
+          "Tjänsteleverantören använder också AI-funktioner som är inbyggda i PostHog för att automatiskt granska skärminspelningar, krasch- och felrapporter och användningsanalys, för att upptäcka fel och användbarhetsproblem och ta fram förslag på kodändringar som åtgärdar dem. Funktionerna körs på AI-modeller från Google, OpenAI och Anthropic, som behandlar uppgifterna för PostHogs räkning, kan behandla dem utanför Europeiska unionen med lämpliga skyddsåtgärder, och enligt avtal inte får använda dem för att träna sina modeller. De används inte för att fatta beslut om dig eller bygga en profil av dig, och varje föreslagen kodändring granskas av Tjänsteleverantören innan den används. PostHogs egen användning av uppgifterna för att träna sina AI-modeller är avstängd."
+        ]
+      },
+      {
+        "heading": "Använder Applikationen din kamera, och vad händer med inspelningarna?",
+        "paragraphs": [
+          "Applikationen har en frivillig funktion för teknikkoll som använder enhetens kamera. Kameran används bara när du själv väljer att starta en teknikkoll för en övning som stöds, och bara för att spela in ett kort klipp där du gör övningen. Du kan när som helst neka eller återkalla kamerabehörigheten i enhetens inställningar; resten av Applikationen fungerar utan den.",
+          "Det inspelade klippet analyseras helt på din enhet. Tjänsteleverantören tar inte emot, laddar inte upp och lagrar inte ditt klipp på någon server, klippet sparas inte automatiskt i ditt bildbibliotek, och det delas inte med någon tredje part. Applikationen spelar inte in ljud som en del av funktionen. I skärminspelningar döljs kamerabilden och dina klipp alltid bakom ett tomt block.",
+          "Om du väljer att dela ett klipp med delningsfunktionen skapar Applikationen en version med en vattenstämpel från Drillr och teknikfeedbacken från skärmen inritad, och lämnar den till enhetens vanliga delningsmeny. Från det ögonblick du väljer en mottagare (till exempel en meddelandeapp, ett socialt nätverk eller en kontakt) omfattas klippet av den tjänstens eller mottagarens egna villkor och integritetspolicy, inte av den här policyn, och Tjänsteleverantören har ingen kontroll över hur de hanterar det. Dela bara klipp på dig själv, och dela inte klipp som visar andra personer utan deras samtycke."
+        ]
+      },
+      {
+        "heading": "Använder Applikationen automatiserat beslutsfattande eller profilering?",
+        "paragraphs": [
+          "Applikationen använder informationen du lämnar - till exempel dina mål, din erfarenhetsnivå, dina kroppsmått och din skadestatus - för att automatiskt skapa och anpassa dina personliga tränings- och kostplaner. Det omfattar att välja övningar, justera svårigheten i passen och räkna ut mål för kalorier och makronäringsämnen. Det utgör profilering, men det är kärnan i den Applikation du registrerar dig för, och det har inga rättsliga eller på liknande sätt betydande följder för dig.",
+          "Applikationen fattar inga beslut som enbart grundas på automatiserad behandling och som har rättsliga följder för dig. Du har kontrollen: du kan när som helst ändra uppgifterna under Inställningar, och du kan kontakta Tjänsteleverantören på drillrapps@gmail.com med frågor om hur din plan tas fram."
+        ]
+      },
+      {
+        "heading": "Ser och/eller har tredje parter tillgång till information som Applikationen får?",
+        "paragraphs": [
+          "Tjänsteleverantören skickar pseudonyma identifierare (till exempel ett användar-ID och en enhetsidentifierare) till de externa tjänster som listas nedan för att autentisera ditt konto, synka din prenumerationsstatus, samla in diagnostikdata och förbättra Applikationen. Tjänsteleverantören kan dela din information med tredje parter på de sätt som beskrivs i den här integritetsförklaringen.",
+          "Dina konto- och profiluppgifter lagras med Google Firebase (Firebase Authentication och Cloud Firestore), och inloggning med Apple eller Google hanteras av respektive leverantör. Dessa leverantörer är Tjänsteleverantörens personuppgiftsbiträden och kan lagra uppgifter på servrar utanför ditt land, bland annat i USA, med lämpliga skyddsåtgärder som Europeiska kommissionens standardavtalsklausuler.",
+          "Observera att Applikationen använder tjänster från tredje parter som har sina egna integritetspolicyer för hur uppgifter hanteras. Nedan finns länkar till integritetspolicyerna för de tredjepartsleverantörer som Applikationen använder:"
+        ],
+        "bullets": [
+          "https://policies.google.com/privacy",
+          "https://firebase.google.com/policies/analytics",
+          "https://firebase.google.com/support/privacy",
+          "https://expo.dev/privacy",
+          "https://posthog.com/privacy - produktanalys, skärminspelningar, felrapporter och AI-stödd felsökning, med drift inom Europeiska unionen (AI-funktionerna använder modeller från Google, OpenAI och Anthropic)",
+          "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement - lagring av Applikationens källkod, inklusive föreslagna åtgärder för fel som hittats i diagnostikdata",
+          "https://sentry.io/privacy/ - krasch- och felrapportering",
+          "https://www.revenuecat.com/privacy - prenumerationshantering och betalningsanalys",
+          "https://vercel.com/legal/privacy-policy - drift och cookiefri analys för Webbplatsen",
+          "https://tally.so/help/privacy-policy - feedbackformuläret på Webbplatsen",
+          "https://www.apple.com/legal/privacy/ - för köp på iOS",
+          "https://policies.google.com/privacy - för köp på Android"
+        ]
+      },
+      {
+        "heading": "När kan Tjänsteleverantören lämna ut din information?",
+        "paragraphs": [
+          "Tjänsteleverantören kan lämna ut information som användaren har lämnat och information som samlats in automatiskt:"
+        ],
+        "bullets": [
+          "när lagen kräver det, till exempel för att följa ett föreläggande eller liknande rättsligt förfarande;",
+          "när Tjänsteleverantören i god tro anser att det är nödvändigt för att skydda sina rättigheter, skydda din eller andras säkerhet, utreda bedrägerier eller svara på en begäran från en myndighet;",
+          "till betrodda tjänsteleverantörer som arbetar för Tjänsteleverantörens räkning, inte använder den information de får för egna syften och har åtagit sig att följa reglerna i den här integritetsförklaringen;",
+          "i samband med en fusion, ett förvärv, en omorganisation, en insolvens eller en försäljning av hela eller delar av verksamheten Drillr eller dess tillgångar, och i så fall kan din information - inklusive den hälsorelaterade information som beskrivs ovan - överföras till den part som tar över. Tjänsteleverantören informerar dig i Applikationen eller via e-post innan en sådan överföring sker, den part som tar över förblir bunden av den här policyn för den information den får tills den meddelar dig om en ändring, och alla rättigheter som beskrivs nedan fortsätter att gälla, inklusive din rätt att när som helst radera ditt konto och alla dina uppgifter."
+        ]
+      },
+      {
+        "heading": "Hur kan jag välja bort insamling?",
+        "paragraphs": [
+          "Du kan enkelt stoppa all insamling av information i Applikationen genom att avinstallera den. Du kan använda de vanliga sätten att avinstallera som finns på din mobila enhet eller via appbutiken eller nätverket. Att avinstallera Applikationen säger inte automatiskt upp en betald prenumeration - du måste säga upp den via inställningarna för ditt Apple-ID eller Google Play-konto.",
+          "Du kan också när som helst radera ditt konto och alla tillhörande uppgifter för alltid direkt i Applikationen, under Inställningar > Radera konto.",
+          "När du har ett konto kan du när som helst stänga av skärminspelningar i Applikationen under Inställningar > Preferenser > Produktinsikter. Inspelningen stoppas direkt, och inga nya inspelningar görs så länge den är avstängd."
+        ]
+      },
+      {
+        "heading": "Hur länge sparas uppgifterna och hur kan du hantera din information?",
+        "paragraphs": [
+          "Tjänsteleverantören sparar uppgifter som användaren har lämnat så länge du använder Applikationen och en rimlig tid därefter. Tjänsteleverantören sparar automatiskt insamlad information i upp till 24 månader och kan därefter lagra den i sammanställd form, utom skärminspelningar, som raderas automatiskt efter 30 dagar. Om du vill att Tjänsteleverantören raderar uppgifter som du har lämnat via Applikationen, kontakta drillrapps@gmail.com så får du svar inom rimlig tid. Observera att vissa eller alla av de uppgifter du har lämnat kan behövas för att Applikationen ska fungera som den ska.",
+          "Du kan också själv när som helst radera ditt konto och alla tillhörande uppgifter i Applikationen, under Inställningar > Radera konto, vilket direkt tar bort din profil tillsammans med dina uppgifter om träning, vikt, ansträngning och matcher från Tjänsteleverantörens system.",
+          "Feedback som skickas via formuläret som beskrivs ovan sparas bara så länge det tar att hantera den. När din rapport har besvarats eller lösts raderar Tjänsteleverantören svaret från Tally, inklusive eventuella skärmbilder eller videor du bifogat och eventuell e-postadress du angett."
+        ]
+      },
+      {
+        "heading": "Dina rättigheter enligt dataskyddslagstiftningen",
+        "paragraphs": [
+          "Personuppgiftsansvarig för dina personuppgifter är Tomasz Święcki, en oberoende utvecklare i Polen, som kan kontaktas på drillrapps@gmail.com. Med hänsyn till behandlingens art och omfattning är Tjänsteleverantören inte skyldig att utse ett dataskyddsombud och har inte gjort det; du kan skicka alla frågor om integritet till samma adress.",
+          "Tjänsteleverantören behandlar dina personuppgifter med stöd av följande rättsliga grunder: för att fullgöra avtalet om att tillhandahålla Applikationen till dig; ditt samtycke - inklusive ditt uttryckliga samtycke för särskilda kategorier av hälsorelaterade uppgifter som kroppsmått och skador, och ditt samtycke till marknadsföringsmeddelanden; och Tjänsteleverantörens berättigade intresse av att driva, skydda och förbättra Applikationen och av att citera offentliga butiksrecensioner enligt beskrivningen ovan.",
+          "Om du befinner dig i Europeiska ekonomiska samarbetsområdet, Storbritannien eller en region med motsvarande lagar har du de rättigheter som anges nedan när det gäller dina personuppgifter. För att utöva någon av dem, kontakta Tjänsteleverantören på drillrapps@gmail.com; du kan också ändra din profil i Applikationen eller radera ditt konto och dina uppgifter för alltid under Inställningar > Radera konto."
+        ],
+        "bullets": [
+          "rätten att få tillgång till de personuppgifter som finns om dig;",
+          "rätten att få felaktiga eller ofullständiga uppgifter rättade;",
+          "rätten att få dina uppgifter raderade (\"rätten att bli bortglömd\");",
+          "rätten att begränsa eller invända mot viss behandling;",
+          "rätten till dataportabilitet, det vill säga att få dina uppgifter i ett strukturerat, allmänt använt format;",
+          "rätten att när som helst återkalla ditt samtycke, när behandlingen grundas på samtycke;",
+          "rätten att lämna in ett klagomål till en tillsynsmyndighet - i Polen ordföranden för Myndigheten för skydd av personuppgifter (Prezes Urzędu Ochrony Danych Osobowych)."
+        ]
+      },
+      {
+        "heading": "Dina rättigheter om du bor i USA",
+        "paragraphs": [
+          "Om du bor i Kalifornien, eller i en annan amerikansk delstat med en heltäckande integritetslag, till exempel Colorado, Connecticut, Montana, Oregon, Texas eller Virginia, har du de ytterligare rättigheter som anges nedan. De kategorier av personuppgifter som Tjänsteleverantören samlar in, syftena de används för och hur länge de sparas beskrivs tidigare i den här policyn.",
+          "Tjänsteleverantören säljer inte dina personuppgifter och delar dem inte för beteendebaserad annonsering mellan sammanhang, och har inte gjort det under de senaste tolv månaderna. Det finns inget annonsnätverk, ingen datamäklare och ingen teknik för riktad annonsering i Applikationen eller på Webbplatsen. Tjänsteleverantören säljer eller delar inte heller medvetet personuppgifter om någon under 16 år.",
+          "Applikationen samlar in viss information som kalifornisk lag behandlar som känsliga personuppgifter, nämligen hälsorelaterade uppgifter som dina kroppsmått och din skadestatus. Tjänsteleverantören använder dem bara för att skapa och anpassa de tränings- och kostplaner som du har registrerat dig för, och inte för att dra slutsatser om dina egenskaper, så rätten att begränsa användningen av känsliga personuppgifter begränsar ingen behandling som faktiskt sker.",
+          "För att utöva någon av rättigheterna nedan, mejla drillrapps@gmail.com från adressen som är kopplad till ditt konto, eller radera själv ditt konto och dess uppgifter när som helst under Inställningar > Radera konto i Applikationen. Du kan använda ett befullmäktigat ombud, och i så fall kan Tjänsteleverantören be om bevis på ombudets behörighet och om en bekräftelse direkt från dig. Tjänsteleverantören svarar inom den tid som lagen i din delstat tillåter, och om en begäran avslås kan du överklaga genom att svara till samma adress. Med förbehåll för lagen i din delstat har du rätt att:"
+        ],
+        "bullets": [
+          "veta vilka personuppgifter som samlas in om dig, och få en kopia av dem;",
+          "få felaktiga personuppgifter rättade;",
+          "få dina personuppgifter raderade;",
+          "få dina uppgifter i ett portabelt, maskinläsbart format;",
+          "välja bort försäljning eller delning av personuppgifter, riktad annonsering och profilering som har rättsliga eller på liknande sätt betydande följder - inget av detta gör Tjänsteleverantören;",
+          "inte bli diskriminerad för att du utövar någon av dessa rättigheter. Tjänsteleverantören erbjuder inga ekonomiska förmåner i utbyte mot personuppgifter, och Applikationen fungerar likadant oavsett om du utövar dem eller inte."
+        ]
+      },
+      {
+        "heading": "Hur hanterar Applikationen barns integritet?",
+        "paragraphs": [
+          "Applikationen är avsedd för användare som är 13 år eller äldre. Tjänsteleverantören begär inte medvetet uppgifter från, och marknadsför sig inte mot, barn under 13 år.",
+          "I vissa länder är åldersgränsen för att själv samtycka till behandling av personuppgifter högre än 13 år - till exempel 16 år i Polen och delar av Europeiska unionen. Applikationen är tillgänglig för användare som är 13 år eller äldre överallt. Om du är minst 13 år men under åldersgränsen för digitalt samtycke i ditt land får du använda Applikationen och lämna dina personuppgifter endast med medverkan och samtycke från en förälder eller vårdnadshavare, som godkänner den här policyn för din räkning.",
+          "Applikationen gör inga skärminspelningar av användare som är under åldersgränsen för digitalt samtycke i sitt land, även om de i övrigt får använda Applikationen.",
+          "Användare som under introduktionen anger att de är under 13 år kan inte skapa ett konto. Applikationen visar ett meddelande om att Drillr är för dig som är 13 år eller äldre, och ingen profil skapas i Tjänsteleverantörens system.",
+          "Ett litet antal konton som skapades innan den här åldersgränsen infördes finns kvar i Tjänsten i ett äldre begränsat läge. I begränsat läge samlar Applikationen inte in personuppgifter som kön, längd, vikt eller födelsedatum. Endast en e-postadress sparas för att kunna autentisera kontot. Inga personuppgifter från användare i begränsat läge delas med tredje parter eller används för profilering eller marknadsföring.",
+          "Om du är förälder eller vårdnadshavare och vet att ditt barn har lämnat personuppgifter till oss, kontakta Tjänsteleverantören (drillrapps@gmail.com) så att nödvändiga åtgärder kan vidtas, inklusive radering av kontot."
+        ]
+      },
+      {
+        "heading": "Hur skyddas din information?",
+        "paragraphs": [
+          "Tjänsteleverantören är mån om att skydda sekretessen för din information. Tjänsteleverantören har fysiska, elektroniska och administrativa skyddsåtgärder för att skydda den information som behandlas och lagras. Till exempel är åtkomsten till informationen begränsad till behöriga anställda och uppdragstagare som behöver den för att driva, utveckla eller förbättra Applikationen. Tänk på att inget säkerhetssystem kan förhindra alla tänkbara säkerhetsincidenter, även om Tjänsteleverantören strävar efter att ge rimlig säkerhet för den information som behandlas och lagras."
+        ]
+      },
+      {
+        "heading": "Hur informeras du om ändringar i den här integritetspolicyn?",
+        "paragraphs": [
+          "Den här integritetspolicyn kan uppdateras då och då av olika skäl. Tjänsteleverantören meddelar dig om ändringar i integritetspolicyn genom att uppdatera den här sidan med den nya integritetspolicyn. Du rekommenderas att regelbundet läsa integritetspolicyn för att se eventuella ändringar, eftersom fortsatt användning anses innebära att du godkänner alla ändringar."
+        ]
+      },
+      {
+        "heading": "Hur ger du ditt samtycke?",
+        "paragraphs": [
+          "Genom att skapa ett konto, logga in eller på annat sätt använda Applikationen bekräftar du den här integritetspolicyn och godkänner att Tjänsteleverantören behandlar din information enligt vad som anges här nu och i framtida lydelser, inklusive den analys och de skärminspelningar som används för att driva, skydda och förbättra Applikationen. \"Behandling\" innebär att använda eller hantera information på något sätt, bland annat men inte enbart att samla in, lagra, radera, använda, kombinera och lämna ut information."
+        ]
+      },
+      {
+        "heading": "Hur kan du kontakta oss?",
+        "paragraphs": [
+          "Om du har frågor om integritet när du använder Applikationen, eller frågor om hur vi arbetar, kontakta Tjänsteleverantören via e-post på drillrapps@gmail.com."
+        ]
+      }
+    ],
+    "crossLink": {
+      "label": "Drillrs användarvillkor",
+      "href": "/terms"
+    }
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "lastUpdated": "Gäller från 2026-09-30",
+    "tocLabel": "Innehåll",
+    "intro": "Dessa användarvillkor gäller för appen Drillr (nedan kallad \"Applikationen\") för mobila enheter, som har skapats av Tomasz Święcki (nedan kallad \"Tjänsteleverantören\") som en freemiumtjänst, och för Drillrs webbplats på getdrillr.app (nedan kallad \"Webbplatsen\"). Den här översättningen är endast avsedd som information; vid avvikelser gäller den engelska versionen, enligt avsnittet Tillämplig lag och tvister.",
+    "sections": [
+      {
+        "heading": "Godkännande av villkoren",
+        "paragraphs": [
+          "Genom att ladda ned, skapa ett konto, logga in i eller på annat sätt använda Applikationen godkänner du dessa användarvillkor och Drillrs integritetspolicy, som genom hänvisning ingår i dessa villkor - inklusive den analys, de skärminspelningar och den databehandling som beskrivs i policyn. Vi rekommenderar starkt att du läser och förstår båda dokumenten noggrant innan du använder Applikationen. Om du inte godkänner dem ska du inte använda Applikationen.",
+          "Dessa villkor gäller även din användning av Webbplatsen, i den mån de är relevanta för den. Webbplatsen tillhandahålls för information och support: du behöver inget konto för att läsa den, innehållet publiceras endast som allmän information och kan ändras när som helst, och avsnitten nedan som gäller innehåll om träning, kost och teknikanalys gäller på samma sätt för samma innehåll när det visas på Webbplatsen."
+        ]
+      },
+      {
+        "heading": "Immateriella rättigheter",
+        "paragraphs": [
+          "Det är strängt förbjudet att utan tillstånd kopiera eller ändra Applikationen, Webbplatsen, någon del av dem eller våra varumärken. Försök att ta fram Applikationens källkod, översätta Applikationen till andra språk eller skapa härledda versioner är inte tillåtna. Alla varumärken, upphovsrätter, databasrättigheter och andra immateriella rättigheter som hör till Applikationen och Webbplatsen förblir Tjänsteleverantörens egendom."
+        ]
+      },
+      {
+        "heading": "Recensioner i App Store och Google Play",
+        "paragraphs": [
+          "Om du publicerar en recension av Applikationen i App Store eller Google Play tillåter du Tjänsteleverantören att, kostnadsfritt och utan ensamrätt, citera den tillsammans med dess stjärnbetyg och ditt förkortade namn i Applikationen, på Webbplatsen, i Applikationens butikssidor och i annat marknadsföringsmaterial för Drillr, i alla länder där Applikationen erbjuds. Det omfattar att rätta stavning, grammatik och interpunktion, korta ned recensionen och översätta den eller anpassa formuleringen för andra språk och länder, men aldrig att lägga till ord eller påståenden som inte finns i din recension eller ändra vad du menade. Integritetspolicyn förklarar exakt vad som visas och hur dina uppgifter hanteras.",
+          "Recensioner betalas eller belönas aldrig, och inget i Applikationen beror på om du lämnar en recension eller vad den säger. En citerad recension återspeglar skribentens egen upplevelse, och resultaten varierar från person till person.",
+          "Du kan när som helst återkalla detta tillstånd, utan att ange skäl, genom att skriva till drillrapps@gmail.com, och Tjänsteleverantören slutar då använda din recension enligt beskrivningen i integritetspolicyn. Det här avsnittet påverkar inte de rättigheter som Apple eller Google har till recensioner som publiceras i deras butiker."
+        ]
+      },
+      {
+        "heading": "Godtagbar användning",
+        "paragraphs": [
+          "Du åtar dig att använda Applikationen och Webbplatsen på ett lagligt sätt och så som de är avsedda att användas. Om du bryter mot det här avsnittet kan Tjänsteleverantören stänga av eller avsluta ditt konto enligt avsnittet Konto och uppsägning, och du kan bli ansvarig för anspråk från tredje part som följer av det, enligt avsnittet Anspråk som orsakas av ditt agerande.",
+          "Du åtar dig särskilt att inte:"
+        ],
+        "bullets": [
+          "använda Tjänsten för något olagligt syfte, eller i strid med någon lag eller förordning som gäller för dig",
+          "skapa ett konto med falska uppgifter, utge dig för att vara någon annan eller lämna felaktiga uppgifter om din ålder",
+          "dela ditt konto med någon annan, eller sälja, hyra ut eller överlåta åtkomst till det",
+          "försöka komma åt en annan användares konto eller uppgifter, eller någon del av Tjänsten som du inte har fått åtkomst till",
+          "försöka kringgå betalväggar, prenumerationskontroller, användningsgränser eller andra tekniska begränsningar i Tjänsten",
+          "kopiera, skrapa eller systematiskt hämta ut träningsinnehåll, övningar, övningsdata eller annat material i Tjänsten, eller använda något av det för att bygga eller träna en konkurrerande produkt eller en maskininlärningsmodell",
+          "använda bottar, skrapverktyg eller andra automatiserade metoder för att komma åt Tjänsten, annat än genom en metod som Tjänsteleverantören har publicerat för det syftet",
+          "ladda upp, spela in eller överföra något som är olagligt, gör intrång i andras rättigheter, är ärekränkande eller skadligt, eller som innehåller skadlig kod",
+          "spela in eller dela ett klipp som visar en annan person utan dennes samtycke",
+          "störa, överbelasta eller försöka sabotera Tjänsten, dess servrar eller dess säkerhetsfunktioner, eller söka efter sårbarheter i dem utan Tjänsteleverantörens skriftliga tillstånd",
+          "sälja vidare, underlicensiera eller på annat sätt använda Tjänsten eller dess innehåll kommersiellt utan Tjänsteleverantörens skriftliga tillstånd"
+        ]
+      },
+      {
+        "heading": "Ändringar i tjänsten",
+        "paragraphs": [
+          "Tjänsteleverantören vill att Applikationen ska vara så användbar och effektiv som möjligt. Därför förbehåller sig Tjänsteleverantören rätten att när som helst och av vilket skäl som helst ändra Applikationen eller ta betalt för sina tjänster. Tjänsteleverantören garanterar att alla avgifter för Applikationen eller dess tjänster kommer att meddelas dig tydligt.",
+          "Tjänsteleverantören kan också ändra, tillfälligt stänga av eller avveckla en funktion i Applikationen eller på Webbplatsen, helt eller delvis, och meddelar i rimlig tid i förväg när det är praktiskt möjligt. Utom enligt vad som anges nedan ansvarar Tjänsteleverantören inte gentemot dig för en sådan ändring, avstängning eller avveckling. Det påverkar inte dina lagstadgade rättigheter eller den återbetalning du har rätt till om en betald funktion som du prenumererar på tas bort."
+        ]
+      },
+      {
+        "heading": "Ålderskrav",
+        "paragraphs": [
+          "Tjänsten är avsedd för användare som är 13 år eller äldre. Användare som under introduktionen anger att de är under 13 år kan inte skapa ett konto. Ett litet antal konton som skapades innan det här ålderskravet infördes finns kvar i Tjänsten i ett äldre begränsat läge, som begränsar insamlingen av personuppgifter. Om du är mellan 13 och 17 år får du bara använda Tjänsten med samtycke och under tillsyn av en förälder eller vårdnadshavare, som åtar sig fullt ansvar för all aktivitet som sker med Tjänsten."
+        ]
+      },
+      {
+        "heading": "Hälsa, träning och egen risk",
+        "paragraphs": [
+          "Applikationen tillhandahåller allmänna program för fysträning, träning och kondition, övningar och tillhörande innehåll endast i informations- och utbildningssyfte. Det är inte medicinsk rådgivning, fysioterapi eller professionell coachning, och det ersätter inte en konsultation med en behörig läkare eller annan vårdpersonal.",
+          "Fysisk träning innebär risker, bland annat risken för allvarliga skador. Du bör rådfråga en läkare innan du börjar med ett träningsprogram, särskilt om du är gravid, har en befintlig skada eller ett medicinskt tillstånd, eller har varit inaktiv. Genom att använda Applikationen bekräftar du att du medicinskt sett kan delta i fysisk aktivitet, och du tar frivilligt på dig alla risker som hör ihop med att träna och att följa planer, övningar eller rekommendationer från Applikationen. Du är själv ansvarig för att träna inom dina egna gränser och för att sluta om du känner smärta, yrsel eller obehag.",
+          "I den utsträckning som lagen tillåter ansvarar Tjänsteleverantören inte för skador, förluster eller annan skada som uppstår av att du använder eller förlitar dig på träningsinnehållet, planerna eller rekommendationerna i Applikationen. Inget i det här avsnittet utesluter eller begränsar ansvar som inte kan uteslutas eller begränsas enligt tillämplig lag, inklusive ansvar för dödsfall eller personskada som orsakats av Tjänsteleverantörens vårdslöshet, och dina tvingande rättigheter som konsument.",
+          "Motiverande meddelanden, pushnotiser och illustrerande exempel som visas i Applikationen - inklusive namn, situationer eller aktiviteter som beskrivs i dem - är endast till för att peppa dig. De föreställer inte verkliga användare och garanterar inte något särskilt resultat, och resultaten varierar från person till person."
+        ]
+      },
+      {
+        "heading": "Kost och måltidsplaner",
+        "paragraphs": [
+          "Applikationen kan ta fram föreslagna mål för kalorier och makronäringsämnen samt måltidsplaner utifrån informationen du lämnar. Innehållet är automatiserat, allmänt till sin karaktär och tillhandahålls endast i informationssyfte. Det är inte kostrådgivning, näringsrådgivning eller medicinsk rådgivning och ersätter inte vägledning från en behörig dietist eller läkare.",
+          "Näringsvärden och kostmärkningar (som vegetarisk, vegansk, glutenfri eller information om allergener) är uppskattningar och kan vara felaktiga eller ofullständiga. Om du har en födoämnesallergi, en intolerans eller ett medicinskt tillstånd ska du inte förlita dig på Applikationen - kontrollera alltid själv ingredienser och märkningar och rådfråga en behörig expert. Tjänsteleverantören ansvarar inte för negativa reaktioner, förluster eller skador som uppstår av måltidsförslag eller näringsinformation i Applikationen."
+        ]
+      },
+      {
+        "heading": "Enhetens säkerhet",
+        "paragraphs": [
+          "Applikationen lagrar och behandlar personuppgifter som du har lämnat till Tjänsteleverantören för att kunna tillhandahålla Tjänsten. Det är ditt ansvar att hålla din telefon och din åtkomst till Applikationen säker. Tjänsteleverantören avråder starkt från att jailbreaka eller roota din telefon, vilket innebär att ta bort programvarubegränsningar som det officiella operativsystemet på din enhet har. Sådana åtgärder kan utsätta din telefon för skadlig programvara och virus, försvaga telefonens säkerhetsfunktioner och leda till att Applikationen inte fungerar som den ska eller inte alls."
+        ]
+      },
+      {
+        "heading": "Teknikanalys och inspelade klipp",
+        "paragraphs": [
+          "Applikationen har en frivillig funktion för teknikkoll som spelar in ett kort klipp och ger dig automatisk feedback på din teknik i övningarna. Feedbacken skapas automatiskt, är endast avsedd som allmän information och för träning, och är inte medicinsk rådgivning, fysioterapi eller professionell coachning. Den kan vara ofullständig eller felaktig, och den ersätter inte vägledning från en behörig expert. Du är ansvarig för att träna säkert och för att avgöra om en rörelse passar dig. Tjänsteleverantören ansvarar inte för skador, förluster eller annan skada som uppstår av att du förlitar dig på funktionen.",
+          "Om du väljer att dela ett inspelat klipp är du ensam ansvarig för innehållet du delar och för att se till att du har rätt att dela det. Du får inte spela in eller dela klipp som visar andra personer utan deras samtycke, och du får inte använda funktionen för att skapa eller sprida olagligt eller skadligt innehåll eller innehåll som gör intrång i andras rättigheter. När du delar ett klipp utanför Applikationen hanteras det av den tjänst eller mottagare du skickar det till och är inte längre under Tjänsteleverantörens kontroll."
+        ]
+      },
+      {
+        "heading": "Beta- och experimentfunktioner",
+        "paragraphs": [
+          "Tjänsteleverantören kan göra funktioner tillgängliga som beta, förhandsversion eller på annat experimentellt sätt, och märker dem i så fall som sådana i Applikationen. Betafunktioner tillhandahålls endast för utvärdering. De kan vara ofullständiga, ge felaktiga resultat, inte fungera på alla enheter och ändras eller tas bort när som helst utan förvarning.",
+          "I den utsträckning som tillämplig lag tillåter tillhandahålls betafunktioner utan garantier av något slag och används helt på egen risk. Det är frivilligt att använda en betafunktion, och begränsningarna i avsnittet Friskrivning från garantier och ansvarsbegränsning gäller fullt ut för den."
+        ]
+      },
+      {
+        "heading": "Tjänster från tredje part",
+        "paragraphs": [
+          "Observera att Applikationen använder tjänster från tredje parter som har sina egna användarvillkor. Dessa tjänster drivs oberoende av Tjänsteleverantören, som inte kontrollerar eller rekommenderar dem och, i den utsträckning som tillämplig lag tillåter, inte ansvarar för deras innehåll, deras tillgänglighet eller något de gör eller underlåter att göra. Din användning av en tjänst från tredje part omfattas av den leverantörens egna villkor.",
+          "Nedan finns länkar till användarvillkoren för de tredjepartsleverantörer som Applikationen använder:"
+        ],
+        "bullets": [
+          "https://policies.google.com/terms",
+          "https://firebase.google.com/terms/analytics",
+          "https://firebase.google.com/terms/crashlytics",
+          "https://expo.dev/terms",
+          "https://posthog.com/terms - produktanalys, skärminspelningar, felrapporter och AI-stödd felsökning",
+          "https://sentry.io/terms/ - krasch- och felrapportering",
+          "https://www.revenuecat.com/terms - prenumerationshantering",
+          "https://vercel.com/legal/terms - drift och analys för Webbplatsen",
+          "https://tally.so/help/terms-and-conditions - feedbackformuläret på Webbplatsen",
+          "https://www.apple.com/legal/internet-services/itunes/ - köp på iOS",
+          "https://play.google.com/about/play-terms/ - köp på Android"
+        ]
+      },
+      {
+        "heading": "Prenumerationer och betalda planer",
+        "paragraphs": [
+          "Applikationen erbjuder prenumerationer som förnyas automatiskt (\"Drillr Pro\") och ger tillgång till premiumfunktioner. Följande villkor gäller för alla betalda prenumerationer:"
+        ],
+        "bullets": [
+          "De planer, priser och perioder som finns visas i Applikationen före köpet.",
+          "Betalningen debiteras ditt Apple-ID eller Google Play-konto när köpet bekräftas.",
+          "Prenumerationer förnyas automatiskt i slutet av varje betalningsperiod om de inte sägs upp minst 24 timmar innan den aktuella perioden tar slut.",
+          "Ditt konto debiteras för förnyelsen inom 24 timmar innan den aktuella perioden tar slut, till det prenumerationspris som gäller vid förnyelsen.",
+          "Du kan när som helst hantera eller säga upp din prenumeration via inställningarna för ditt Apple-ID eller Google Play-konto, eller i Applikationen under Inställningar > Nuvarande plan, som öppnar samma butiksinställningar. Att avinstallera Applikationen säger inte upp en prenumeration.",
+          "Ingen återbetalning görs för delar av en prenumerationsperiod, utom när dessa villkor anger något annat. Begäran om återbetalning hanteras direkt av Apple eller Google enligt deras respektive regler.",
+          "En outnyttjad del av en gratis provperiod förfaller när du köper en prenumeration.",
+          "Om Tjänsteleverantören ändrar priset på en prenumeration meddelas du i förväg och får möjlighet att säga upp den innan det nya priset börjar gälla."
+        ]
+      },
+      {
+        "heading": "Apples och Googles appbutiker",
+        "paragraphs": [
+          "Dessa villkor ingås endast mellan dig och Tjänsteleverantören, och inte med Apple Inc. eller Google LLC. Tjänsteleverantören, inte Apple eller Google, är ensam ansvarig för Applikationen och dess innehåll.",
+          "Apple och Google har ingen som helst skyldighet att tillhandahålla underhåll eller support för Applikationen. Om Applikationen inte uppfyller en tillämplig garanti kan du meddela Apple, och Apple betalar då tillbaka Applikationens inköpspris till dig, om du köpte den via App Store. I den utsträckning som tillämplig lag tillåter har Apple inga andra garantiåtaganden alls när det gäller Applikationen.",
+          "Tjänsteleverantören, inte Apple eller Google, ansvarar för att hantera anspråk från dig eller tredje part som gäller Applikationen eller ditt innehav och din användning av den, inklusive produktansvarsanspråk, anspråk om att Applikationen inte uppfyller tillämpliga rättsliga eller regulatoriska krav, anspråk enligt konsumentskyddslagstiftning eller liknande lagstiftning, och anspråk om att Applikationen gör intrång i tredje parts immateriella rättigheter.",
+          "Du intygar att du inte befinner dig i ett land som omfattas av ett embargo från USA:s regering eller som har utsetts till ett land som stöder terrorism, och att du inte finns på någon av USA:s regerings listor över förbjudna eller begränsade parter.",
+          "Apple och dess dotterbolag, och Google och dess närstående bolag, är tredjepartsförmånstagare enligt dessa villkor, och när du har godkänt villkoren har de rätt att göra dem gällande mot dig som tredjepartsförmånstagare. Inget i det här avsnittet begränsar dina rättigheter gentemot Tjänsteleverantören eller dina tvingande rättigheter som konsument."
+        ]
+      },
+      {
+        "heading": "Konto och uppsägning",
+        "paragraphs": [
+          "Du kan sluta använda Tjänsten när som helst. Du kan radera ditt konto och tillhörande uppgifter för alltid i Applikationen, under Inställningar > Radera konto, eller genom att kontakta Tjänsteleverantören på drillrapps@gmail.com. Att radera kontot säger inte i sig upp en prenumeration som köpts via Apple eller Google; den måste du säga upp separat enligt beskrivningen ovan.",
+          "Tjänsteleverantören kan stänga av eller avsluta din åtkomst till Tjänsten, helt eller delvis, med omedelbar verkan när det finns allvarliga skäl. Allvarliga skäl är bland annat ett väsentligt eller upprepat brott mot dessa villkor; användning av Tjänsten för olagliga syften eller på ett sätt som kränker andras rättigheter; bedrägeri, betalningsbedrägeri eller missbruk av gratis provperioder, återbetalningar eller återkrav; försök att skaffa obehörig åtkomst till Tjänsten eller andra användares uppgifter, eller annan störning av Tjänstens säkerhet eller drift; att lämna falska uppgifter för att skapa eller behålla ett konto, inklusive om din ålder; kränkande eller trakasserande beteende mot Tjänsteleverantören eller någon som agerar för dess räkning; och all användning som utsätter Tjänsteleverantören för rättsligt ansvar eller för krav från en domstol, en tillsynsmyndighet eller en appbutik.",
+          "När det är rimligt och praktiskt möjligt talar Tjänsteleverantören om skälet till en avstängning eller uppsägning och ger dig, när problemet går att rätta till, möjlighet att rätta till det först. Avstängning väljs före uppsägning när en avstängning räcker för att hantera problemet. Om du anser att en avstängning eller uppsägning har gjorts av misstag kan du bestrida den genom att skriva till drillrapps@gmail.com, och Tjänsteleverantören går då igenom beslutet och svarar dig.",
+          "Tjänsteleverantören kan också säga upp ditt konto utan särskilt skäl med minst 30 dagars uppsägningstid. Om ditt konto sägs upp utan särskilt skäl, eller av ett skäl som inte beror på dig, får du tillbaka den proportionella delen av en prenumerationsperiod som du redan har betalat för men inte kommer att få.",
+          "När Tjänsteleverantören säger upp ditt konto får du en rimlig möjlighet att hämta eller exportera dina uppgifter innan de raderas, om det inte är omöjligt eller olagligt. Oavsett skälet till uppsägningen behåller du dina rättigheter enligt dataskyddslagstiftningen, inklusive rätten att få en kopia av dina personuppgifter, enligt integritetspolicyn.",
+          "Vid uppsägning av vilket skäl som helst upphör de rättigheter och licenser du har fått enligt dessa villkor, och du måste sluta använda Applikationen och vid behov ta bort den från din enhet. Dina uppgifter hanteras därefter enligt integritetspolicyn. Att avsluta eller radera ditt konto säger inte i sig upp en prenumeration som köpts via Apple eller Google. Om ditt konto avslutades av allvarliga skäl kan Tjänsteleverantören vägra att tillhandahålla Tjänsten till dig igen och stänga nya konton som du skapar. De bestämmelser i dessa villkor som till sin natur ska fortsätta att gälla efter uppsägning, inklusive friskrivningarna, ansvarsbegränsningarna, ditt ansvar för anspråk som orsakas av ditt agerande och bestämmelserna om tillämplig lag, fortsätter att gälla."
+        ]
+      },
+      {
+        "heading": "Allmänna villkor",
+        "paragraphs": [
+          "Observera att Tjänsteleverantören inte tar ansvar för vissa saker. Vissa funktioner i Applikationen kräver en aktiv internetanslutning, via wifi eller via din mobiloperatör. Tjänsteleverantören kan inte hållas ansvarig om Applikationen inte fungerar fullt ut på grund av att du saknar tillgång till wifi eller har förbrukat din datamängd.",
+          "Om du använder Applikationen utanför ett wifi-område gäller fortfarande villkoren i avtalet med din mobiloperatör. Du kan därför få avgifter från din mobiloperatör för dataanvändning under anslutningen till Applikationen, eller andra avgifter från tredje part. Genom att använda Applikationen tar du ansvar för sådana avgifter, inklusive avgifter för dataroaming om du använder Applikationen utanför ditt hemområde (det vill säga region eller land) utan att stänga av dataroaming. Om du inte är den som betalar räkningen för enheten där du använder Applikationen utgår Tjänsteleverantören från att du har fått tillstånd av den som betalar.",
+          "På samma sätt kan Tjänsteleverantören inte alltid ta ansvar för hur du använder Applikationen. Det är till exempel ditt ansvar att se till att din enhet är laddad. Om batteriet tar slut och du inte kan komma åt Tjänsten kan Tjänsteleverantören inte hållas ansvarig.",
+          "Även om Tjänsteleverantören strävar efter att Applikationen alltid ska vara uppdaterad och korrekt är Tjänsteleverantören beroende av att tredje parter tillhandahåller information för att kunna göra den tillgänglig för dig. Tjänsteleverantören tar inget ansvar för förluster, direkta eller indirekta, som du drabbas av för att du helt förlitat dig på den här funktionen i Applikationen.",
+          "Tjänsteleverantören kan vilja uppdatera Applikationen vid något tillfälle. Applikationen är för närvarande tillgänglig enligt kraven för operativsystemet, och kraven för andra system som tillgängligheten eventuellt utökas till kan ändras. Du behöver ladda ned uppdateringarna om du vill fortsätta använda Applikationen. Tjänsteleverantören garanterar inte att Applikationen alltid kommer att uppdateras så att den är relevant för dig och/eller kompatibel med den version av operativsystemet som finns på din enhet. Du åtar dig dock att alltid godkänna uppdateringar av Applikationen när de erbjuds dig. Tjänsteleverantören kan också besluta att helt sluta tillhandahålla Applikationen, och i så fall gäller avsnittet Konto och uppsägning ovan.",
+          "Din träningshistorik och andra uppgifter lagras på din enhet och hos Tjänsteleverantörens driftleverantörer, och Tjänsteleverantören är rimligt noggrann med att hålla dem tillgängliga. Ändå kan ingen tjänst garantera att uppgifter aldrig går förlorade eller skadas. Du bör själv spara information om träning, hälsa eller kroppsmått som är viktig för dig, och inte behandla Applikationen som din enda kopia av den.",
+          "Tjänsteleverantören ansvarar inte för brister eller förseningar i tillhandahållandet av Applikationen eller Webbplatsen som orsakas av händelser utanför dess rimliga kontroll, inklusive avbrott eller fel hos leverantörer av drift, nätverk, appbutiker eller betalningar, strömavbrott eller internetavbrott, strejker och andra arbetskonflikter, myndighetsåtgärder, naturhändelser, epidemier eller väpnade konflikter."
+        ]
+      },
+      {
+        "heading": "Anspråk som orsakas av ditt agerande",
+        "paragraphs": [
+          "Om en tredje part riktar ett anspråk mot Tjänsteleverantören på grund av något du har gjort, åtar du dig att ansvara för anspråket i den mån det orsakats av dig. Det omfattar anspråk som uppstår av att du bryter mot dessa villkor, av innehåll som du spelar in, delar eller skickar via Applikationen, och av olagligt agerande från din sida eller intrång i någon annans rättigheter. Att ansvara för ett anspråk innebär att stå för de skadestånd, förlikningsbelopp och skäliga rättegångskostnader som Tjänsteleverantören nödvändigtvis och direkt får till följd av det.",
+          "Den här skyldigheten gäller bara i den mån anspråket beror på ditt eget fel. Den gäller inte någon del av ett anspråk som orsakats av något Tjänsteleverantören gjort eller underlåtit att göra, av en brist i Applikationen eller Webbplatsen, eller av att Tjänsteleverantören själv brutit mot dessa villkor eller tillämplig lag. Den gäller inte alls när du agerar som konsument och tillämplig lag inte tillåter att en sådan skyldighet läggs på dig, och den sträcker sig aldrig längre än vad tillämplig lag tillåter.",
+          "Om ett sådant anspråk uppstår meddelar Tjänsteleverantören dig skriftligen utan onödigt dröjsmål, gör inte upp om det utan att först rådgöra med dig, ger dig rimlig möjlighet att yttra dig om hur det hanteras och vidtar rimliga åtgärder för att hålla kostnaderna så låga som möjligt. Inget i det här avsnittet påverkar dina tvingande rättigheter som konsument. Det här avsnittet fortsätter att gälla efter att ditt konto stängts eller dessa villkor upphört, för allt som hände medan de gällde."
+        ]
+      },
+      {
+        "heading": "Friskrivning från garantier och ansvarsbegränsning",
+        "paragraphs": [
+          "Applikationen, Webbplatsen och Tjänsten tillhandahålls \"I BEFINTLIGT SKICK\" och \"I MÅN AV TILLGÅNG\", utan garantier av något slag, uttryckliga eller underförstådda, inklusive men inte begränsat till underförstådda garantier om säljbarhet, lämplighet för ett visst ändamål, äganderätt och att ingen annans rättigheter kränks. Tjänsteleverantören garanterar inte att Applikationen eller Webbplatsen kommer att fungera utan avbrott, fel eller säkerhetsproblem, att de är fria från virus eller andra skadliga komponenter, att brister kommer att åtgärdas eller att ett visst resultat eller mål uppnås.",
+          "Tjänsteleverantören lämnar inga utfästelser eller garantier om att innehåll, information eller material som görs tillgängligt via Applikationen eller Webbplatsen är korrekt, lämpligt, tillförlitligt, fullständigt eller aktuellt. Du använder Applikationen och Webbplatsen helt på egen risk.",
+          "I den utsträckning som tillämplig lag tillåter ansvarar varken Tjänsteleverantören eller dess uppdragstagare, leverantörer eller innehållsleverantörer för indirekta skador, följdskador, särskilda skador eller straffskadestånd, eller för förlust av data, vinst eller goodwill, som uppstår av eller i samband med din användning av Applikationen eller Webbplatsen.",
+          "I den utsträckning som tillämplig lag tillåter ska det sammanlagda ansvaret för Tjänsteleverantören och dess uppdragstagare, leverantörer och innehållsleverantörer för alla anspråk som uppstår av eller i samband med Applikationen, Webbplatsen eller dessa villkor, oavsett om de grundas på avtal, skadestånd utanför avtal eller annat, inte överstiga det högre av: (a) det totala belopp som du har betalat för Tjänsten under de tolv månader som närmast föregår händelsen som ger upphov till anspråket, eller (b) 50 EUR.",
+          "Inget i dessa villkor utesluter eller begränsar ansvar som inte kan uteslutas eller begränsas enligt tillämplig lag. Det omfattar ansvar för dödsfall eller personskada som orsakats av vårdslöshet, ansvar för bedrägeri eller svikligt förledande, ansvar för uppsåtligt handlande eller grov vårdslöshet, och dina tvingande rättigheter som konsument, inklusive dina rättigheter enligt konsumentskyddslagarna i ditt bosättningsland.",
+          "Undantagen och begränsningarna i det här avsnittet speglar en överenskommen riskfördelning mellan dig och Tjänsteleverantören och återspeglas i priset för Tjänsten. De gäller i den utsträckning som tillämplig lag tillåter, även om en begränsad påföljd skulle anses ha förfelat sitt huvudsakliga syfte, och de fortsätter att gälla efter att dessa villkor upphört eller ditt konto raderats."
+        ]
+      },
+      {
+        "heading": "Tillämplig lag och tvister",
+        "paragraphs": [
+          "Dessa villkor regleras av polsk lag, utan hänsyn till dess lagvalsregler. Om du är konsument berövar detta lagval dig inte det skydd som du har enligt tvingande bestämmelser i lagen i det land där du bor, var det än är, och inget i dessa villkor påverkar de rättigheterna.",
+          "Om något går fel, skriv först till Tjänsteleverantören på drillrapps@gmail.com. De flesta problem kan lösas på det sättet. Tjänsteleverantören svarar på ett konsumentklagomål inom 30 dagar från att det tagits emot, enligt polsk lag. Du behöver inte ta det här steget innan du använder någon annan rättslig väg, och att ta det påverkar inte någon tidsfrist som gäller för ett anspråk som du kan ha.",
+          "Om en tvist inte kan lösas på det sättet kan den tas till domstol. Om du är konsument och bor i Europeiska unionen kan du väcka talan mot Tjänsteleverantören antingen vid domstol i Polen eller vid domstol i det land där du bor, och Tjänsteleverantören kan bara väcka talan mot dig vid domstol i det land där du bor. Om du inte är konsument, eller bor utanför Europeiska unionen, är domstolarna i Polen behöriga, utan att det påverkar tvingande regler i din lokala lag som anger något annat.",
+          "Tjänsteleverantören är inte skyldig att använda ett organ för alternativ tvistlösning för konsumenter och åtar sig inte i förväg att göra det, men prövar en sådan begäran i god tro. Konsumenter i Polen kan få kostnadsfri hjälp av en kommunal konsumentvägledare (miejski lub powiatowy rzecznik konsumentów) eller av handelsinspektionen (Inspekcja Handlowa), som genomför förfaranden för alternativ tvistlösning för konsumenter. Konsumenter i övriga Europeiska unionen kan få kostnadsfri hjälp med gränsöverskridande tvister av Europeiska konsumentcentrumet i sitt eget land.",
+          "Dessa villkor publiceras på engelska och polska och översätts till andra språk endast för att underlätta. Om du är konsument och bor i Polen gäller den polska versionen. I alla andra fall gäller den engelska versionen om versionerna skiljer sig åt."
+        ]
+      },
+      {
+        "heading": "Överlåtelse",
+        "paragraphs": [
+          "Du får inte överlåta eller överföra dessa villkor eller ditt konto till någon annan utan Tjänsteleverantörens skriftliga samtycke i förväg.",
+          "Tjänsteleverantören kan överlåta eller överföra dessa villkor, och rättigheterna och skyldigheterna enligt dem, till en annan person eller ett annat företag - till exempel i samband med en fusion, ett förvärv, en omorganisation eller en försäljning av hela eller delar av verksamheten Drillr eller dess tillgångar. I så fall träder den part som tar över in i Tjänsteleverantörens ställe enligt dessa villkor utan ändringar, ditt konto och en eventuell prenumeration fortsätter på samma villkor, och överföringen minskar inte någon rättighet du har enligt dessa villkor eller enligt tvingande konsumentlagstiftning.",
+          "Tjänsteleverantören meddelar dig i Applikationen eller via e-post innan en sådan överföring sker. Om du inte vill fortsätta med den nya leverantören kan du när som helst sluta använda Applikationen och radera ditt konto, och säga upp din prenumeration via Apple eller Google enligt avsnittet Prenumerationer och betalda planer ovan. En överföring av dina personuppgifter som en del av en sådan transaktion beskrivs i integritetspolicyn."
+        ]
+      },
+      {
+        "heading": "Ogiltiga bestämmelser",
+        "paragraphs": [
+          "Om en bestämmelse i dessa villkor av en domstol eller annan behörig myndighet anses vara ogiltig, olaglig eller omöjlig att verkställa, ska bestämmelsen anses ändrad i den minsta utsträckning som krävs för att den ska bli giltig och verkställbar, eller, om den inte kan ändras på det sättet, tas bort från dessa villkor. Övriga bestämmelser fortsätter att gälla fullt ut.",
+          "Särskilt gäller att om en friskrivning eller ansvarsbegränsning, eller en del av en, anses omöjlig att verkställa, fortsätter övriga friskrivningar och begränsningar att gälla. Att Tjänsteleverantören inte gör gällande en bestämmelse i dessa villkor innebär inte att Tjänsteleverantören avstår från den eller någon annan bestämmelse."
+        ]
+      },
+      {
+        "heading": "Meddelanden",
+        "paragraphs": [
+          "När dessa villkor kräver att Tjänsteleverantören meddelar dig skickas meddelandet till e-postadressen som är registrerad på ditt konto, visas för dig i Applikationen eller både och, och anses ha lämnats den dag det skickas eller först visas. Det är ditt ansvar att hålla e-postadressen på ditt konto aktuell och se till att meddelanden från Tjänsteleverantören inte blockeras eller filtreras bort.",
+          "När du behöver meddela Tjänsteleverantören något, till exempel för att bestrida en avstängning eller uppsägning, skriv till drillrapps@gmail.com."
+        ]
+      },
+      {
+        "heading": "Ändringar i dessa användarvillkor",
+        "paragraphs": [
+          "Tjänsteleverantören kan uppdatera sina användarvillkor då och då. Du rekommenderas därför att regelbundet läsa den här sidan för att se eventuella ändringar. Tjänsteleverantören meddelar dig om ändringar genom att publicera de nya användarvillkoren på den här sidan."
+        ]
+      },
+      {
+        "heading": "Kontakta oss",
+        "paragraphs": [
+          "Om du har frågor eller förslag om användarvillkoren är du välkommen att kontakta Tjänsteleverantören på drillrapps@gmail.com."
+        ]
+      }
+    ],
+    "crossLink": {
+      "label": "Drillrs integritetspolicy",
+      "href": "/privacy"
+    }
+  }
+}
