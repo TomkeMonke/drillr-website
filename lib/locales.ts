@@ -31,7 +31,7 @@ export const OG_LOCALES: Record<Locale, string> = {
 };
 
 /** Languages without their own captures in public/screenshots yet; they show the English set. */
-const NO_SCREENSHOTS: readonly Locale[] = ["tr", "ar"];
+const NO_SCREENSHOTS: readonly Locale[] = ["ar"];
 
 /** App screenshot for a language: English has no suffix, every other language "-<code>". */
 export function screenshotSrc(name: string, locale: Locale): string {
