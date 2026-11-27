@@ -20,8 +20,7 @@ const TALLY_FORM_ID: Record<Locale, string> = {
   tr: "BzQeRR",
   // Right-to-left in Tally's settings (language ar, direction rtl).
   ar: "WJRGpQ",
-  // English form until a Swedish one exists in Tally.
-  sv: "BzQeRR",
+  sv: "9NQ2a4",
 };
 
 export async function generateMetadata({
